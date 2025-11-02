@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@config/*":["./config/*"],
+      "@request/*":["./request/*"],
+      "@router/*":["./router/*"],
+      "@page/*":["./pages/*"],
+      "@utlis/*":["./utlis/*"],
+      "@icon/*":["./public/icons/*"],
+      "@com/*":["./components/*"]
     }
   }
 }

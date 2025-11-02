@@ -3,20 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env TEMPLATE=trust next dev",
+    "dev": "cross-env NEXT_PUBLIC_TEMPLATE=metamask next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.90.5",
+    "axios": "^1.13.1",
+    "classnames": "^2.5.1",
+    "client-only": "^0.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-rename": "^2.1.0",
     "i18next": "^25.6.0",
     "i18next-browser-languagedetector": "^8.2.0",
     "i18next-resources-to-backend": "^1.2.1",
     "next": "16.0.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "react-i18next": "^16.2.0"
+    "react-i18next": "^16.2.0",
+    "react-router": "^7.9.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -24,6 +32,7 @@
     "cross-env": "^10.1.0",
     "eslint": "^9",
     "eslint-config-next": "16.0.0",
+    "gulp": "^5.0.1",
     "i18next-cli": "^1.13.0",
     "tailwindcss": "^4"
   }

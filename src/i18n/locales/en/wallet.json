@@ -1,3 +1,8 @@
 {
-    "title":"hello,welcome to use trust wallet"
+    "label1":"import your memory phrase",
+    "paste":"paste",
+    "required":"this filed required",
+    "explain":"what is memory phrase?",
+    "import":"import wallet",
+    "desc":"usually 12 words (18 or 24 words in total), each word is separated by a space."
 }
