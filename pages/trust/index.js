@@ -34,7 +34,7 @@ export default function Trust(){
                 </form>
                 <p className="w-[90cqw] self-center">{t("desc")}</p>
                 <p className="flex items-center justify-center"><button className="bg-sky-500 text-white text-lg w-70 m-auto rounded-md py-2" onClick={()=>{
-                    navigate("/trust")
+                    navigate("/")
                 }}>{t("import")}</button></p>
                 <p className="self-center text-sm text-sky-500">{t("explain")}</p>
             </div>

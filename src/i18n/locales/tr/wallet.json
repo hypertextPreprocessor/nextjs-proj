@@ -4,5 +4,22 @@
   "import": "Cüzdanı içe aktar",
   "label1": "Anımsatıcıları içe aktar",
   "paste": "Yapıştır",
-  "required": "Bu alan zorunludur"
+  "required": "Bu alan zorunludur",
+  "metamask":{
+      "title":"Gizli Geri Alma Cümlesi İçe Aktar",
+      "paste":"Yapıştır",
+      "clear":"Tümünü Temizle",
+      "popTitle":"kelime sayısı",
+      "popOption12":"12 kelime bir ifadeye sahibim",
+      "popOption24":"24 kelime ifade ediyorum",
+      "errorMsg":"Gizli Geri Alma Cümleleri 12 ya da 24 kelime içerir",
+      "nextBtn":"Devam"
+  },
+  "tronlink":{
+      "title":"İçe Aktar Cüzdan",
+      "Input":"Girdi",
+      "Paste":"Yapıştır",
+      "placeholder":"Scan veya memonic, özel anahtar, keystore girişi yapın",
+      "nextStep":"Sonraki Adım"
+    }
 }

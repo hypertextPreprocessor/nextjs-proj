@@ -4,5 +4,30 @@
   "import": "Restaurar billetera",
   "label1": "Frase secreta",
   "paste": "Pegar",
-  "required": "Este campo es obligatorio"
+  "required": "Este campo es obligatorio",
+  "metamask":{
+        "title":"Importar frase secreta de recuperación",
+        "paste":"Pegar",
+        "clear":"Borrar todo",
+        "popTitle":"Número de palabras",
+        "popOption12":"Tengo una frase de 12 palabras",
+        "popOption24":"Tengo una frase de 24 palabras",
+        "errorMsg":"Las frases secretas de recuperación contienen 12 o 24 palabras",
+        "nextBtn":"Continuar"
+    },
+    "tronlink":{
+        "title":"Importar billetera",
+        "Input":"Aporte",
+        "Paste":"Pegar",
+        "placeholder":"Escanear o ingresar tu mnemónico, clave privada, keystore",
+        "nextStep":"Siguiente paso"
+    },
+    "phantom":{
+        "nextStep":"Sigui ente",
+        "title":"Frase de recuperación",
+        "desc":"Restaurar una billetera existente con su frase de recuperación de 12 o 24 palabras",
+        "error":"Palabra incorrectas",
+        "submit":"Importar frase de recuperación"
+        
+    }
 }

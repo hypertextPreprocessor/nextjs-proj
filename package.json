@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NEXT_PUBLIC_TEMPLATE=metamask next dev",
+    "dev": "cross-env NEXT_PUBLIC_TEMPLATE=tronlink next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
+    "@babel/traverse": "^7.28.5",
     "@tanstack/react-query": "^5.90.5",
     "axios": "^1.13.1",
     "classnames": "^2.5.1",
@@ -21,12 +22,15 @@
     "i18next-browser-languagedetector": "^8.2.0",
     "i18next-resources-to-backend": "^1.2.1",
     "next": "16.0.0",
+    "object-deep-compare": "^2.0.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-i18next": "^16.2.0",
-    "react-router": "^7.9.5"
+    "react-router": "^7.9.5",
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
+    "@babel/parser": "^7.28.5",
     "@tailwindcss/postcss": "^4",
     "babel-plugin-react-compiler": "1.0.0",
     "cross-env": "^10.1.0",

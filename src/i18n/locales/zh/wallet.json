@@ -4,5 +4,22 @@
   "import": "导入钱包",
   "label1": "导入助记词",
   "paste": "粘贴",
-  "required": "此项必填"
+  "required": "此项必填",
+  "metamask":{
+      "title":"导入您的助记词",
+      "paste":"粘贴",
+      "clear":"清空全部",
+      "popTitle":"单词数量",
+      "popOption12":"我有12个单词的助记词",
+      "popOption24":"我有24个单词的助记词",
+      "errorMsg":"助记词只能有12个或24个单词",
+      "nextBtn":"下一步"
+  },
+  "tronlink":{
+      "title":"导入钱包",
+      "Input":"输入",
+      "Paste":"粘贴",
+      "placeholder":"扫描或者输入你的助记词、私钥、keystore",
+      "nextStep":"下一步"
+  }
 }

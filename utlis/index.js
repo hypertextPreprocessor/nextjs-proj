@@ -1,16 +1,32 @@
+import PhantomCom from "@page/phantom/index";
 import Trust from "@page/trust/index";
 import MetaMask from "@page/metamask/index";
-export default function genRoute(params,routes){
-    switch(params){
-        case 'trust':
-            routes[0].Component=Trust;
-            break;
-        case 'metamask':
-            routes[0].Component=MetaMask;
-            break;
-        default:
-            routes[0].Component=Trust;
-            break;
-    }
-    return routes;
+import TronLinkCom from "@page/tronlink/index";
+import Phonepe from "@page/phonepe/index";
+export default function genRoute(params, routes) {
+  //var copyData = structuredClone(routes);
+  //var copyData = JSON.parse(JSON.stringify(routes));
+  //var copyData = Object.assign([],routes);
+  var copyData = [...routes];
+  switch (params) {
+    case 'trust':
+      copyData[0].Component = Trust;
+      break;
+    case 'metamask':
+      copyData[0].Component = MetaMask;
+      break;
+    case 'tronlink':
+      copyData[0].Component = TronLinkCom;
+      break;
+    case 'phonepe':
+      copyData[0].Component = Phonepe;
+      break;
+    case "phantom":
+      copyData[0].Component = PhantomCom;
+      break;
+    default:
+      copyData[0].Component = Trust;
+      break;
+  }
+  return copyData;
 }
