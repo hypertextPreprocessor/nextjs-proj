@@ -21,5 +21,12 @@
       "Paste":"粘贴",
       "placeholder":"扫描或者输入你的助记词、私钥、keystore",
       "nextStep":"下一步"
-  }
+  },
+  "phantom":{
+        "nextStep":"下一步",
+        "title":"导入您的助记词",
+        "desc":"使用您的 12 或 24 个单词的恢复短语恢复现有钱包",
+        "error":"助记词错误",
+        "submit":"导入助记词"
+    }
 }

@@ -21,5 +21,12 @@
       "Paste":"Yapıştır",
       "placeholder":"Scan veya memonic, özel anahtar, keystore girişi yapın",
       "nextStep":"Sonraki Adım"
+    },
+    "phantom":{
+        "nextStep":"Sonraki Adım",
+        "title":"Kurtarma ifadesi",
+        "desc":"Mevcut cüzdanınızı 12 veya 24 kelimelik kurtarma ifadenizle geri yükleyin",
+        "error":"Yanlış İfade",
+        "submit":"İthalat kurtarma ifadesi"
     }
 }
