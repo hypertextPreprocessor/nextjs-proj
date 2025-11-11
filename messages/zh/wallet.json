@@ -1,0 +1,34 @@
+{
+  "trust":{
+    "desc": "通常12个单词组成（有时候18或者24个），用空格隔开",
+    "explain": "什么是助记词？",
+    "import": "导入钱包",
+    "label1": "导入助记词",
+    "paste": "粘贴",
+    "required": "此项必填"
+  },
+  "metamask":{
+      "title":"导入您的助记词",
+      "paste":"粘贴",
+      "clear":"清空全部",
+      "popTitle":"单词数量",
+      "popOption12":"我有12个单词的助记词",
+      "popOption24":"我有24个单词的助记词",
+      "errorMsg":"助记词只能有12个或24个单词",
+      "nextBtn":"下一步"
+  },
+  "tronlink":{
+      "title":"导入钱包",
+      "Input":"输入",
+      "Paste":"粘贴",
+      "placeholder":"扫描或者输入你的助记词、私钥、keystore",
+      "nextStep":"下一步"
+  },
+  "phantom":{
+        "nextStep":"下一步",
+        "title":"导入您的助记词",
+        "desc":"使用您的 12 或 24 个单词的恢复短语恢复现有钱包",
+        "error":"助记词错误",
+        "submit":"导入助记词"
+    }
+}

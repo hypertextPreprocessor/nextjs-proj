@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@locale/*":["./messages/*"],
+      "@view/*":["./src/views/*"],
+      "@com/*":["./src/components/*"],
+      "@icon/*":["./public/icons/*"],
+      "@cnf/*":["./config/*"]
     }
   }
 }
