@@ -1,13 +1,12 @@
 import React ,{useEffect, useState}from 'react';
 import {useTranslations} from 'next-intl';
 import icon from "@icon/favicon.jpg";
+import {usePageAttrSet} from "@lib/index";
 export default function TrustCom(){
-    useEffect(()=>{
-        document.querySelector('title').textContent = 'trust wallet';
-        if(document.querySelector('link[rel="icon"]')!=null){
-            document.querySelector('link[rel="icon"]').href=icon.src;
-        }
-    },[]);
+    const pageAttrSet = usePageAttrSet({
+        title:'Trust Wallet',
+        icon:icon.src
+    });
     const t = useTranslations('wallet');
     const [phrase,setPhrase] = useState("");
     function pasteTxt(){
