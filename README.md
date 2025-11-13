@@ -13,6 +13,7 @@ _提示_
 - tronlink
 - phantom
 - phonepe (构建中)  
+- tvgarden
 
 ## API文档
 ### 模版获取
