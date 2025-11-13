@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
+# Happy Fishing Template Project
+## 克隆仓库后下载所需依赖包，之后使用对应平台的构建命令:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+./build.sh trust # for linux bash
+build.bat trust # for windows cmd
 ```
+_提示_
+> windows用户也可以直接点击build.bat文件运行，输入对应的参数构建.  
+也可以不用任何参数构建，没有参数时（windows上弹出输入提示时不输入直接回车键）将寻找后台api配置来调取模板，详见[API](#api文档)文档.当API也没有准备时,默认取第一个模板-trust。
+### 可用参数列表
+- trust
+- metamask
+- tronlink
+- phantom
+- phonepe (构建中)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## API文档
+### 模版获取
+url - `/api/getWalletType` | `/getWalletType`  
+response   
+```json
+{
+    "walletType":"trust"
+}
+```

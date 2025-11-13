@@ -84,5 +84,33 @@ export default function SvgIcon({
                 </style>
                 <p onClick={onClick} style={style} className={classNames("_3672675_wrong_cancel_close_delete_error_icon",className)} dangerouslySetInnerHTML={{__html:svgHtml}}></p>
             </>
+        case "_menu_lines_hamburger_icon":
+            return <>
+                <style>
+                    {
+                        `
+                            p._menu_lines_hamburger_icon svg{width:${width};height:${height};}
+                            p._menu_lines_hamburger_icon svg path{
+                                stroke:${stroke};stroke-width:${strokeWidth};fill:${fill};
+                            }
+                        `
+                    }
+                </style>
+                <p onClick={onClick} style={style} className={classNames("_menu_lines_hamburger_icon",className)} dangerouslySetInnerHTML={{__html:svgHtml}}></p>
+            </>
+        case "_upArrow":
+            return <>
+                <style>
+                    {
+                        `
+                            p._upArrow svg{width:${width};height:${height};}
+                            p._upArrow svg path{
+                                stroke:${stroke};stroke-width:${strokeWidth};fill:${fill};
+                            }
+                        `
+                    }
+                </style>
+                <p onClick={onClick} style={style} className={classNames("_upArrow",className)} dangerouslySetInnerHTML={{__html:svgHtml}}></p>
+            </>
     }
 }

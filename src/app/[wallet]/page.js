@@ -11,6 +11,8 @@ export function generateStaticParams(){
         wallet:'phantom'
     },{
         wallet:'metamask'
+    },{
+        wallet:'tvgarden'
     }];
 }
 export default async function Page({params}){

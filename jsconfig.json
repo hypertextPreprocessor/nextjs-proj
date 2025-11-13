@@ -6,7 +6,9 @@
       "@view/*":["./src/views/*"],
       "@com/*":["./src/components/*"],
       "@icon/*":["./public/icons/*"],
-      "@cnf/*":["./config/*"]
+      "@img/*":["./public/images/*"],
+      "@cnf/*":["./config/*"],
+      "@lib/*":["./libs/*"],
     }
   }
 }

@@ -30,6 +30,252 @@
         "desc":"Restaurar una billetera existente con su frase de recuperación de 12 o 24 palabras",
         "error":"Palabra incorrectas",
         "submit":"Importar frase de recuperación"
-        
+    },
+    "tvgarden":{
+        "pageDesc":"TV Garden no es solo otra aplicación de streaming; ¡es tu remedio para esas crecientes tarifas de suscripción! Disfruta de tus deportes favoritos, ponte al día con noticias en vivo y relájate con reality shows, películas y música sin anuncios emergentes. Desde este sitio web, puedes descargar la versión actualizada de la APK de TV Garden para dispositivos Android, iOS, PC y Smart TV de forma gratuita.",
+        "version":"Versión: 1.0.0 / Más de 500K Descargas / 4.7 Calificaciones",
+        "download":"Descargar",
+        "li1":"TV Garden – TV en Vivo, Noticias, Deportes y Más...",
+        "li2":"Introducción a TV Garden",
+        "li3":"¿Cómo usar TV Garden para ver TV en vivo?",
+        "li4":"Características de la APK de TV Garden",
+        "li5":"Streaming con Calidad 4K",
+        "li6":"Crear Lista de Favoritos",
+        "li7":"Sin Anuncios Molestos",
+        "li8":"Deportes y Noticias en Vivo",
+        "li9":"Actualizaciones Regulares",
+        "li10":"Más de 1000 Canales de TV",
+        "li11":"Múltiples Idiomas",
+        "li12":"Explorar Canales de TV Internacionales",
+        "li13":"Interfaz Fácil de Usar",
+        "li14":"Características Adicionales",
+        "li15":"Descargar TV Garden APK Última Versión 2025",
+        "li16":"Cómo Descargar e Instalar la APK de TV Garden",
+        "li17":"Paso 1: Descargar la Aplicación TV Garden",
+        "li18":"Paso 2: Habilitar Fuentes Desconocidas",
+        "li19":"Paso 3: Localizar el Archivo APK",
+        "li20":"Paso 4: Instalar e Iniciar TV Garden",
+        "li21":"¿Cómo Descargar e Instalar la Aplicación TV Garden en Smart TV?",
+        "li22":"Mejores Alternativas a TV Garden",
+        "li23":"Preguntas Frecuentes",
+        "li24":"¿Qué tan seguro es usar la APK de TV Garden?",
+        "li25":"¿Puedo Instalar TV Garden en un Smart TV?",
+        "li26":"¿Es legal usar la aplicación TV Garden?",
+        "li27":"¿Cómo usar TV Garden en iPhone?",
+        "li28":"¿Qué tipo de contenido puedo ver en la aplicación TV Garden?",
+        "li29":"¿Está TV Garden disponible en EE. UU., Reino Unido, Europa, India, Indonesia y Turquía?",
+        "li30":"Conclusión",
+        "intro1":"TV Garden es la herramienta de streaming más potente del mundo actual. Ofrece más de 1000 canales de TV de 130 países. Simplemente elige tu país en el globo interactivo, luego selecciona el canal de TV que deseas ver, y eso es todo. Puedes ver deportes en vivo, programas de TV de comedia, reality shows y noticias de inmediato desde cualquier lugar.",
+        "intro2":"Las aplicaciones de streaming han hecho que sea muy fácil acceder a canales de TV, películas, deportes y noticias bajo demanda en cualquier momento en tu teléfono móvil. Puedes ver programas de TV mientras viajas o durante la hora del almuerzo en la oficina. ¡TV Garden es tu aplicación de referencia para ver TV en vivo! Puedes usarla para ver fútbol, cricket, baloncesto, o si quieres mantenerte actualizado con los canales de noticias regionales e internacionales.",
+        "intro3_1":"Todos los canales de TV en la ",
+        "intro3_2":"aplicación TV Garden",
+        "intro3_3":" están disponibles en alta resolución y son compatibles con la reproducción de video sin anuncios. La biblioteca de contenido de esta aplicación, perfectamente organizada, te ayuda a localizar rápidamente tu canal de TV favorito. Simplemente ve al menú y verás un montón de géneros como películas, deportes, música, comedia, noticias, ¡lo que se te ocurra! Haz clic en el género que te interese y elige tu región para ver todos los canales disponibles para esa categoría. ¡Pan comido!",
+        "introBtn1":"Introducción a TV Garden",
+        "intro4":"TV Garden valora la simplicidad, la confiabilidad y una experiencia de streaming rápida sin ningún tipo de buffering. La aplicación está disponible en todo el mundo y contiene canales regionales e internacionales. Ofrece una forma fácil de usar para explorar TV en vivo sin la molestia de crear una cuenta, registrarse y pagar tarifas de suscripción.",
+        "intro5_1":"Esta aplicación tiene como objetivo hacer que el acceso a los canales de TV en vivo sea súper conveniente. Tiene un diseño y una distribución simples con un tema oscuro, creando un entorno ideal para ver programas de TV. Hoy en día, nadie quiere tener una conexión de TV por cable en casa, ya que todos se están sumando a la tecnología y optando por las aplicaciones ",
+        "intro5_2":" OTT ",
+        "intro5_3":" y de streaming en vivo. El cliente TV.garden es posiblemente la mejor aplicación de streaming gratuita que puedes descargar e instalar en tu smartphone Android para comenzar a ver eventos en tiempo real con una resolución de hasta 4K sin distracciones.",
+        "intro6":"Si te entusiasma la breve introducción de esta aplicación, espera, hay mucho más que tiene para ofrecer. En este blog, obtendremos una comprensión profunda de la APK de TV Garden, sus características, guías de uso, instalación en varios dispositivos, compatibilidad y más. ¡Aguanta! Estamos a punto de darte un recorrido divertido por la aplicación TV Garden, que es la elección perfecta si te encanta ver deportes en vivo o sumergirte en maratones de películas.",
+        "introBtn2":"¿Cómo usar TV Garden para ver TV en vivo?",
+        "listText1_1":"Sigue nuestra ",
+        "listText1_2":"guía de instalación",
+        "listText1_3":" para descargar e instalar la aplicación TV Garden en tu dispositivo compatible.",
+        "listText2":"Inicia la aplicación y encuentra tu país en el globo que aparece en la pantalla, luego haz clic en tu región para abrirla.",
+        "listText3":"Ahora, tendrás la lista de todos los canales de TV, así que desplázate hacia abajo y haz clic en el canal que deseas transmitir.",
+        "listText4":"Una vez que toques el canal de TV, comenzará a reproducir la transmisión en vivo del canal seleccionado.",
+        "listText5":"Reproduce el video en modo de pantalla completa, ajusta el volumen al porcentaje justo y ya está. ¡Disfruta viendo!",
+        "androidTV1_1":"Si tienes un Android TV, consulta la página ",
+        "androidTV1_2":"TV Garden Para Smart TV",
+        "androidTV1_3":" para obtener una guía detallada sobre cómo descargar y usar esta aplicación en Smart TV.",
+        "introBtn3":"Características de la APK de TV Garden",
+        "feature":"Está repleta de características asombrosas que elevan la experiencia de ver deportes y noticias en vivo. La simplicidad y la conveniencia son el enfoque clave. Echa un vistazo a lo que obtienes con la aplicación TV Garden.",
+        "feature1":{
+            "title":"Streaming con Calidad 4K",
+            "desc":"Ajusta automáticamente la calidad del video según la velocidad de Internet. Aunque es inconsistente en lo que respecta a la resolución de video, esta aplicación ofrece ver canales de TV con una calidad de hasta 4K (2160px1440p)."
+        },
+        "feature2":{
+            "title":"Crear Lista de Favoritos",
+            "desc":"A veces se vuelve difícil localizar los canales de TV preferidos debido a la enorme lista de todos los canales, por lo que la aplicación permite a los usuarios agregar los canales de TV que quieren ver muy a menudo a la lista de favoritos para que puedan acceder a ellos fácilmente desde la sección 'Favorites'."
+        },
+        "feature3":{
+            "title":"Sin Anuncios Molestos",
+            "desc":"Aunque no estás pagando ninguna tarifa de suscripción, esta aplicación sigue viniendo sin anuncios en absoluto. La compañía se apega a su motivo principal, y es dar a los usuarios el derecho a ver películas y series completas sin publicidad."
+        },
+        "feature4":{
+            "title":"Deportes y Noticias en Vivo",
+            "desc":"Esta aplicación es ampliamente utilizada por millones de personas en todo el mundo para ver partidos deportivos en vivo, incluyendo fútbol, cricket, baloncesto, etc. Mantente al tanto de las noticias globales, TV Garden te da fácil acceso a cientos de canales de noticias mundiales."
+        },
+        "feature5":{
+            "title":"Actualizaciones Regulares",
+            "desc":"Hay margen para muchas mejoras, y el desarrollador de TV Garden a menudo presenta nuevas características, canales de TV adicionales, interfaz de usuario actualizada y corrige errores comunes para mejorar la experiencia del usuario al ver TV en vivo."
+        },
+        "feature6":{
+            "title":"Más de 1000 Canales de TV",
+            "desc":"Desbloquea tu puerta de entrada a miles de canales de TV que ofrecen todo tipo de contenido de entretenimiento, desde películas, deportes, música hasta educación, vida salvaje y muchos más. Todos los canales de TV están bien organizados en varios géneros, para que puedas localizarlos fácilmente."
+        },
+        "feature7":{
+            "title":"Múltiples Idiomas",
+            "desc":"Se hablan diferentes idiomas en muchos países, y la aplicación TV Garden ofrece canales locales con idiomas regionales como portugués, español, indonesio, hindi, turco, etc."
+        },
+        "feature8":{
+            "title":"Explorar Canales de TV Internacionales",
+            "desc":"Si no hay nada entretenido en tu contenido regional en este momento, puedes elegir cualquier país para sumergirte en sus canales de TV populares y ver qué tipo de entretenimiento están ofreciendo."
+        },
+        "feature9":{
+            "title":"Interfaz Fácil de Usar",
+            "desc":"¡Echa un vistazo al globo en el centro de la pantalla! Simplemente elige tu país para ver todos los canales de TV disponibles en la aplicación. ¡Es súper fácil de usar, por lo que puedes buscar rápidamente tus canales favoritos y encontrarlos en un instante!"
+        },
+        "introBtn4":"Características Adicionales",
+        "extraList":{
+            "point1":{
+                "bold":"Modo PIP:",
+                "txt":"Transmite canales de TV en vivo en una ventana flotante mientras usas otras aplicaciones simultáneamente. También puedes arrastrar el reproductor de video flotante a cualquier esquina de la pantalla."
+            },
+            "point2":{
+                "bold":"Sin Suscripción:",
+                "txt":"Todas las características y servicios ofrecidos por TV Garden son completamente gratuitos para todos, y también puedes acceder a ellos sin pagar cargos de suscripción."
+            },
+            "point3":{
+                "bold":"Experiencia Sin Anuncios:",
+                "txt":"¡Con la aplicación TV Garden, disfruta de programas y deportes en vivo sin anuncios! La interfaz es elegante, y puedes navegar por toneladas de canales sin que aparezcan molestos anuncios."
+            },
+            "point4":{
+                "bold":"Soporte al Cliente:",
+                "txt":"Su soporte al cliente te ayuda a solucionar problemas comunes y errores de streaming. Si deseas que se agregue alguno de tus canales de TV favoritos a esta aplicación, puedes tocar la sección de comentarios ('feedback') y enviar tu solicitud."
+            },
+            "point5":{
+                "bold":"Sin Buffering:",
+                "txt":"Reproduce videos sin problemas ni pausas o carga, ya que viene con tecnología de streaming adaptativo que ajusta las resoluciones de video según tu velocidad de Internet actual."
+            }
+        },
+        "introBtn5":"Descargar TV Garden APK Última Versión 2025",
+        "step":"Esta guía de instalación detallada asegura que descargues e instales sin problemas la aplicación TV Garden en tu smartphone Android, así que sigue las instrucciones cuidadosamente.",
+        "step1":"Paso 1: Descargar la Aplicación TV Garden",
+        "step1_1_1":"Toca el botón ‘",
+        "step1_1_2":"Download",
+        "step1_1_3":"‘ en la parte superior de esta página web",
+        "step1_2":"Espera hasta que el archivo APK se descargue por completo",
+        "step1_3":"Una vez que se haya descargado la APK de TV Garden, pasa al siguiente paso para continuar la instalación.",
+        "step2":"Paso 2: Habilitar Fuentes Desconocidas",
+        "step2_1_1":"Abre la Configuración ('Settings') y ve a la sección ‘",
+        "step2_1_2":"Security",
+        "step2_1_3":"‘ o ‘",
+        "step2_1_4":"Privacy",
+        "step2_1_5":"‘",
+        "step2_2_1":"Busca la opción ‘",
+        "step2_2_2":"Install unknown apps",
+        "step2_2_3":"‘ o ‘",
+        "step2_2_4":"Unknown sources",
+        "step2_2_5":"‘",
+        "step2_3":"Habilita el Navegador o Administrador de Archivos/Mis Archivos ('File Manager/My Files') que utilizas para instalar el archivo APK",
+        "step3":"Paso 3: Localizar el Archivo APK",
+        "step3_1_1":"Inicia el Administrador de Archivos ('File Manager') y ve al Almacenamiento Interno, luego selecciona la carpeta ‘",
+        "step3_1_2":"Download",
+        "step3_1_3":"‘",
+        "step3_2":"De la lista de todos los elementos descargados en tu dispositivo, desplázate hacia abajo hasta que encuentres el archivo APK de TV Garden",
+        "step3_3":"También puedes usar la funcionalidad de búsqueda para localizar fácilmente esta APK",
+        "step4":"Paso 4: Instalar e Iniciar TV Garden",
+        "step4_1_1":"Haz clic en el Archivo APK de TV Garden y toca el botón ‘",
+        "step4_1_2":"Install",
+        "step4_1_3":"‘",
+        "step4_2":"Vuelve a la pantalla de inicio y encuentra el icono de la aplicación TV Garden dentro del cajón de aplicaciones",
+        "step4_3":"Toca ese icono para iniciar esta aplicación, y ya estás listo para comenzar a transmitir canales de TV en vivo de forma gratuita.",
+        "table":{
+            "tr1":{
+                "td1":"Nombre de la Aplicación",
+                "td2":"TV Garden"
+            },
+            "tr2":{
+                "td1":"Versión",
+                "td2":"V1.0"
+            },
+            "tr3":{
+                "td1":"Tamaño",
+                "td2":"6MB"
+            },
+            "tr4":{
+                "td1":"Desarrollador",
+                "td2":"TVGarden Inc."
+            },
+            "tr5":{
+                "td1":"Categoría",
+                "td2":"Entretenimiento"
+            },
+            "tr6":{
+                "td1":"Licencia",
+                "td2":"Gratuita"
+            },
+            "tr7":{
+                "td1":"Requiere",
+                "td2":"Android 5.0 o superior"
+            },
+            "tr8":{
+                "td1":"Actualizado El",
+                "td2":"hace 1 día"
+            }
+        },
+        "introBtn6":"Ir a la Página de Descarga...",
+        "introBtn7":"Cómo Descargar e Instalar la APK de TV Garden",
+        "introBtn8":"Cómo Descargar e Instalar la Aplicación TV Garden en Smart TV?",
+        "how":"Al instalar esta aplicación en tu Smart TV, podrás disfrutar viendo tus deportes y canales de noticias favoritos en la pantalla más grande, brindando una experiencia de visualización y sonido mucho mejor, así que, ¿por qué esperar? Sigue estos pasos para instalarla de inmediato.",
+        "howli1":{
+            "bold":"Paso 1:",
+            "txt1":"Inicia el navegador web y busca ",
+            "txt2":" luego toca el botón de descarga para obtener el Archivo APK de TV Garden."
+        },
+        "howli2":{
+            "bold":"Paso 2:",
+            "txt":" Abre Play Store/App Store y busca la aplicación 'File Explorer' (Explorador de Archivos), luego instálala en tu TV."
+        },
+        "howli3":{
+            "bold":"Paso 3:",
+            "txt":"Navega a la Configuración ('Settings') >> Seguridad y Restricciones ('Security & Restrictions'), luego busca la opción 'Unknown Sources' (Fuentes Desconocidas) y habilítala"
+        },
+        "howli4":{
+            "bold":"Paso 4:",
+            "txt":"Ve al Administrador de Archivos ('File Manager') y encuentra la carpeta donde has guardado el Archivo APK, luego haz clic en el Archivo APK de TV Garden para instalar la aplicación."
+        },
+        "howli5":{
+            "bold":"Paso 5:",
+            "txt":"Ve a la pantalla de inicio y toca el icono de la aplicación TV Garden para abrirla. ¡Ahora puedes transmitir canales de TV en vivo y verlos gratis!"
+        },
+        "introBtn9":"Mejores Alternativas a TV Garden",
+        "best":"Si TV Garden no funciona bien con tu dispositivo, ¡no te estreses! Hay muchas plataformas similares disponibles que pueden ofrecerte casi la misma diversión y características, pero ¿la parte difícil? Filtrar entre cientos de ellas para encontrar las verdaderas joyas, así que aquí hemos investigado por ti y te proporcionamos la lista de las 5 mejores opciones alternativas a TV Garden.",
+        "bestli1":{
+            "bold":"YouTube:",
+            "txt":" Todo el mundo ya conoce YouTube, y muchos canales deportivos populares y todos los canales de noticias más importantes ya están disponibles en YouTube, que puedes ver gratis con el plan compatible con anuncios."
+        },
+        "bestli2":{
+            "bold":"Hulu:",
+            "txt":" Las versiones premium de Hulu ofrecen cientos de canales de TV locales e internacionales para ver reality shows, deportes y películas en varios idiomas."
+        },
+        "bestli3":{
+            "bold":"Pluto TV:",
+            "txt":" Es un servicio de streaming estadounidense líder, popular por proporcionar contenido de entretenimiento, pero también ofrece más de 250 canales de TV de géneros como comedia, educación y deportes."
+        },
+        "bestli4":{
+            "bold":"YuppTV:",
+            "txt":" Un OTT del sur de Asia que ofrece miles de reality shows, series de TV y eventos en vivo, noticias y música. Ofrece contenido para todos los grupos de edad, para niños y adultos."
+        },
+        "bestli5":{
+            "bold":"Tubi TV:",
+            "txt1":" Tubi, propiedad de Fox Corporation, ofrece acceso gratuito a canales de TV en vivo para ver ligas de fútbol populares como el ",
+            "txt2":"Super Bowl",
+            "txt3":", series web exclusivas y películas."
+        },
+        "faq1":"¿Qué tan seguro es usar la APK de TV Garden?",
+        "faq2":"¿Puedo Instalar TV Garden en un Smart TV?",
+        "faq3":"¿Es legal usar la aplicación TV Garden?",
+        "faq4":"¿Cómo usar TV Garden en iPhone?",
+        "faq5":"¿Qué tipo de contenido puedo ver en la aplicación TV Garden?",
+        "faq6":"¿Está TV Garden disponible en EE. UU., Reino Unido, Europa, India, Indonesia y Turquía?",
+        "introBtn10":"Conclusión",
+        "con1":"Así que, chicos, ahora están bien informados sobre la aplicación TV Garden y cómo usarla para disfrutar viendo canales de TV en vivo y partidos deportivos en sus dispositivos compatibles. TV Garden brinda acceso instantáneo a más de 1000 canales de TV sin necesidad de registrarse, y no hay cargos ocultos. La enorme colección de canales de TV nunca te aburrirá, ya que siempre podrás encontrar algo interesante para mantenerte entretenido.",
+        "con2":{
+            "p1":"Si estás buscando una fuente gratuita y confiable de entretenimiento, TV Garden es sin duda una excelente aplicación a considerar. Es compatible con una amplia gama de dispositivos, incluyendo Android, iOS, Smart TV, TV Box y PC. Puedes descargar fácilmente la versión actualizada de 2025 de esta aplicación desde este sitio web (",
+            "p2":"TVGarden.net",
+            "p3":")."
+        },
+        "con3":"Recuerda, no hay una función de visualización sin conexión, lo que significa que necesitas una conexión a Internet rápida y estable para poder ver transmisiones en vivo. La aplicación permite a los usuarios ver resultados en tiempo real de eventos deportivos en vivo, programas de televisión de comedia y reality shows. Hay cientos de películas y canales de música presentes en esta aplicación en múltiples idiomas. ¡Descarga la aplicación hoy y pruébala!"
     }
 }
