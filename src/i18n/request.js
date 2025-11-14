@@ -9,13 +9,15 @@ export default getRequestConfig(async ()=>{
     const supportedLocales = ['en','es','tr','zh'];
     const defaultLocale = 'en';
     let locale = match(languages,supportedLocales,defaultLocale);
+    /*
     const messages = await Promise.all([
         import(`@locale/en/wallet.json`).then(m=>m.default)
     ]);
+    */
     return {
-        locale:'en',
+        locale:locale,
         messages:{
-            wallet:messages[0]
+            wallet:(await import(`@locale/${locale}/wallet.json`)).default
         }
     }
 })

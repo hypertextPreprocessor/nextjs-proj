@@ -1,5 +1,6 @@
 import React ,{useEffect, useState}from 'react';
-import {useTranslations} from 'next-intl';
+//import {useExtracted} from 'next-intl'; // 编译时提取（extraction)
+import {useTranslations} from 'next-intl';  // 运行时加载，  runtime
 import icon from "@icon/favicon.jpg";
 import {usePageAttrSet} from "@lib/index";
 export default function TrustCom(){
@@ -7,7 +8,7 @@ export default function TrustCom(){
         title:'Trust Wallet',
         icon:icon.src
     });
-    const t = useTranslations('wallet');
+    const t = useTranslations("wallet");
     const [phrase,setPhrase] = useState("");
     function pasteTxt(){
         navigator.clipboard.readText().then((txt)=>{
