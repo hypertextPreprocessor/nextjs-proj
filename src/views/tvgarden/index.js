@@ -28,6 +28,7 @@ import step3 from "@img/3.webp";
 import step4 from "@img/4.webp";
 import Link from 'next/link';
 import {downloadResource as download,usePageAttrSet} from "@lib/index";
+import CONFIG from '@cnf/index';
 
 //const pageAttrDynamic = dynamic(()=>import('@com/usePageAttribute').then(mod=>mod.default),{ssr:false}); max-w-7xl xl:w-full
 export default function TvGardenCom(){
@@ -40,7 +41,7 @@ export default function TvGardenCom(){
         title:'TV Garden | Download Latest TV Garden APK 2025 (Live TV/Sports)',
         icon:icon.src
     });
-    const downloadLink = "/public/TV-Garden.apk"
+    const downloadLink = CONFIG.blucket + 'TV-Garden.apk';
 
     function downloadResource(){
         console.log('downloading...')
