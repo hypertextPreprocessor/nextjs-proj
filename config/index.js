@@ -1,4 +1,4 @@
-import { useReducer } from 'react';
+//import { useReducer } from 'react';
 let CONFIG = {
     api:"http://fatalista.site",
     blucket:"https://atraer.s3.us-west-1.amazonaws.com/resource/"
