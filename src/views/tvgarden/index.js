@@ -118,7 +118,7 @@ export default function TvGardenCom(){
                     <h1 className="border-b mx-4 border-b-[#79c447] border-solid text-3xl font-medium text-center py-4">TV Garden – Live TV, News, Sports & More…</h1>
                     <div><p className="text-[17px] p-4">{t("tvgarden.pageDesc")}</p></div>
                     <p className="text-[17px] font-bold text-center">{t("tvgarden.version")}</p>
-                    <p className="text-lg font-bold text-center py-4"><button className="bg-[#79c744] px-10 py-2 rounded-full mt-4">{t("tvgarden.download")}</button></p>
+                    <p className="text-lg font-bold text-center py-4"><button onClick={downloadResource} className="bg-[#79c744] px-10 py-2 rounded-full mt-4 cursor-pointer">{t("tvgarden.download")}</button></p>
                     <hr className={classNames("mt-12",{"border-none":pageAttr.device.isDesktop?true:false},{"border border-solid border-[#79c447]":pageAttr.device.isDesktop?false:true})}/>
                     
                 </div>
