@@ -7,6 +7,7 @@ import SvgIcon from '@/components/SvgIcon';
 import { useRef,useEffect } from 'react';
 import dynamic from 'next/dynamic'
 import usePageAttribute from "@com/usePageAttribute";
+import useScript from '@/components/useScript';
 import classNames from 'classnames';
 import {useTranslations} from 'next-intl';
 import image1 from "@img/TV-Garden-Screenshot-1.webp";
@@ -32,6 +33,26 @@ import CONFIG from '@cnf/index';
 
 //const pageAttrDynamic = dynamic(()=>import('@com/usePageAttribute').then(mod=>mod.default),{ssr:false}); max-w-7xl xl:w-full
 export default function TvGardenCom(){
+    useScript(`
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1921676225365522');
+fbq('track', 'PageView');
+var noscript = document.createElement('noscript');
+var img = document.createElement('img');
+img.setAttribute('height',1);
+img.setAttribute('width',1);
+img.style.display='none';
+img.src='https://www.facebook.com/tr?id=1921676225365522&ev=PageView&noscript=1';
+noscript.appendChild(img);
+document.body.appendChild(noscript);    
+    `)
     const legalPagesRef = useRef(null);
     const subLegalPagesRef = useRef(null);
     const pageAttr = usePageAttribute();

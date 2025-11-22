@@ -40,7 +40,7 @@ function emitChange(){
     });
 }
 export default function usePageAttribute(){
-    const data = useSyncExternalStore(subscribe,snapshot);
+    const data = useSyncExternalStore(subscribe,snapshot,snapshot);
     return {
         winWidth:data.winWidth,
         winHeight:data.winHeight,

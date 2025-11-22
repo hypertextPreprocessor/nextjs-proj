@@ -1,7 +1,16 @@
 import {NextIntlClientProvider} from 'next-intl';
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
+import { ThemeProvider } from '@mui/material/styles';
+import { Roboto } from 'next/font/google';
+import theme from "../theme";
+const roboto = Roboto({
+  weight: ['300', '400', '500', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-roboto'
+})
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -21,9 +30,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${roboto.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <AppRouterCacheProvider>
+            <NextIntlClientProvider>
+              <ThemeProvider theme={theme}>{children}</ThemeProvider>
+            </NextIntlClientProvider>
+          </AppRouterCacheProvider>
       </body>
     </html>
   );
