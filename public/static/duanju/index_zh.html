@@ -1,0 +1,3793 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)https://zhongduanju.com/zh_CN -->
+<html lang="zh_CN" class="scroll-smooth">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>众短剧 - 短剧在线观看 - 最新热门短剧 | 众短剧 </title>
+    <meta name="description" content="众短剧为你呈现每日更新的热门短剧、微短剧和爆款剧情片段，涵盖爱情、悬疑、搞笑、都市等多个类型，永久免费在线刷剧，无需下载，随时随地追不停。">
+    <meta name="keywords" content="短剧, 微短剧, 免费短剧, 爱情短剧, 都市剧场, 悬疑剧情, 搞笑短剧, 剧情片段, 追剧神器, 在线观看">
+    <meta name="author" content="众短剧">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="google" content="notranslate">
+    <meta property="og:title" content="众短剧 - 短剧在线观看 - 最新热门短剧 | 众短剧">
+    <meta property="og:description" content="众短剧为你呈现每日更新的热门短剧、微短剧和爆款剧情片段，涵盖爱情、悬疑、搞笑、都市等多个类型，永久免费在线刷剧，无需下载，随时随地追不停。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zhongduanju.com/">
+    <meta property="og:image" content="/static/images/zlogo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="alternate" hreflang="en-US" href="https://zhongduanju.com/en/">
+    <link rel="alternate" hreflang="zh-CN" href="https://zhongduanju.com/zh_CN/">
+    <link rel="alternate" hreflang="zh-TW" href="https://zhongduanju.com/zh_TW/">
+
+    <!-- Tailwind CSS -->
+    <script async="" src="/static/duanju/index_files/clarity.js"></script>
+    <script async="" src="/static/duanju/index_files/ry9xdr4vih"></script>
+    <script src="/static/duanju/index_files/3.4.16.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                            950: '#082f49',
+                        },
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'marquee': 'marquee 5s linear infinite',
+                    },
+                    keyframes: {
+                        marquee: {
+                            '0%': { transform: 'translateX(0)' },
+                            '100%': { transform: 'translateX(-100%)' },
+                        }
+                    }
+                }
+            }
+        };
+        // Check for saved theme preference or use system preference
+        if (localStorage.getItem('theme') === 'dark' ||
+            (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+
+        function toggleDarkMode() {
+            if (document.documentElement.classList.contains('dark')) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        // Handle image errors
+        function handleImageError(img) {
+            img.onerror = null;
+            img.src = '/static/images/placeholder.jpg';
+            img.parentElement.classList.add('error-image');
+        }
+
+        // Lazy loading images implementation
+        document.addEventListener('DOMContentLoaded', function () {
+            // IntersectionObserver 支持检测
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver(function (entries, observer) {
+                    entries.forEach(function (entry) {
+                        // 当图片进入视口时
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            const src = img.getAttribute('data-src');
+
+                            if (src) {
+                                img.setAttribute('src', src);
+                                // 加载完成后移除骨架屏
+                                img.onload = function () {
+                                    const skeleton = img.parentNode.querySelector('.skeleton-loader');
+                                    if (skeleton) {
+                                        skeleton.style.display = 'none';
+                                    }
+                                };
+                            }
+
+                            // 图片已处理，不再需要观察
+                            imageObserver.unobserve(img);
+                        }
+                    });
+                }, { rootMargin: '200px 0px' }); // 提前200px开始加载
+
+                // 获取所有懒加载图片
+                const lazyImages = document.querySelectorAll('img.lazyload');
+                lazyImages.forEach(function (img) {
+                    imageObserver.observe(img);
+                });
+            } else {
+                // 降级处理：不支持IntersectionObserver的浏览器
+                const lazyImages = document.querySelectorAll('img.lazyload');
+                lazyImages.forEach(function (img) {
+                    const src = img.getAttribute('data-src');
+                    if (src) {
+                        img.setAttribute('src', src);
+                    }
+                    const skeleton = img.parentNode.querySelector('.skeleton-loader');
+                    if (skeleton) {
+                        skeleton.style.display = 'none';
+                    }
+                });
+            }
+        });
+    </script>
+
+    <!-- Custom styles -->
+    <style type="text/css">
+        [x-cloak] {
+            display: none !important;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe,
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .tag-cloud span:hover {
+            transform: scale(1.05);
+        }
+
+        .shimmer {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -200% 0;
+            }
+
+            100% {
+                background-position: 200% 0;
+            }
+        }
+
+        .marquee {
+            animation: marquee 5s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+
+    <!-- Alpine.js -->
+    <script defer="" src="/static/duanju/index_files/alpinejs.js"></script>
+    <script type="text/javascript">
+        function copyToClipboard(obj) {
+            const url = window.location.href;
+
+            navigator.clipboard.writeText(url).then(() => {
+                // Show a notification
+                const button = obj;
+                const originalText = button.innerHTML;
+
+                button.innerHTML = `
+                <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                已复制!
+            `;
+
+                setTimeout(() => {
+                    button.innerHTML = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+    <style>
+        *,
+        ::before,
+        ::after {
+            --tw-border-spacing-x: 0;
+            --tw-border-spacing-y: 0;
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-rotate: 0;
+            --tw-skew-x: 0;
+            --tw-skew-y: 0;
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            --tw-pan-x: ;
+            --tw-pan-y: ;
+            --tw-pinch-zoom: ;
+            --tw-scroll-snap-strictness: proximity;
+            --tw-gradient-from-position: ;
+            --tw-gradient-via-position: ;
+            --tw-gradient-to-position: ;
+            --tw-ordinal: ;
+            --tw-slashed-zero: ;
+            --tw-numeric-figure: ;
+            --tw-numeric-spacing: ;
+            --tw-numeric-fraction: ;
+            --tw-ring-inset: ;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-color: rgb(59 130 246 / 0.5);
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-colored: 0 0 #0000;
+            --tw-blur: ;
+            --tw-brightness: ;
+            --tw-contrast: ;
+            --tw-grayscale: ;
+            --tw-hue-rotate: ;
+            --tw-invert: ;
+            --tw-saturate: ;
+            --tw-sepia: ;
+            --tw-drop-shadow: ;
+            --tw-backdrop-blur: ;
+            --tw-backdrop-brightness: ;
+            --tw-backdrop-contrast: ;
+            --tw-backdrop-grayscale: ;
+            --tw-backdrop-hue-rotate: ;
+            --tw-backdrop-invert: ;
+            --tw-backdrop-opacity: ;
+            --tw-backdrop-saturate: ;
+            --tw-backdrop-sepia: ;
+            --tw-contain-size: ;
+            --tw-contain-layout: ;
+            --tw-contain-paint: ;
+            --tw-contain-style:
+        }
+
+        ::backdrop {
+            --tw-border-spacing-x: 0;
+            --tw-border-spacing-y: 0;
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-rotate: 0;
+            --tw-skew-x: 0;
+            --tw-skew-y: 0;
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            --tw-pan-x: ;
+            --tw-pan-y: ;
+            --tw-pinch-zoom: ;
+            --tw-scroll-snap-strictness: proximity;
+            --tw-gradient-from-position: ;
+            --tw-gradient-via-position: ;
+            --tw-gradient-to-position: ;
+            --tw-ordinal: ;
+            --tw-slashed-zero: ;
+            --tw-numeric-figure: ;
+            --tw-numeric-spacing: ;
+            --tw-numeric-fraction: ;
+            --tw-ring-inset: ;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-color: rgb(59 130 246 / 0.5);
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-colored: 0 0 #0000;
+            --tw-blur: ;
+            --tw-brightness: ;
+            --tw-contrast: ;
+            --tw-grayscale: ;
+            --tw-hue-rotate: ;
+            --tw-invert: ;
+            --tw-saturate: ;
+            --tw-sepia: ;
+            --tw-drop-shadow: ;
+            --tw-backdrop-blur: ;
+            --tw-backdrop-brightness: ;
+            --tw-backdrop-contrast: ;
+            --tw-backdrop-grayscale: ;
+            --tw-backdrop-hue-rotate: ;
+            --tw-backdrop-invert: ;
+            --tw-backdrop-opacity: ;
+            --tw-backdrop-saturate: ;
+            --tw-backdrop-sepia: ;
+            --tw-contain-size: ;
+            --tw-contain-layout: ;
+            --tw-contain-paint: ;
+            --tw-contain-style:
+        }
+
+        /* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+            border-color: #e5e7eb
+        }
+
+        ::after,
+        ::before {
+            --tw-content: ''
+        }
+
+        :host,
+        html {
+            line-height: 1.5;
+            -webkit-text-size-adjust: 100%;
+            -moz-tab-size: 4;
+            tab-size: 4;
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        body {
+            margin: 0;
+            line-height: inherit
+        }
+
+        hr {
+            height: 0;
+            color: inherit;
+            border-top-width: 1px
+        }
+
+        abbr:where([title]) {
+            -webkit-text-decoration: underline dotted;
+            text-decoration: underline dotted
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: inherit;
+            font-weight: inherit
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit
+        }
+
+        b,
+        strong {
+            font-weight: bolder
+        }
+
+        code,
+        kbd,
+        pre,
+        samp {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            font-size: 1em
+        }
+
+        small {
+            font-size: 80%
+        }
+
+        sub,
+        sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline
+        }
+
+        sub {
+            bottom: -.25em
+        }
+
+        sup {
+            top: -.5em
+        }
+
+        table {
+            text-indent: 0;
+            border-color: inherit;
+            border-collapse: collapse
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-feature-settings: inherit;
+            font-variation-settings: inherit;
+            font-size: 100%;
+            font-weight: inherit;
+            line-height: inherit;
+            letter-spacing: inherit;
+            color: inherit;
+            margin: 0;
+            padding: 0
+        }
+
+        button,
+        select {
+            text-transform: none
+        }
+
+        button,
+        input:where([type=button]),
+        input:where([type=reset]),
+        input:where([type=submit]) {
+            -webkit-appearance: button;
+            background-color: transparent;
+            background-image: none
+        }
+
+        :-moz-focusring {
+            outline: auto
+        }
+
+        :-moz-ui-invalid {
+            box-shadow: none
+        }
+
+        progress {
+            vertical-align: baseline
+        }
+
+        ::-webkit-inner-spin-button,
+        ::-webkit-outer-spin-button {
+            height: auto
+        }
+
+        [type=search] {
+            -webkit-appearance: textfield;
+            outline-offset: -2px
+        }
+
+        ::-webkit-search-decoration {
+            -webkit-appearance: none
+        }
+
+        ::-webkit-file-upload-button {
+            -webkit-appearance: button;
+            font: inherit
+        }
+
+        summary {
+            display: list-item
+        }
+
+        blockquote,
+        dd,
+        dl,
+        figure,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        hr,
+        p,
+        pre {
+            margin: 0
+        }
+
+        fieldset {
+            margin: 0;
+            padding: 0
+        }
+
+        legend {
+            padding: 0
+        }
+
+        menu,
+        ol,
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0
+        }
+
+        dialog {
+            padding: 0
+        }
+
+        textarea {
+            resize: vertical
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            opacity: 1;
+            color: #9ca3af
+        }
+
+        [role=button],
+        button {
+            cursor: pointer
+        }
+
+        :disabled {
+            cursor: default
+        }
+
+        audio,
+        canvas,
+        embed,
+        iframe,
+        img,
+        object,
+        svg,
+        video {
+            display: block;
+            vertical-align: middle
+        }
+
+        img,
+        video {
+            max-width: 100%;
+            height: auto
+        }
+
+        [hidden]:where(:not([hidden=until-found])) {
+            display: none
+        }
+
+        .container {
+            width: 100%
+        }
+
+        @media (min-width: 640px) {
+            .container {
+                max-width: 640px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 768px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .container {
+                max-width: 1024px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .container {
+                max-width: 1280px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .container {
+                max-width: 1536px
+            }
+        }
+
+        .pointer-events-auto {
+            pointer-events: auto
+        }
+
+        .invisible {
+            visibility: hidden
+        }
+
+        .fixed {
+            position: fixed
+        }
+
+        .absolute {
+            position: absolute
+        }
+
+        .relative {
+            position: relative
+        }
+
+        .sticky {
+            position: sticky
+        }
+
+        .inset-0 {
+            inset: 0px
+        }
+
+        .inset-y-0 {
+            top: 0px;
+            bottom: 0px
+        }
+
+        .left-0 {
+            left: 0px
+        }
+
+        .right-0 {
+            right: 0px
+        }
+
+        .top-0 {
+            top: 0px
+        }
+
+        .bottom-0 {
+            bottom: 0px
+        }
+
+        .bottom-2 {
+            bottom: 0.5rem
+        }
+
+        .left-2 {
+            left: 0.5rem
+        }
+
+        .right-2 {
+            right: 0.5rem
+        }
+
+        .top-2 {
+            top: 0.5rem
+        }
+
+        .z-10 {
+            z-index: 10
+        }
+
+        .z-50 {
+            z-index: 50
+        }
+
+        .mx-1 {
+            margin-left: 0.25rem;
+            margin-right: 0.25rem
+        }
+
+        .mx-2 {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem
+        }
+
+        .mx-4 {
+            margin-left: 1rem;
+            margin-right: 1rem
+        }
+
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .ml-1 {
+            margin-left: 0.25rem
+        }
+
+        .ml-2 {
+            margin-left: 0.5rem
+        }
+
+        .mr-1 {
+            margin-right: 0.25rem
+        }
+
+        .mt-1 {
+            margin-top: 0.25rem
+        }
+
+        .mt-2 {
+            margin-top: 0.5rem
+        }
+
+        .mb-6 {
+            margin-bottom: 1.5rem
+        }
+
+        .mb-12 {
+            margin-bottom: 3rem
+        }
+
+        .mb-2 {
+            margin-bottom: 0.5rem
+        }
+
+        .mb-3 {
+            margin-bottom: 0.75rem
+        }
+
+        .mb-4 {
+            margin-bottom: 1rem
+        }
+
+        .mb-8 {
+            margin-bottom: 2rem
+        }
+
+        .mt-3 {
+            margin-top: 0.75rem
+        }
+
+        .mt-4 {
+            margin-top: 1rem
+        }
+
+        .mt-8 {
+            margin-top: 2rem
+        }
+
+        .line-clamp-2 {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2
+        }
+
+        .block {
+            display: block
+        }
+
+        .flex {
+            display: flex
+        }
+
+        .inline-flex {
+            display: inline-flex
+        }
+
+        .grid {
+            display: grid
+        }
+
+        .hidden {
+            display: none
+        }
+
+        .h-0 {
+            height: 0px
+        }
+
+        .h-4 {
+            height: 1rem
+        }
+
+        .h-5 {
+            height: 1.25rem
+        }
+
+        .h-8 {
+            height: 2rem
+        }
+
+        .h-full {
+            height: 100%
+        }
+
+        .h-12 {
+            height: 3rem
+        }
+
+        .h-6 {
+            height: 1.5rem
+        }
+
+        .min-h-screen {
+            min-height: 100vh
+        }
+
+        .w-4 {
+            width: 1rem
+        }
+
+        .w-40 {
+            width: 10rem
+        }
+
+        .w-5 {
+            width: 1.25rem
+        }
+
+        .w-64 {
+            width: 16rem
+        }
+
+        .w-8 {
+            width: 2rem
+        }
+
+        .w-full {
+            width: 100%
+        }
+
+        .w-12 {
+            width: 3rem
+        }
+
+        .w-6 {
+            width: 1.5rem
+        }
+
+        .max-w-2xl {
+            max-width: 42rem
+        }
+
+        .max-w-3xl {
+            max-width: 48rem
+        }
+
+        .flex-1 {
+            flex: 1 1 0%
+        }
+
+        .flex-shrink-0 {
+            flex-shrink: 0
+        }
+
+        .flex-grow {
+            flex-grow: 1
+        }
+
+        .scale-90 {
+            --tw-scale-x: .9;
+            --tw-scale-y: .9;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+        }
+
+        .transform {
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+        }
+
+        @keyframes pulse {
+            50% {
+                opacity: .5
+            }
+        }
+
+        .animate-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite
+        }
+
+        .grid-cols-1 {
+            grid-template-columns: repeat(1, minmax(0, 1fr))
+        }
+
+        .grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr))
+        }
+
+        .flex-col {
+            flex-direction: column
+        }
+
+        .flex-nowrap {
+            flex-wrap: nowrap
+        }
+
+        .items-center {
+            align-items: center
+        }
+
+        .justify-center {
+            justify-content: center
+        }
+
+        .justify-between {
+            justify-content: space-between
+        }
+
+        .gap-2 {
+            gap: 0.5rem
+        }
+
+        .gap-4 {
+            gap: 1rem
+        }
+
+        .gap-8 {
+            gap: 2rem
+        }
+
+        .space-x-1> :not([hidden])~ :not([hidden]) {
+            --tw-space-x-reverse: 0;
+            margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+            margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)))
+        }
+
+        .space-x-3> :not([hidden])~ :not([hidden]) {
+            --tw-space-x-reverse: 0;
+            margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+            margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))
+        }
+
+        .space-x-2> :not([hidden])~ :not([hidden]) {
+            --tw-space-x-reverse: 0;
+            margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+            margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))
+        }
+
+        .space-y-2> :not([hidden])~ :not([hidden]) {
+            --tw-space-y-reverse: 0;
+            margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+            margin-bottom: calc(0.5rem * var(--tw-space-y-reverse))
+        }
+
+        .overflow-hidden {
+            overflow: hidden
+        }
+
+        .overflow-x-auto {
+            overflow-x: auto
+        }
+
+        .scroll-smooth {
+            scroll-behavior: smooth
+        }
+
+        .whitespace-nowrap {
+            white-space: nowrap
+        }
+
+        .rounded-full {
+            border-radius: 9999px
+        }
+
+        .rounded-md {
+            border-radius: 0.375rem
+        }
+
+        .rounded {
+            border-radius: 0.25rem
+        }
+
+        .rounded-lg {
+            border-radius: 0.5rem
+        }
+
+        .border {
+            border-width: 1px
+        }
+
+        .border-t {
+            border-top-width: 1px
+        }
+
+        .border-transparent {
+            border-color: transparent
+        }
+
+        .border-gray-200 {
+            --tw-border-opacity: 1;
+            border-color: rgb(229 231 235 / var(--tw-border-opacity, 1))
+        }
+
+        .bg-gray-50 {
+            --tw-bg-opacity: 1;
+            background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1))
+        }
+
+        .bg-gray-100 {
+            --tw-bg-opacity: 1;
+            background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1))
+        }
+
+        .bg-white {
+            --tw-bg-opacity: 1;
+            background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1))
+        }
+
+        .bg-primary-600 {
+            --tw-bg-opacity: 1;
+            background-color: rgb(2 132 199 / var(--tw-bg-opacity, 1))
+        }
+
+        .bg-black\/70 {
+            background-color: rgb(0 0 0 / 0.7)
+        }
+
+        .bg-gray-200 {
+            --tw-bg-opacity: 1;
+            background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1))
+        }
+
+        .bg-gray-300 {
+            --tw-bg-opacity: 1;
+            background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1))
+        }
+
+        .bg-primary-600\/90 {
+            background-color: rgb(2 132 199 / 0.9)
+        }
+
+        .bg-gradient-to-l {
+            background-image: linear-gradient(to left, var(--tw-gradient-stops))
+        }
+
+        .bg-gradient-to-t {
+            background-image: linear-gradient(to top, var(--tw-gradient-stops))
+        }
+
+        .from-white {
+            --tw-gradient-from: #fff var(--tw-gradient-from-position);
+            --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)
+        }
+
+        .from-black\/60 {
+            --tw-gradient-from: rgb(0 0 0 / 0.6) var(--tw-gradient-from-position);
+            --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)
+        }
+
+        .to-transparent {
+            --tw-gradient-to: transparent var(--tw-gradient-to-position)
+        }
+
+        .object-cover {
+            object-fit: cover
+        }
+
+        .p-1\.5 {
+            padding: 0.375rem
+        }
+
+        .p-2 {
+            padding: 0.5rem
+        }
+
+        .p-3 {
+            padding: 0.75rem
+        }
+
+        .p-4 {
+            padding: 1rem
+        }
+
+        .p-6 {
+            padding: 1.5rem
+        }
+
+        .px-2 {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem
+        }
+
+        .px-4 {
+            padding-left: 1rem;
+            padding-right: 1rem
+        }
+
+        .py-1 {
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem
+        }
+
+        .py-1\.5 {
+            padding-top: 0.375rem;
+            padding-bottom: 0.375rem
+        }
+
+        .py-2 {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem
+        }
+
+        .py-6 {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem
+        }
+
+        .px-1\.5 {
+            padding-left: 0.375rem;
+            padding-right: 0.375rem
+        }
+
+        .py-0\.5 {
+            padding-top: 0.125rem;
+            padding-bottom: 0.125rem
+        }
+
+        .py-8 {
+            padding-top: 2rem;
+            padding-bottom: 2rem
+        }
+
+        .py-3 {
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem
+        }
+
+        .pl-2 {
+            padding-left: 0.5rem
+        }
+
+        .pl-3 {
+            padding-left: 0.75rem
+        }
+
+        .pr-10 {
+            padding-right: 2.5rem
+        }
+
+        .pr-3 {
+            padding-right: 0.75rem
+        }
+
+        .pb-2 {
+            padding-bottom: 0.5rem
+        }
+
+        .pb-\[125\%\] {
+            padding-bottom: 125%
+        }
+
+        .pt-6 {
+            padding-top: 1.5rem
+        }
+
+        .text-center {
+            text-align: center
+        }
+
+        .text-sm {
+            font-size: 0.875rem;
+            line-height: 1.25rem
+        }
+
+        .text-xl {
+            font-size: 1.25rem;
+            line-height: 1.75rem
+        }
+
+        .text-2xl {
+            font-size: 1.5rem;
+            line-height: 2rem
+        }
+
+        .text-3xl {
+            font-size: 1.875rem;
+            line-height: 2.25rem
+        }
+
+        .text-lg {
+            font-size: 1.125rem;
+            line-height: 1.75rem
+        }
+
+        .text-xs {
+            font-size: 0.75rem;
+            line-height: 1rem
+        }
+
+        .text-base {
+            font-size: 1rem;
+            line-height: 1.5rem
+        }
+
+        .font-bold {
+            font-weight: 700
+        }
+
+        .font-medium {
+            font-weight: 500
+        }
+
+        .font-semibold {
+            font-weight: 600
+        }
+
+        .uppercase {
+            text-transform: uppercase
+        }
+
+        .tracking-wider {
+            letter-spacing: 0.05em
+        }
+
+        .text-gray-900 {
+            --tw-text-opacity: 1;
+            color: rgb(17 24 39 / var(--tw-text-opacity, 1))
+        }
+
+        .text-gray-400 {
+            --tw-text-opacity: 1;
+            color: rgb(156 163 175 / var(--tw-text-opacity, 1))
+        }
+
+        .text-gray-500 {
+            --tw-text-opacity: 1;
+            color: rgb(107 114 128 / var(--tw-text-opacity, 1))
+        }
+
+        .text-gray-700 {
+            --tw-text-opacity: 1;
+            color: rgb(55 65 81 / var(--tw-text-opacity, 1))
+        }
+
+        .text-gray-800 {
+            --tw-text-opacity: 1;
+            color: rgb(31 41 55 / var(--tw-text-opacity, 1))
+        }
+
+        .text-primary-600 {
+            --tw-text-opacity: 1;
+            color: rgb(2 132 199 / var(--tw-text-opacity, 1))
+        }
+
+        .text-white {
+            --tw-text-opacity: 1;
+            color: rgb(255 255 255 / var(--tw-text-opacity, 1))
+        }
+
+        .text-blue-500 {
+            --tw-text-opacity: 1;
+            color: rgb(59 130 246 / var(--tw-text-opacity, 1))
+        }
+
+        .text-gray-600 {
+            --tw-text-opacity: 1;
+            color: rgb(75 85 99 / var(--tw-text-opacity, 1))
+        }
+
+        .opacity-0 {
+            opacity: 0
+        }
+
+        .shadow-lg {
+            --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+        }
+
+        .shadow-md {
+            --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+        }
+
+        .shadow {
+            --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+        }
+
+        .ring-1 {
+            --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+            --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+            box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
+        }
+
+        .ring-black {
+            --tw-ring-opacity: 1;
+            --tw-ring-color: rgb(0 0 0 / var(--tw-ring-opacity, 1))
+        }
+
+        .ring-opacity-5 {
+            --tw-ring-opacity: 0.05
+        }
+
+        .transition-colors {
+            transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms
+        }
+
+        .transition-all {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms
+        }
+
+        .transition-opacity {
+            transition-property: opacity;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms
+        }
+
+        .transition-transform {
+            transition-property: transform;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms
+        }
+
+        .duration-300 {
+            transition-duration: 300ms
+        }
+
+        .duration-500 {
+            transition-duration: 500ms
+        }
+
+        .hover\:-translate-y-1:hover {
+            --tw-translate-y: -0.25rem;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+        }
+
+        .hover\:bg-gray-100:hover {
+            --tw-bg-opacity: 1;
+            background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1))
+        }
+
+        .hover\:bg-gray-200:hover {
+            --tw-bg-opacity: 1;
+            background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1))
+        }
+
+        .hover\:text-gray-600:hover {
+            --tw-text-opacity: 1;
+            color: rgb(75 85 99 / var(--tw-text-opacity, 1))
+        }
+
+        .hover\:text-primary-600:hover {
+            --tw-text-opacity: 1;
+            color: rgb(2 132 199 / var(--tw-text-opacity, 1))
+        }
+
+        .hover\:underline:hover {
+            -webkit-text-decoration-line: underline;
+            text-decoration-line: underline
+        }
+
+        .hover\:shadow-lg:hover {
+            --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+        }
+
+        .focus\:border-transparent:focus {
+            border-color: transparent
+        }
+
+        .focus\:outline-none:focus {
+            outline: 2px solid transparent;
+            outline-offset: 2px
+        }
+
+        .focus\:ring-2:focus {
+            --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+            --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+            box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
+        }
+
+        .focus\:ring-primary-500:focus {
+            --tw-ring-opacity: 1;
+            --tw-ring-color: rgb(14 165 233 / var(--tw-ring-opacity, 1))
+        }
+
+        .group:hover .group-hover\:scale-100 {
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+        }
+
+        .group:hover .group-hover\:scale-105 {
+            --tw-scale-x: 1.05;
+            --tw-scale-y: 1.05;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+        }
+
+        .group:hover .group-hover\:opacity-100 {
+            opacity: 1
+        }
+
+        .dark\:border-gray-700:is(.dark *) {
+            --tw-border-opacity: 1;
+            border-color: rgb(55 65 81 / var(--tw-border-opacity, 1))
+        }
+
+        .dark\:bg-gray-900:is(.dark *) {
+            --tw-bg-opacity: 1;
+            background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1))
+        }
+
+        .dark\:bg-gray-700:is(.dark *) {
+            --tw-bg-opacity: 1;
+            background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1))
+        }
+
+        .dark\:bg-gray-800:is(.dark *) {
+            --tw-bg-opacity: 1;
+            background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1))
+        }
+
+        .dark\:bg-gray-600:is(.dark *) {
+            --tw-bg-opacity: 1;
+            background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1))
+        }
+
+        .dark\:from-gray-800:is(.dark *) {
+            --tw-gradient-from: #1f2937 var(--tw-gradient-from-position);
+            --tw-gradient-to: rgb(31 41 55 / 0) var(--tw-gradient-to-position);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)
+        }
+
+        .dark\:to-transparent:is(.dark *) {
+            --tw-gradient-to: transparent var(--tw-gradient-to-position)
+        }
+
+        .dark\:text-gray-100:is(.dark *) {
+            --tw-text-opacity: 1;
+            color: rgb(243 244 246 / var(--tw-text-opacity, 1))
+        }
+
+        .dark\:text-gray-200:is(.dark *) {
+            --tw-text-opacity: 1;
+            color: rgb(229 231 235 / var(--tw-text-opacity, 1))
+        }
+
+        .dark\:text-gray-300:is(.dark *) {
+            --tw-text-opacity: 1;
+            color: rgb(209 213 219 / var(--tw-text-opacity, 1))
+        }
+
+        .dark\:text-white:is(.dark *) {
+            --tw-text-opacity: 1;
+            color: rgb(255 255 255 / var(--tw-text-opacity, 1))
+        }
+
+        .dark\:text-primary-400:is(.dark *) {
+            --tw-text-opacity: 1;
+            color: rgb(56 189 248 / var(--tw-text-opacity, 1))
+        }
+
+        .dark\:text-blue-400:is(.dark *) {
+            --tw-text-opacity: 1;
+            color: rgb(96 165 250 / var(--tw-text-opacity, 1))
+        }
+
+        .dark\:text-gray-400:is(.dark *) {
+            --tw-text-opacity: 1;
+            color: rgb(156 163 175 / var(--tw-text-opacity, 1))
+        }
+
+        .dark\:hover\:bg-gray-700:hover:is(.dark *) {
+            --tw-bg-opacity: 1;
+            background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1))
+        }
+
+        .dark\:hover\:bg-gray-600:hover:is(.dark *) {
+            --tw-bg-opacity: 1;
+            background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1))
+        }
+
+        .dark\:hover\:text-gray-100:hover:is(.dark *) {
+            --tw-text-opacity: 1;
+            color: rgb(243 244 246 / var(--tw-text-opacity, 1))
+        }
+
+        .dark\:hover\:text-primary-400:hover:is(.dark *) {
+            --tw-text-opacity: 1;
+            color: rgb(56 189 248 / var(--tw-text-opacity, 1))
+        }
+
+        @media (min-width: 640px) {
+            .sm\:grid-cols-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr))
+            }
+
+            .sm\:px-4 {
+                padding-left: 1rem;
+                padding-right: 1rem
+            }
+
+            .sm\:px-6 {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem
+            }
+        }
+
+        @media (min-width: 768px) {
+            .md\:mt-0 {
+                margin-top: 0px
+            }
+
+            .md\:block {
+                display: block
+            }
+
+            .md\:hidden {
+                display: none
+            }
+
+            .md\:grid-cols-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr))
+            }
+
+            .md\:grid-cols-3 {
+                grid-template-columns: repeat(3, minmax(0, 1fr))
+            }
+
+            .md\:flex-row {
+                flex-direction: row
+            }
+
+            .md\:py-3 {
+                padding-top: 0.75rem;
+                padding-bottom: 0.75rem
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .lg\:grid-cols-4 {
+                grid-template-columns: repeat(4, minmax(0, 1fr))
+            }
+
+            .lg\:px-8 {
+                padding-left: 2rem;
+                padding-right: 2rem
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .xl\:grid-cols-6 {
+                grid-template-columns: repeat(6, minmax(0, 1fr))
+            }
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+    <div class="flex flex-col min-h-screen">
+        <!-- Header -->
+        <script src="/static/duanju/index_files/main.js"></script>
+        <!-- Full Header (always visible on desktop) -->
+        <header id="full-header"
+            class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-50 transition-all duration-300">
+            <div class="container mx-auto px-4 py-2 md:py-3 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between">
+                    <!-- Logo and Site Name -->
+                    <div class="flex items-center space-x-3">
+                        <a href="https://zhongduanju.com/zh_CN" class="flex items-center">
+                            <img src="/static/duanju/index_files/zlogo.png" alt="众短剧" class="w-8 h-8">
+                            <span class="ml-2 text-xl font-bold text-gray-800 dark:text-white">众短剧</span>
+                        </a>
+                    </div>
+
+                    <!-- Search Bar (Medium screens and up)-->
+                    <div class="hidden md:block flex-grow max-w-2xl mx-4">
+                        <form action="https://zhongduanju.com/zh_CN/search" method="GET" class="relative"
+                            id="desktop-search-form">
+                            <input type="text" name="keyword" id="desktop-search-input" placeholder="搜索 31802 部短剧..."
+                                class="w-full py-2 pl-3 pr-10 text-sm bg-gray-100 dark:bg-gray-700 border border-transparent rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent dark:text-white"
+                                autocomplete="off">
+                            <div class="absolute inset-y-0 right-0 flex items-center pr-3">
+                                <button type="submit"
+                                    class="text-gray-400 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-100 focus:outline-none">
+                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div id="desktop-search-suggestions"
+                                class="absolute mt-1 w-full rounded-md bg-white dark:bg-gray-800 shadow-lg z-10 hidden">
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Right Side Navigation -->
+                    <div class="flex items-center space-x-1">
+                        <!-- Swipe Video Link -->
+                        <a href="https://zhongduanju.com/zh_CN/swipe"
+                            class="hidden md:block p-2 rounded-full text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+                            aria-label="Swipe Videos" title="短视频流 - 上下滑动观看">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z">
+                                </path>
+                            </svg>
+                        </a>
+
+                        <!-- Calendar Link -->
+                        <a href="https://zhongduanju.com/zh_CN/calendar"
+                            class="hidden md:block p-2 rounded-full text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+                            aria-label="Video Calendar" title="短剧更新日历">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                        </a>
+
+                        <!-- Theme Toggle -->
+                        <button onclick="toggleDarkMode()"
+                            class="p-2 rounded-full text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+                            aria-label="Toggle Dark Mode" id="theme-toggle-btn">
+                            <!-- Sun icon (shown in dark mode) -->
+                            <svg id="theme-icon" class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                                </path>
+                            </svg>
+                        </button>
+
+                        <!-- History Playback Records -->
+                        <div x-data="{ open: false }" class="relative">
+                            <button @click="open = !open"
+                                class="flex items-center p-2 rounded-full text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+                                aria-label="View History">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </button>
+
+                            <!-- History Dropdown -->
+                            <div x-show="open" @click.away="open = false"
+                                class="absolute right-0 mt-2 w-64 bg-white dark:bg-gray-800 rounded-md shadow-lg py-1 z-50 ring-1 ring-black ring-opacity-5"
+                                x-init="
+                            $el.innerHTML = &#39;&#39;;
+                            const history = getPlaybackHistory();
+                            if (history.length === 0) {
+                                const emptyMsg = document.createElement(&#39;div&#39;);
+                                emptyMsg.className = &#39;px-4 py-3 text-sm text-gray-700 dark:text-gray-200&#39;;
+                                emptyMsg.textContent = &#39;没有播放记录&#39;;
+                                $el.appendChild(emptyMsg);
+                            } else {
+                                // Header with title and clear button
+                                const headerDiv = document.createElement(&#39;div&#39;);
+                                headerDiv.className = &#39;flex items-center justify-between px-4 py-2 border-b border-gray-200 dark:border-gray-700&#39;;
+                                
+                                const title = document.createElement(&#39;div&#39;);
+                                title.className = &#39;text-sm font-medium text-gray-700 dark:text-gray-200&#39;;
+                                title.textContent = &#39;最近播放&#39;;
+                                
+                                const clearBtn = document.createElement(&#39;button&#39;);
+                                clearBtn.className = &#39;text-xs text-red-500 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300&#39;;
+                                clearBtn.textContent = &#39;清空&#39;;
+                                clearBtn.onclick = (e) =&gt; {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    clearPlaybackHistory();
+                                    $el.innerHTML = &#39;&#39;;
+                                    const emptyMsg = document.createElement(&#39;div&#39;);
+                                    emptyMsg.className = &#39;px-4 py-3 text-sm text-gray-700 dark:text-gray-200&#39;;
+                                    emptyMsg.textContent = &#39;没有播放记录&#39;;
+                                    $el.appendChild(emptyMsg);
+                                };
+                                
+                                headerDiv.appendChild(title);
+                                headerDiv.appendChild(clearBtn);
+                                $el.appendChild(headerDiv);
+                                
+                                history.slice(0, 10).forEach(item =&gt; {
+                                    const historyItem = document.createElement(&#39;a&#39;);
+                                    historyItem.className = &#39;block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700&#39;;
+                                    historyItem.href = &#39;#&#39;;
+                                    historyItem.title = item.title;
+                                    historyItem.onclick = (e) =&gt; { 
+                                        e.preventDefault(); 
+                                        navigateToVideo(item.id);
+                                    };
+                                    
+                                    const itemContent = document.createElement(&#39;div&#39;);
+                                    itemContent.className = &#39;flex items-center&#39;;
+                                    
+                                    const thumbnail = document.createElement(&#39;div&#39;);
+                                    thumbnail.className = &#39;w-10 h-10 mr-2 bg-gray-200 dark:bg-gray-700 rounded overflow-hidden flex-shrink-0&#39;;
+                                    if (item.avatar) {
+                                        const img = document.createElement(&#39;img&#39;);
+                                        img.src = item.avatar;
+                                        img.className = &#39;w-full h-full object-cover&#39;;
+                                        img.alt = item.title;
+                                        img.onerror = () =&gt; {
+                                            img.src = &#39;/static/images/placeholder.png&#39;;
+                                        };
+                                        thumbnail.appendChild(img);
+                                    }
+                                    
+                                    const textContainer = document.createElement(&#39;div&#39;);
+                                    textContainer.className = &#39;flex-1 flex flex-col w-full max-w-[80%] break-words&#39;;
+                                    
+                                    const textContent = document.createElement(&#39;div&#39;);
+                                    textContent.className = &#39;truncate&#39;;
+                                    textContent.textContent = item.title;
+                                    const timeDiv = document.createElement(&#39;div&#39;);
+                                    timeDiv.className = &#39;text-xs text-gray-500 dark:text-gray-400 mt-1&#39;;
+                                    timeDiv.textContent = formatTimeDiff(item.timestamp);
+                                    
+                                    textContainer.appendChild(textContent);
+                                    textContainer.appendChild(timeDiv);
+                                    
+                                    itemContent.appendChild(thumbnail);
+                                    itemContent.appendChild(textContainer);
+                                    historyItem.appendChild(itemContent);
+                                    
+                                    $el.appendChild(historyItem);
+                                });
+                            }
+                        " style="display: none;">
+                                <div class="px-4 py-3 text-sm text-gray-700 dark:text-gray-200">没有播放记录</div>
+                            </div>
+                        </div>
+
+                        <!-- Language Selector 
+                        <div x-data="{ open: false }" class="relative">
+                            <button @click="open = !open"
+                                class="flex items-center p-2 rounded-full text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+                                aria-label="Select Language">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129">
+                                    </path>
+                                </svg>
+
+                                <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+
+                            
+                            <div x-show="open" @click.away="open = false"
+                                class="absolute right-0 mt-2 w-40 bg-white dark:bg-gray-800 rounded-md shadow-lg py-1 z-50 ring-1 ring-black ring-opacity-5"
+                                style="display: none;">
+                                <a onclick="return setLang(&#39;en&#39;)" href="https://zhongduanju.com/en"
+                                    class="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 ">
+                                    en
+                                </a>
+                                <a onclick="return setLang(&#39;zh_CN&#39;)" href="https://zhongduanju.com/zh_CN"
+                                    class="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700">
+                                    简中
+                                </a>
+                                <a onclick="return setLang(&#39;zh_TW&#39;)" href="https://zhongduanju.com/"
+                                    class="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 ">
+                                    繁中
+                                </a>
+                            </div>
+                        </div>
+                        -->
+
+                    </div>
+                </div>
+
+                <!-- Mobile Search (Small screens only) -->
+                <div class="mt-1 md:hidden mx-2">
+                    <form action="https://zhongduanju.com/zh_CN/search" method="GET" class="relative"
+                        id="initial-mobile-search-form">
+                        <input type="text" name="keyword" id="mobile-search-input-initial" value=""
+                            placeholder="搜索 31802 部短剧..."
+                            class="w-full py-2 pl-3 pr-10 text-sm bg-gray-100 dark:bg-gray-700 border border-transparent rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent dark:text-white"
+                            autocomplete="off">
+                        <div class="absolute inset-y-0 right-0 flex items-center pr-3">
+                            <button type="submit"
+                                class="text-gray-400 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-100 focus:outline-none">
+                                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div id="mobile-search-suggestions-initial"
+                            class="absolute mt-1 w-full rounded-md bg-white dark:bg-gray-800 shadow-lg z-10 hidden">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <!-- Compact header with only search bar (hidden by default, only for mobile) -->
+        <div id="compact-header"
+            class="md:hidden bg-white dark:bg-gray-800 shadow-md fixed top-0 left-0 right-0 z-50 py-2 w-full opacity-0 invisible h-0 overflow-hidden transition-opacity duration-300">
+            <div class="container mx-auto px-2 sm:px-4">
+                <div class="flex items-center justify-between">
+                    <!-- Logo (smaller) -->
+                    <div class="flex-shrink-0 pl-2">
+                        <a href="https://zhongduanju.com/zh_CN" class="flex items-center">
+                            <img src="/static/duanju/index_files/zlogo.png" alt="众短剧" class="w-8 h-8">
+                        </a>
+                    </div>
+
+                    <!-- Search Bar (Only visible element) -->
+                    <div class="flex-grow px-2 mx-1">
+                        <form action="https://zhongduanju.com/zh_CN/search" method="GET" class="relative"
+                            id="mobile-search-form">
+                            <input type="text" name="keyword" id="mobile-search-input" placeholder="搜索 31802 部短剧..."
+                                class="w-full py-1.5 pl-3 pr-10 text-sm bg-gray-100 dark:bg-gray-700 border border-transparent rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent dark:text-white"
+                                autocomplete="off">
+                            <div class="absolute inset-y-0 right-0 flex items-center pr-3">
+                                <button type="submit"
+                                    class="text-gray-400 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-100 focus:outline-none">
+                                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div id="mobile-search-suggestions"
+                                class="absolute mt-1 w-full rounded-md bg-white dark:bg-gray-800 shadow-lg z-10 hidden">
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Theme Toggle (simplified) -->
+                    <button onclick="toggleDarkMode()"
+                        class="p-1.5 rounded-full text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none mr-1"
+                        aria-label="Toggle Dark Mode">
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Scroll behavior for mobile
+                if (window.innerWidth < 768) {
+                    const fullHeader = document.getElementById('full-header');
+                    const compactHeader = document.getElementById('compact-header');
+                    let lastScrollTop = 0;
+                    const scrollThreshold = 50;
+
+                    window.addEventListener('scroll', function () {
+                        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                        if (scrollTop > scrollThreshold) {
+                            fullHeader.classList.add('transform', '-translate-y-full', 'opacity-0');
+                            compactHeader.classList.remove('opacity-0', 'invisible', 'h-0', 'overflow-hidden');
+                        } else {
+                            fullHeader.classList.remove('transform', '-translate-y-full', 'opacity-0');
+                            compactHeader.classList.add('opacity-0', 'invisible', 'h-0', 'overflow-hidden');
+                        }
+                        lastScrollTop = scrollTop;
+                    });
+                }
+
+                // Search suggestions logic
+                const setupSearchSuggestions = (inputId, suggestionsId, formId) => {
+                    const searchInput = document.getElementById(inputId);
+                    const suggestionsContainer = document.getElementById(suggestionsId);
+                    const searchForm = document.getElementById(formId);
+
+                    if (!searchInput || !suggestionsContainer || !searchForm) return;
+
+                    let debounceTimer;
+
+                    searchInput.addEventListener('input', function () {
+                        const keyword = this.value.trim();
+
+                        clearTimeout(debounceTimer);
+                        if (keyword.length < 2) {
+                            suggestionsContainer.innerHTML = '';
+                            suggestionsContainer.classList.add('hidden');
+                            return;
+                        }
+
+                        debounceTimer = setTimeout(() => {
+                            fetch(`/zh_CN/suggestions?keyword=${encodeURIComponent(keyword)}`)
+                                .then(response => response.json())
+                                .then(data => {
+                                    if (data.data.suggestions && data.data.suggestions.length > 0) {
+                                        let suggestionsHTML = '<ul class="py-1">';
+                                        data.data.suggestions.forEach(suggestion => {
+                                            suggestionsHTML += `
+                                    <li class="px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer suggestion-item" data-keyword="${suggestion.title}">
+                                        <a href="${suggestion.link}">${suggestion.title}</a>
+                                    </li>
+                                `;
+                                        });
+                                        suggestionsHTML += '</ul>';
+                                        suggestionsContainer.innerHTML = suggestionsHTML;
+                                        suggestionsContainer.classList.remove('hidden');
+                                    } else {
+                                        suggestionsContainer.innerHTML = '';
+                                        suggestionsContainer.classList.add('hidden');
+                                    }
+                                })
+                                .catch(error => {
+                                    console.error('Error fetching search suggestions:', error);
+                                    suggestionsContainer.innerHTML = '';
+                                    suggestionsContainer.classList.add('hidden');
+                                });
+                        }, 300);
+                    });
+
+                    document.addEventListener('click', function (e) {
+                        if (!searchForm.contains(e.target)) {
+                            suggestionsContainer.classList.add('hidden');
+                        }
+                    });
+
+                    // suggestionsContainer.addEventListener('click', function(e) {
+                    //     if (e.target && e.target.classList.contains('suggestion-item')) {
+                    //         searchInput.value = e.target.getAttribute('data-keyword');
+                    //         suggestionsContainer.classList.add('hidden');
+                    //         searchForm.submit();
+                    //     }
+                    // });
+                };
+
+                setupSearchSuggestions('desktop-search-input', 'desktop-search-suggestions', 'desktop-search-form');
+                setupSearchSuggestions('mobile-search-input', 'mobile-search-suggestions', 'mobile-search-form');
+                setupSearchSuggestions('mobile-search-input-initial', 'mobile-search-suggestions-initial', 'initial-mobile-search-form');
+            });
+        </script>
+
+        <!-- Main Content -->
+        <main class="flex-grow container mx-auto px-4 py-6 sm:px-6 lg:px-8">
+            <!-- Auto Dark/Light Mode based on time -->
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    function setThemeByTime() {
+                        const hour = new Date().getHours();
+                        const isDarkTime = hour >= 19 || hour < 7; // Dark mode from 7pm to 7am
+
+                        if (isDarkTime) {
+                            document.documentElement.classList.add('dark');
+                            localStorage.setItem('theme', 'dark');
+                        } else {
+                            document.documentElement.classList.remove('dark');
+                            localStorage.setItem('theme', 'light');
+                        }
+                    }
+
+                    // Set theme on page load
+                    setThemeByTime();
+
+                    // Update theme every minute
+                    setInterval(setThemeByTime, 60000);
+                });
+            </script>
+
+            <!-- Hero Section -->
+
+            <!-- Category Filter -->
+            <section class="mb-6">
+                <div class="relative">
+                    <div id="categoryContainer" class="relative overflow-hidden">
+                        <div class="categoryScroller flex flex-nowrap gap-2 pb-2 overflow-x-auto no-scrollbar">
+                            <div class="flex flex-nowrap gap-2" id="categoryList">
+                                <a href="https://zhongduanju.com/zh_CN"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-primary-600 text-white">
+                                    全部
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/short-drama"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    短剧
+                                </a>
+                                <a data-url="/zh_CN"
+                                    href="https://zhongduanju.com/zh_CN/category/fast-paced-short-drama"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    爽文短剧
+                                </a>
+                                <a data-url="/zh_CN"
+                                    href="https://zhongduanju.com/zh_CN/category/plot-twist-thrill-drama"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    反转爽剧
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/modern-city"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    现代都市
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/female-romance"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    女频恋爱
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/costume-xianxia"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    古装仙侠
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/time-travel-past-era"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    年代穿越
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/mind-bending-mystery"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    脑洞悬疑
+                                </a>
+                                <a data-url="/zh_CN"
+                                    href="https://zhongduanju.com/zh_CN/category/republic-of-china-rebirth"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    重生民国
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/modern-romance"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    现代言情
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/era-crossing-story"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    穿越年代
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/twist-filled-story"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    反转爽文
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/female-ceo-romance"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    女恋总裁
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/urban-mind-bending"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    都市脑洞
+                                </a>
+                                <a data-url="/zh_CN" href="https://zhongduanju.com/zh_CN/category/"
+                                    class="whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors flex-shrink-0 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600">
+                                    短大全
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="showMoreBtn"
+                        class="hidden md:hidden absolute right-0 top-0 h-full px-4 bg-gradient-to-l from-white to-transparent dark:from-gray-800 dark:to-transparent text-primary-600 dark:text-primary-400 z-10 pointer-events-auto"
+                        type="button" style="display: block;" data-bound="1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+
+            <style>
+                .no-scrollbar {
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+                }
+
+                .no-scrollbar::-webkit-scrollbar {
+                    display: none;
+                }
+
+                #categoryList {
+                    transition: max-height 0.3s ease-in-out;
+                }
+
+                @media (max-width: 767px) {
+
+                    /* Collapsed: single row, scroll horizontally */
+                    #categoryContainer {
+                        max-height: 2.75rem;
+                        /* equals h-11 */
+                        transition: max-height 0.3s ease-in-out;
+                        overflow: hidden;
+                    }
+
+                    #categoryContainer .categoryScroller {
+                        overflow-x: auto;
+                    }
+
+                    #categoryContainer #categoryList {
+                        flex-wrap: nowrap;
+                    }
+
+                    #categoryContainer #categoryList a {
+                        white-space: nowrap;
+                        /* keep single line when collapsed */
+                    }
+
+                    /* Expanded: allow multiple rows, no overflow clipping */
+                    #categoryContainer.expanded {
+                        max-height: none;
+                        overflow: visible;
+                    }
+
+                    #categoryContainer.expanded .categoryScroller {
+                        overflow: visible;
+                    }
+
+                    #categoryContainer.expanded #categoryList {
+                        flex-wrap: wrap;
+                    }
+
+                    #categoryContainer.expanded #categoryList a {
+                        white-space: normal;
+                        /* allow wrapping across multiple rows */
+                    }
+
+                    #showMoreBtn {
+                        display: block !important;
+                    }
+
+                    /* Hide dropdown arrow on PC */
+                    @media (min-width: 768px) {
+                        #showMoreBtn {
+                            display: none !important;
+                        }
+                    }
+                }
+            </style>
+
+            <script>
+                // Make the function globally available
+                window.toggleCategories = function () {
+                    const container = document.getElementById('categoryContainer');
+                    const btn = document.getElementById('showMoreBtn');
+                    if (!container || !btn) return;
+
+                    container.classList.toggle('expanded');
+
+                    if (container.classList.contains('expanded')) {
+                        btn.innerHTML = `
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+                    </svg>
+                `;
+                    } else {
+                        btn.innerHTML = `
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                `;
+                    }
+                }
+
+                // Auto-hide show more button if all categories fit in one row
+                function checkCategoryOverflow() {
+                    const container = document.getElementById('categoryContainer');
+                    const list = document.getElementById('categoryList');
+                    const btn = document.getElementById('showMoreBtn');
+
+                    if (window.innerWidth < 768) {
+                        // On mobile, always show the button
+                        btn.style.display = 'block';
+                    } else {
+                        // On PC, always hide the button
+                        btn.style.display = 'none';
+                        return;
+                    }
+                    // On mobile, check if content overflows
+                    const isOverflowing = list.scrollWidth > container.offsetWidth;
+                    btn.style.display = isOverflowing ? 'block' : 'none';
+                }
+
+                // Initialize on load and handle window resize
+                function initCategoryUI() {
+                    checkCategoryOverflow();
+                    const btn = document.getElementById('showMoreBtn');
+                    if (btn && !btn.dataset.bound) {
+                        btn.addEventListener('click', window.toggleCategories);
+                        btn.dataset.bound = '1';
+                    }
+                }
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', initCategoryUI);
+                } else {
+                    initCategoryUI();
+                }
+                window.addEventListener('resize', checkCategoryOverflow);
+            </script>
+
+            <!-- Online Videos Section -->
+            <section class="mb-12">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
+                        热门短剧
+                    </h2>
+                    <a href="https://zhongduanju.com/swipe"
+                        class="text-primary-600 dark:text-primary-400 hover:underline flex items-center">
+                        刷新
+                        <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/ai-hen-ru-yan-zhui-yun-duan"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/5a5b1a7d9a311832e6ca0b3ecb215194.jpg"
+                                fetchpriority="high" alt="爱恨如烟坠云端"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="爱恨如烟坠云端" href="https://zhongduanju.com/zh_CN/play/ai-hen-ru-yan-zhui-yun-duan"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    爱恨如烟坠云端
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/ai-hen-ru-yan-zhui-yun-duan"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">过气女星苏晚因舆论风波跌入事业谷底，为求新剧投资，被迫求助当年被她当众羞辱的助理陆景深——如今的资本新贵。重逢时，陆景深带着七年怨恨用苛刻条件将她困在身边，却在试探中发现当年“羞辱”竟是误会，苏晚藏在骄傲后的脆弱，悄悄戳中他未凉的真心。当烟雾散去，云端之上的爱恨，究竟是坠落成殇，还是重升为暖？</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/zhen-qian-jin-zhi-shi-qiang-le-yi-dian-ni-men-ku-shen-me"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/0be493e3333256a40f5a5b8efdc92488.jpg"
+                                alt="真千金只是强了亿点，你们哭什么"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="真千金只是强了亿点，你们哭什么"
+                                    href="https://zhongduanju.com/zh_CN/play/zhen-qian-jin-zhi-shi-qiang-le-yi-dian-ni-men-ku-shen-me"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    真千金只是强了亿点，你们哭什么
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/zhen-qian-jin-zhi-shi-qiang-le-yi-dian-ni-men-ku-shen-me"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">被抱错18年的真千金苏晚晚刚回苏家，就因“乡下来的土丫头”被全家嫌恶——母亲防她抢假千金的宠爱，弟弟嫌她丢面子，连佣人都敢冷嘲热讽。可谁能想到，这个“土丫头”转身掏出全球顶尖生物实验室专利，反手帮弟弟摆平霸凌他的资本大鳄，甚至拿出苏家垂涎已久的商业项目核心方案。当全家瞪着眼看她用实力碾压所有质疑时，苏晚晚歪头笑：“我只是比你们想的强了亿点，至于哭着求我留下吗？”</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/zhen-qian-jin-ta-shi-xue-ba-2"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/ca6662d93ead2e3f52139c2330acb4a5.jpg" alt="真千金她是学霸2"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="真千金她是学霸2"
+                                    href="https://zhongduanju.com/zh_CN/play/zhen-qian-jin-ta-shi-xue-ba-2"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    真千金她是学霸2
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/zhen-qian-jin-ta-shi-xue-ba-2"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">真千金林晚被豪门林家找回，却因“乡下长大”遭全家轻视——亲妈嫌她丢面子，假千金堂妹处处设计使绊，连校草同桌都对她冷脸。直到国际奥数竞赛名额赛上，林晚以满分卷碾压全场，又意外帮林家解决海外项目翻译危机，众人才惊觉：这个“土包子”竟是拿过全国奥赛金牌的隐世学霸，而她藏起光芒的原因，竟与当年被抱错的真相紧紧相连……</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/zhen-qian-jin-bei-gan-chu-jia-men-hou-ta-bu-zhuang-le"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/558cc83a6f143803dc4ac2d4a54ed887.jpg"
+                                alt="真千金被赶出家门后，她不装了"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="真千金被赶出家门后，她不装了"
+                                    href="https://zhongduanju.com/zh_CN/play/zhen-qian-jin-bei-gan-chu-jia-men-hou-ta-bu-zhuang-le"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    真千金被赶出家门后，她不装了
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/zhen-qian-jin-bei-gan-chu-jia-men-hou-ta-bu-zhuang-le"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">真千金林晚刚认回豪门，就被冒牌姐姐设计“偷项链”，被父亲绝情赶出门。雨里，她摸着藏了三年的自闭症弟弟病历——从前为融入豪门装温柔懂事的她，终于笑着摊牌！次日，顶级科研所所长上门递聘书，国际医馆送来专属黑卡，连消失的亲妈都带着亿万家产现身。而此时，豪门全家正对着她留下的“我早知道你们养错人”的纸条，慌得团团转。当林晚坐在私人游艇上刷到“神秘科研大佬竟是被赶真千金”的热搜时，手机突然弹出父亲的求和电话……</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/shen-yi-chuang-hua-du"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/0b134d44113fcdd3c8d338ba25a29c51.jpg" alt="神医闯花都"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="神医闯花都" href="https://zhongduanju.com/zh_CN/play/shen-yi-chuang-hua-du"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    神医闯花都
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/shen-yi-chuang-hua-du"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">隐世百年的“鬼谷医门”传人叶川，为寻失踪师父首次踏足繁华花都。他用一枚银针救了被财团投毒的天才外科医生苏晚，却被对方斥为“江湖骗子”——苏晚坚信现代医学才是真理，叶川的望闻问切在她眼里全是糟粕。可当苏晚负责的绝症病人因叶川的草药方奇迹好转，当财团的追杀步步紧逼，两人被迫联手揭开医疗黑幕。此时叶川发现，师父的失踪竟与黑幕背后的“长生计划”息息相关……</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/li-hun-hou-ta-gao-bu-ke-pan"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/57aaef57f6eaab82e174e68c7f92972e.jpg" alt="离婚后她高不可攀"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="离婚后她高不可攀"
+                                    href="https://zhongduanju.com/zh_CN/play/li-hun-hou-ta-gao-bu-ke-pan"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    离婚后她高不可攀
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/li-hun-hou-ta-gao-bu-ke-pan"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">全职太太苏晚因“不懂社交、没有价值”被前夫顾景深果断抛弃，离婚当天她才得知外婆留下的珠宝设计工作室即将被拍卖。绝境中她重拾画笔，用十年没碰的设计天赋拿下国际大赛金奖，一年后以“珠宝界缪斯”身份出席慈善晚宴——当穿高定礼服的她牵着儒雅助理林川的手登场时，正和新女友炫耀“前妻离不开我”的顾景深彻底傻眼。从前他嫌她黯淡如尘，如今她亮得他不敢直视，可苏晚的目光，早落在了那个陪她熬过夜、改过错稿的人身上……</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/li-hun-dang-tian-qian-fu-quan-jia-hui-bu-dang-chu"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/f6c7c2b6d0485ef702336b1f85d6526b.jpg"
+                                alt="离婚当天前夫全家悔不当初"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="离婚当天前夫全家悔不当初"
+                                    href="https://zhongduanju.com/zh_CN/play/li-hun-dang-tian-qian-fu-quan-jia-hui-bu-dang-chu"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    离婚当天前夫全家悔不当初
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/li-hun-dang-tian-qian-fu-quan-jia-hui-bu-dang-chu"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">苏晚嫁入顾家三年，当牛做马照顾重病婆婆、攒钱供小姑子留学，却被婆婆骂“克夫扫把星”、小姑子嫌“穷酸上不得台面”，连前夫顾淮都冷着脸说“过不下去就离”。离婚当天，她抱着纸箱刚踏出顾家门槛，婆婆的主治医生突然赶来——原来当年婆婆的手术费是苏晚卖了母亲遗物凑的，小姑子的留学offer是她求国外朋友走的绿色通道。更炸的是，消失二十年的富豪父亲派律师送来遗产继承书。看着顾家人从得意到呆愣再到疯狂求复合的脸，苏晚笑着撕了离婚协议：“抱歉，你们不配。”</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/chuan-yue-hou-fa-xian-zi-ji-jing-ran-shi-huai-huai-de-nan-ren"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/5504a1b1fb6a5bf3799f13a06ba68d68.jpg" alt="穿成坏男友后，我要洗白"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="穿成坏男友后，我要洗白"
+                                    href="https://zhongduanju.com/zh_CN/play/chuan-yue-hou-fa-xian-zi-ji-jing-ran-shi-huai-huai-de-nan-ren"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    穿成坏男友后，我要洗白
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/chuan-yue-hou-fa-xian-zi-ji-jing-ran-shi-huai-huai-de-nan-ren"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">母胎solo的社畜林小满熬夜追完校园小说，醒过来竟穿成了女主苏晚的“坏男友”——那个打架、羞辱她奶奶的校霸周野。刚睁眼就被苏晚举瓶威胁：“再骂我奶奶，我跟你拼命！”原来“周野”刚踢飞奶奶捡的瓶子，还说“捡垃圾的脏东西别碰我”。林小满慌忙捡瓶子解释，苏晚却哭着摔瓶：“装什么好人？”更崩溃的是，原主小弟举着棒球棍喊“堵李阳”，林小满看着手里的塑料瓶欲哭无泪：社畜要怎么装校霸又洗白？直到翻到周野抽屉里苏晚的作业本（原主写“我教你”）、枕头下的伤药（原主帮苏晚挡球后放的），才发现“坏男友”的“坏”，是护她的伪装……</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/chuan-yue-huang-nian-quan-jia-kao-wo-xin-sheng-dun-dun-xuan-rou"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/032e2fe278014a8f844aefc65ba15368.jpg"
+                                alt="穿越荒年：全家靠我心声顿顿炫肉"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="穿越荒年：全家靠我心声顿顿炫肉"
+                                    href="https://zhongduanju.com/zh_CN/play/chuan-yue-huang-nian-quan-jia-kao-wo-xin-sheng-dun-dun-xuan-rou"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    穿越荒年：全家靠我心声顿顿炫肉
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/chuan-yue-huang-nian-quan-jia-kao-wo-xin-sheng-dun-dun-xuan-rou"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">现代社畜林小满熬夜追剧猝死，穿成荒年里快饿死的农家女，全家五口瘦得只剩骨头，连野菜粥都稀得照人。可她发现自己的心声能被全家听见——刚在心里吐槽“想吃红烧肉”，瞎眼奶奶就摸出藏了三年的猪腿；刚想“要是有白面馒头”，老实爹立刻用后山野红薯换了面。原来全家早知道她的“心声秘密”，为让她安心，拼了命兑现她的“随口一说”。直到林小满撞见全家偷偷啃树皮换她的肉，才哭着喊出真心话：“我要和你们一起熬过去！”</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/cang-zai-zhi-fu-xia-de-ling-ting-zhe"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/1b248dff7edbc5fbcd6a04739b1fc6d6.jpg" alt="藏在制服下的聆听者"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="藏在制服下的聆听者"
+                                    href="https://zhongduanju.com/zh_CN/play/cang-zai-zhi-fu-xia-de-ling-ting-zhe"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    藏在制服下的聆听者
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/cang-zai-zhi-fu-xia-de-ling-ting-zhe"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">地铁安检员林小满有个不为人知的“超能力”——能听见乘客行李里物品的“心声”：皱巴巴的癌症确诊书在哭，旧玩偶在找丢失的小主人，未寄的情书藏着十年暗恋。直到她摸到一个冰冷骨灰盒，里面传来女孩呢喃：“好想和他看海边日落”。骨灰盒主人是沉默的陈默，他攥着女友遗照说要带她“回家”。林小满纠结要不要说真相，可此时秘密被同事撞见——她正对着行李箱轻声安慰。一边是帮陈默弥补遗憾的心意，一边是怕被当“怪人”的恐惧，她该如何选择？而陈默藏在冷漠后的痛，又能否被“聆听”化解？</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/bei-mo-ni-ren-sheng-hou-jue-se-nv-di-chan-shang-wo"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/a8e39a094f3eefa2f538169d9c643535.jpg"
+                                alt="被模拟人生后，绝色女帝缠上我"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="被模拟人生后，绝色女帝缠上我"
+                                    href="https://zhongduanju.com/zh_CN/play/bei-mo-ni-ren-sheng-hou-jue-se-nv-di-chan-shang-wo"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    被模拟人生后，绝色女帝缠上我
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/bei-mo-ni-ren-sheng-hou-jue-se-nv-di-chan-shang-wo"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">普通社畜林川熬夜肝《模拟人生》，捏了个冷艳狠辣的“女帝”角色刷成就，没想到隔日醒来，床上竟躺着穿龙袍的绝色女人——正是他游戏里的“作品”！女帝手持玉玺怒斥：“朕的江山被你搞破产、妃子全遣散，甚至逼朕街头卖艺？拿一辈子偿还！”从此出租屋变“后宫”，女帝逼他学帝王术“复国”，还每天变着法儿黏人——原来游戏里拉满的“羁绊值”，被女帝当成了真的深情！</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/bei-li-hun-wo-fu-shen-wan-shou-zong-heng-xiang-ye"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/ab69f7c2f47de824bc481f4dc7c89f8f.jpg"
+                                alt="被离婚后，我附身万兽纵横乡野"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="被离婚后，我附身万兽纵横乡野"
+                                    href="https://zhongduanju.com/zh_CN/play/bei-li-hun-wo-fu-shen-wan-shou-zong-heng-xiang-ye"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    被离婚后，我附身万兽纵横乡野
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/bei-li-hun-wo-fu-shen-wan-shou-zong-heng-xiang-ye"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">苏晓刚被出轨丈夫逼离，净身出户回深山老家，竟因祖宅的兽纹玉佩解锁“万兽附身”技能——附老黄牛犁地赛机械，附山鸡能辨百年参，连村头黑猫都成她“线人”。可当她帮乡亲解决抢水、寻娃的麻烦时，撞破前夫新欢一家正勾结开发商，想挖空老家的百年松林；更奇的是，一直跟着她的老黄狗，居然藏着爷爷当年为护林牺牲的秘密……</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/shuo-hao-jia-xue-zhang-pian-luo-ta-zhang-xin"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/16e87160fe2356244e2c1632b4c7d5f2.jpg" alt="说好嫁学长，偏落他掌心"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="说好嫁学长，偏落他掌心"
+                                    href="https://zhongduanju.com/zh_CN/play/shuo-hao-jia-xue-zhang-pian-luo-ta-zhang-xin"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    说好嫁学长，偏落他掌心
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/shuo-hao-jia-xue-zhang-pian-luo-ta-zhang-xin"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">林小满守着和学长顾明远的「毕业就结婚」约定，为帮他拿下关键项目，硬着头皮找上传闻中「冷心寡情」的萧氏总裁萧景深。可谈判桌前，男人却把合同推到她面前——「想帮顾明远？先做我一个月的「假女友」。从被迫陪他出席宴会，到深夜被他抱去医院照顾发烧的自己，林小满渐渐发现，这个「不近人情」的男人，其实早就藏在她的青春里：是高中时偷偷帮她补作业的「匿名学长」，是雨天替她撑伞的「陌生少年」。当顾明远的未婚妻突然找上门，当萧景深的「假戏」越做越真，林小满才懂——原来她早不是「要嫁学长」的小女孩，而是早就落在了那个「蓄谋已久」的男人掌心。</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/qing-zi-zhong-wo-zhi-song-wai-mai"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/7224c055cab72d68add16b4fb1e900e1.jpg" alt="我只送外卖，请自重！"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="我只送外卖，请自重！"
+                                    href="https://zhongduanju.com/zh_CN/play/qing-zi-zhong-wo-zhi-song-wai-mai"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    我只送外卖，请自重！
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/qing-zi-zhong-wo-zhi-song-wai-mai"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">职场女总裁苏晚因失恋醉酒，错把外卖员陆星野当成前男友纠缠。陆星野一边急着送单，一边无奈提醒“我只送外卖，请自重”，却不小心碰掉苏晚母亲的遗物项链。为赔罪，陆星野陪苏晚翻遍小区垃圾站找项链，过程中苏晚发现：这个“冷漠”的外卖员，竟是自己三年前资助的贫困生——当年那个说要“长大保护她”的小男孩，如今却站在她面前划清界限。当过去的温暖撞破现在的误会，两人的关系该如何回暖？</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/bian-zhi-shi-jie-ta-zhong-cao-ren-sheng-da-pan"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/d2a7e5c6d2bd99432df6b077e6ddd630.jpg"
+                                alt="贬值世界，她重操人生大盘"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="贬值世界，她重操人生大盘"
+                                    href="https://zhongduanju.com/zh_CN/play/bian-zhi-shi-jie-ta-zhong-cao-ren-sheng-da-pan"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    贬值世界，她重操人生大盘
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/bian-zhi-shi-jie-ta-zhong-cao-ren-sheng-da-pan"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">30岁的林小满在“价值贬值世界”里活成“负分者”：职场被95后取代，男友因她“性价比低”分手，连房东都要涨租。直到她淘到刻着“人生操盘盘”的旧仪器，能看见所有人的“价值波动线”——富豪资产流失、邻居奶奶被诈骗，连自己的“情感值”都在下滑。她靠仪器帮人解决危机，赚回钱与面子，却发现最该“操盘”的是自己麻木的心：当价值可以量化，她要做“高价值工具人”，还是重新活成会为小猫停步、为奶茶排队的自己？</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/zhui-xu-zhuang-yuan"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/7821ead00b41fdb9c0ebf7c5ac9541a2.jpg" alt="赘婿状元"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="赘婿状元" href="https://zhongduanju.com/zh_CN/play/zhui-xu-zhuang-yuan"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    赘婿状元
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/zhui-xu-zhuang-yuan"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">苏青是靖安侯府的上门赘婿，三年来被侯府上下骂作“吃软饭的废物”，连妻子沈昭都对他冷若冰霜。直到殿试放榜日，传胪官的一声“新科状元苏青接旨”，炸开了侯府的平静——原来他藏起才学，只为偿还沈昭当年流落民间时的救命之恩；当众人惊得面面相觑，沈昭却红着眼眶掏出一件旧粗布衫：那是她当年被歹人追赶，苏青用自己的衣服替她挡雨的信物，她早知道，那个笨拙护着她的少年，从不是废物。</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/zhe-ge-bao-biao-you-dian-leng"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/528347221f35ac00f75b05663ea8068e.jpg" alt="这个保镖有点冷"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="这个保镖有点冷"
+                                    href="https://zhongduanju.com/zh_CN/play/zhe-ge-bao-biao-you-dian-leng"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    这个保镖有点冷
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/zhe-ge-bao-biao-you-dian-leng"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">刚凭甜妹角色走红的演员苏晓，因匿名恐吓信被迫接受公司安排的“最冷保镖”林深——他话少如冰，连眼神都带着疏离，不仅严控她的饮食作息，连她偷偷买奶茶的小爱好都要“管”。可当苏晓拍戏遇高空道具坠落，林深本能扑过去替她挡下；深夜赶戏时，她又发现林深悄悄在包里塞了热牛奶和过敏药。原来“冷”是他的保护色，沉默里藏着最细腻的温柔——刺头甜妹撞上禁欲系保镖，这场“温差恋爱”才刚开场。</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/chong-hui-qian-xi-yang-ge-fei-chai-die"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/25a5cdb33b8b56a651eb16b197fc58e0.jpg" alt="重回千禧养个废柴爹"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="重回千禧养个废柴爹"
+                                    href="https://zhongduanju.com/zh_CN/play/chong-hui-qian-xi-yang-ge-fei-chai-die"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    重回千禧养个废柴爹
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/chong-hui-qian-xi-yang-ge-fei-chai-die"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">现代社畜林小满因一场意外穿越回2000年，竟撞見19岁的「废柴爹」林建国——这个蹲游戏厅骗钱、连自己都养不活的毛头小子，竟是未来为她打三份工赚学费的老父亲？小满被迫开启「养爹副本」：一边打工填他的游戏债，一边催他学手艺，可叛逆的林建国偏要对着干——卖盗版碟被城管追、帮朋友打架进派出所、甚至追起了理发店的漂亮姑娘！就在小满被这个「逆子爹」搞崩溃时，却发现他藏着笨拙温柔：偷偷补她的破校服、发烧时跑三条街买退烧药。原来父亲从不是天生的「不合格」，他的青春里也有没说出口的热望。而这场「重回」，竟是父亲最后的心愿——他想让女儿看看，自己也曾是个会犯错、会害羞的少年。</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/zhong-sheng-hou-wo-neng-wu-xian-zhuan-zhi"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/274e613e0e7e54615a92a76aa5be3e3f.jpg" alt="重生后我能无限转职"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="重生后我能无限转职"
+                                    href="https://zhongduanju.com/zh_CN/play/zhong-sheng-hou-wo-neng-wu-xian-zhuan-zhi"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    重生后我能无限转职
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/zhong-sheng-hou-wo-neng-wu-xian-zhuan-zhi"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">林晚前世被闺蜜联合男友窃取设计成果，维权路上遇车祸身亡。重生回大学毕业求职当天，她意外激活“无限转职系统”——完成任务即可解锁任意职业技能。从职场新人逆袭顶尖时尚设计师，反手打脸仇人；又转职投资大佬，耍得坑害她的资本集团团团转。可当她渐入佳境，却发现前世车祸是蓄意谋害，而一直默默帮她的冰山总裁陆景深，竟早知道她重生的秘密？两人的羁绊与背后的巨大阴谋，正慢慢浮出水面……</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/xian-ru-ta-de-an-lian"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/15170475ca4d1111035cd9436ad2bf1a.jpg" alt="陷入他的暗恋"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="陷入他的暗恋" href="https://zhongduanju.com/zh_CN/play/xian-ru-ta-de-an-lian"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    陷入他的暗恋
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/xian-ru-ta-de-an-lian"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">社恐绘本作者苏小满因创作瓶颈常泡隔壁咖啡馆，却没发现老板林川已偷偷暗恋她三年——留她爱喝的热可可到打烊，帮她抚平画本折痕，甚至在她的绘本里夹自己画的小插画。直到她误拿林川的笔记本，里面写满“今天她穿米白毛衣像雪兔子”“看她喂猫半小时”的细碎心事。林川因自卑不敢表白，苏小满却早已习惯他的存在：起床先想“今天要去咖啡馆坐多久”，画绘本时总不自觉画进他的侧脸。当编辑催“未说出口的爱”主题稿时，她终于画了幅雪天咖啡馆的画，留下“我在等你说”的字句。林川看到画，藏了三年的暗恋，终于要开口……</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/xian-ru-ni-shi-liu-qi-ri-zi-jiu-zhi-nan"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/58c4238aaa6d6c4e33c723c31770bec4.jpg" alt="陷入泥石流七日自救指南"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="陷入泥石流七日自救指南"
+                                    href="https://zhongduanju.com/zh_CN/play/xian-ru-ni-shi-liu-qi-ri-zi-jiu-zhi-nan"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    陷入泥石流七日自救指南
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/xian-ru-ni-shi-liu-qi-ri-zi-jiu-zhi-nan"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">女地质学家林小满因和父亲的多年隔阂，躲在外地工作三年未归。这次为家乡泥石流灾后调研返程时，突遇二次滑坡被埋入废墟。她靠父亲生前留下的《山区灾害自救手册》撑过七天——手册里夹着父亲未寄的信，写着“小满怕黑，要把应急灯挂在伸手能及的地方”；她用手册教的办法接雨水、撑支撑物，却在第六天遭遇余震，手册被埋一半。就在她以为要撑不下去时，耳边传来救援声，而手里攥着的，是父亲最后画的她小时候的漫画像。七天里，她救了自己，也终于读懂了父亲藏了一辈子的爱。</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/nan-pan-jing-zhi"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/a6a89ada6ed811eb2d1604621b3a15a5.jpg" alt="难攀京枝"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="难攀京枝" href="https://zhongduanju.com/zh_CN/play/nan-pan-jing-zhi"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    难攀京枝
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/nan-pan-jing-zhi"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">北漂撰稿人苏晚为抢热点采访京圈贵公子林深，却误打误撞卷入他照顾重病奶奶的秘密——向来冷硬的“京枝”，竟会蹲在病房里学煮粥。苏晚因相似的奶奶去世经历，悄悄帮他撑起这片“温柔角落”，可当林母拿着五百万支票让她“识趣离开”，当她翻到高中日记里“想嫁像林深这样的人”的字句，才惊觉这场“攀枝”早成了心动的陷阱。小镇姑娘与京圈精英的爱情，真能跨过世俗的掂量吗？</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/mo-huan-shou-ji-wo-de-tie-shen-zhu-li"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/f28ebdefb22bf3c5bc4afd4300c42db5.jpg" alt="魔幻手机：我的贴身助理"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="魔幻手机：我的贴身助理"
+                                    href="https://zhongduanju.com/zh_CN/play/mo-huan-shou-ji-wo-de-tie-shen-zhu-li"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    魔幻手机：我的贴身助理
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/mo-huan-shou-ji-wo-de-tie-shen-zhu-li"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">社畜林小满被职场PUA、亲情疏离压得喘不过气，偶然淘到的二手手机竟藏着来自未来的智能助理“小摩”——它能秒解工作难题，能读懂她没说出口的委屈，甚至能变出童年最爱的桂花糕。但小摩的能量源是“主人的真心快乐”，而林小满早已忘了“开心”是什么感觉。当小摩因能量耗尽开始闪退，林小满必须直面不敢触碰的过去：被否定的漫画家梦想、和妈妈未说出口的误会……她能在拯救小摩的同时，找回丢失的自己吗？</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+                        <a href="https://zhongduanju.com/zh_CN/play/xiao-xiao-zhui-xu-bu-hao-re"
+                            class="block relative pb-[125%] overflow-hidden bg-gray-200 dark:bg-gray-700">
+                            <!-- 骨架屏 -->
+                            <div
+                                class="skeleton-loader absolute inset-0 w-full h-full bg-gray-300 dark:bg-gray-600 animate-pulse">
+                            </div>
+                            <img src="/static/duanju/index_files/c304c8cabce699dda075d79d136e6d8b.jpg" alt="小小赘婿不好惹"
+                                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                decoding="async" onerror="handleImageError(this)">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            </div>
+                            <div
+                                class="absolute top-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                短剧
+                            </div>
+                            <!-- Time Badge -->
+                            <div
+                                class="absolute bottom-2 left-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+
+                                10小时前
+                            </div>
+                            <div
+                                class="absolute bottom-2 right-2 bg-black/70 text-white text-xs font-medium px-1.5 py-0.5 rounded">
+                                全集
+                            </div>
+
+                            <div
+                                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                <span
+                                    class="flex items-center justify-center bg-primary-600/90 rounded-full w-12 h-12 text-white shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 5v14l11-7z"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white line-clamp-2 mb-2">
+                                <a title="小小赘婿不好惹" href="https://zhongduanju.com/zh_CN/play/xiao-xiao-zhui-xu-bu-hao-re"
+                                    class="hover:text-primary-600 dark:hover:text-primary-400">
+                                    小小赘婿不好惹
+                                </a>
+                            </h3>
+                            <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2 mb-3">
+                                <a href="https://zhongduanju.com/zh_CN/play/xiao-xiao-zhui-xu-bu-hao-re"
+                                    class="text-primary-600 dark:text-primary-400 hover:underline">苏家上门赘婿林川，三年来被丈母娘骂作“吃软饭的废物”，连妻子苏晚都对他冷脸相对。直到苏家因得罪豪门陷入破产绝境，所有人都等着看笑话时，林川却掏出百亿合同——原来他是隐世商盟少盟主，当年入赘只为报答苏晚曾救他一命的恩情。如今他要护苏家周全，也要让那些踩过他的人，好好见识下“软饭男”的厉害……</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="mb-12">
+                <div class="text-center mb-8">
+                    <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">众短剧 - 短剧在线观看 - 最新热门短剧</h1>
+                    <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                        众短剧为你呈现每日更新的热门短剧、微短剧和爆款剧情片段，涵盖爱情、悬疑、搞笑、都市等多个类型，永久免费在线刷剧，无需下载，随时随地追不停。
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-2 gap-4">
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+                        <div class="text-primary-600 dark:text-primary-400 text-3xl font-bold mb-2">31,802</div>
+                        <div class="text-gray-600 dark:text-gray-400 text-sm">在线短剧</div>
+                    </div>
+
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+                        <div class="text-primary-600 dark:text-primary-400 text-3xl font-bold mb-2">3</div>
+                        <div class="text-gray-600 dark:text-gray-400 text-sm">支持语言</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Popular Tags -->
+
+
+            <!-- Newsletter Section -->
+
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav
+            class="fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 z-50 md:hidden">
+            <div class="flex justify-between items-center w-full">
+                <!-- 剧场 (Home) -->
+                <a href="https://zhongduanju.com/zh_CN" class="flex flex-col items-center justify-center flex-1 p-3"
+                    id="home-link">
+                    <svg class="w-6 h-6 text-blue-500 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z">
+                        </path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-xs text-center text-blue-500 dark:text-blue-400">剧院</span>
+                </a>
+
+                <!-- 日历 (Calendar) -->
+                <a href="https://zhongduanju.com/zh_CN/calendar"
+                    class="flex flex-col items-center justify-center flex-1 p-3" id="calendar-link">
+                    <svg class="w-6 h-6 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                        </path>
+                    </svg>
+                    <span class="text-xs text-center text-gray-500 dark:text-gray-400">短剧更新日历</span>
+                </a>
+
+                <!-- 推荐 (Swipe) -->
+                <a href="https://zhongduanju.com/zh_CN/swipe"
+                    class="flex flex-col items-center justify-center flex-1 p-3">
+                    <svg class="w-6 h-6 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
+                        </path>
+                    </svg>
+                    <span class="text-xs text-center text-gray-500 dark:text-gray-400">推荐</span>
+                </a>
+            </div>
+        </nav>
+
+        <style>
+            .active-nav-item {
+                color: blue !important;
+            }
+        </style>
+
+        <script>
+            // 高亮当前页面对应的底部导航项
+            const path = window.location.pathname;
+            if (path === '/' || path === '/index.html') {
+                document.getElementById('home-link').classList.add('active-nav-item');
+            } else if (path === '/calendar' || path === '/calendar.html' || path.startsWith('/calendar/')) {
+                // 日历页面及子页面
+                const calendarLink = document.getElementById('calendar-link');
+                if (calendarLink) {
+                    calendarLink.querySelector('svg').classList.replace('text-gray-500', 'text-blue-500');
+                    calendarLink.querySelector('svg').classList.replace('dark:text-gray-400', 'dark:text-blue-400');
+                    calendarLink.querySelector('span').classList.replace('text-gray-500', 'text-blue-500');
+                    calendarLink.querySelector('span').classList.replace('dark:text-gray-400', 'dark:text-blue-400');
+                }
+            }
+        </script>
+        <!-- Footer -->
+        <footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
+            <div class="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Site Info -->
+                    <div>
+                        <div class="flex items-center space-x-2">
+                            <svg class="w-6 h-6 text-primary-600 dark:text-primary-400"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            <h2 class="text-lg font-bold text-gray-800 dark:text-white">众短剧</h2>
+                        </div>
+                        <p class="mt-3 text-sm text-gray-600 dark:text-gray-400">
+                            声明：本站内容由网络爬虫自动抓取。本站不储存、复制、传播任何文件，仅作个人公益学习，请勿非法传播，如有侵权，请联系 kaixinduanju99@gmail.com 删除/投稿
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                            快速链接
+                        </h3>
+                        <ul class="mt-4 space-y-2">
+                            <li>
+                                <a href="https://zhongduanju.com/zh_CN"
+                                    class="text-base text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400">
+                                    首页
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://zhongduanju.com/zh_CN/guestbook"
+                                    class="text-base text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400">
+                                    留言反馈
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://zhongduanju.com/zh_CN/link"
+                                    class="text-base text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400">
+                                    友情链接
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Language Selector 
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+                            语言
+                        </h3>
+                        <ul class="mt-4 space-y-2">
+                            <li>
+                                <a href="https://zhongduanju.com/en"
+                                    class="text-base text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 ">
+                                    en
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://zhongduanju.com/zh_CN"
+                                    class="text-base text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 font-medium text-primary-600 dark:text-primary-400">
+                                    简中
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://zhongduanju.com/"
+                                    class="text-base text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 ">
+                                    繁中
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    -->
+
+                </div>
+
+                <div
+                    class="mt-8 border-t border-gray-200 dark:border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-sm text-gray-500 dark:text-gray-400">
+                        © 2025 众短剧. 所有权利保留
+                    </p>
+
+                    <!-- Theme Toggle -->
+                    <div class="mt-4 md:mt-0 flex items-center">
+
+                        <button onclick="toggleDarkMode()"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-500 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 focus:outline-none"
+                            aria-label="Toggle Dark Mode">
+                            <!-- Sun icon (shown in dark mode) -->
+                            <svg x-cloak="" x-show="document.documentElement.classList.contains(&#39;dark&#39;)"
+                                class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                                </path>
+                            </svg>
+
+                            <!-- Moon icon (shown in light mode) -->
+                            <svg x-cloak="" x-show="!document.documentElement.classList.contains(&#39;dark&#39;)"
+                                class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Clarity tracking code for https://zhongduanju.com/ -->
+    <script>
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt";
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "ry9xdr4vih");
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="/static/duanju/index_files/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ED597VZH59');
+    </script>
+
+    <script defer="" src="/static/duanju/index_files/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+        data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;9335a467ce38450c82990290473094fc&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}"
+        crossorigin="anonymous"></script>
+    <div id="tipPop"
+        class="hidden fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-[99999]">
+        <div class="pb-4 flex flex-col items-center justify-center bg-white dark:bg-[#111827] w-4/5 rounded-xl">
+            <h1 class="text-2xl font-bold py-2 border-b border-b-[#666666]/50 border-solid w-full text-center">TIPS</h1>
+            <p class="mb-4 p-3">Please use PC to access</p>
+            <button class="py-2 px-4 rounded-xl bg-primary-600 text-white w-1/2 text-lg">ok</button>
+        </div>
+
+    </div>
+    <script src="/static/duanju/index.js"></script>
+</body>
+
+</html>

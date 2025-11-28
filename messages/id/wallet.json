@@ -1,0 +1,281 @@
+{
+    "trust": {
+        "label1": "impor frasa memori Anda",
+        "paste": "tempel",
+        "required": "kolom ini wajib diisi",
+        "explain": "apa itu frasa memori?",
+        "import": "impor dompet",
+        "desc": "biasanya 12 kata (total 18 atau 24 kata), setiap kata dipisahkan oleh spasi."
+    },
+    "metamask": {
+        "title": "Impor Frasa Pemulihan Rahasia",
+        "paste": "Tempel",
+        "clear": "Hapus semua",
+        "popTitle": "Jumlah kata",
+        "popOption12": "Saya punya frasa 12 kata",
+        "popOption24": "Saya punya frasa 24 kata",
+        "errorMsg": "Frasa Pemulihan Rahasia berisi 12, atau 24 kata",
+        "nextBtn": "Lanjutkan"
+    },
+    "tronlink": {
+        "title": "Impor Dompet",
+        "Input": "Masukan",
+        "Paste": "Tempel",
+        "placeholder": "Pindai atau masukkan mnemonic, kunci pribadi, keystore Anda",
+        "nextStep": "Langkah Berikutnya"
+    },
+    "phantom": {
+        "nextStep": "Langkah Berikutnya",
+        "title": "Frasa Pemulihan",
+        "desc": "Pulihkan dompet yang sudah ada dengan frasa pemulihan 12 atau 24 kata Anda",
+        "error": "Frasa Salah",
+        "submit": "Impor frasa pemulihan"
+    },
+    "tvgarden": {
+        "pageDesc": "TV Garden bukan sekadar aplikasi streaming lain; ini adalah solusi Anda untuk biaya langganan yang terus meningkat! Nikmati olahraga favorit Anda, tonton berita langsung, dan bersantailah dengan acara realitas, film, dan musik tanpa iklan pop-up. Dari situs web ini, Anda dapat mengunduh versi terbaru TV Garden APK untuk perangkat Android, iOS, PC, dan Smart TV secara gratis.",
+        "version": "Versi: 1.0.0 / 500K+ Unduhan / 4.7 Rating",
+        "download": "Unduh",
+        "li1": "TV Garden – TV Langsung, Berita, Olahraga & Lainnya…",
+        "li2": "Pengenalan TV Garden",
+        "li3": "Bagaimana Cara Menggunakan TV Garden untuk Menonton TV Langsung?",
+        "li4": "Fitur-fitur TV Garden APK",
+        "li5": "Streaming Kualitas 4K",
+        "li6": "Buat Daftar Favorit",
+        "li7": "Tanpa Iklan yang Mengganggu",
+        "li8": "Olahraga & Berita Langsung",
+        "li9": "Pembaruan Rutin",
+        "li10": "1000+ Saluran TV",
+        "li11": "Berbagai Bahasa",
+        "li12": "Jelajahi Saluran TV Internasional",
+        "li13": "Antarmuka yang Mudah Digunakan",
+        "li14": "Fitur Tambahan",
+        "li15": "Unduh TV Garden APK Versi Terbaru 2025",
+        "li16": "Cara Mengunduh dan Menginstal TV Garden APK",
+        "li17": "Langkah 1: Unduh Aplikasi TV Garden",
+        "li18": "Langkah 2: Aktifkan Sumber Tidak Dikenal (Unknown Sources)",
+        "li19": "Langkah 3: Temukan File APK",
+        "li20": "Langkah 4: Instal & Luncurkan TV Garden",
+        "li21": "Bagaimana Cara Mengunduh dan Menginstal Aplikasi TV Garden di Smart TV?",
+        "li22": "Alternatif Terbaik untuk TV Garden",
+        "li23": "FAQ (Pertanyaan yang Sering Diajukan)",
+        "li24": "Seberapa aman menggunakan TV Garden APK?",
+        "li25": "Dapatkah saya Menginstal TV Garden di Smart TV?",
+        "li26": "Apakah legal menggunakan aplikasi TV Garden?",
+        "li27": "Bagaimana cara menggunakan TV Garden di iPhone?",
+        "li28": "Jenis konten apa yang bisa saya tonton di aplikasi TV Garden?",
+        "li29": "Apakah TV Garden tersedia di AS, Inggris, Eropa, India, Indonesia, dan Turki?",
+        "li30": "Kesimpulan",
+        "intro1": "TV Garden adalah alat streaming paling kuat di dunia saat ini. Ini membawa 1000+ saluran TV dari 130 negara. Cukup pilih negara Anda dari globe interaktif lalu pilih saluran TV yang ingin Anda tonton, dan selesai. Anda dapat menonton olahraga langsung, acara TV komedi, acara realitas, dan berita segera dari mana saja.",
+        "intro2": "Aplikasi streaming telah mempermudah akses saluran TV, film, olahraga, dan berita sesuai permintaan kapan saja di ponsel Anda. Anda dapat menonton acara TV saat bepergian atau saat jam makan siang kantor. TV Garden adalah aplikasi pilihan Anda untuk menonton TV langsung! Anda dapat menggunakannya untuk menonton sepak bola, kriket, bola basket, atau ingin tetap mendapatkan informasi terbaru dari saluran berita regional dan internasional.",
+        "intro3_1": "Semua saluran TV di ",
+        "intro3_2": "aplikasi TV Garden",
+        "intro3_3": " tersedia dalam resolusi tinggi dan mendukung pemutaran video bebas iklan. Perpustakaan konten aplikasi ini yang tertata rapi membantu Anda dengan cepat menemukan saluran TV favorit Anda. Cukup buka menu, dan Anda akan melihat banyak genre seperti film, olahraga, musik, komedi, berita—sebut saja! Klik pada genre yang Anda minati dan pilih wilayah Anda untuk melihat semua saluran yang tersedia untuk kategori itu. Sangat mudah!",
+        "introBtn1": "Pengenalan TV Garden",
+        "intro4": "TV Garden menghargai kesederhanaan, keandalan, dan pengalaman streaming yang cepat tanpa buffering sama sekali. Aplikasi ini tersedia di seluruh dunia dan berisi saluran regional dan internasional. Ini menawarkan cara yang ramah pengguna untuk menjelajahi TV langsung tanpa perlu membuat akun, mendaftar, dan biaya langganan.",
+        "intro5_1": "Aplikasi ini bertujuan untuk membuat akses saluran TV langsung menjadi sangat nyaman. Ia memiliki desain dan tata letak yang sederhana dengan tema gelap, menciptakan lingkungan yang ideal untuk menonton acara TV. Saat ini, tidak ada yang ingin memiliki koneksi TV kabel di rumah, karena semua orang beralih ke teknologi dan beralih ke ",
+        "intro5_2": " OTT ",
+        "intro5_3": " dan aplikasi streaming langsung. Klien TV.garden bisa dibilang aplikasi streaming gratis terbaik yang dapat Anda unduh dan instal di ponsel pintar Android Anda untuk mulai menonton acara waktu nyata hingga resolusi 4K tanpa gangguan apa pun.",
+        "intro6": "Jika Anda senang dengan instruksi singkat aplikasi ini, tunggu sebentar, masih banyak lagi yang ditawarkannya. Di blog ini, kita akan mendapatkan pemahaman mendalam tentang TV Garden APK, fitur-fiturnya, panduan cara-menggunakan, instalasi di berbagai perangkat, kompatibilitas, dan banyak lagi. Tunggu sebentar! Kami akan memberi Anda panduan menyenangkan tentang aplikasi TV Garden, yang merupakan pilihan sempurna jika Anda suka menonton olahraga langsung atau menyelam dalam maraton film.",
+        "introBtn2": "Bagaimana Cara Menggunakan TV Garden untuk Menonton TV Langsung?",
+        "listText1_1": "Ikuti ",
+        "listText1_2": "panduan instalasi",
+        "listText1_3": " kami untuk mengunduh dan menginstal aplikasi TV Garden di perangkat Anda yang kompatibel.",
+        "listText2": "Luncurkan aplikasi dan temukan negara Anda di globe yang muncul di layar, lalu klik wilayah Anda untuk membukanya.",
+        "listText3": "Sekarang, Anda akan memiliki daftar semua saluran TV, jadi gulir ke bawah dan klik pada saluran yang ingin Anda streaming.",
+        "listText4": "Setelah Anda mengetuk saluran TV, itu akan mulai memutar siaran langsung dari saluran yang dipilih.",
+        "listText5": "Putar video dalam mode layar penuh, sesuaikan volume ke persentase yang tepat, dan Anda sudah selesai. Selamat Menonton!",
+        "androidTV1_1": "Apakah Anda memiliki Android TV, lihat halaman ",
+        "androidTV1_2": "TV Garden Untuk Smart TV",
+        "androidTV1_3": " untuk panduan rinci untuk mengunduh dan menggunakan aplikasi ini di Smart TV.",
+        "introBtn3": "Fitur-fitur TV Garden APK",
+        "feature": "Ini dikemas dengan fitur-fitur menakjubkan yang meningkatkan pengalaman menonton olahraga dan berita langsung. Kesederhanaan dan kenyamanan adalah fokus utama. Lihatlah apa yang Anda dapatkan dengan aplikasi TV Garden.",
+        "feature1": {
+            "title": "Streaming Kualitas 4K",
+            "desc": "Ini secara otomatis menyesuaikan kualitas video sesuai dengan kecepatan internet. Meskipun tidak konsisten dalam hal resolusi video, aplikasi ini menawarkan untuk menonton saluran TV hingga kualitas 4K (2160px1440p)."
+        },
+        "feature2": {
+            "title": "Buat Daftar Favorit",
+            "desc": "Terkadang menjadi sulit untuk menemukan saluran TV yang disukai karena daftar semua saluran yang besar, sehingga aplikasi memungkinkan pengguna untuk menambahkan saluran TV yang sering mereka inginkan ke daftar favorit sehingga mereka dapat dengan mudah mengaksesnya dari bagian 'Favorit'."
+        },
+        "feature3": {
+            "title": "Tanpa Iklan yang Mengganggu",
+            "desc": "Meskipun Anda tidak membayar biaya langganan apa pun, aplikasi ini tetap hadir tanpa iklan sama sekali. Perusahaan berpegang pada motif utamanya, yaitu memberikan pengguna hak untuk menonton film dan serial lengkap tanpa iklan."
+        },
+        "feature4": {
+            "title": "Olahraga & Berita Langsung",
+            "desc": "Aplikasi ini banyak digunakan oleh jutaan orang di seluruh dunia untuk menonton pertandingan olahraga langsung, termasuk sepak bola, kriket, bola basket, dll. Tetap terhubung dengan berita global, TV Garden memberi Anda akses mudah ke ratusan saluran berita di seluruh dunia."
+        },
+        "feature5": {
+            "title": "Pembaruan Rutin",
+            "desc": "Ada ruang untuk banyak peningkatan, dan pengembang TV Garden sering memperkenalkan fitur baru, saluran TV tambahan, UI yang diperbarui, dan memperbaiki bug umum untuk meningkatkan pengalaman pengguna dalam menonton TV langsung."
+        },
+        "feature6": {
+            "title": "1000+ Saluran TV",
+            "desc": "Buka gerbang Anda ke ribuan saluran TV yang menawarkan semua jenis konten hiburan mulai dari film, olahraga, musik hingga pendidikan, satwa liar, dan banyak lagi. Semua saluran TV diorganisir dengan baik ke dalam berbagai genre, sehingga Anda dapat dengan mudah menemukannya."
+        },
+        "feature7": {
+            "title": "Berbagai Bahasa",
+            "desc": "Ada berbagai bahasa yang digunakan di banyak negara, dan aplikasi TV Garden menyediakan saluran lokal dengan bahasa daerah seperti Portugis, Spanyol, Indonesia, Hindi, Turki, dll."
+        },
+        "feature8": {
+            "title": "Jelajahi Saluran TV Internasional",
+            "desc": "Jika saat ini tidak ada konten yang menghibur di wilayah Anda, Anda dapat memilih negara mana pun untuk menyelami saluran TV populer mereka dan melihat jenis hiburan apa yang mereka sajikan!"
+        },
+        "feature9": {
+            "title": "Antarmuka yang Mudah Digunakan",
+            "desc": "Lihat globe di tengah layar! Cukup pilih negara Anda untuk melihat semua saluran TV yang tersedia di aplikasi. Sangat mudah digunakan, sehingga Anda dapat dengan cepat mencari saluran favorit Anda dan menemukannya dalam sekejap!"
+        },
+        "introBtn4": "Fitur Tambahan",
+        "extraList": {
+            "point1": {
+                "bold": "Mode PIP:",
+                "txt": "Streaming saluran TV langsung di jendela mengambang sambil menggunakan aplikasi lain secara bersamaan. Anda juga dapat menyeret pemutar video mengambang ke sudut mana pun di layar."
+            },
+            "point2": {
+                "bold": "Tanpa Langganan:",
+                "txt": "Semua fitur dan layanan yang ditawarkan oleh TV Garden sepenuhnya gratis untuk semua orang, dan Anda juga dapat mengaksesnya tanpa membayar biaya langganan."
+            },
+            "point3": {
+                "bold": "Pengalaman Bebas Iklan:",
+                "txt": "Dengan aplikasi TV Garden, nikmati acara langsung dan olahraga bebas iklan! Antarmuka ramping, dan Anda dapat menjelajahi banyak saluran tanpa iklan mengganggu yang muncul."
+            },
+            "point4": {
+                "bold": "Dukungan Pelanggan:",
+                "txt": "Dukungan pelanggan mereka membantu Anda memperbaiki masalah umum dan kesalahan streaming. Jika Anda ingin salah satu saluran TV favorit Anda ditambahkan ke aplikasi ini, Anda dapat mengetuk bagian umpan balik dan mengirimkan permintaan Anda."
+            },
+            "point5": {
+                "bold": "Bebas Buffer:",
+                "txt": "Ini memutar video dengan mulus tanpa jeda atau memuat karena dilengkapi dengan teknologi streaming adaptif yang menyesuaikan resolusi video sesuai dengan kecepatan internet Anda saat ini."
+            }
+        },
+        "introBtn5": "Unduh TV Garden APK Versi Terbaru 2025",
+        "step": "Panduan instalasi terperinci ini memastikan Anda mengunduh dan menginstal aplikasi TV Garden di ponsel pintar Android Anda dengan lancar, jadi ikuti petunjuknya dengan cermat.",
+        "step1": "Langkah 1: Unduh Aplikasi TV Garden",
+        "step1_1_1": "Ketuk tombol ‘",
+        "step1_1_2": "Unduh",
+        "step1_1_3": "‘ di bagian atas halaman web ini",
+        "step1_2": "Tunggu hingga file APK selesai diunduh sepenuhnya",
+        "step1_3": "Setelah TV Garden APK diunduh, lanjutkan ke langkah berikutnya untuk melanjutkan instalasi.",
+        "step2": "Langkah 2: Aktifkan Sumber Tidak Dikenal (Unknown Sources)",
+        "step2_1_1": "Buka Pengaturan dan buka bagian ‘",
+        "step2_1_2": "Keamanan",
+        "step2_1_3": "‘ atau ‘",
+        "step2_1_4": "Privasi",
+        "step2_1_5": "‘",
+        "step2_2_1": "Temukan opsi ‘",
+        "step2_2_2": "Instal aplikasi tidak dikenal",
+        "step2_2_3": "‘ atau ‘",
+        "step2_2_4": "Sumber tidak dikenal",
+        "step2_2_5": "‘",
+        "step2_3": "Aktifkan Browser atau Pengelola File/File Saya yang Anda gunakan untuk menginstal file APK",
+        "step3": "Langkah 3: Temukan File APK",
+        "step3_1_1": "Luncurkan Pengelola File dan buka Penyimpanan Internal, lalu pilih folder ‘",
+        "step3_1_2": "Unduh",
+        "step3_1_3": "‘",
+        "step3_2": "Dari daftar semua item yang diunduh di perangkat Anda, gulir ke bawah hingga Anda menemukan file APK TV Garden",
+        "step3_3": "Anda juga dapat menggunakan fungsionalitas pencarian untuk dengan mudah menemukan APK ini",
+        "step4": "Langkah 4: Instal & Luncurkan TV Garden",
+        "step4_1_1": "Klik pada File APK TV Garden dan ketuk tombol ‘",
+        "step4_1_2": "Instal",
+        "step4_1_3": "‘",
+        "step4_2": "Kembali ke layar beranda dan temukan ikon aplikasi TV Garden di dalam laci aplikasi",
+        "step4_3": "Ketuk ikon itu untuk meluncurkan aplikasi ini, dan Anda siap untuk mulai streaming saluran TV langsung secara gratis.",
+        "table": {
+            "tr1": {
+                "td1": "Nama Aplikasi",
+                "td2": "TV Garden"
+            },
+            "tr2": {
+                "td1": "Versi",
+                "td2": "V1.0"
+            },
+            "tr3": {
+                "td1": "Ukuran",
+                "td2": "6MB"
+            },
+            "tr4": {
+                "td1": "Pengembang",
+                "td2": "TVGarden Inc."
+            },
+            "tr5": {
+                "td1": "Kategori",
+                "td2": "Hiburan"
+            },
+            "tr6": {
+                "td1": "Lisensi",
+                "td2": "Gratis"
+            },
+            "tr7": {
+                "td1": "Persyaratan",
+                "td2": "Android 5.0 atau lebih tinggi"
+            },
+            "tr8": {
+                "td1": "Diperbarui Pada",
+                "td2": "1 hari yang lalu"
+            }
+        },
+        "introBtn6": "Buka Halaman Unduhan...",
+        "introBtn7": "Cara Mengunduh dan Menginstal TV Garden APK",
+        "introBtn8": "Bagaimana Cara Mengunduh dan Menginstal Aplikasi TV Garden di Smart TV?",
+        "how": "Dengan menginstal aplikasi ini di Smart TV Anda, Anda akan dapat menikmati menonton olahraga langsung dan saluran berita favorit Anda di perangkat layar yang lebih besar yang memberikan pengalaman menonton dan suara yang jauh lebih baik, jadi tunggu apa lagi? Ikuti langkah-langkah ini untuk menginstalnya segera.",
+        "howli1": {
+            "bold": "Langkah 1:",
+            "txt1": "Luncurkan browser web dan cari ",
+            "txt2": " lalu ketuk tombol unduh untuk mendapatkan File APK TV Garden."
+        },
+        "howli2": {
+            "bold": "Langkah 2:",
+            "txt": " Buka Play Store/App Store dan cari aplikasi File Explorer lalu instal di TV Anda."
+        },
+        "howli3": {
+            "bold": "Langkah 3:",
+            "txt": " Navigasi ke Pengaturan >> Keamanan & Pembatasan (Security & Restrictions) lalu cari opsi Sumber Tidak Dikenal (Unknown Sources) dan aktifkan."
+        },
+        "howli4": {
+            "bold": "Langkah 4:",
+            "txt": " Buka Pengelola File dan temukan folder tempat Anda menyimpan File APK lalu klik pada File APK TV Garden untuk menginstal aplikasi."
+        },
+        "howli5": {
+            "bold": "Langkah 5:",
+            "txt": " Buka layar beranda dan ketuk ikon aplikasi TV Garden untuk membukanya. Sekarang, Anda dapat streaming saluran TV langsung dan menontonnya secara gratis!"
+        },
+        "introBtn9": "Alternatif Terbaik untuk TV Garden",
+        "best": "Jika TV Garden tidak bekerja dengan baik dengan perangkat Anda, jangan stres! Ada banyak platform serupa yang tersedia yang mungkin memberi Anda kesenangan dan fitur yang hampir sama, tetapi bagian yang sulit? Menyaring ratusan dari mereka untuk menemukan permata yang sebenarnya, jadi di sini kami telah melakukan penelitian untuk Anda dan menyediakan daftar 5 opsi alternatif TV Garden terbaik.",
+        "bestli1": {
+            "bold": "YouTube:",
+            "txt": " Semua orang sudah tahu tentang YouTube, dan banyak saluran olahraga populer serta semua saluran berita terbesar sudah tersedia di YouTube, yang dapat Anda tonton secara gratis dengan paket yang didukung iklan."
+        },
+        "bestli2": {
+            "bold": "Hulu:",
+            "txt": " Versi premium Hulu menawarkan ratusan saluran TV lokal dan internasional untuk menonton acara realitas, olahraga, dan film dalam berbagai bahasa."
+        },
+        "bestli3": {
+            "bold": "Pluto TV:",
+            "txt": " Ini adalah layanan streaming Amerika terkemuka yang populer karena menyediakan konten hiburan, tetapi juga menawarkan 250+ saluran TV dari genre seperti komedi, pendidikan, dan olahraga."
+        },
+        "bestli4": {
+            "bold": "YuppTV:",
+            "txt": " Sebuah OTT Asia Selatan yang menawarkan ribuan acara realitas, serial TV dan acara langsung, berita, dan musik. Ini menawarkan konten untuk semua kelompok umur untuk anak-anak dan orang dewasa."
+        },
+        "bestli5": {
+            "bold": "Tubi TV:",
+            "txt1": " Tubi yang dimiliki Fox Corporation menyediakan akses gratis ke saluran TV langsung untuk menonton liga sepak bola populer seperti ",
+            "txt2": "Super Bowl",
+            "txt3": ", serial web eksklusif, dan film."
+        },
+        "faq1": "Seberapa aman menggunakan TV Garden APK?",
+        "faq2": "Dapatkah saya Menginstal TV Garden di Smart TV?",
+        "faq3": "Apakah legal menggunakan aplikasi TV Garden?",
+        "faq4": "Bagaimana cara menggunakan TV Garden di iPhone?",
+        "faq5": "Jenis konten apa yang bisa saya tonton di aplikasi TV Garden?",
+        "faq6": "Apakah TV Garden tersedia di AS, Inggris, Eropa, India, Indonesia, dan Turki?",
+        "introBtn10": "Kesimpulan",
+        "con1": "Jadi teman-teman, sekarang Anda sudah tahu betul tentang Aplikasi TV Garden dan cara menggunakannya untuk menikmati menonton saluran TV langsung dan pertandingan olahraga di perangkat Anda yang kompatibel. TV Garden memberikan akses instan ke 1000+ saluran TV tanpa pendaftaran, dan tidak ada biaya tersembunyi. Koleksi saluran TV yang besar tidak akan pernah membuat Anda merasa bosan, karena Anda selalu dapat menemukan sesuatu yang menarik untuk menghibur Anda.",
+        "con2": {
+            "p1": "Jika Anda mencari sumber hiburan gratis yang andal, TV Garden memang merupakan aplikasi yang bagus untuk dipertimbangkan. Ini kompatibel dengan berbagai perangkat, termasuk Android, iOS, Smart TV, TV Box, dan PC. Anda dapat dengan mudah mengunduh versi terbaru 2025 dari aplikasi ini dari situs web ini (",
+            "p2": "TVGarden.net",
+            "p3": ")."
+        },
+        "con3": "Ingat, tidak ada fitur menonton offline, yang berarti Anda memerlukan koneksi internet yang cepat dan stabil agar dapat menonton siaran langsung. Aplikasi ini memungkinkan pengguna untuk menonton skor waktu nyata dari acara olahraga langsung, acara TV komedi, dan acara realitas. Ada ratusan film dan saluran musik yang hadir di aplikasi ini dalam berbagai bahasa. Unduh aplikasinya hari ini dan cobalah!"
+    }
+}

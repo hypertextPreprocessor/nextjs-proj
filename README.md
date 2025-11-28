@@ -24,6 +24,7 @@ kill -9 422841 #根据以上的命令查询到的pid
 - phantom
 - phonepe (构建中)  
 - tvgarden
+- shortlive
 
 ## API文档
 ### 模版获取
