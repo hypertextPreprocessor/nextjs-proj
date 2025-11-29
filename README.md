@@ -25,7 +25,12 @@ kill -9 422841 #根据以上的命令查询到的pid
 - phonepe (构建中)  
 - tvgarden
 - shortlive
-
+### 开发文档
+#### 注册一个路由使用以下命令行:
+```bash
+npx gulp page --add=newRouteName
+```
+此时在`src/views`目录下会生成`newRouteName`文件夹，里面包含`index.js`和`page.js`文件。
 ## API文档
 ### 模版获取
 url - `/api/getWalletType` | `/getWalletType`  

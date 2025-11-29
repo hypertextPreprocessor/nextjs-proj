@@ -17,6 +17,8 @@
     "@mui/material": "^7.3.5",
     "@mui/material-nextjs": "^7.3.5",
     "classnames": "^2.5.1",
+    "gulp-insert": "^0.5.0",
+    "gulp-rename": "^2.1.0",
     "next": "16.0.1",
     "next-intl": "^4.5.0",
     "react": "19.2.0",
