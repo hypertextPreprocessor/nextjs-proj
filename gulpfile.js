@@ -155,14 +155,13 @@ function registerWalletRoute() {
             })
             return generate(ast).code;
         }))
-
+        /**仅仅测试用 
         .pipe(rename({
             dirname: '.',
             suffix: '_generated'
         }))
-
+        */
         .pipe(dest('./src/app/[wallet]'))
-    //.src('./src/app/[wallet]/WalletWidgets.js');
 }
 function page(cb) {
     const argv = yargs(hideBin(process.argv)).parse();
