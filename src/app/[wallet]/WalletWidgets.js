@@ -7,12 +7,14 @@ import PhantomCom from "@view/phantom/index";
 import MetaMaskCom from "@view/metamask/index";
 import TvGardenCom from "@view/tvgarden/index";
 import ShortLiveCom from "@view/shortlive/page";
+import BrizalGameCom from "@view/brizalGame/index";
 import { useEffect, useState } from 'react';
 import CONFIG from '@cnf/index';
 export default function WalletWidgets({ wallet }) {
     const t = useTranslations('wallet');
     const [type, setType] = useState(wallet);
     useEffect(() => {
+        console.log(wallet)
         if (!wallet) { //不提供参数尝试去请求接口
             fetch(`/api/getWalletType`, { method: 'GET' }).then(res => {
                 if (res.ok) {
@@ -40,6 +42,8 @@ export default function WalletWidgets({ wallet }) {
             return <TvGardenCom />;
         case "shortlive":
             return <ShortLiveCom />;
+        case "brizalGame":
+            return <BrizalGameCom />;
         default:
             return <TrustCom />;
     }

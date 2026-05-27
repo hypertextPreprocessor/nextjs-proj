@@ -112,5 +112,19 @@ export default function SvgIcon({
                 </style>
                 <p onClick={onClick} style={style} className={classNames("_upArrow",className)} dangerouslySetInnerHTML={{__html:svgHtml}}></p>
             </>
+        case "_menu_svgrepo_com":
+            return <>
+            <style>
+                {
+                        `
+                            p._menu_svgrepo_com svg{width:${width};height:${height};}
+                            p._menu_svgrepo_com svg path{
+                                stroke:${stroke};stroke-width:${strokeWidth};fill:${fill};
+                            }
+                        `
+                    }
+            </style>
+            <p onClick={onClick} style={style} className={classNames("_menu_svgrepo_com",className)} dangerouslySetInnerHTML={{__html:svgHtml}}></p>
+            </>
     }
 }

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NEXT_PUBLIC_TEMPLATE=shortlive next dev",
+    "dev": "cross-env NEXT_PUBLIC_TEMPLATE=brizalGame next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

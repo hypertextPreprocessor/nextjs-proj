@@ -25,6 +25,7 @@ kill -9 422841 #根据以上的命令查询到的pid
 - phonepe (构建中)  
 - tvgarden
 - shortlive
+- brizalGame (巴西游戏落地页)
 ### 开发文档
 #### 注册一个路由使用以下命令行:
 ```bash

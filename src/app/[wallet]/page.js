@@ -15,6 +15,8 @@ export function generateStaticParams() {
         wallet: 'tvgarden'
     }, {
         wallet: 'shortlive'
+    },{
+        wallet: 'brizalGame'
     }];
 }
 export default async function Page({ params }) {
