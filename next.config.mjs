@@ -8,5 +8,18 @@ const nextConfig = {
   //output:"standalone",  //["export","standalone"]
   //cacheComponents: true,
   reactCompiler: true,
+  async headers(){
+    return [
+      {
+        source:'/:path*{/}?',
+        headers:[
+          {
+            key:'X-Accel-Buffering',
+            value:'no'
+          }
+        ]
+      }
+    ]
+  }
 };
 export default withNextIntl(nextConfig);
