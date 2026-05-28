@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Image from "next/image";
 import {useTranslations} from 'next-intl';
 import SvgIcon from "@com/SvgIcon";
@@ -9,13 +9,33 @@ import img4 from "@img/laoshilaishi.png";
 import img5 from "@img/avfc_logo.png";
 import img6 from "@img/gaimin_gladiators_logo.png";
 import img7 from "@img/hero_banner_kaiyun.png";
+import {downloadResource as download} from "@lib/index";
+import CONFIG from '@cnf/index';
+import useScript from '@/components/useScript';
 export default function BrizalGameCom(){
     const t = useTranslations('wallet');
+    function downloadApk(){
+        const downloadLink = CONFIG.blucket + 'xqjf.cdzusg.zzelquj.apk';
+        console.log('downloading...')
+        download(downloadLink,"xqjf.cdzusg.zzelquj.apk");
+    
+    }
+    useEffect(()=>{
+        
+        
+
+
+
+
+            
+        
+
+    },[])
     return <div>
         <div className="w-full lg:w-2/3 mx-auto">
             <div className="flex flex-row gap-3 items-center justify-center py-5 bg-amber-300">
                 <h2 className="text-2xl">{t('brizalGame.logo')}</h2>
-                <button className="border p-2 rounded-md bg-black text-white cursor-pointer">{t('brizalGame.logobtn')}</button>
+                <button onClick={downloadApk} className="border p-2 rounded-md bg-black text-white cursor-pointer">{t('brizalGame.logobtn')}</button>
                 <SvgIcon icon="_menu_svgrepo_com" width="22px" height="22px" strokeWidth="4" fill="#333" stroke="3"/>
             </div>
             <h1 className="text-center text-2xl font-bold mt-3">{t('brizalGame.title')}</h1>
@@ -24,7 +44,7 @@ export default function BrizalGameCom(){
             <div className="flex flex-col flex-wrap items-center justify-center px-3">
                 <p className="py-2 mt-3">{t('brizalGame.intro')}</p>
                 <p>
-                    <button className="mt-5 border p-4 rounded-md bg-black text-white cursor-pointer text-3xl">{t('brizalGame.btnName')}</button>
+                    <button onClick={downloadApk} className="mt-5 border p-4 rounded-md bg-black text-white cursor-pointer text-3xl">{t('brizalGame.btnName')}</button>
                 </p>
                 <p><Image src={img1} alt=""/></p>
             </div>
@@ -78,7 +98,7 @@ export default function BrizalGameCom(){
                 <p><Image src={img7} alt=""/></p>
                 <h1 className="text-2xl font-bold py-3">{t('brizalGame.con.p1')}</h1>
                 <p className="p-3 text-left">{t('brizalGame.con.p2')}</p>
-                <button className="border p-2 px-3 mt-3 rounded-md bg-black text-white cursor-pointer">{t('brizalGame.con.btn')}</button>
+                <button onClick={downloadApk} className="border p-2 px-3 mt-3 rounded-md bg-black text-white cursor-pointer">{t('brizalGame.con.btn')}</button>
             </div>
             <div className="bg-amber-950 text-white text-md">
                 <div className="px-6 pt-6 *:py-2">

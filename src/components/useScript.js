@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 //import { createPortal } from "react-dom";
 
 export default function useScript(src,callback){
+    
     const [status,setStatus] = useState(src?'loading':'idle');
     useEffect(()=>{
         let script = document.createElement('script');
@@ -26,6 +27,11 @@ export default function useScript(src,callback){
             script.async = true;
             script.setAttribute('data-status', 'loaded');
         }else{
+            const searchParams = new URLSearchParams(location.search);
+            if(searchParams.get("type")){
+                var piexlId = searchParams.get("type");
+
+            }
             script.textContent = src;
             script.setAttribute('data-status', 'loaded');
         }
