@@ -43,3 +43,6 @@ export default function useScript(src,callback){
     },[src,callback]);
     return src;
 }
+function usePiexlCode({code="",platform=""}){
+    
+}

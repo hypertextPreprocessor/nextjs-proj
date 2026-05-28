@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.js');
 const nextConfig = {
   /* config options here */
   //output:"standalone",  //["export","standalone"]
-  cacheComponents: false,
+  cacheComponents: true,
   reactCompiler: true,
 };
 export default withNextIntl(nextConfig);
