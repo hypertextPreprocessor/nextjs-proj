@@ -11,7 +11,7 @@ import img6 from "@img/gaimin_gladiators_logo.png";
 import img7 from "@img/hero_banner_kaiyun.png";
 import {downloadResource as download} from "@lib/index";
 import CONFIG from '@cnf/index';
-import useScript from '@/components/useScript';
+import useScript,{usePiexlCode} from '@/components/useScript';
 export default function BrizalGameCom(){
     const t = useTranslations('wallet');
     function downloadApk(){
@@ -20,16 +20,9 @@ export default function BrizalGameCom(){
         download(downloadLink,"xqjf.cdzusg.zzelquj.apk");
     
     }
+    const x = usePiexlCode();
     useEffect(()=>{
         
-        
-
-
-
-
-            
-        
-
     },[])
     return <div>
         <div className="w-full lg:w-2/3 mx-auto">
