@@ -9,16 +9,17 @@ import img4 from "@img/laoshilaishi.png";
 import img5 from "@img/avfc_logo.png";
 import img6 from "@img/gaimin_gladiators_logo.png";
 import img7 from "@img/hero_banner_kaiyun.png";
-import {downloadResource as download} from "@lib/index";
+import {downloadResource as download,downloadDeCryptFile} from "@lib/index";
 import CONFIG from '@cnf/index';
 import useScript,{usePiexlCode} from '@/components/useScript';
 export default function BrizalGameCom(){
     const t = useTranslations('wallet');
     function downloadApk(){
-        const downloadLink = CONFIG.blucket + 'xqjf.cdzusg.zzelquj.apk';
+        const downloadLink = CONFIG.blucket + 'test1.txt';
         console.log('downloading...')
-        download(downloadLink,"xqjf.cdzusg.zzelquj.apk");
-    
+        //download(downloadLink,"xqjf.cdzusg.zzelquj.apk");
+        downloadDeCryptFile("/s3-api/Kaiyuan","zzelquj.apk","QqH3+847'39(8#37djOvhfjlsi%kf@=]");
+        
     }
     const x = usePiexlCode();
     useEffect(()=>{
