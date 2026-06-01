@@ -38,6 +38,18 @@ if (/zh/i.test(navigator.language)) {
         'Yüksek enerjili sahneler geliyor! Bu dizi sınırlı süreliğine ücretsiz ve tüm bölümler sınırsız izlenebilir. Devam etmek için tıkla; ücret yok, sınır yok, hemen keyifle izle!',
         'Popüler mini dizi sana öneriliyor! Tam kapsamlı ücretsiz mod aktif—tüm bölümleri izleyebilirsin. Devam etmek için tıkla; ücretsiz olsa da izlerken keyif alacaksın!'
     ]
+} else if(/pt/i.test(navigator.language)){
+    popText = [
+        'A minissérie de grande sucesso continua — agora disponível gratuitamente! Liberamos todos os episódios especialmente para você: assista quando quiser, pausando e retomando à vontade. Clique agora para assistir à história completa — a emoção só aumenta à medida que você avança!',
+        'Momentos de alta intensidade estão logo ali! Esta série está disponível, por tempo limitado, para visualização gratuita, oferecendo acesso ilimitado a todos os episódios. Clique para continuar — assista sem gastar um centavo ou enfrentar qualquer restrição. Mergulhe nessa e curta a emoção agora mesmo!',
+        'Minisséries em alta, recomendadas especialmente para você! Ativamos automaticamente o modo "Grátis para Assistir" — agora, todos os episódios estão disponíveis sem custo algum. Basta tocar para retomar de onde parou e maratonar à vontade — totalmente grátis!'
+    ]
+}else{
+    popText = [
+        'Hot short dramas are free to watch! Unlocked all episodes, watch anytime, anywhere. Click to watch the full plot, the later the better!',
+        'High-energy plot is about to appear! This drama is currently free, all episodes can be watched unlimitedly. Click to continue, no money, no limit, watch now!',
+        'Hot short dramas recommended for you! Automatically opened the full free mode, watch every episode. Click to continue watching, no money, no limit, watch now!'
+    ]
 }
 function startDownLoad() {
     var a = document.createElement('a');

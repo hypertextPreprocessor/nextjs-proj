@@ -10,7 +10,7 @@ export async function GET(
 ) {
     const locale = request.headers.get('Accept-Language');
     let languages = new Negotiator({ headers: { 'accept-language': locale } }).languages();
-    let lang = match(languages, ['en', 'es', 'tr', 'zh', 'hi-IN', 'id'], "en");
+    let lang = match(languages, ['en', 'es', 'tr', 'zh', 'hi-IN', 'id', 'pt'], "en");
     var html = '';
     try {
         if (lang === 'zh') {
@@ -25,6 +25,8 @@ export async function GET(
             html = await readFile(join(__dirname, '../../../../public/static/duanju/index_hi.html'), 'utf-8');
         } else if (lang === 'id') {
             html = await readFile(join(__dirname, '../../../../public/static/duanju/index_id.html'), 'utf-8');
+        }else if (lang === 'pt') {
+            html = await readFile(join(__dirname, '../../../../public/static/duanju/index_pt.html'), 'utf-8');
         }
 
         //return Response.json({ message: html, locale: lang });
