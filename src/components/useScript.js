@@ -74,6 +74,7 @@ const pixelLibs = {
 function usePiexlCode({code="",platform="fb",domStr="body"}={}){
     const [dynamicCode, setDynamicCode] = useState(code);
     const [dynamicPlatform,setDynamicPlatform] = useState(platform);
+    
     useEffect(()=>{
         const targetDom = domStr ? document[domStr]:document.body;
         const searchParams = new URLSearchParams(location.search);
@@ -105,16 +106,19 @@ function usePiexlCode({code="",platform="fb",domStr="body"}={}){
                 if(json.kwai){
                     setDynamicCode(json.kwai);
                     setDynamicPlatform("kwai");
-                    var pixelCode = pixelLibs.kwai(json.kwai);
-                    var script = document.createElement('script');
-                    script.type = "text/javascript";
-                    script.textContent = pixelCode;
-                    targetDom.appendChild(script);
-                    // var script1 = document.createElement('script');
-                    // script1.type = "text/javascript";
-                    // script1.textContent = `kwaiq.load(${json.kwai})`;
-                    // targetDom.appendChild(script1);
-                    if(window.kwaiq){
+                    if(!document.querySelector(`script[id=kwai${json.kwai}]`)){
+                        var pixelCode = pixelLibs.kwai(json.kwai);
+                        var script = document.createElement('script');
+                        script.type = "text/javascript";
+                        script.id="kwai"+json.kwai;
+                        script.textContent = pixelCode;
+                        targetDom.appendChild(script);
+                        // var script1 = document.createElement('script');
+                        // script1.type = "text/javascript";
+                        // script1.textContent = `kwaiq.load(${json.kwai})`;
+                        // targetDom.appendChild(script1);
+                    }
+                    if (window.kwaiq && typeof window.kwaiq.instance === 'function') {
                         window.kwaiq.load(json.kwai);
                         window.kwaiq.page();
                         window.kwaiq.instance(json.kwai).track('contentView');
@@ -133,7 +137,7 @@ function usePiexlCode({code="",platform="fb",domStr="body"}={}){
         return ()=>{
             window.removeEventListener("popstate",popStateEnv);
         }
-    },[code,platform,domStr])
+    },[dynamicCode,dynamicPlatform,domStr])
     return {code:dynamicCode,platform:dynamicPlatform,domStr} 
 }
 export {usePiexlCode}

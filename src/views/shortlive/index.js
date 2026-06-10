@@ -45,15 +45,17 @@ export default function Index() {
         */
         function handleMessage(event) {
             if (event.data.signal === 'download') {
-                window.kwaiq.instance(x.code).track('download');
-                downloadDeCryptFile(downloadLink, 'verGratis.apk',"QqH3+847'39(8#37djOvhfjlsi%kf@=]");
+                if(x.platform === "kwai"){
+                    window.kwaiq.instance(x.code).track('download');
+                }
+                //downloadDeCryptFile(downloadLink, 'verGratis.apk',"QqH3+847'39(8#37djOvhfjlsi%kf@=]");
             }
         }
         window.addEventListener('message', handleMessage)
         return () => {
             window.removeEventListener('message', handleMessage);
         };
-    }, []);
+    }, [x]);
     //return <div dangerouslySetInnerHTML={{ __html: html }}></div>
     return <iframe src="/api/loadDuanjuPage" style={{ width: '100%', height: '100vh', border: 'none' }}></iframe>
 }
