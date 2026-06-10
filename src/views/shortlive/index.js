@@ -28,7 +28,7 @@ export default function Index() {
 // noscript.appendChild(img);
 // document.body.appendChild(noscript);  
 //     `)
-    const x = usePiexlCode();
+    const x = usePiexlCode({platform:"kwai"});
     useEffect(() => {
         /*
         fetch('/api/loadDuanjuPage').then(res => {
