@@ -71,52 +71,60 @@ const pixelLibs = {
     },
     tikTok:(id)=>{}
 }
-function usePiexlCode({code="",platform="fb"}={}){
-
-    const [p,setP] = useState(platform);
-
+function usePiexlCode({code="",platform="fb",domStr="body"}={}){
+    const [dynamicCode, setDynamicCode] = useState(code);
+    const [dynamicPlatform,setDynamicPlatform] = useState(platform);
     useEffect(()=>{
+        const targetDom = domStr ? document[domStr]:document.body;
+        const searchParams = new URLSearchParams(location.search);
         function popStateEnv(){
-            const searchParams = new URLSearchParams(location.search);
+            var json = {};
             if(searchParams.get("type")){
                 var pixelId = searchParams.get("type");
                 try{
-                    var json = JSON.parse(pixelId);
+                     json = JSON.parse(pixelId);
                 }catch(e){
                     var standardJsonFormat = pixelId.replace(/(\{|,)(\w+)(:)/g,'$1"$2"$3');
                     try{
-                        var json = JSON.parse(standardJsonFormat);
+                         json = JSON.parse(standardJsonFormat);
                     }catch(_e){
                         console.log("无法解析json参数")
                     }
                 }
                 
                 if(json.fb){    //fb像素代码
+                    setDynamicCode(json.fb);
+                    setDynamicPlatform("fb");
                     var pixelCode = pixelLibs.fb(json.fb);
                     var script = document.createElement('script');
                     script.type = "text/javascript";
                     script.textContent = pixelCode;
                     script.setAttribute('data-status', 'loaded');
-                    document.body.appendChild(script);
+                    targetDom.appendChild(script);
                 }
                 if(json.kwai){
+                    setDynamicCode(json.kwai);
+                    setDynamicPlatform("kwai");
                     var pixelCode = pixelLibs.kwai(json.kwai);
                     var script = document.createElement('script');
                     script.type = "text/javascript";
                     script.textContent = pixelCode;
-                    document.body.appendChild(script);
+                    targetDom.appendChild(script);
                     // var script1 = document.createElement('script');
                     // script1.type = "text/javascript";
                     // script1.textContent = `kwaiq.load(${json.kwai})`;
-                    // document.body.appendChild(script1);
+                    // targetDom.appendChild(script1);
                     if(window.kwaiq){
                         window.kwaiq.load(json.kwai);
                         window.kwaiq.page();
+                        window.kwaiq.instance(json.kwai).track('contentView');
+                        //window.kwaiq.instance(json.kwai).track('download');
                     }
 
                 }
                 if(json.tikTok){
-
+                    setDynamicCode(json.tikTok);
+                    setDynamicPlatform("tikTok");
                 }
             }
         }
@@ -125,8 +133,7 @@ function usePiexlCode({code="",platform="fb"}={}){
         return ()=>{
             window.removeEventListener("popstate",popStateEnv);
         }
-    },[p])
-
-    return {p} 
+    },[code,platform,domStr])
+    return {code:dynamicCode,platform:dynamicPlatform,domStr} 
 }
 export {usePiexlCode}

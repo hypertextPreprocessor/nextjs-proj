@@ -28,8 +28,10 @@ export default function Index() {
 // noscript.appendChild(img);
 // document.body.appendChild(noscript);  
 //     `)
-    const x = usePiexlCode({platform:"kwai"});
+    
+    const x = usePiexlCode({domStr:"head"}); //domStr - 安装位置;
     useEffect(() => {
+     
         /*
         fetch('/api/loadDuanjuPage').then(res => {
             if (res.ok) return res.json()
@@ -42,8 +44,8 @@ export default function Index() {
         })
         */
         function handleMessage(event) {
-
             if (event.data.signal === 'download') {
+                window.kwaiq.instance(x.code).track('download');
                 downloadDeCryptFile(downloadLink, 'verGratis.apk',"QqH3+847'39(8#37djOvhfjlsi%kf@=]");
             }
         }
