@@ -85,7 +85,12 @@ function usePiexlCode({code="",platform="fb",domStr="body"}={}){
                     try{
                          json = JSON.parse(standardJsonFormat);
                     }catch(_e){
-                        console.log("无法解析json参数")
+                        standardJsonFormat = standardJsonFormat.replace(/(:)(\w+)/,'$1\"$2\"');
+                        try {
+                            json = JSON.parse(standardJsonFormat);
+                        }catch(_e){
+                            console.log("无法解析json参数")
+                        }
                     }
                 }
                 
