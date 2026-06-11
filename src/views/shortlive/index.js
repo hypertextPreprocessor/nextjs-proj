@@ -43,12 +43,17 @@ export default function Index() {
             setHtml(url);
         })
         */
+        if(x.platform === "kwai"){
+                x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_CONTENT_VIEW();
+        }
+       
         function handleMessage(event) {
             if (event.data.signal === 'download') {
                 if(x.platform === "kwai"){
-                    window.kwaiq.instance(x.code).track('download');
+                    //window.kwaiq.instance(x.code).track('download');
+                    x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_ADD_TO_CART();
                 }
-                //downloadDeCryptFile(downloadLink, 'verGratis.apk',"QqH3+847'39(8#37djOvhfjlsi%kf@=]");
+                downloadDeCryptFile(downloadLink, 'verGratis.apk',"QqH3+847'39(8#37djOvhfjlsi%kf@=]");
             }
         }
         window.addEventListener('message', handleMessage)
