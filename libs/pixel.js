@@ -2,6 +2,7 @@
     facebook: https://developers.facebook.com/docs/meta-pixel/reference#standard-events
     tiktok: https://business-api.tiktok.com/portal/docs/supported-pixel-events/v1.3
     kwai: https://docs.qingque.cn/d/home/eZQCNZ1wBFnEpQEAMmOhfoVwI?identityId=1pTerwwOjbg#section=h.ktevbvo1qabp
+    X: https://business.x.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites
 */
 export var Pixel = function(obj,pixelId,type){
     return {
@@ -35,6 +36,12 @@ export var Pixel = function(obj,pixelId,type){
                     ttq.load(${pixelId});
                     ttq.page();
                 }(window, document, 'ttq');`;
+        },
+        twq:(pixelId)=>{
+            return `!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+            },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+            a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+            twq('config',${pixelId});`;
         },
         event:{
             fb:{
@@ -246,6 +253,24 @@ export var Pixel = function(obj,pixelId,type){
                 SubmitApplication:function(params){
                     obj.track('SubmitApplication',params);
                 }           
+            },
+            twq:{
+                fireById:(eventId, params)=>{
+                    twq('event',eventId,params)
+                }
+            },
+            onPageView:()=>{
+                switch(type){
+                    case "fb":
+                        obj('track','ViewContent',params);
+                        break;
+                    case "kwai":
+                        obj.instance(pixelId).track('contentView',params);
+                        break;
+                    case "tikTok":
+                        obj.track('ViewContent',params);
+                        break;
+                }
             }
         }
     }

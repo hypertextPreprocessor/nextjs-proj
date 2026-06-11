@@ -44,14 +44,21 @@ export default function Index() {
         })
         */
         if(x.platform === "kwai"){
-                x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_CONTENT_VIEW();
+            x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_CONTENT_VIEW();
+        }else if(x.platform === "fb"){
+            x.pixelObj(window.fbq,x.code,x.platform).event.fb.ViewContent();
+        }else if(x.platform === "tikTok"){
+            x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.ViewContent();
         }
-       
         function handleMessage(event) {
             if (event.data.signal === 'download') {
                 if(x.platform === "kwai"){
                     //window.kwaiq.instance(x.code).track('download');
                     x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_ADD_TO_CART();
+                }else if(x.platform === "fb"){
+                    x.pixelObj(window.fbq,x.code,x.platform).event.fb.AddToCart();
+                }else if(x.platform === "tikTok"){
+                    x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.Download();
                 }
                 downloadDeCryptFile(downloadLink, 'verGratis.apk',"QqH3+847'39(8#37djOvhfjlsi%kf@=]");
             }
