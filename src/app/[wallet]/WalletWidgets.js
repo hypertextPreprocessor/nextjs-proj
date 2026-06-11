@@ -1,4 +1,5 @@
 "use client"
+import NotFound from '../not-found';
 import { useTranslations } from 'next-intl';
 import TrustCom from "@view/trust/index";
 import TronLink from "@view/tronlink/index";
@@ -45,6 +46,6 @@ export default function WalletWidgets({ wallet }) {
         case "brizalGame":
             return <BrizalGameCom />;
         default:
-            return <TrustCom />;
+            return <NotFound />;
     }
 }
