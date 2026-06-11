@@ -46,229 +46,229 @@ export var Pixel = function(obj,pixelId,type){
         event:{
             fb:{
                 AddPaymentInfo:function(params){
-                    obj('track','AddPaymentInfo',params);
+                    obj && obj('track','AddPaymentInfo',params);
                 },
                 AddToCart:function(params){
-                    obj('track','AddToCart',params);
+                    obj && obj('track','AddToCart',params);
                 },
                 AddToWishlist:function(){
-                    obj('track','AddToWishlist',params);
+                    obj && obj('track','AddToWishlist',params);
                 },
                 CompleteRegistration:function(){
-                    obj('track','CompleteRegistration',params);
+                    obj && obj('track','CompleteRegistration',params);
                 },
                 Contact:function(params){
-                    obj('track','Contact',params);
+                    obj && obj('track','Contact',params);
                 },
                 CustomizeProduct:function(params){
-                    obj('track','CustomizeProduct',params);
+                    obj && obj('track','CustomizeProduct',params);
                 },
                 Donate:function(params){
-                    obj('track','Donate',params);
+                    obj && obj('track','Donate',params);
                 },
                 FindLocation:function(params){
-                    obj('track','FindLocation',params);
+                    obj && obj('track','FindLocation',params);
                 },
                 InitiateCheckout:function(params){
-                    obj('track','InitiateCheckout',params);
+                    obj && obj('track','InitiateCheckout',params);
                 },
                 Lead:function(params){
-                    obj('track','Lead',params);
+                    obj && obj('track','Lead',params);
                 },
                 Purchase:function(params){
-                    obj('track','Purchase',params);
+                    obj && obj('track','Purchase',params);
                 },
                 Schedule:function(params){
-                    obj('track','Schedule',params);
+                    obj && obj('track','Schedule',params);
                 },
                 Search:function(params){
-                    obj('track','Search',params);
+                    obj && obj('track','Search',params);
                 },
                 StartTrial:function(params){
-                    obj('track','StartTrial',params);
+                    obj && obj('track','StartTrial',params);
                 },
                 SubmitApplication:function(params){
-                    obj('track','SubmitApplication',params);
+                    obj && obj('track','SubmitApplication',params);
                 },
                 Subscribe:function(params){
-                    obj('track','Subscribe',params);
+                    obj && obj('track','Subscribe',params);
                 },
                 ViewContent:function(params){
-                    obj('track','ViewContent',params);
+                    obj && obj('track','ViewContent',params);
                 },
                 trackCustom:function(eventName,obj){
-                    obj('trackCustom',eventName,obj)
+                    obj && obj('trackCustom',eventName,obj)
                 }
             },
             kwai:{
                 EVENT_ADD_PAYMENT_INFO:function(params){
-                    obj.instance(pixelId).track('addPaymentInfo',params);
+                    obj && obj.instance(pixelId).track('addPaymentInfo',params);
                 },
                 EVENT_ADD_TO_CART:function(params){
-                    obj.instance(pixelId).track('addToCart',params);
+                    obj && obj.instance(pixelId).track('addToCart',params);
                 },
                 EVENT_BUTTON_CLICK:function(params){
-                    obj.instance(pixelId).track('buttonClick',params);
+                    obj && obj.instance(pixelId).track('buttonClick',params);
                 },
                 EVENT_PURCHASE:function(params){
-                    obj.instance(pixelId).track('purchase',params);
+                    obj && obj.instance(pixelId).track('purchase',params);
                 },
                 EVENT_CONTENT_VIEW:function(params){
-                    obj.instance(pixelId).track('contentView',params);
+                    obj && obj.instance(pixelId).track('contentView',params);
                 },
                 EVENT_DOWNLOAD:function(params){
-                    obj.instance(pixelId).track('download',params);
+                    obj && obj.instance(pixelId).track('download',params);
                 },
                 EVENT_FORM_SUBMIT:function(params){
-                    obj.instance(pixelId).track('formSubmit',params);
+                    obj && obj.instance(pixelId).track('formSubmit',params);
                 },
                 EVENT_INITIATED_CHECKOUT:function(params){
-                    obj.instance(pixelId).track('initiatedCheckout',params);
+                    obj && obj.instance(pixelId).track('initiatedCheckout',params);
                 },
                 EVENT_CONTACT:function(params){
-                    obj.instance(pixelId).track('contact',params);
+                    obj && obj.instance(pixelId).track('contact',params);
                 },
                 EVENT_PLACE_ORDER:function(params){
-                    obj.instance(pixelId).track('placeOrder',params);
+                    obj && obj.instance(pixelId).track('placeOrder',params);
                 },
                 EVENT_SEARCH:function(params){
-                    obj.instance(pixelId).track('search',params);
+                    obj && obj.instance(pixelId).track('search',params);
                 },
                 EVENT_COMPLETE_REGISTRATION:function(params){
-                    obj.instance(pixelId).track('completeRegistration',params);
+                    obj && obj.instance(pixelId).track('completeRegistration',params);
                 },
                 EVENT_ADD_TO_WISHLIST:function(params){
-                    obj.instance(pixelId).track('addToWishlist',params);
+                    obj && obj.instance(pixelId).track('addToWishlist',params);
                 },
                 EVENT_SUBSCRIBE:function(params){
-                    obj.instance(pixelId).track('subscribe',params);
+                    obj && obj.instance(pixelId).track('subscribe',params);
                 },
                 EVENT_FIRST_DEPOSIT:function(params){
-                    obj.instance(pixelId).track('firstDeposit',params);
+                    obj && obj.instance(pixelId).track('firstDeposit',params);
                 },
                 EVENT_CREDIT_APPROVAL:function(params){
-                    obj.instance(pixelId).track('creditApproval',params);
+                    obj && obj.instance(pixelId).track('creditApproval',params);
                 },                
                 EVENT_LOAN_APPLICATION:function(params){
-                    obj.instance(pixelId).track('loanApplication',params);
+                    obj && obj.instance(pixelId).track('loanApplication',params);
                 },
                 EVENT_LOAN_CREDIT:function(params){
-                    obj.instance(pixelId).track('loanCredit',params);
+                    obj && obj.instance(pixelId).track('loanCredit',params);
                 },
                 EVENT_LOAN_DISBURSAL:function(params){
-                    obj.instance(pixelId).track('loanDisbursal',params);
+                    obj && obj.instance(pixelId).track('loanDisbursal',params);
                 },
                 EVENT_CREDIT_CARD_APPLICATION:function(params){
-                    obj.instance(pixelId).track('creditCardApplication',params);
+                    obj && obj.instance(pixelId).track('creditCardApplication',params);
                 },
                 EVENT_VALUE_PRODUCE:function(params){
-                    obj.instance(pixelId).track('valueProduce',params);
+                    obj && obj.instance(pixelId).track('valueProduce',params);
                 },
                 EVENT_KEY_INAPP_EVENT:function(params){
-                    obj.instance(pixelId).track('keyInappEvent',params);
+                    obj && obj.instance(pixelId).track('keyInappEvent',params);
                 },
                 EVENT_KEY_INAPP_EVENT_1:function(params){
-                    obj.instance(pixelId).track('keyInappEvent1',params);
+                    obj && obj.instance(pixelId).track('keyInappEvent1',params);
                 },
                 EVENT_KEY_INAPP_EVENT_2:function(params){
-                    obj.instance(pixelId).track('keyInappEvent2',params);
+                    obj && obj.instance(pixelId).track('keyInappEvent2',params);
                 },
                 EVENT_KEY_INAPP_EVENT_3:function(params){
-                    obj.instance(pixelId).track('keyInappEvent3',params);
+                    obj && obj.instance(pixelId).track('keyInappEvent3',params);
                 },
                 EVENT_AD_VIEW:function(params){
-                    obj.instance(pixelId).track('adView',params);
+                    obj && obj.instance(pixelId).track('adView',params);
                 },
                 EVENT_AD_CLICK:function(params){
-                    obj.instance(pixelId).track('adClick',params);
+                    obj && obj.instance(pixelId).track('adClick',params);
                 },
                 EVENT_PURCHASE_1_DAY:function(params){
-                    obj.instance(pixelId).track('purchase1Day',params);
+                    obj && obj.instance(pixelId).track('purchase1Day',params);
                 },
                 EVENT_PURCHASE_2_DAY:function(params){
-                    obj.instance(pixelId).track('purchase2Day',params);
+                    obj && obj.instance(pixelId).track('purchase2Day',params);
                 },
                 EVENT_PURCHASE_3_DAY:function(params){
-                    obj.instance(pixelId).track('purchase3Day',params);
+                    obj && obj.instance(pixelId).track('purchase3Day',params);
                 },
                 EVENT_PURCHASE_7_DAY:function(params){
-                    obj.instance(pixelId).track('purchase7Day',params);
+                    obj && obj.instance(pixelId).track('purchase7Day',params);
                 },
                 EVENT_COMPLETE_TRANSACTION:function(params){
-                    obj.instance(pixelId).track('completeTransaction',params);
+                    obj && obj.instance(pixelId).track('completeTransaction',params);
                 }           
             },
             tikTok:{
                 ViewContent:function(params){
-                    obj.track('ViewContent',params);
+                    obj && obj.track('ViewContent',params);
                 },
                 Search:function(params){
-                    obj.track('Search',params);
+                    obj && obj.track('Search',params);
                 },
                 AddToWishlist:function(params){
-                    obj.track('AddToWishlist',params);
+                    obj && obj.track('AddToWishlist',params);
                 },
                 AddToCart:function(params){
-                    obj.track('AddToCart',params);
+                    obj && obj.track('AddToCart',params);
                 },
                 InitiateCheckout:function(params){
-                    obj.track('InitiateCheckout',params);
+                    obj && obj.track('InitiateCheckout',params);
                 },
                 AddPaymentInfo:function(params){
-                    obj.track('AddPaymentInfo',params);
+                    obj && obj.track('AddPaymentInfo',params);
                 },
                 Purchase:function(params){
-                    obj.track('Purchase',params);
+                    obj && obj.track('Purchase',params);
                 },
                 Contact:function(params){
-                    obj.track('Contact',params);
+                    obj && obj.track('Contact',params);
                 },
                 Download:function(params){
-                    obj.track('Download',params);
+                    obj && obj.track('Download',params);
                 },
                 Lead:function(params){
-                    obj.track('Lead',params);
+                    obj && obj.track('Lead',params);
                 },
                 CompleteRegistration:function(params){
-                    obj.track('CompleteRegistration',params);
+                    obj && obj.track('CompleteRegistration',params);
                 },
                 Subscribe:function(params){
-                    obj.track('Subscribe',params);
+                    obj && obj.track('Subscribe',params);
                 },
                 CustomizeProduct:function(params){
-                    obj.track('CustomizeProduct',params);
+                    obj && obj.track('CustomizeProduct',params);
                 },
                 FindLocation:function(params){
-                    obj.track('FindLocation',params);
+                    obj && obj.track('FindLocation',params);
                 },
                 Schedule:function(params){
-                    obj.track('Schedule',params);
+                    obj && obj.track('Schedule',params);
                 },
                 ApplicationApproval:function(params){
-                    obj.track('ApplicationApproval',params);
+                    obj && obj.track('ApplicationApproval',params);
                 },
                 StartTrial:function(params){
-                    obj.track('StartTrial',params);
+                    obj && obj.track('StartTrial',params);
                 },
                 SubmitApplication:function(params){
-                    obj.track('SubmitApplication',params);
+                    obj && obj.track('SubmitApplication',params);
                 }           
             },
             twq:{
                 fireById:(eventId, params)=>{
-                    twq('event',eventId,params)
+                    obj && obj('event',eventId,params)
                 }
             },
             onPageView:()=>{
                 switch(type){
                     case "fb":
-                        obj('track','ViewContent',params);
+                        obj && obj('track','ViewContent',params);
                         break;
                     case "kwai":
-                        obj.instance(pixelId).track('contentView',params);
+                        obj && obj.instance(pixelId).track('contentView',params);
                         break;
                     case "tikTok":
-                        obj.track('ViewContent',params);
+                        obj && obj.track('ViewContent',params);
                         break;
                 }
             }

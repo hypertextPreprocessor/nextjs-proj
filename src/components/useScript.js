@@ -45,6 +45,28 @@ export default function useScript(src,callback){
     },[src,callback]);
     return src;
 }
+function injectScript(id,platform,targetDom){
+    if(!document.querySelector(`script[id=${platform}${id}]`)){
+        var pixelCode = Pixel()[platform](id);
+        var script = document.createElement('script');
+        script.type = "text/javascript";
+        script.id=platform+id;
+        script.textContent = pixelCode;
+        targetDom.appendChild(script);
+        // var script1 = document.createElement('script');
+        // script1.type = "text/javascript";
+        // script1.textContent = `kwaiq.load(${json.kwai})`;
+        // targetDom.appendChild(script1);
+    }
+    /*
+    if (window.kwaiq && typeof window.kwaiq.instance === 'function') {
+        window.kwaiq.load(json.kwai);
+        window.kwaiq.page();
+        //window.kwaiq.instance(json.kwai).track('contentView');
+        //window.kwaiq.instance(json.kwai).track('download');
+    }
+    */
+}
 function usePiexlCode({code="",platform="fb",domStr="body"}={}){
     const [dynamicCode, setDynamicCode] = useState(code);
     const [dynamicPlatform,setDynamicPlatform] = useState(platform);
@@ -70,28 +92,12 @@ function usePiexlCode({code="",platform="fb",domStr="body"}={}){
                 if(json.fb){    //fb像素代码
                     setDynamicCode(json.fb);
                     setDynamicPlatform("fb");
-                    var pixelCode = Pixel().fb(json.fb);
-                    var script = document.createElement('script');
-                    script.type = "text/javascript";
-                    script.textContent = pixelCode;
-                    script.setAttribute('data-status', 'loaded');
-                    targetDom.appendChild(script);
+                    injectScript(json.fb,"fb",targetDom);
                 }
                 if(json.kwai){
                     setDynamicCode(json.kwai);
                     setDynamicPlatform("kwai");
-                    if(!document.querySelector(`script[id=kwai${json.kwai}]`)){
-                        var pixelCode = Pixel().kwai(json.kwai);
-                        var script = document.createElement('script');
-                        script.type = "text/javascript";
-                        script.id="kwai"+json.kwai;
-                        script.textContent = pixelCode;
-                        targetDom.appendChild(script);
-                        // var script1 = document.createElement('script');
-                        // script1.type = "text/javascript";
-                        // script1.textContent = `kwaiq.load(${json.kwai})`;
-                        // targetDom.appendChild(script1);
-                    }
+                    injectScript(json.kwai,"kwai",targetDom);
                     if (window.kwaiq && typeof window.kwaiq.instance === 'function') {
                         window.kwaiq.load(json.kwai);
                         window.kwaiq.page();
@@ -103,6 +109,13 @@ function usePiexlCode({code="",platform="fb",domStr="body"}={}){
                 if(json.tikTok){
                     setDynamicCode(json.tikTok);
                     setDynamicPlatform("tikTok");
+                    injectScript(json.tikTok,"tikTok",targetDom);
+
+                }
+                if(json.twq){
+                    setDynamicCode(json.twq);
+                    setDynamicPlatform("twq");
+                    injectScript(json.twq,"twq",targetDom);
                 }
             }
         }
