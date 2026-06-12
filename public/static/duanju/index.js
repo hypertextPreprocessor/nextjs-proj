@@ -44,6 +44,12 @@ if (/zh/i.test(navigator.language)) {
         'Momentos de alta intensidade estão logo ali! Esta série está disponível, por tempo limitado, para visualização gratuita, oferecendo acesso ilimitado a todos os episódios. Clique para continuar — assista sem gastar um centavo ou enfrentar qualquer restrição. Mergulhe nessa e curta a emoção agora mesmo!',
         'Minisséries em alta, recomendadas especialmente para você! Ativamos automaticamente o modo "Grátis para Assistir" — agora, todos os episódios estão disponíveis sem custo algum. Basta tocar para retomar de onde parou e maratonar à vontade — totalmente grátis!'
     ]
+}else if(/ru/i.test(navigator.language)){
+    popText = [
+        'Популярные короткие сериалы доступны к просмотру бесплатно! Все серии разблокированы, смотрите в любое время и в любом месте. Нажмите, чтобы посмотреть весь сюжет, дальше будет еще интереснее!',
+        'Вас ждет захватывающий сюжет! Этот сериал сейчас бесплатен, все серии можно смотреть без ограничений. Нажмите, чтобы продолжить — бесплатно, без ограничений, смотрите прямо сейчас!',
+        'Рекомендуем вам популярные короткие сериалы! Автоматически включен полностью бесплатный режим, смотрите каждую серию. Нажмите, чтобы продолжить просмотр — бесплатно, без ограничений, смотрите прямо сейчас!'
+    ]
 }else{
     popText = [
         'Hot short dramas are free to watch! Unlocked all episodes, watch anytime, anywhere. Click to watch the full plot, the later the better!',
