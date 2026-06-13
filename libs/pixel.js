@@ -96,8 +96,8 @@ export var Pixel = function(obj,pixelId,type){
                 ViewContent:function(params){
                     obj && obj('track','ViewContent',params);
                 },
-                trackCustom:function(eventName,obj){
-                    obj && obj('trackCustom',eventName,obj)
+                trackCustom:function(eventName,params={}){
+                    obj && obj('trackCustom',eventName,params)
                 }
             },
             kwai:{
