@@ -158,7 +158,7 @@ export default function TvGardenCom(){
                     <h1 className="border-b mx-4 border-b-[#79c447] border-solid text-3xl font-medium text-center py-4">Famelack – Live TV, News, Sports & More…</h1>
                     <div><p className="text-[17px] p-4">{t("tvgarden.pageDesc")}</p></div>
                     <p className="text-[17px] font-bold text-center">{t("tvgarden.version")}</p>
-                    <p className="text-lg font-bold text-center py-4"><button onClick={downloadResource} className="bg-[#79c744] px-10 py-2 rounded-full mt-4 cursor-pointer">{t("tvgarden.download")}</button></p>
+                    <p className="text-lg font-bold text-center py-4"><button onClick={downloadResource} className="w-2/3 bg-[#79c744] px-10 py-2 rounded-full mt-4 cursor-pointer">{t("tvgarden.download")}</button></p>
                     <hr className={classNames("mt-12",{"border-none":pageAttr.device.isDesktop?true:false},{"border border-solid border-[#79c447]":pageAttr.device.isDesktop?false:true})}/>
                     
                 </div>
@@ -334,38 +334,38 @@ export default function TvGardenCom(){
                         <li>{t("tvgarden.step4_3")}</li>
                     </ul>
                 </div> */}
-                <div className="w-3/4 mx-auto md:w-full px-3">
+                <div className="w-full mx-auto md:w-3/4 px-3">
                     <p className="py-2 text-2xl text-center">{t("tvgarden.installStep.t1")}</p>
                     <div className="border-2 border-[#79c744] rounded-t-2xl overflow-hidden">
                         <h1 className="text-2xl text-center py-2 bg-[#79c744]">{t("tvgarden.installStep.title")}</h1>
                         <div className="">
-                            <p className="w-1/2 mx-auto mt-5"><Image src={ins1} alt=""/></p>
+                            <p className="sm:w-1/2 mx-auto mt-5"><Image src={ins1} alt=""/></p>
                             <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step1")}</p>
-                            <p className="w-1/2 mx-auto"><Image src={ins2} alt=""/></p>
+                            <p className="sm:w-1/2 mx-auto"><Image src={ins2} alt=""/></p>
                             <p className="px-3 py-3">{t("tvgarden.installStep.step1dsc")}</p>
 
 
                             <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step2")}</p>
-                            <p className="w-1/2 mx-auto"><Image src={ins3} alt=""/></p>
+                            <p className="sm:w-1/2 mx-auto"><Image src={ins3} alt=""/></p>
                             <p className="px-3 py-3">{t("tvgarden.installStep.step2dsc")}</p>
 
 
                             <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step3")}</p>
-                            <p className="w-1/2 mx-auto"><Image src={ins4} alt=""/></p>
+                            <p className="sm:w-1/2 mx-auto"><Image src={ins4} alt=""/></p>
                             <p className="px-3 py-3">{t("tvgarden.installStep.step3dsc")}</p>
 
 
                             <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step4")}</p>
-                            <p className="w-1/2 mx-auto"><Image src={ins5} alt=""/></p>
+                            <p className="sm:w-1/2 mx-auto"><Image src={ins5} alt=""/></p>
                             <p className="px-3 py-3">{t("tvgarden.installStep.step4dsc")}</p>
 
 
                             <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step5")}</p>
-                            <p className="w-1/2 mx-auto"><Image src={ins6} alt=""/></p>
+                            <p className="sm:w-1/2 mx-auto"><Image src={ins6} alt=""/></p>
                             <p className="px-3 py-3">{t("tvgarden.installStep.step5dsc")}</p>
 
                             <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step6")}</p>
-                            <p className="w-1/2 mx-auto"><Image src={ins7} alt=""/></p>
+                            <p className="sm:w-1/2 mx-auto"><Image src={ins7} alt=""/></p>
                             <p className="px-3 py-3">{t("tvgarden.installStep.step6dsc")}</p>
                         </div>
                     </div>
