@@ -9,7 +9,7 @@ const getDefaultSnapshot = () => ({
 var pageAttrs = {
     winWidth:typeof window !== 'undefined' ?document.documentElement.clientWidth:0,
     winHeight:typeof window !== 'undefined' ?document.documentElement.clientHeight:0,
-    device:typeof window !== 'undefined' ?checkDevice():{}
+    device:typeof window !== 'undefined' ?checkDevice():{isDesktop: true, isMobile: false} //若是不给默认值服务器端渲染（SSR）的结果与客户端首次渲染的结果不一致。
 }
 let listeners=[];
 function getClientRectSize(){

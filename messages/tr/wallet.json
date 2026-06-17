@@ -32,13 +32,29 @@
         "submit":"İthalat kurtarma ifadesi"
     },
     "tvgarden":{
-        "pageDesc":"TV Garden sadece bir başka yayın uygulaması değil; artan abonelik ücretlerine karşı çarenizdir! En sevdiğiniz sporların tadını çıkarın, canlı haberleri yakalayın ve açılır pencere reklamları olmadan reality şovlar, filmler ve müzikle rahatlayın. Bu web sitesinden, TV Garden APK'sının güncel versiyonunu Android, iOS, PC ve Smart TV cihazları için ücretsiz olarak indirebilirsiniz.",
+        "installStep": {
+            "t1": "Famelack MOD APK'yı bugün Android cihazlara yüklemek için bu yöntemleri dikkatlice izleyin.",
+            "title": "Android'de Doğrudan APK İndirme",
+            "step1": "1. Adım: Bilinmeyen Kaynakları Etkinleştirin",
+            "step1dsc": "Android telefonunuzda Ayarlar'ı açın ve Güvenlik veya Gizlilik bölümüne dokunun. 'Bilinmeyen Kaynaklar' veya 'Bilinmeyen Uygulamaları Yükle' seçeneğini bulun ve üçüncü taraf APK yüklemelerine izin vermek için bu seçeneği etkinleştirin.",
+            "step2": "2. Adım: Famelack MOD APK'yı İndirin",
+            "step2dsc": "Chrome tarayıcısını açın ve 'Famelack MOD APK download' şeklinde arama yapın. Dosya bütünlüğü doğrulanmış, güvenilir bir APK web sitesi seçin ve APK dosyasını şimdi kaydetmek için indirme butonuna dokunun.",
+            "step3": "3. Adım: İndirilen Dosyayı Bulun",
+            "step3dsc": "Dosya Yöneticisi uygulamanızı açın ve İndirilenler klasörüne gidin. İndirdiğiniz Famelack MOD APK dosyasını bulun ve dosya boyutunun beklenen paket boyutuyla eşleştiğini doğrulayın.",
+            "step4": "4. Adım: Yükleme İşlemini Başlatın",
+            "step4dsc": "APK dosyasına dokunun ve ekranda istendiğinde 'Yükle'yi seçin. Android, uygulamanın gerektirdiği izinleri gözden geçirecektir. İşlemi onaylamak ve başlatmak için tekrar 'Yükle'ye dokunun.",
+            "step5": "5. Adım: Yüklemenin Tamamlanmasını Bekleyin",
+            "step5dsc": "Android APK'yı işlerken yükleme ilerleme çubuğu dolacaktır. Yükleme sırasında Dosya Yöneticisini kapatmadan sabırla bekleyin. İşlem bittiğinde bir başarı mesajı görünecektir.",
+            "step6": "6. Adım: Famelack'i Başlatın ve Yayın İzleyin",
+            "step6dsc": "Ana ekranınızda veya uygulama çekmecenizde Famelack'i bulun. Uygulamayı açın, küresel kanal kitaplığına göz atın ve canlı yayını hemen başlatmak için herhangi bir kanala dokunun."
+        },
+        "pageDesc":"Famelack sadece bir başka yayın uygulaması değil; artan abonelik ücretlerine karşı çarenizdir! En sevdiğiniz sporların tadını çıkarın, canlı haberleri yakalayın ve açılır pencere reklamları olmadan reality şovlar, filmler ve müzikle rahatlayın. Bu web sitesinden, Famelack APK'sının güncel versiyonunu Android, iOS, PC ve Smart TV cihazları için ücretsiz olarak indirebilirsiniz.",
         "version":"Sürüm: 1.0.0 / 500K+ İndirme / 4.7 Derecelendirme",
         "download":"İndir",
-        "li1":"TV Garden – Canlı TV, Haberler, Spor ve Daha Fazlası…",
-        "li2":"TV Garden'a Giriş",
-        "li3":"Canlı TV İzlemek İçin TV Garden Nasıl Kullanılır?",
-        "li4":"TV Garden APK'sının Özellikleri",
+        "li1":"Famelack – Canlı TV, Haberler, Spor ve Daha Fazlası…",
+        "li2":"Famelack'a Giriş",
+        "li3":"Canlı TV İzlemek İçin Famelack Nasıl Kullanılır?",
+        "li4":"Famelack APK'sının Özellikleri",
         "li5":"4K Kalitesinde Yayın",
         "li6":"Favori Listesi Oluştur",
         "li7":"Can Sıkıcı Reklam Yok",
@@ -49,34 +65,34 @@
         "li12":"Uluslararası TV Kanallarını Keşfet",
         "li13":"Kullanımı Kolay Arayüz",
         "li14":"Ekstra Özellikler",
-        "li15":"TV Garden APK En Son Sürüm 2025 İndir",
-        "li16":"TV Garden APK Nasıl İndirilir ve Kurulur",
-        "li17":"Adım 1: TV Garden Uygulamasını İndir",
+        "li15":"Famelack APK En Son Sürüm 2025 İndir",
+        "li16":"Famelack APK Nasıl İndirilir ve Kurulur",
+        "li17":"Adım 1: Famelack Uygulamasını İndir",
         "li18":"Adım 2: Bilinmeyen Kaynakları Etkinleştir",
         "li19":"Adım 3: APK Dosyasını Bul",
-        "li20":"Adım 4: TV Garden'ı Kur ve Başlat",
-        "li21":"Smart TV'ye TV Garden Uygulaması Nasıl İndirilir ve Kurulur?",
-        "li22":"TV Garden'a En İyi Alternatifler",
+        "li20":"Adım 4: Famelack'ı Kur ve Başlat",
+        "li21":"Smart TV'ye Famelack Uygulaması Nasıl İndirilir ve Kurulur?",
+        "li22":"Famelack'a En İyi Alternatifler",
         "li23":"Sıkça Sorulan Sorular",
-        "li24":"TV Garden APK kullanmak ne kadar güvenli?",
-        "li25":"TV Garden'ı bir Smart TV'ye kurabilir miyim?",
-        "li26":"TV Garden uygulamasını kullanmak yasal mı?",
-        "li27":"iPhone'da TV Garden nasıl kullanılır?",
-        "li28":"TV Garden uygulamasında ne tür içerikler izleyebilirim?",
-        "li29":"TV Garden ABD, İngiltere, Avrupa, Hindistan, Endonezya ve Türkiye'de mevcut mu?",
+        "li24":"Famelack APK kullanmak ne kadar güvenli?",
+        "li25":"Famelack'ı bir Smart TV'ye kurabilir miyim?",
+        "li26":"Famelack uygulamasını kullanmak yasal mı?",
+        "li27":"iPhone'da Famelack nasıl kullanılır?",
+        "li28":"Famelack uygulamasında ne tür içerikler izleyebilirim?",
+        "li29":"Famelack ABD, İngiltere, Avrupa, Hindistan, Endonezya ve Türkiye'de mevcut mu?",
         "li30":"Sonuç",
-        "intro1":"TV Garden, günümüz dünyasının en güçlü yayın aracıdır. 130 ülkeden 1000'den fazla TV kanalını bir araya getiriyor. Etkileşimli küreden ülkenizi seçin, ardından izlemek istediğiniz TV kanalını seçin, hepsi bu. Canlı sporları, komedi TV şovlarını, reality şovları ve haberleri hemen her yerden izleyebilirsiniz.",
-        "intro2":"Yayın uygulamaları, TV kanallarına, filmlere, spor ve haberlere cep telefonunuzdan istediğiniz zaman erişmeyi çok kolaylaştırdı. Seyahat ederken veya ofis öğle yemeği saatlerinde TV şovlarını izleyebilirsiniz. TV Garden, canlı TV izlemek için vazgeçilmez uygulamanızdır! Futbol, kriket, basketbol izlemek veya bölgesel ve uluslararası haber kanallarıyla güncel kalmak için kullanabilirsiniz.",
+        "intro1":"Famelack, günümüz dünyasının en güçlü yayın aracıdır. 130 ülkeden 1000'den fazla TV kanalını bir araya getiriyor. Etkileşimli küreden ülkenizi seçin, ardından izlemek istediğiniz TV kanalını seçin, hepsi bu. Canlı sporları, komedi TV şovlarını, reality şovları ve haberleri hemen her yerden izleyebilirsiniz.",
+        "intro2":"Yayın uygulamaları, TV kanallarına, filmlere, spor ve haberlere cep telefonunuzdan istediğiniz zaman erişmeyi çok kolaylaştırdı. Seyahat ederken veya ofis öğle yemeği saatlerinde TV şovlarını izleyebilirsiniz. Famelack, canlı TV izlemek için vazgeçilmez uygulamanızdır! Futbol, kriket, basketbol izlemek veya bölgesel ve uluslararası haber kanallarıyla güncel kalmak için kullanabilirsiniz.",
         "intro3_1":"içindeki tüm TV kanalları ",
-        "intro3_2":"TV Garden uygulaması",
+        "intro3_2":"Famelack uygulaması",
         "intro3_3":" yüksek çözünürlükte mevcuttur ve reklamsız video oynatmayı destekler. Bu uygulamanın düzenli bir şekilde düzenlenmiş içerik kitaplığı, favori TV kanalınızı hızlı bir şekilde bulmanıza yardımcı olur. Sadece menüye gidin ve filmler, spor, müzik, komedi, haberler gibi bir dizi tür göreceksiniz - adını siz koyun! İlgilendiğiniz türe tıklayın ve o kategori için mevcut tüm kanalları görmek için bölgenizi seçin. Çok kolay!",
-        "introBtn1":"TV Garden'a Giriş",
-        "intro4":"TV Garden, basitliğe, güvenilirliğe ve hiç arabelleğe alma (buffering) olmadan hızlı tempolu bir yayın deneyimine değer verir. Uygulama dünya çapında mevcuttur ve bölgesel ve uluslararası kanallar içerir. Hesap oluşturma, kaydolma ve abonelik ücretleri gibi herhangi bir zorluk olmadan canlı TV'yi keşfetmenin kullanıcı dostu bir yolunu sunar.",
+        "introBtn1":"Famelack'a Giriş",
+        "intro4":"Famelack, basitliğe, güvenilirliğe ve hiç arabelleğe alma (buffering) olmadan hızlı tempolu bir yayın deneyimine değer verir. Uygulama dünya çapında mevcuttur ve bölgesel ve uluslararası kanallar içerir. Hesap oluşturma, kaydolma ve abonelik ücretleri gibi herhangi bir zorluk olmadan canlı TV'yi keşfetmenin kullanıcı dostu bir yolunu sunar.",
         "intro5_1":"Bu uygulama, canlı TV kanallarına erişimi süper uygun hale getirmeyi amaçlamaktadır. TV şovlarını izlemek için ideal bir ortam yaratan, koyu temalı, basit bir tasarıma ve düzene sahiptir. Günümüzde kimse evde kablolu TV bağlantısı istemiyor, çünkü herkes teknolojiye yöneliyor ve ",
         "intro5_2":" OTT ",
-        "intro5_3":" ve canlı yayın uygulamalarına geçiyor. TV.garden istemcisi, Android akıllı telefonunuza indirip kurabileceğiniz, gerçek zamanlı etkinlikleri 4K çözünürlüğe kadar dikkatiniz dağılmadan izlemeye başlayabileceğiniz tartışmasız en iyi ücretsiz yayın uygulamasıdır.",
-        "intro6":"Bu uygulamanın kısa talimatından heyecan duyduysanız, bekleyin, sunabileceği çok şey var. Bu blogda, TV Garden APK'sı, özellikleri, nasıl yapılır kılavuzları, çeşitli cihazlara kurulumu, uyumluluğu ve daha fazlası hakkında derinlemesine bir anlayış kazanacağız. Sıkı durun! Canlı sporları yakalamak veya film maratonlarına dalmak istiyorsanız mükemmel bir seçim olan TV Garden uygulamasının eğlenceli bir tanıtımını yapmak üzereyiz.",
-        "introBtn2":"Canlı TV İzlemek İçin TV Garden Nasıl Kullanılır?",
+        "intro5_3":" ve canlı yayın uygulamalarına geçiyor. Famelack istemcisi, Android akıllı telefonunuza indirip kurabileceğiniz, gerçek zamanlı etkinlikleri 4K çözünürlüğe kadar dikkatiniz dağılmadan izlemeye başlayabileceğiniz tartışmasız en iyi ücretsiz yayın uygulamasıdır.",
+        "intro6":"Bu uygulamanın kısa talimatından heyecan duyduysanız, bekleyin, sunabileceği çok şey var. Bu blogda, Famelack APK'sı, özellikleri, nasıl yapılır kılavuzları, çeşitli cihazlara kurulumu, uyumluluğu ve daha fazlası hakkında derinlemesine bir anlayış kazanacağız. Sıkı durun! Canlı sporları yakalamak veya film maratonlarına dalmak istiyorsanız mükemmel bir seçim olan Famelack uygulamasının eğlenceli bir tanıtımını yapmak üzereyiz.",
+        "introBtn2":"Canlı TV İzlemek İçin Famelack Nasıl Kullanılır?",
         "listText1_1":"Uygulamayı uyumlu cihazınıza indirmek ve kurmak için ",
         "listText1_2":"kurulum kılavuzumuzu",
         "listText1_3":" izleyin.",
@@ -85,10 +101,10 @@
         "listText4":"TV kanalına dokunduğunuzda, seçilen kanaldan canlı yayını oynatmaya başlayacaktır.",
         "listText5":"Videoyu tam ekran modunda oynatın, sesi tam doğru yüzdeye ayarlayın ve hepsi bu kadar. Keyifli Seyirler!",
         "androidTV1_1":"Bir Android TV'niz varsa, bu uygulamayı Smart TV'ye indirme ve kullanma hakkında ayrıntılı kılavuz için ",
-        "androidTV1_2":"Smart TV İçin TV Garden",
+        "androidTV1_2":"Smart TV İçin Famelack",
         "androidTV1_3":" sayfasına göz atın.",
-        "introBtn3":"TV Garden APK'sının Özellikleri",
-        "feature":"Canlı spor ve haber izleme deneyimini yükselten akıllara durgunluk veren özelliklerle doludur. Basitlik ve rahatlık ana odak noktasıdır. TV Garden uygulamasıyla neler elde ettiğinize bir göz atın.",
+        "introBtn3":"Famelack APK'sının Özellikleri",
+        "feature":"Canlı spor ve haber izleme deneyimini yükselten akıllara durgunluk veren özelliklerle doludur. Basitlik ve rahatlık ana odak noktasıdır. Famelack uygulamasıyla neler elde ettiğinize bir göz atın.",
         "feature1":{
             "title":"4K Kalitesinde Yayın",
             "desc":"Video kalitesini internet hızına göre otomatik olarak ayarlar. Video çözünürlüğü söz konusu olduğunda tutarsız olmasına rağmen, bu uygulama 4K'ya (2160px1440p) kadar kalitede TV kanallarını izleme imkanı sunar."
@@ -103,11 +119,11 @@
         },
         "feature4":{
             "title":"Canlı Spor ve Haberler",
-            "desc":"Bu uygulama, başta futbol, kriket, basketbol olmak üzere canlı spor maçlarını izlemek için dünya çapında milyonlarca insan tarafından yaygın olarak kullanılmaktadır. Küresel haber döngüsünde kalın, TV Garden yüzlerce dünya çapındaki haber kanalına kolay erişim sağlar."
+            "desc":"Bu uygulama, başta futbol, kriket, basketbol olmak üzere canlı spor maçlarını izlemek için dünya çapında milyonlarca insan tarafından yaygın olarak kullanılmaktadır. Küresel haber döngüsünde kalın, Famelack yüzlerce dünya çapındaki haber kanalına kolay erişim sağlar."
         },
         "feature5":{
             "title":"Düzenli Güncellemeler",
-            "desc":"Pek çok iyileştirme için yer vardır ve TV Garden geliştiricisi, canlı TV izleme kullanıcı deneyimini iyileştirmek için sık sık yeni özellikler, ek TV kanalları, güncellenmiş kullanıcı arayüzü ve yaygın hataları düzeltir."
+            "desc":"Pek çok iyileştirme için yer vardır ve Famelack geliştiricisi, canlı TV izleme kullanıcı deneyimini iyileştirmek için sık sık yeni özellikler, ek TV kanalları, güncellenmiş kullanıcı arayüzü ve yaygın hataları düzeltir."
         },
         "feature6":{
             "title":"1000+ TV Kanalı",
@@ -115,7 +131,7 @@
         },
         "feature7":{
             "title":"Birden Fazla Dil",
-            "desc":"Birçok ülkede farklı diller konuşulmaktadır ve TV Garden uygulaması Portekizce, İspanyolca, Endonezyaca, Hintçe, Türkçe vb. gibi bölgesel dillerde yerel kanallar sunar."
+            "desc":"Birçok ülkede farklı diller konuşulmaktadır ve Famelack uygulaması Portekizce, İspanyolca, Endonezyaca, Hintçe, Türkçe vb. gibi bölgesel dillerde yerel kanallar sunar."
         },
         "feature8":{
             "title":"Uluslararası TV Kanallarını Keşfet",
@@ -133,11 +149,11 @@
             },
             "point2":{
                 "bold":"Abonelik Yok:",
-                "txt":"TV Garden tarafından sunulan tüm özellikler ve hizmetler herkes için tamamen ücretsizdir ve bunlara abonelik ücreti ödemeden de erişebilirsiniz."
+                "txt":"Famelack tarafından sunulan tüm özellikler ve hizmetler herkes için tamamen ücretsizdir ve bunlara abonelik ücreti ödemeden de erişebilirsiniz."
             },
             "point3":{
                 "bold":"Reklamsız Deneyim:",
-                "txt":"TV Garden uygulamasıyla canlı şovların ve sporların reklamsız keyfini çıkarın! Arayüz şıktır ve araya giren sinir bozucu reklamlar olmadan tonlarca kanala göz atabilirsiniz."
+                "txt":"Famelack uygulamasıyla canlı şovların ve sporların reklamsız keyfini çıkarın! Arayüz şıktır ve araya giren sinir bozucu reklamlar olmadan tonlarca kanala göz atabilirsiniz."
             },
             "point4":{
                 "bold":"Müşteri Desteği:",
@@ -148,14 +164,14 @@
                 "txt":"Mevcut internet hızınıza göre video çözünürlüklerini ayarlayan uyarlanabilir yayın teknolojisiyle geldiği için, videoları duraklama veya yükleme olmadan sorunsuz bir şekilde oynatır."
             }
         },
-        "introBtn5":"TV Garden APK En Son Sürüm 2025 İndir",
-        "step":"Bu ayrıntılı kurulum kılavuzu, TV Garden uygulamasını Android akıllı telefonunuza sorunsuz bir şekilde indirip kurmanızı sağlar, bu yüzden talimatları dikkatlice izleyin.",
-        "step1":"Adım 1: TV Garden Uygulamasını İndir",
+        "introBtn5":"Famelack APK En Son Sürüm 2025 İndir",
+        "step":"Bu ayrıntılı kurulum kılavuzu, Famelack uygulamasını Android akıllı telefonunuza sorunsuz bir şekilde indirip kurmanızı sağlar, bu yüzden talimatları dikkatlice izleyin.",
+        "step1":"Adım 1: Famelack Uygulamasını İndir",
         "step1_1_1":"Bu web sayfasının üst kısmındaki ‘",
         "step1_1_2":"Download",
         "step1_1_3":"‘ düğmesine dokunun",
         "step1_2":"APK dosyası tamamen indirilene kadar bekleyin",
-        "step1_3":"TV Garden APK indirildikten sonra, kuruluma devam etmek için bir sonraki adıma geçin.",
+        "step1_3":"Famelack APK indirildikten sonra, kuruluma devam etmek için bir sonraki adıma geçin.",
         "step2":"Adım 2: Bilinmeyen Kaynakları Etkinleştir",
         "step2_1_1":"Ayarlar ('Settings') uygulamasını açın ve ‘",
         "step2_1_2":"Security",
@@ -172,18 +188,18 @@
         "step3_1_1":"Dosya Yöneticisini ('File Manager') başlatın ve Dahili Depolamaya gidin, ardından ‘",
         "step3_1_2":"Download",
         "step3_1_3":"‘ klasörünü seçin",
-        "step3_2":"Cihazınızdaki tüm indirilen öğelerin listesinden, TV Garden APK dosyasını bulana kadar aşağı kaydırın",
+        "step3_2":"Cihazınızdaki tüm indirilen öğelerin listesinden, Famelack APK dosyasını bulana kadar aşağı kaydırın",
         "step3_3":"Bu APK'yı kolayca bulmak için arama işlevini de kullanabilirsiniz",
-        "step4":"Adım 4: TV Garden'ı Kur ve Başlat",
-        "step4_1_1":"TV Garden APK Dosyasına tıklayın ve ‘",
+        "step4":"Adım 4: Famelack'ı Kur ve Başlat",
+        "step4_1_1":"Famelack APK Dosyasına tıklayın ve ‘",
         "step4_1_2":"Install",
         "step4_1_3":"‘ düğmesine dokunun",
-        "step4_2":"Ana ekrana geri dönün ve uygulama çekmecesinde TV Garden uygulama simgesini bulun",
+        "step4_2":"Ana ekrana geri dönün ve uygulama çekmecesinde Famelack uygulama simgesini bulun",
         "step4_3":"Bu uygulamayı başlatmak için simgeye basın ve ücretsiz olarak canlı TV kanallarını yayınlamaya başlamak için hazırsınız.",
         "table":{
             "tr1":{
                 "td1":"Uygulama Adı",
-                "td2":"TV Garden"
+                "td2":"Famelack"
             },
             "tr2":{
                 "td1":"Sürüm",
@@ -195,7 +211,7 @@
             },
             "tr4":{
                 "td1":"Geliştirici",
-                "td2":"TVGarden Inc."
+                "td2":"Famelack Inc."
             },
             "tr5":{
                 "td1":"Kategori",
@@ -215,13 +231,13 @@
             }
         },
         "introBtn6":"İndirme Sayfasına Git...",
-        "introBtn7":"TV Garden APK Nasıl İndirilir ve Kurulur",
-        "introBtn8":"Smart TV'ye TV Garden Uygulaması Nasıl İndirilir ve Kurulur?",
+        "introBtn7":"Famelack APK Nasıl İndirilir ve Kurulur",
+        "introBtn8":"Smart TV'ye Famelack Uygulaması Nasıl İndirilir ve Kurulur?",
         "how":"Bu uygulamayı Smart TV'nize kurarak, en sevdiğiniz canlı spor ve haber kanallarını daha büyük ekranlı cihazlarda izlemenin keyfini çıkarabilecek, çok daha iyi bir izleme ve ses deneyimi sunacaksınız, öyleyse neden bekleyesiniz? Hemen kurmak için bu adımları izleyin.",
         "howli1":{
             "bold":"Adım 1:",
             "txt1":"Web tarayıcısını başlatın ve ",
-            "txt2":" diye aratın, ardından TV Garden APK Dosyasını almak için indirme düğmesine dokunun."
+            "txt2":" diye aratın, ardından Famelack APK Dosyasını almak için indirme düğmesine dokunun."
         },
         "howli2":{
             "bold":"Adım 2:",
@@ -233,14 +249,14 @@
         },
         "howli4":{
             "bold":"Adım 4:",
-            "txt":"Dosya Yöneticisine ('File Manager') gidin ve APK Dosyasını kaydettiğiniz klasörü bulun, ardından uygulamayı kurmak için TV Garden APK Dosyasına tıklayın."
+            "txt":"Dosya Yöneticisine ('File Manager') gidin ve APK Dosyasını kaydettiğiniz klasörü bulun, ardından uygulamayı kurmak için Famelack APK Dosyasına tıklayın."
         },
         "howli5":{
             "bold":"Adım 5:",
-            "txt":"Ana ekrana gidin ve açmak için TV Garden uygulama simgesine dokunun. Artık canlı TV kanallarını yayınlayabilir ve ücretsiz izleyebilirsiniz!"
+            "txt":"Ana ekrana gidin ve açmak için Famelack uygulama simgesine dokunun. Artık canlı TV kanallarını yayınlayabilir ve ücretsiz izleyebilirsiniz!"
         },
-        "introBtn9":"TV Garden'a En İyi Alternatifler",
-        "best":"TV Garden cihazınızla iyi anlaşamazsa, stres yapmayın! Neredeyse aynı eğlence ve özellikleri size verebilecek birçok benzer platform mevcuttur, ancak zor kısım nedir? Gerçek mücevherleri bulmak için yüzlercesini elemek, bu yüzden sizin için araştırma yaptık ve en iyi 5 TV Garden alternatif seçeneği listesini sağladık.",
+        "introBtn9":"Famelack'a En İyi Alternatifler",
+        "best":"Famelack cihazınızla iyi anlaşamazsa, stres yapmayın! Neredeyse aynı eğlence ve özellikleri size verebilecek birçok benzer platform mevcuttur, ancak zor kısım nedir? Gerçek mücevherleri bulmak için yüzlercesini elemek, bu yüzden sizin için araştırma yaptık ve en iyi 5 Famelack alternatif seçeneği listesini sağladık.",
         "bestli1":{
             "bold":"YouTube:",
             "txt":" Herkes YouTube'u zaten biliyor ve birçok popüler spor kanalı ile en büyük haber kanallarının hepsi, reklam destekli planla ücretsiz izleyebileceğiniz YouTube'da zaten mevcut."
@@ -263,17 +279,17 @@
             "txt2":"Super Bowl",
             "txt3":" gibi, özel web dizilerini ve filmleri izlemek için canlı TV kanallarına ücretsiz erişim sağlar."
         },
-        "faq1":"TV Garden APK kullanmak ne kadar güvenli?",
-        "faq2":"TV Garden'ı bir Smart TV'ye kurabilir miyim?",
-        "faq3":"TV Garden uygulamasını kullanmak yasal mı?",
-        "faq4":"iPhone'da TV Garden nasıl kullanılır?",
-        "faq5":"TV Garden uygulamasında ne tür içerikler izleyebilirim?",
-        "faq6":"TV Garden ABD, İngiltere, Avrupa, Hindistan, Endonezya ve Türkiye'de mevcut mu?",
+        "faq1":"Famelack APK kullanmak ne kadar güvenli?",
+        "faq2":"Famelack'ı bir Smart TV'ye kurabilir miyim?",
+        "faq3":"Famelack uygulamasını kullanmak yasal mı?",
+        "faq4":"iPhone'da Famelack nasıl kullanılır?",
+        "faq5":"Famelack uygulamasında ne tür içerikler izleyebilirim?",
+        "faq6":"Famelack ABD, İngiltere, Avrupa, Hindistan, Endonezya ve Türkiye'de mevcut mu?",
         "introBtn10":"Sonuç",
-        "con1":"Evet arkadaşlar, artık TV Garden Uygulaması ve uyumlu cihazlarınızda canlı TV kanallarını ve spor maçlarını izlemenin keyfini çıkarmak için nasıl kullanılacağı hakkında iyi bilgilere sahipsiniz. TV Garden, kayıt olmadan 1000'den fazla TV kanalına anında erişim sağlar ve gizli ücretler yoktur. Geniş TV kanalı koleksiyonu sizi asla sıkmaz, çünkü sizi eğlendirecek ilginç bir şeyler her zaman bulabilirsiniz.",
+        "con1":"Evet arkadaşlar, artık Famelack Uygulaması ve uyumlu cihazlarınızda canlı TV kanallarını ve spor maçlarını izlemenin keyfini çıkarmak için nasıl kullanılacağı hakkında iyi bilgilere sahipsiniz. Famelack, kayıt olmadan 1000'den fazla TV kanalına anında erişim sağlar ve gizli ücretler yoktur. Geniş TV kanalı koleksiyonu sizi asla sıkmaz, çünkü sizi eğlendirecek ilginç bir şeyler her zaman bulabilirsiniz.",
         "con2":{
-            "p1":"Güvenilir bir ücretsiz eğlence kaynağı arıyorsanız, TV Garden gerçekten dikkate alınması gereken harika bir uygulamadır. Android, iOS, Smart TV, TV Kutusu ve PC dahil olmak üzere çok çeşitli cihazlarla uyumludur. Bu uygulamanın 2025 güncel sürümünü bu web sitesinden (",
-            "p2":"TVGarden.net",
+            "p1":"Güvenilir bir ücretsiz eğlence kaynağı arıyorsanız, Famelack gerçekten dikkate alınması gereken harika bir uygulamadır. Android, iOS, Smart TV, TV Kutusu ve PC dahil olmak üzere çok çeşitli cihazlarla uyumludur. Bu uygulamanın 2025 güncel sürümünü bu web sitesinden (",
+            "p2":"flamelack.app",
             "p3":") kolayca indirebilirsiniz."
         },
         "con3":"Unutmayın, çevrimdışı izleme özelliği yoktur, bu da canlı yayını izleyebilmek için hızlı ve istikrarlı bir internet bağlantısına ihtiyacınız olduğu anlamına gelir. Uygulama, kullanıcıların canlı spor etkinliklerinin gerçek zamanlı skorlarını, komedi TV şovlarını ve reality şovlarını izlemelerine olanak tanır. Bu uygulamada birden fazla dilde yüzlerce film ve müzik kanalı bulunmaktadır. Uygulamayı bugün indirin ve deneyin!"

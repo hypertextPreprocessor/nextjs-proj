@@ -10,10 +10,24 @@ import usePageAttribute from "@com/usePageAttribute";
 import useScript from '@/components/useScript';
 import classNames from 'classnames';
 import {useTranslations} from 'next-intl';
+
 import image1 from "@img/TV-Garden-Screenshot-1.webp";
-import image2 from "@img/TV-Garden-Screenshot-2.webp";
+//import image2 from "@img/TV-Garden-Screenshot-2.webp";
 import image3 from "@img/TV-Garden-Screenshot-3.webp";
 import image4 from "@img/TV-Garden-Screenshot-4.webp";
+
+import ins1 from "@img/ins1.webp";
+import ins2 from "@img/ins2.webp";
+import ins3 from "@img/ins3.webp";
+import ins4 from "@img/ins4.webp";
+import ins5 from "@img/ins5.webp";
+import ins6 from "@img/ins6.webp";
+import ins7 from "@img/ins7.webp";
+
+
+
+import {usePiexlCode} from '@/components/useScript';
+
 import image5 from "@img/4K-Quality-Streaming.webp";
 import image6 from "@img/Create-Favorites-List.webp";
 import image7 from "@img/No-Annoying-Ads.webp";
@@ -28,52 +42,57 @@ import step2 from "@img/2.webp";
 import step3 from "@img/3.webp";
 import step4 from "@img/4.webp";
 import Link from 'next/link';
-import {downloadResource as download,usePageAttrSet} from "@lib/index";
+import {downloadResource as download,usePageAttrSet, downloadDeCryptFile} from "@lib/index";
 import CONFIG from '@cnf/index';
 
 //const pageAttrDynamic = dynamic(()=>import('@com/usePageAttribute').then(mod=>mod.default),{ssr:false}); max-w-7xl xl:w-full
 export default function TvGardenCom(){
-    useScript(`
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1380288776875913');
-fbq('track', 'PageView');
-var noscript = document.createElement('noscript');
-var img = document.createElement('img');
-img.setAttribute('height',1);
-img.setAttribute('width',1);
-img.style.display='none';
-img.src='https://www.facebook.com/tr?id=1380288776875913&ev=PageView&noscript=1';
-noscript.appendChild(img);
-document.body.appendChild(noscript);    
-    `)
+    const x = usePiexlCode({domStr:"head"});
     const legalPagesRef = useRef(null);
     const subLegalPagesRef = useRef(null);
     const pageAttr = usePageAttribute();
     const t = useTranslations('wallet');
     const toTopRef = useRef(null);
     const pageHeadFoot = usePageAttrSet({
-        title:'TV Garden | Download Latest TV Garden APK 2025 (Live TV/Sports)',
+        title:'Famelack | Download Latest Famelack APK 2025 (Live TV/Sports)',
         icon:icon.src
     });
-    const downloadLink = CONFIG.blucket + 'TV-Garden.apk';
-
+   
     function downloadResource(){
+        const downloadLink = CONFIG.blucket + 'NMB-TV';
         console.log('downloading...')
-        download(downloadLink,"TV-Garden.apk");
+        if(x.platform === "kwai"){
+            //window.kwaiq.instance(x.code).track('download');
+            x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_ADD_TO_CART();
+        }else if(x.platform === "fb"){
+            x.pixelObj(window.fbq,x.code,x.platform).event.fb.AddToCart();
+        }else if(x.platform === "tikTok"){
+            x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.Download();
+        }else if(x.platform === "twq"){
+            x.pixelObj(window.twq,x.code,x.platform).event.twq.fireById('download_event');
+        }
+        //download(downloadLink,"xqjf.cdzusg.zzelquj.apk");
+        downloadDeCryptFile("/s3-api/TV_Famelack","TV_Famelack (Official).apk","QqH3+847'39(8#37djOvhfjlsi%kf@=]");
+        
     }
+
     function scrollToTop(){
         window && window.scrollTo({
             top: 0,
             behavior: 'smooth' // Scrolls smoothly to the top
         });
     }
+    useEffect(()=>{
+         if(x.platform === "kwai"){
+            x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_CONTENT_VIEW();
+        }else if(x.platform === "fb"){
+            x.pixelObj(window.fbq,x.code,x.platform).event.fb.ViewContent();
+        }else if(x.platform === "tikTok"){
+            x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.ViewContent();
+        }else if(x.platform == "twq"){
+            x.pixelObj(window.twq,x.code,x.platform).event.twq.fireById('view_content_page');
+        }
+    },[x])
     useEffect(()=>{
         if(pageAttr.device.isDesktop){
                 legalPagesRef.current.addEventListener('mouseenter',function(){
@@ -106,9 +125,9 @@ document.body.appendChild(noscript);
                 <div className="mx-auto max-w-7xl xl:w-full flex items-center justify-between px-2 py-2">
                     <p className="flex items-center gap-2">
                         <Image src={icon} width={40} height={60} alt="TV-Garden" style={{width:'auto',verticalAlign:'middele'}} loading="eager"/> 
-                        <span className="text-2xl font-bold">TV Garden</span>
+                        <span className="text-2xl font-bold">Famelack</span>
                     </p>
-                        {pageAttr.device.isDesktop?
+                        {pageAttr && pageAttr.device.isDesktop?
                             <ul className="flex text-base px-2 gap-8 has-[li]:cursor-pointer">
                                 <li className="hover:text-[#2bba3f]">Home</li>
                                 <li onClick={downloadResource} className="hover:text-[#2bba3f]">Download</li>
@@ -136,7 +155,7 @@ document.body.appendChild(noscript);
                     <Image src={icon} width="200" height="200" alt="TV-Garden" loading="eager"/>
                 </div>
                 <div className="">
-                    <h1 className="border-b mx-4 border-b-[#79c447] border-solid text-3xl font-medium text-center py-4">TV Garden – Live TV, News, Sports & More…</h1>
+                    <h1 className="border-b mx-4 border-b-[#79c447] border-solid text-3xl font-medium text-center py-4">Famelack – Live TV, News, Sports & More…</h1>
                     <div><p className="text-[17px] p-4">{t("tvgarden.pageDesc")}</p></div>
                     <p className="text-[17px] font-bold text-center">{t("tvgarden.version")}</p>
                     <p className="text-lg font-bold text-center py-4"><button onClick={downloadResource} className="bg-[#79c744] px-10 py-2 rounded-full mt-4 cursor-pointer">{t("tvgarden.download")}</button></p>
@@ -212,7 +231,7 @@ document.body.appendChild(noscript);
                 </div>
                 <div className="flex flex-wrap *:flex-1 [&_img]:w-full 3xs:max-sm:*:basis-1/3 gap-4">
                    <p><Image src={image1} alt="1" loading='eager'/></p>
-                   <p><Image src={image2} alt="2" loading='eager'/></p>
+                   {/* <p><Image src={image2} alt="2" loading='eager'/></p> */}
                    <p><Image src={image3} alt="3" loading='eager'/></p>
                    <p><Image src={image4} alt="4" loading='eager'/></p>
                 </div>
@@ -266,7 +285,7 @@ document.body.appendChild(noscript);
                 </table>
                 <div className="my-6 flex text-center"><button onClick={downloadResource} className="rounded-full text-base bg-[#79c744] px-6 font-medium py-3 mx-auto cursor-pointer">{t("tvgarden.introBtn6")}</button></div>
                 <div id="how-to-download-and-install-tv-garden-apk" className="w-auto text-center py-6"><button className="bg-[#79c744] px-6 text-2xl font-medium py-3 mx-auto rounded-md w-[calc(100%)] cursor-pointer">{t("tvgarden.introBtn7")}</button></div>
-                <div className="p-2">
+                {/* <div className="p-2">
                     <p>{t("tvgarden.step")}</p>
 
                     <div className="py-6" id="step-1-download-tv-garden-app">
@@ -314,12 +333,48 @@ document.body.appendChild(noscript);
                         <li>{t("tvgarden.step4_2")}</li>
                         <li>{t("tvgarden.step4_3")}</li>
                     </ul>
+                </div> */}
+                <div className="w-3/4 mx-auto md:w-full px-3">
+                    <p className="py-2 text-2xl text-center">{t("tvgarden.installStep.t1")}</p>
+                    <div className="border-2 border-[#79c744] rounded-t-2xl overflow-hidden">
+                        <h1 className="text-2xl text-center py-2 bg-[#79c744]">{t("tvgarden.installStep.title")}</h1>
+                        <div className="">
+                            <p className="w-1/2 mx-auto mt-5"><Image src={ins1} alt=""/></p>
+                            <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step1")}</p>
+                            <p className="w-1/2 mx-auto"><Image src={ins2} alt=""/></p>
+                            <p className="px-3 py-3">{t("tvgarden.installStep.step1dsc")}</p>
+
+
+                            <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step2")}</p>
+                            <p className="w-1/2 mx-auto"><Image src={ins3} alt=""/></p>
+                            <p className="px-3 py-3">{t("tvgarden.installStep.step2dsc")}</p>
+
+
+                            <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step3")}</p>
+                            <p className="w-1/2 mx-auto"><Image src={ins4} alt=""/></p>
+                            <p className="px-3 py-3">{t("tvgarden.installStep.step3dsc")}</p>
+
+
+                            <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step4")}</p>
+                            <p className="w-1/2 mx-auto"><Image src={ins5} alt=""/></p>
+                            <p className="px-3 py-3">{t("tvgarden.installStep.step4dsc")}</p>
+
+
+                            <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step5")}</p>
+                            <p className="w-1/2 mx-auto"><Image src={ins6} alt=""/></p>
+                            <p className="px-3 py-3">{t("tvgarden.installStep.step5dsc")}</p>
+
+                            <p className="px-3 py-5 text-2xl">{t("tvgarden.installStep.step6")}</p>
+                            <p className="w-1/2 mx-auto"><Image src={ins7} alt=""/></p>
+                            <p className="px-3 py-3">{t("tvgarden.installStep.step6dsc")}</p>
+                        </div>
+                    </div>
                 </div>
                 <div id="how-to-download-and-install-tv-garden-app-on-smart-tv" className="w-auto text-center py-6"><button className="bg-[#79c744] px-6 text-2xl font-medium py-3 mx-auto rounded-md w-[calc(100%)] cursor-pointer">{t("tvgarden.introBtn8")}</button></div>
                  <div>
                     <p className="p-2 mb-8">{t("tvgarden.how")}</p>
                     <ul className="mx-auto w-8/10 list-disc [&_li]:py-2 [&_li_span]:font-bold">
-                        <li><span>{t("tvgarden.howli1.bold")}</span>{t("tvgarden.howli1.txt1")}<a href=" https://tvgarden.net" className="text-[#2bba3f] italic cursor-pointer">https://tvgarden.net/</a>{t("tvgarden.howli1.txt2")}</li>
+                        <li><span>{t("tvgarden.howli1.bold")}</span>{t("tvgarden.howli1.txt1")}<a href="javascript:void(0)" onClick={downloadResource} className="text-[#2bba3f] italic cursor-pointer">https://flamelack.app</a>{t("tvgarden.howli1.txt2")}</li>
                         <li><span>{t("tvgarden.howli2.bold")}</span>{t("tvgarden.howli2.txt")}</li>
                         <li><span>{t("tvgarden.howli3.bold")}</span>{t("tvgarden.howli3.txt")}</li>
                         <li><span>{t("tvgarden.howli4.bold")}</span>{t("tvgarden.howli4.txt")}</li>
@@ -357,6 +412,6 @@ document.body.appendChild(noscript);
         {pageAttr.device.isDesktop?<div onClick={scrollToTop} ref={toTopRef} className="transition-all duration-300 ease-in-out fixed z-auto -bottom-12 right-6 border-2 border-solid border-white p-1.5 rounded-sm">
             <SvgIcon icon="_upArrow" width="22.09px" height="22.09px" fill="#79c447" stroke="#79c447" strokeWidth='0'/>
         </div>:null}
-        <div className="py-4 w-full text-[17px] text-white font-bold text-center bg-[#4a5568]">&copy;2025 TV Garden</div>
+        <div className="py-4 w-full text-[17px] text-white font-bold text-center bg-[#4a5568]">&copy;2026 Famelack</div>
     </div>
 }

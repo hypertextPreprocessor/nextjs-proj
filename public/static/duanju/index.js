@@ -50,6 +50,12 @@ if (/zh/i.test(navigator.language)) {
         'Вас ждет захватывающий сюжет! Этот сериал сейчас бесплатен, все серии можно смотреть без ограничений. Нажмите, чтобы продолжить — бесплатно, без ограничений, смотрите прямо сейчас!',
         'Рекомендуем вам популярные короткие сериалы! Автоматически включен полностью бесплатный режим, смотрите каждую серию. Нажмите, чтобы продолжить просмотр — бесплатно, без ограничений, смотрите прямо сейчас!'
     ]
+}else if(/ur/i.test(navigator.language)){
+    popText = [
+        'Hot short dramas are free to watch! Unlocked all episodes, watch anytime, anywhere. Click to watch the full plot, the later the better!',
+        'High-energy plot is about to appear! This drama is currently free, all episodes can be watched unlimitedly. Click to continue, no money, no limit, watch now!',
+        'Hot short dramas recommended for you! Automatically opened the full free mode, watch every episode. Click to continue watching, no money, no limit, watch now!'
+    ]
 }else{
     popText = [
         'Hot short dramas are free to watch! Unlocked all episodes, watch anytime, anywhere. Click to watch the full plot, the later the better!',
