@@ -343,7 +343,450 @@
         "f5": "Copyright ©2026 Kaiyuan Chess & Card. All Rights Reserved."
         }
     },
-    "recruit":{
-        
+    "recruit": {
+        "poster": {
+            "title1": "Are you looking for a job in Dhaka? (Bangladesh)",
+            "title2": "We have various job opportunities.",
+            "button": "Apply for Position"
+        },
+        "intro": {
+            "p1": "We provide a simple and reliable working environment.",
+            "p2": "If you are looking for a stable job, please contact us.",
+            "p3": "Formal Employment",
+            "p4": "Stable Income",
+            "p5": "Easy to Learn"
+        },
+        "carga": {
+            "title": "Welcome to Join Us"
+        },
+        "servies": {
+            "s0": "Business Department",
+            "s1": "IT Department",
+            "s2": "Human Resources Department",
+            "s3": "Sales Department",
+            "s4": "Operations Department",
+            "s5": "Marketing Department",
+            "t0": "Coordinate business strategy, drive business growth",
+            "t1": "Build digital foundation, empower technical innovation",
+            "t2": "Gather core talent, stimulate organizational vitality",
+            "t3": "Deepen target market, achieve sales breakthroughs",
+            "t4": "Fine-grained user operations, enhance commercial value",
+            "t5": "Shape brand presence, lead market trends",
+            "d0": "As the core business engine, the Business Department is primarily responsible for market expansion, key account negotiations, and the implementation of business cooperation projects. The department currently has 35 staff members, including Business Directors, Senior Business Managers, and Business Specialists. With the expansion of new business lines in the second half of the year, we currently have openings for 2 Senior Business Managers and 3 Business Specialists. We are seeking talented individuals with B2B key account resources and cross-departmental collaboration capabilities.",
+            "d1": "The IT Department is responsible for building the company's underlying architecture, system operations and maintenance, data security, and R&D support for internal digital tools. The department has 28 staff members, covering System Architects, Backend/Frontend Developers, Operations Engineers, and Test Engineers. To ensure the stability of core business systems and the on-time delivery of next-generation products, we currently have openings for 2 Senior Backend Developers and 1 Network Security Engineer.",
+            "d2": "The HR Department is fully responsible for the company's organizational development, recruitment, compensation and performance, employee training, and corporate culture construction; it is the solid backing for the implementation of the company's strategy. The department has 15 staff members, featuring recruitment, HRBP, and employee relations teams. Given the rapid expansion of the company's scale, we currently have openings for 1 Senior HRBP and 2 Campus Recruitment Specialists to support talent pipeline construction across all business lines.",
+            "d3": "The Sales Department is the direct creator of the company's revenue, focusing on product promotion, channel construction, customer conversion, and post-sales relationship maintenance. The department has 45 staff members, including Regional Sales Directors, Account Managers, and Pre-sales Support Specialists. To capture emerging market share, we currently have openings for 3 East China Account Managers and 1 Key Account Sales Director. We look forward to talented individuals with a competitive spirit and excellent negotiation skills joining us.",
+            "d4": "The Operations Department is committed to user full-lifecycle management, event planning, data analysis, and the optimization of daily business flows; it acts as the bridge connecting products and users. The department has 22 staff members, covering User Operations, Event Operations, Data Analysts, and Content Operations Specialists. With the enrichment of our product matrix, we currently have openings for 1 Senior User Operations Expert and 2 Data Analysts to drive fine-grained business growth through data.",
+            "d5": "The Marketing Department is responsible for brand strategic planning, public relations, integrated marketing, and industry insights, aiming to continuously enhance the company's industry influence and brand reputation. The department has 18 staff members, including Brand PR, New Media Operations, Marketing Planning, and Visual Design Specialists. To coordinate with the annual major brand upgrade campaign, we currently have openings for 1 Brand PR Manager and 2 Senior New Media Operations Specialists. We are looking for creative talent with the ability to create hit content and handle crisis public relations.",
+            "beforeGo": "Interview Preparation"
+        },
+        "jobs": {
+            "job0": {
+                "org": "Feda Hat Industry Project Department",
+                "jobTitle": "Company Clerk",
+                "state": "Bangladesh",
+                "subTitle": "Join us and create the future together!",
+                "psTitle": "Grow with us and achieve a better self",
+                "jd": {
+                    "title": "Job Responsibilities",
+                    "li0": "Assist in daily administrative and logistical affairs management;",
+                    "li1": "Responsible for document management, data entry, etc.;",
+                    "li2": "Assist various departments in completing tasks assigned by the company;",
+                    "li3": "Possess good communication skills and team spirit."
+                },
+                "requirements": {
+                    "title": "Requirements",
+                    "li0": "Relevant work experience is preferred;",
+                    "li1": "Familiar with office software operations (Word, Excel, Email);",
+                    "li2": "Careful, highly responsible, and able to work under pressure;",
+                    "li3": "Good communication skills and team spirit;",
+                    "li4": "Able to adapt to a fast-paced work environment."
+                },
+                "promise": {
+                    "title": "We Offer",
+                    "li0": "Competitive salary",
+                    "li1": "Comprehensive benefits and security",
+                    "li2": "Good development platform",
+                    "li3": "Excellent team atmosphere"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Contact us immediately to apply!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Interested candidates please contact us via Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job1": {
+                "org": "Feda Hat Industry Project Department",
+                "jobTitle": "Accountant",
+                "state": "Bangladesh",
+                "subTitle": "Join us and create the future together!",
+                "psTitle": "Grow with us and achieve a better self",
+                "jd": {
+                    "title": "Job Responsibilities",
+                    "li0": "Responsible for financial accounting and report preparation;",
+                    "li1": "Familiar with local tax policies and financial regulations;",
+                    "li2": "Process and prepare financial documents;",
+                    "li3": "Execute other finance-related tasks."
+                },
+                "requirements": {
+                    "title": "Requirements",
+                    "li0": "Relevant work experience, familiar with accounting processes;",
+                    "li1": "Familiar with local tax policies and financial regulations;",
+                    "li2": "Careful, highly responsible, and able to work under pressure;",
+                    "li3": "Good communication skills and team spirit;",
+                    "li4": "Able to adapt to a fast-paced work environment."
+                },
+                "promise": {
+                    "title": "We Offer",
+                    "li0": "Competitive salary",
+                    "li1": "Comprehensive benefits and security",
+                    "li2": "Good development platform",
+                    "li3": "Excellent team atmosphere"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Contact us immediately to apply!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Interested candidates please contact us via Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job2": {
+                "org": "Feda Hat Industry Project Department",
+                "jobTitle": "Finance Manager",
+                "state": "Bangladesh",
+                "subTitle": "Join us and create the future together!",
+                "psTitle": "Grow with us and achieve a better self",
+                "jd": {
+                    "title": "Job Responsibilities",
+                    "li0": "Fully responsible for the daily management of the finance department;",
+                    "li1": "Establish and improve company financial systems and processes;",
+                    "li2": "Prepare monthly, quarterly, and annual financial statements;",
+                    "li3": "Responsible for budget management, cost control, and capital planning."
+                },
+                "requirements": {
+                    "title": "Requirements",
+                    "li0": "2+ years of financial management experience;",
+                    "li1": "Serious, meticulous, and highly responsible;",
+                    "li2": "Experience in manufacturing or trading companies is preferred;",
+                    "li3": "Good communication and team management skills;",
+                    "li4": "Familiar with office and financial software."
+                },
+                "promise": {
+                    "title": "We Offer",
+                    "li0": "Stable and long-term career development space",
+                    "li1": "Management skill enhancement and promotion opportunities",
+                    "li2": "International corporate management experience and platform",
+                    "li3": "Competitive salary and performance bonuses"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Contact us immediately to apply!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Interested candidates please contact us via Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job3": {
+                "org": "Feda Hat Industry Project Department",
+                "jobTitle": "Purchasing Manager",
+                "state": "Bangladesh",
+                "subTitle": "Join us and create the future together!",
+                "psTitle": "Grow with us and achieve a better self",
+                "jd": {
+                    "title": "Job Responsibilities",
+                    "li0": "Responsible for the overall operation and management of the purchasing department;",
+                    "li1": "Formulate purchasing plans and budgets;",
+                    "li2": "Develop and maintain high-quality supplier resources;",
+                    "li3": "Control purchasing costs and improve efficiency."
+                },
+                "requirements": {
+                    "title": "Requirements",
+                    "li0": "2+ years of purchasing management experience;",
+                    "li1": "Possess good business negotiation skills;",
+                    "li2": "Familiar with procurement processes and supply chain management;",
+                    "li3": "Good communication and team management skills;",
+                    "li4": "Proactive and strong execution."
+                },
+                "promise": {
+                    "title": "We Offer",
+                    "li0": "Long-term stable development platform",
+                    "li1": "Team collaboration and career development space",
+                    "li2": "Opportunities to improve supply chain management experience",
+                    "li3": "Industry-competitive salary and performance incentives"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Contact us immediately to apply!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Interested candidates please contact us via Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job4": {
+                "org": "Feda Hat Industry Project Department",
+                "jobTitle": "Purchasing Specialist",
+                "state": "Bangladesh",
+                "subTitle": "Join us and create the future together!",
+                "psTitle": "Grow with us and achieve a better self",
+                "jd": {
+                    "title": "Job Responsibilities",
+                    "li0": "Conduct price inquiries and purchasing based on plans;",
+                    "li1": "Follow up on order delivery progress;",
+                    "li2": "Organize procurement contracts and documentation;",
+                    "li3": "Assist in inventory management and regularly report progress."
+                },
+                "requirements": {
+                    "title": "Requirements",
+                    "li0": "Familiar with office software;",
+                    "li1": "Good communication skills;",
+                    "li2": "Familiar with procurement processes and supply chain management;",
+                    "li3": "Serious and responsible;",
+                    "li4": "Purchasing experience is preferred."
+                },
+                "promise": {
+                    "title": "We Offer",
+                    "li0": "Good team collaboration environment",
+                    "li1": "Fair promotion and development opportunities",
+                    "li2": "Comprehensive training and mentorship",
+                    "li3": "Platform for learning supply chain management"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Contact us immediately to apply!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Interested candidates please contact us via Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job5": {
+                "org": "Feda Hat Industry Project Department",
+                "jobTitle": "Business Driver",
+                "state": "Bangladesh",
+                "subTitle": "Join us and create the future together!",
+                "psTitle": "Grow with us and achieve a better self",
+                "jd": {
+                    "title": "Job Responsibilities",
+                    "li0": "Responsible for picking up/dropping off company management and clients;",
+                    "li1": "Responsible for daily cleaning, inspection, and maintenance of the vehicle;",
+                    "li2": "Strictly abide by traffic laws to ensure safe driving;",
+                    "li3": "Complete other administrative tasks assigned by the company."
+                },
+                "requirements": {
+                    "title": "Requirements",
+                    "li0": "Hold a local valid driver's license;",
+                    "li1": "Familiar with local roads and traffic conditions;",
+                    "li2": "No record of major traffic violations or accidents;",
+                    "li3": "Good character and service consciousness;",
+                    "li4": "3+ years of driving experience."
+                },
+                "promise": {
+                    "title": "We Offer",
+                    "li0": "Corporate culture that respects employees",
+                    "li1": "Holiday benefits and employee care",
+                    "li2": "Safe and regulated work environment",
+                    "li3": "Stable salary and long-term job opportunities"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Contact us immediately to apply!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Interested candidates please contact us via Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job6": {
+                "org": "Feda Hat Industry Project Department",
+                "jobTitle": "Network Administrator",
+                "state": "Bangladesh",
+                "subTitle": "Join us and create the future together!",
+                "psTitle": "Grow with us and achieve a better self",
+                "jd": {
+                    "title": "Job Responsibilities",
+                    "li0": "Responsible for daily maintenance of company network systems;",
+                    "li1": "Handle employees' daily IT technical support;",
+                    "li2": "Manage company servers and local area networks;",
+                    "li3": "Responsible for network security and data backup."
+                },
+                "requirements": {
+                    "title": "Requirements",
+                    "li0": "Computer-related major;",
+                    "li1": "Familiar with Windows office environment;",
+                    "li2": "Familiar with router and switch configuration;",
+                    "li3": "Good character and responsible;",
+                    "li4": "Good troubleshooting skills."
+                },
+                "promise": {
+                    "title": "We Offer",
+                    "li0": "International enterprise work experience",
+                    "li1": "IT development and promotion space",
+                    "li2": "Professional skill improvement opportunities",
+                    "li3": "Modern office equipment and technical environment"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Contact us immediately to apply!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Interested candidates please contact us via Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job7": {
+                "org": "Feda Hat Industry Project Department",
+                "jobTitle": "Receptionist",
+                "state": "Bangladesh",
+                "subTitle": "Join us and create the future together!",
+                "psTitle": "Grow with us and achieve a better self",
+                "jd": {
+                    "title": "Job Responsibilities",
+                    "li0": "Answer phone calls;",
+                    "li1": "Receive visitors;",
+                    "li2": "Register visitor information;",
+                    "li3": "Assist in office management."
+                },
+                "requirements": {
+                    "title": "Requirements",
+                    "li0": "Good communication skills;",
+                    "li1": "Familiar with computer operations;",
+                    "li2": "Attractive appearance, confident and generous;",
+                    "li3": "Good character and responsible;",
+                    "li4": "Service consciousness."
+                },
+                "promise": {
+                    "title": "We Offer",
+                    "li0": "Comprehensive onboarding training",
+                    "li1": "Cross-departmental learning opportunities",
+                    "li2": "Stable work environment",
+                    "li3": "Fair promotion channels"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Contact us immediately to apply!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Interested candidates please contact us via Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job8": {
+                "org": "Feda Hat Industry Project Department",
+                "jobTitle": "Operations Manager",
+                "state": "Bangladesh",
+                "subTitle": "Join us and create the future together!",
+                "psTitle": "Grow with us and achieve a better self",
+                "jd": {
+                    "title": "Job Responsibilities",
+                    "li0": "Responsible for the company's daily operations management;",
+                    "li1": "Coordinate sales, purchasing, and warehouse departments;",
+                    "li2": "Optimize work processes;",
+                    "li3": "Manage operations team."
+                },
+                "requirements": {
+                    "title": "Requirements",
+                    "li0": "Business management-related major;",
+                    "li1": "1+ years of operations experience;",
+                    "li2": "Strong organizational and coordination skills;",
+                    "li3": "Good character and responsible;",
+                    "li4": "Familiar with corporate process management."
+                },
+                "promise": {
+                    "title": "We Offer",
+                    "li0": "Long-term stable development opportunities",
+                    "li1": "Performance incentives and promotion space",
+                    "li2": "Platform for accumulating corporate operations experience",
+                    "li3": "Development opportunities for management positions"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Contact us immediately to apply!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Interested candidates please contact us via Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            }
+        },
+        "apply": {
+            "t1": "Feda Hat Industry Project Department Recruitment",
+            "t2": "Translator",
+            "t3": "Responsibilities: Assist with business negotiations, document translation, and daily correspondence.",
+            "t4": "Driver",
+            "t5": "Responsibilities: Responsible for transporting employees and goods, as well as daily vehicle maintenance.",
+            "t6": "Accountant",
+            "t7": "Responsibilities: Manage financial reports and supervise accounting books.",
+            "t8": "Human Resources (HR)",
+            "t9": "Responsibilities: Manage personnel files, responsible for recruitment and management.",
+            "t10": "Feda Hat Industry Project Department is currently recruiting for the following professionals:",
+            "a1": "We have received your resume and will notify you of the interview result as soon as possible; please wait for our further phone call. If we cannot reach you, you can download our company app and check the result through the 'Inquiry' section in the recruitment menu by entering your mobile phone number or name.",
+            "a2": "Understood, I am downloading it now.",
+            "a3": "Job Application Form",
+            "a4": "Basic Information",
+            "a5": "Name:",
+            "a6": "Gender:",
+            "a7": "Male",
+            "a8": "Female",
+            "a9": "Confidential",
+            "a10": "Contact Number:",
+            "a11": "Current Residential Address:",
+            "a12": "Job Information",
+            "a13": "Position Applied For:",
+            "a14": "Expected Monthly Salary:",
+            "a15": "Available Start Date:",
+            "a16": "Employment Type:",
+            "a17": "Educational Background",
+            "a18": "Degree:",
+            "a19": "Major:",
+            "a20": "Graduated From:",
+            "a21": "Work Experience",
+            "a22": "Skills and Self-Evaluation",
+            "a23": "Declaration",
+            "a24": "I guarantee that the information provided above is true and accurate. If any false information is discovered, I am willing to bear all responsibilities and consequences.",
+            "a25": "Submit"
+        }
     }
 }

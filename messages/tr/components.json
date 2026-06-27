@@ -1,1 +1,8 @@
-{}
+{
+    "cookie":{
+        "h1":"Çerez Ayarları",
+        "desc":"Deneyiminizi geliştirmek için çerezler kullanıyoruz. Bazı çerezler sitenin çalışması için gereklidir, diğerleri ise kullanabilirliği artırmamıza, trafiği analiz etmemize ve ilgili içerik sunmamıza yardımcı olur. Hepsini kabul etmeyi veya tercihlerinizi özelleştirmeyi seçebilirsiniz.",
+        "accept":"Tümünü Kabul Et",
+        "denial":"Reddet"
+    }
+}

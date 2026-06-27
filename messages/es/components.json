@@ -1,8 +1,8 @@
 {
     "cookie":{
-        "h1":"Cookie Setting",
-        "desc":"We use cookies to enhance your experience. Some cookies are essential for the site to function, while others help us improve usability, analyze traffic, and deliver relevant content. You can choose to accept all or customise your preferences.",
-        "accept":"Accept All",
-        "denial":"Reject"
+        "h1":"Configuración de cookies",
+        "desc":"Utilizamos cookies para mejorar su experiencia. Algunas cookies son esenciales para que el sitio funcione, mientras que otras nos ayudan a mejorar la usabilidad, analizar el tráfico y ofrecer contenido relevante. Puede optar por aceptar todas o personalizar sus preferencias.",
+        "accept":"Aceptar todas",
+        "denial":"Rechazar"
     }
 }

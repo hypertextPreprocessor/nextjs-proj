@@ -344,469 +344,452 @@
         "f5": "Derechos de autor ©2026 Kaiyuan Chess & Card. Todos los derechos reservados."
         }
     },
-    "recruit":{
-        "poster":{
-            "title1":"您正在寻找达卡的工作吗？（孟加拉国）",
-            "title2":"我们有多种工作机会。",
-            "button":"申请职位"
+    "recruit": {
+        "poster": {
+            "title1": "¿Está buscando trabajo en Dhaka? (Bangladesh)",
+            "title2": "Tenemos varias oportunidades de trabajo.",
+            "button": "Postularse"
         },
-        "intro":{
-            "p1":"我们提供简单、可靠的工作环境",
-            "p2":"如果您正在寻找一份稳定的工作，请联系我们。",
-            "p3":"正规工作",
-            "p4":"稳定收入",
-            "p5":"易于学习"
+        "intro": {
+            "p1": "Ofrecemos un entorno de trabajo simple y confiable",
+            "p2": "Si está buscando un trabajo estable, contáctenos.",
+            "p3": "Empleo formal",
+            "p4": "Ingreso estable",
+            "p5": "Fácil de aprender"
         },
-        "carga":{
-            "title":"欢迎加入我们"
+        "carga": {
+            "title": "Bienvenido a unirse a nosotros"
         },
-        "servies":{
-            "s0":"商务部",
-            "s1":"IT部",
-            "s2":"人事部",
-            "s3":"销售部",
-            "s4":"运营部",
-            "s5":"市场部",
-            "t0":"统筹商业战略，驱动业务增长",
-            "t1":"筑牢数字底座，赋能技术创新",
-            "t2":"汇聚核心人才，激发组织活力",
-            "t3":"深耕目标市场，实现业绩突破",
-            "t4":"精细化用户运营，提升商业价值",
-            "t5":"塑造品牌声量，引领市场风向",            
-            "d0":"商务部作为公司核心业务引擎，主要负责市场拓展、大客户谈判及商业合作项目的落地执行。目前部门现有编制35人，包含商务总监、高级商务经理及商务专员等岗位。随着下半年新业务线的扩张，当前空缺高级商务经理2名、商务专员3名，急需具备B端大客户资源与跨部门协同能力的优秀人才加入。",
-            "d1":"IT部承担着公司底层架构搭建、系统运维、数据安全及内部数字化工具的研发支持工作。部门现有编制28人，涵盖系统架构师、后端/前端开发工程师、运维工程师及测试工程师。为保障核心业务系统的稳定性与下一代产品的按期交付，目前空缺高级后端开发工程师2名、网络安全工程师1名。",
-            "d2":"人事部全面负责公司的组织发展、人才招聘、薪酬绩效、员工培训及企业文化建设，是公司战略落地的坚实后盾。部门现有编制15人，设有招聘组、HRBP组及员工关系组。鉴于公司规模的快速扩大，当前空缺资深HRBP 1名、校园招聘专员2名，以支撑各业务线的人才梯队建设。",
-            "d3":"销售部是公司营收的直接创造者，专注于产品推广、渠道建设、客户转化及售后客情维护。部门现有编制45人，包括大区销售总监、客户经理及售前支持专员。为抢占新兴市场份额，目前空缺华东区客户经理3名、大客户销售总监1名，期待具有狼性拼搏精神与出色谈判技巧的精英加盟。",            
-            "d4":"运营部致力于用户全生命周期管理、活动策划、数据分析及日常业务流转的优化，是连接产品与用户的桥梁。部门现有编制22人，涵盖用户运营、活动运营、数据分析师及内容运营专员。随着产品矩阵的丰富，当前空缺资深用户运营专家1名、数据分析师2名，以数据驱动实现业务的精细化增长。",
-            "d5":"市场部负责品牌战略规划、公关传播、整合营销及行业洞察，旨在持续提升公司的行业影响力与品牌美誉度。部门现有编制18人，包括品牌公关、新媒体运营、市场策划及视觉设计专员。为配合年度重磅品牌升级战役，目前空缺品牌公关经理1名、资深新媒体运营2名，寻找具备爆款内容打造与危机公关处理能力的创意人才。",
-            "beforeGo":"面试准备"
+        "servies": {
+            "s0": "Departamento de Negocios",
+            "s1": "Departamento de TI",
+            "s2": "Departamento de Recursos Humanos",
+            "s3": "Departamento de Ventas",
+            "s4": "Departamento de Operaciones",
+            "s5": "Departamento de Marketing",
+            "t0": "Coordinar la estrategia comercial, impulsar el crecimiento del negocio",
+            "t1": "Construir una base digital, potenciar la innovación técnica",
+            "t2": "Reunir talento central, estimular la vitalidad organizacional",
+            "t3": "Profundizar en el mercado objetivo, lograr avances en ventas",
+            "t4": "Operaciones de usuario refinadas, mejorar el valor comercial",
+            "t5": "Dar forma a la presencia de marca, liderar las tendencias del mercado",
+            "d0": "Como motor central del negocio, el Departamento de Negocios es responsable de la expansión del mercado, las negociaciones con clientes clave y la ejecución de proyectos de cooperación comercial. Actualmente cuenta con 35 empleados. Debido a la expansión de nuevas líneas de negocio, necesitamos cubrir 2 puestos de Gerente de Negocios Senior y 3 de Especialista en Negocios. Buscamos talento con recursos de clientes B2B y habilidades de colaboración interdepartamental.",
+            "d1": "El Departamento de TI se encarga de la infraestructura, operaciones del sistema, seguridad de datos y soporte de desarrollo. Cuenta con 28 empleados. Para garantizar la estabilidad de los sistemas y la entrega de productos, necesitamos 2 Ingenieros de Desarrollo Backend Senior y 1 Ingeniero de Seguridad de Red.",
+            "d2": "El Departamento de RRHH gestiona el desarrollo organizacional, reclutamiento, compensación, capacitación y cultura corporativa. Cuenta con 15 empleados. Dada la rápida expansión, necesitamos 1 HRBP Senior y 2 Especialistas en Reclutamiento Universitario.",
+            "d3": "El Departamento de Ventas es el creador directo de ingresos, enfocado en promoción, canales, conversión y mantenimiento de clientes. Cuenta con 45 empleados. Buscamos 3 Gerentes de Cuentas para el Este de China y 1 Director de Ventas para Clientes Clave.",
+            "d4": "El Departamento de Operaciones se dedica al ciclo de vida del usuario, planificación de eventos, análisis de datos y optimización de flujos. Cuenta con 22 empleados. Buscamos 1 Experto en Operaciones de Usuario Senior y 2 Analistas de Datos.",
+            "d5": "El Departamento de Marketing es responsable de la estrategia de marca, relaciones públicas y marketing integrado. Cuenta con 18 empleados. Buscamos 1 Gerente de PR y 2 Especialistas en Operaciones de Nuevos Medios con habilidades creativas.",
+            "beforeGo": "Preparación para la entrevista"
         },
-        "jobs":{
-            "job0":{
-                "org":"飞达帽业公司项目部",
-                "jobTitle":"公司职员",
-                "state":"孟加拉国",
-                "subTitle":"加入我们，共创未来！",
-                "psTitle":"与我们一起成长，成就更好的自己",
-                "jd":{
-                    "title":"工作内容",
-                    "li0":"协助公司日常行政及后勤事务管理；",
-                    "li1":"负责文件鳖理、数据录入等工作；",
-                    "li2":"协助各部门完成公司交办的各项任务；",
-                    "li3":"具备良好的沟通能力和团队协作精神，"
+        "jobs": {
+            "job0": {
+                "org": "Departamento de Proyectos de Feda Hat Industry",
+                "jobTitle": "Empleado administrativo",
+                "state": "Bangladesh",
+                "subTitle": "¡Únase a nosotros y creemos el futuro juntos!",
+                "psTitle": "Crecer con nosotros y lograr una mejor versión de usted mismo",
+                "jd": {
+                    "title": "Responsabilidades",
+                    "li0": "Asistir en la gestión administrativa y logística diaria;",
+                    "li1": "Responsable de la gestión de archivos e ingreso de datos;",
+                    "li2": "Asistir a los departamentos en las tareas asignadas;",
+                    "li3": "Poseer buenas habilidades de comunicación y espíritu de equipo."
                 },
-                "requirements":{
-                    "title":"任职要求",
-                    "li0":"具备相关工作经验者优先；",
-                    "li1":"熱悉办公软件操作（Word, Excel, Email）；",
-                    "li2":"工作细心、责任心强，能承受工作压力；",
-                    "li3":"良好的泃通能力与团队合作精神；",
-                    "li4":"能适应快节奏工作环境，"
+                "requirements": {
+                    "title": "Requisitos",
+                    "li0": "Experiencia laboral relevante preferible;",
+                    "li1": "Familiarizado con software de oficina (Word, Excel, Email);",
+                    "li2": "Atento, responsable y capaz de trabajar bajo presión;",
+                    "li3": "Buenas habilidades de comunicación y trabajo en equipo;",
+                    "li4": "Capacidad de adaptación a un entorno de ritmo rápido."
                 },
-                "promise":{
-                    "title":"我们提供",
-                    "li0":"有竞争力的薪资",
-                    "li1":"完善的福利保障",
-                    "li2":"良好的发展平台",
-                    "li3":"有好的团队氛围"
+                "promise": {
+                    "title": "Ofrecemos",
+                    "li0": "Salario competitivo",
+                    "li1": "Beneficios integrales y seguridad",
+                    "li2": "Buen entorno de desarrollo",
+                    "li3": "Excelente ambiente laboral"
                 },
-                "aboutus":{
-                    "contact":{
-                        "title":"立即联系，申请职位！",
-                        "person":{
-                            "p1":{}
-                        },
-                        "address":"孟加拉国 - 达卡",
-                        "social":{
-                            "title":"有意者通过Message联系我们",
-                            "whatsapp":"",
-                            "telegram":""
+                "aboutus": {
+                    "contact": {
+                        "title": "¡Contáctenos para postularse!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Si está interesado, contáctenos por mensaje",
+                            "whatsapp": "",
+                            "telegram": ""
                         }
                     }
                 }
             },
-            "job1":{
-                "org":"飞达帽业公司项目部",
-                "jobTitle":"会计师",
-                "state":"孟加拉国",
-                "subTitle":"加入我们，共创未来！",
-                "psTitle":"与我们一起成长，成就更好的自己",
-                "jd":{
-                    "title":"工作内容",
-                    "li0":"负责公司财务核算及报表编制；",
-                    "li1":"熟悉当地税务政策及财务法规；",
-                    "li2":"处理并编制财务文件；",
-                    "li3":"执行其他财务相关工作。"
+            "job1": {
+                "org": "Departamento de Proyectos de Feda Hat Industry",
+                "jobTitle": "Contador",
+                "state": "Bangladesh",
+                "subTitle": "¡Únase a nosotros y creemos el futuro juntos!",
+                "psTitle": "Crecer con nosotros y lograr una mejor versión de usted mismo",
+                "jd": {
+                    "title": "Responsabilidades",
+                    "li0": "Contabilidad financiera y preparación de informes;",
+                    "li1": "Familiarizado con políticas fiscales locales;",
+                    "li2": "Procesar y preparar documentos financieros;",
+                    "li3": "Ejecutar otras tareas financieras."
                 },
-                "requirements":{
-                    "title":"任职要求",
-                    "li0":"具备相关工作经验，熟悉会计核算流程；",
-                    "li1":"熟悉当地税务政策及财务法规；",
-                    "li2":"工作细心、责任心强，能承受工作压力；",
-                    "li3":"良好的泃通能力与团队合作精神；",
-                    "li4":"能适应快节奏工作环境，"
+                "requirements": {
+                    "title": "Requisitos",
+                    "li0": "Experiencia relevante, familiarizado con procesos contables;",
+                    "li1": "Familiarizado con políticas fiscales locales;",
+                    "li2": "Atento, responsable y capaz de trabajar bajo presión;",
+                    "li3": "Buenas habilidades de comunicación y trabajo en equipo;",
+                    "li4": "Capacidad de adaptación a un entorno de ritmo rápido."
                 },
-                "promise":{
-                    "title":"我们提供",
-                    "li0":"有竞争力的薪资",
-                    "li1":"完善的福利保障",
-                    "li2":"良好的发展平台",
-                    "li3":"有好的团队氛围"
+                "promise": {
+                    "title": "Ofrecemos",
+                    "li0": "Salario competitivo",
+                    "li1": "Beneficios integrales y seguridad",
+                    "li2": "Buen entorno de desarrollo",
+                    "li3": "Excelente ambiente laboral"
                 },
-                "aboutus":{
-                    "contact":{
-                        "title":"立即联系，申请职位！",
-                        "person":{
-                            "p1":{}
-                        },
-                        "address":"孟加拉国 - 达卡",
-                        "social":{
-                            "title":"有意者通过Message联系我们",
-                            "whatsapp":"",
-                            "telegram":""
+                "aboutus": {
+                    "contact": {
+                        "title": "¡Contáctenos para postularse!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Si está interesado, contáctenos por mensaje",
+                            "whatsapp": "",
+                            "telegram": ""
                         }
                     }
                 }
             },
-			"job2":{
-                "org":"飞达帽业公司项目部",
-                "jobTitle":"财务经理",
-                "state":"孟加拉国",
-                "subTitle":"加入我们，共创未来！",
-                "psTitle":"与我们一起成长，成就更好的自己",
-                "jd":{
-                    "title":"工作内容",
-                    "li0":" 全面负责公司财务部门的日常管理工作；",
-                    "li1":"建立和完善公司的财务制度及流程；",
-                    "li2":"编制月度、季度、年度财务报表；",
-                    "li3":"负责预算管理、成本控制及资金规划。"
+            "job2": {
+                "org": "Departamento de Proyectos de Feda Hat Industry",
+                "jobTitle": "Gerente de Finanzas",
+                "state": "Bangladesh",
+                "subTitle": "¡Únase a nosotros y creemos el futuro juntos!",
+                "psTitle": "Crecer con nosotros y lograr una mejor versión de usted mismo",
+                "jd": {
+                    "title": "Responsabilidades",
+                    "li0": "Gestión diaria del departamento financiero;",
+                    "li1": "Establecer y mejorar sistemas y procesos financieros;",
+                    "li2": "Preparar estados financieros mensuales, trimestrales y anuales;",
+                    "li3": "Gestión de presupuesto, control de costos y planificación de capital."
                 },
-                "requirements":{
-                    "title":"任职要求",
-                    "li0":"2年以上财务管理经验；",
-                    "li1":"工作认真细致，责任心强；",
-                    "li2":" 有制造业或贸易公司经验者优先；",
-                    "li3":"良好的沟通能力和团队管理能力；",
-                    "li4":"熟悉办公软件及财务软件"
+                "requirements": {
+                    "title": "Requisitos",
+                    "li0": "Más de 2 años de experiencia en gestión financiera;",
+                    "li1": "Serio, minucioso y responsable;",
+                    "li2": "Experiencia en manufactura o comercio preferible;",
+                    "li3": "Buenas habilidades de comunicación y gestión de equipos;",
+                    "li4": "Dominio de software de oficina y contabilidad."
                 },
-                "promise":{
-                    "title":"我们提供",
-                    "li0":"稳定长期的职业发展空间",
-                    "li1":"管理能力提升及职业晋升机会",
-                    "li2":"国际化企业管理经验和发展平台",
-                    "li3":"具有竞争力的薪资待遇和绩效奖金"
+                "promise": {
+                    "title": "Ofrecemos",
+                    "li0": "Desarrollo profesional estable y a largo plazo",
+                    "li1": "Oportunidades de mejora y ascenso",
+                    "li2": "Experiencia en gestión corporativa internacional",
+                    "li3": "Salario competitivo y bonos por desempeño"
                 },
-                "aboutus":{
-                    "contact":{
-                        "title":"立即联系，申请职位！",
-                        "person":{
-                            "p1":{}
-                        },
-                        "address":"孟加拉国 - 达卡",
-                        "social":{
-                            "title":"有意者通过Message联系我们",
-                            "whatsapp":"",
-                            "telegram":""
-						}
-                    }
-                }
-            },           
-			"job3":{
-                "org":"飞达帽业公司项目部",
-                "jobTitle":"采购经理",
-                "state":"孟加拉国",
-                "subTitle":"加入我们，共创未来！",
-                "psTitle":"与我们一起成长，成就更好的自己",
-                "jd":{
-                    "title":"工作内容",
-                    "li0":"负责公司采购部门整体运营管理；",
-                    "li1":"制定采购计划及采购预算；",
-                    "li2":"开发及维护优质供应商资源；",
-                    "li3":"控制采购成本，提高采购效率。"
-                },
-                "requirements":{
-                    "title":"任职要求",
-                    "li0":"2年以上采购管理经验；",
-                    "li1":"具备良好的商务谈判能力；",
-                    "li2":"熟悉采购流程及供应链管理；",
-                    "li3":"良好的沟通能力和团队管理能力；",
-                    "li4":"工作积极主动，执行力强"
-                },
-                "promise":{
-                    "title":"我们提供",
-                    "li0":"长期稳定的发展平台",
-                    "li1":"团队协作和职业发展空间",
-                    "li2":"供应链管理经验提升机会",
-                    "li3":"行业竞争力薪资及绩效奖励"
-                },
-                "aboutus":{
-                    "contact":{
-                        "title":"立即联系，申请职位！",
-                        "person":{
-                            "p1":{}
-                        },
-                        "address":"孟加拉国 - 达卡",
-                        "social":{
-                            "title":"有意者通过Message联系我们",
-                            "whatsapp":"",
-                            "telegram":""
-						}
-                    }
-                }
-            },			
-		    "job4":{
-                "org":"飞达帽业公司项目部",
-                "jobTitle":"采购专员",
-                "state":"孟加拉国",
-                "subTitle":"加入我们，共创未来！",
-                "psTitle":"与我们一起成长，成就更好的自己",
-                "jd":{
-                    "title":"工作内容",
-                    "li0":"根据采购计划进行询价及采购；",
-                    "li1":"跟进订单交付进度；",
-                    "li2":"整理采购合同及资料；",
-                    "li3":"协助库存管理并定期汇报采购进度。"
-                },
-                "requirements":{
-                    "title":"任职要求",
-                    "li0":"熟悉办公软件；",
-                    "li1":"良好的沟通能力；",
-                    "li2":"熟悉采购流程及供应链管理；",
-                    "li3":"工作认真负责；",
-                    "li4":"有采购经验优先"
-                },
-                "promise":{
-                    "title":"我们提供",
-                    "li0":"良好团队合作环境",
-                    "li1":"公平晋升及发展机会",
-                    "li2":"完善培训和岗位指导",
-                    "li3":"学习供应链管理的平台"
-                },
-                "aboutus":{
-                    "contact":{
-                        "title":"立即联系，申请职位！",
-                        "person":{
-                            "p1":{}
-                        },
-                        "address":"孟加拉国 - 达卡",
-                        "social":{
-                            "title":"有意者通过Message联系我们",
-                            "whatsapp":"",
-                            "telegram":""
-						}
-                    }
-                }
-            },		
-	        "job5":{
-                "org":"飞达帽业公司项目部",
-                "jobTitle":"商务司机",
-                "state":"孟加拉国",
-                "subTitle":"加入我们，共创未来！",
-                "psTitle":"与我们一起成长，成就更好的自己",
-                "jd":{
-                    "title":"工作内容",
-                    "li0":"负责接送公司管理人员及客户；",
-                    "li1":"负责车辆日常清洁、检查及保养；",
-                    "li2":"严格遵守交通法规，确保安全驾驶；",
-                    "li3":"完成公司安排的其他行政事务。"
-                },
-                "requirements":{
-                    "title":"任职要求",
-                    "li0":"持有当地合法驾驶执照；",
-                    "li1":"熟悉当地道路及交通情况；",
-                    "li2":"无重大交通违法及事故记录；",
-                    "li3":"品行端正，具有良好的服务意识；",
-                    "li4":"3年以上驾驶经验"
-                },
-                "promise":{
-                    "title":"我们提供",
-                    "li0":"尊重员工的企业文化",
-                    "li1":"节日福利和员工关怀",
-                    "li2":"安全规范的工作环境",
-                    "li3":"稳定薪资和长期工作机会"
-                },
-                "aboutus":{
-                    "contact":{
-                        "title":"立即联系，申请职位！",
-                        "person":{
-                            "p1":{}
-                        },
-                        "address":"孟加拉国 - 达卡",
-                        "social":{
-                            "title":"有意者通过Message联系我们",
-                            "whatsapp":"",
-                            "telegram":""
-						}
+                "aboutus": {
+                    "contact": {
+                        "title": "¡Contáctenos para postularse!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Si está interesado, contáctenos por mensaje",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
                     }
                 }
             },
-			 "job6":{
-                "org":"飞达帽业公司项目部",
-                "jobTitle":"网络管理员",
-                "state":"孟加拉国",
-                "subTitle":"加入我们，共创未来！",
-                "psTitle":"与我们一起成长，成就更好的自己",
-                "jd":{
-                    "title":"工作内容",
-                    "li0":"负责公司网络系统日常维护；",
-                    "li1":"处理员工日常IT技术支持；",
-                    "li2":"管理公司服务器及局域网；",
-                    "li3":"负责网络安全及数据备份。"
+            "job3": {
+                "org": "Departamento de Proyectos de Feda Hat Industry",
+                "jobTitle": "Gerente de Compras",
+                "state": "Bangladesh",
+                "subTitle": "¡Únase a nosotros y creemos el futuro juntos!",
+                "psTitle": "Crecer con nosotros y lograr una mejor versión de usted mismo",
+                "jd": {
+                    "title": "Responsabilidades",
+                    "li0": "Gestión operativa del departamento de compras;",
+                    "li1": "Formular planes y presupuestos de compras;",
+                    "li2": "Desarrollar y mantener proveedores de alta calidad;",
+                    "li3": "Controlar costos de compra y mejorar la eficiencia."
                 },
-                "requirements":{
-                    "title":"任职要求",
-                    "li0":"计算机相关专业；",
-                    "li1":"熟悉Windows办公环境；",
-                    "li2":"熟悉路由器、交换机配置；",
-                    "li3":"品行端正，工作认真负责；",
-                    "li4":"具备良好的故障排查能力"
+                "requirements": {
+                    "title": "Requisitos",
+                    "li0": "Más de 2 años de experiencia en gestión de compras;",
+                    "li1": "Buenas habilidades de negociación comercial;",
+                    "li2": "Familiarizado con procesos de compras y cadena de suministro;",
+                    "li3": "Buenas habilidades de comunicación y gestión de equipos;",
+                    "li4": "Proactivo y con gran capacidad de ejecución."
                 },
-                "promise":{
-                    "title":"我们提供",
-                    "li0":"国际化企业工作经验",
-                    "li1":"IT发展及晋升空间",
-                    "li2":"专业技能提升机会",
-                    "li3":"现代化办公设备和技术环境"
+                "promise": {
+                    "title": "Ofrecemos",
+                    "li0": "Plataforma de desarrollo estable a largo plazo",
+                    "li1": "Colaboración en equipo y espacio de desarrollo",
+                    "li2": "Oportunidad de mejorar en cadena de suministro",
+                    "li3": "Salario competitivo e incentivos por desempeño"
                 },
-                "aboutus":{
-                    "contact":{
-                        "title":"立即联系，申请职位！",
-                        "person":{
-                            "p1":{}
-                        },
-                        "address":"孟加拉国 - 达卡",
-                        "social":{
-                            "title":"有意者通过Message联系我们",
-                            "whatsapp":"",
-                            "telegram":""
-						}
-					}
+                "aboutus": {
+                    "contact": {
+                        "title": "¡Contáctenos para postularse!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Si está interesado, contáctenos por mensaje",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
                 }
             },
-			"job7":{
-                "org":"飞达帽业公司项目部",
-                "jobTitle":"前台接待",
-                "state":"孟加拉国",
-                "subTitle":"加入我们，共创未来！",
-                "psTitle":"与我们一起成长，成就更好的自己",
-                "jd":{
-                    "title":"工作内容",
-                    "li0":"接听电话；",
-                    "li1":"接待访客；",
-                    "li2":"登记客户信息；",
-                    "li3":"协助办公室管理。"
+            "job4": {
+                "org": "Departamento de Proyectos de Feda Hat Industry",
+                "jobTitle": "Especialista en Compras",
+                "state": "Bangladesh",
+                "subTitle": "¡Únase a nosotros y creemos el futuro juntos!",
+                "psTitle": "Crecer con nosotros y lograr una mejor versión de usted mismo",
+                "jd": {
+                    "title": "Responsabilidades",
+                    "li0": "Realizar consultas de precios y compras según planes;",
+                    "li1": "Seguimiento de entrega de pedidos;",
+                    "li2": "Organizar contratos y documentación de compras;",
+                    "li3": "Asistir en la gestión de inventario e informes."
                 },
-                "requirements":{
-                    "title":"任职要求",
-                    "li0":"良好的沟通能力；",
-                    "li1":"熟悉电脑操作；",
-                    "li2":"长相漂亮自信大方；",
-                    "li3":"品行端正，工作认真负责；",
-                    "li4":"有服务意识"
+                "requirements": {
+                    "title": "Requisitos",
+                    "li0": "Familiarizado con software de oficina;",
+                    "li1": "Buenas habilidades de comunicación;",
+                    "li2": "Familiarizado con procesos de compras y cadena de suministro;",
+                    "li3": "Responsable;",
+                    "li4": "Experiencia en compras preferible."
                 },
-                "promise":{
-                    "title":"我们提供",
-                    "li0":"完善入职培训",
-                    "li1":"跨部门学习机会",
-                    "li2":"稳定工作环境",
-                    "li3":"公平晋升渠道"
+                "promise": {
+                    "title": "Ofrecemos",
+                    "li0": "Buen entorno de colaboración",
+                    "li1": "Oportunidades de ascenso",
+                    "li2": "Capacitación integral",
+                    "li3": "Plataforma para aprender gestión de cadena de suministro"
                 },
-                "aboutus":{
-                    "contact":{
-                        "title":"立即联系，申请职位！",
-                        "person":{
-                            "p1":{}
-                        },
-                        "address":"孟加拉国 - 达卡",
-                        "social":{
-                            "title":"有意者通过Message联系我们",
-                            "whatsapp":"",
-                            "telegram":""
-						}
-					}
+                "aboutus": {
+                    "contact": {
+                        "title": "¡Contáctenos para postularse!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Si está interesado, contáctenos por mensaje",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
                 }
             },
-			"job8":{
-                "org":"飞达帽业公司项目部",
-                "jobTitle":"运营经理",
-                "state":"孟加拉国",
-                "subTitle":"加入我们，共创未来！",
-                "psTitle":"与我们一起成长，成就更好的自己",
-                "jd":{
-                    "title":"工作内容",
-                    "li0":"负责公司日常运营管理；",
-                    "li1":"协调销售、采购、仓库部门；",
-                    "li2":"优化工作流程；",
-                    "li3":"管理运营团队。"
+            "job5": {
+                "org": "Departamento de Proyectos de Feda Hat Industry",
+                "jobTitle": "Chofer ejecutivo",
+                "state": "Bangladesh",
+                "subTitle": "¡Únase a nosotros y creemos el futuro juntos!",
+                "psTitle": "Crecer con nosotros y lograr una mejor versión de usted mismo",
+                "jd": {
+                    "title": "Responsabilidades",
+                    "li0": "Traslado de personal ejecutivo y clientes;",
+                    "li1": "Limpieza, inspección y mantenimiento diario del vehículo;",
+                    "li2": "Cumplir estrictamente con las leyes de tránsito;",
+                    "li3": "Tareas administrativas asignadas."
                 },
-                "requirements":{
-                    "title":"任职要求",
-                    "li0":"企业管理相关专业；",
-                    "li1":"1年以上运营经验；",
-                    "li2":"组织协调能力强；",
-                    "li3":"品行端正，工作认真负责；",
-                    "li4":"熟悉公司流程管理"
+                "requirements": {
+                    "title": "Requisitos",
+                    "li0": "Licencia de conducir local válida;",
+                    "li1": "Conocimiento de rutas locales y tráfico;",
+                    "li2": "Sin antecedentes graves de accidentes;",
+                    "li3": "Buena conducta y vocación de servicio;",
+                    "li4": "Más de 3 años de experiencia de manejo."
                 },
-                "promise":{
-                    "title":"我们提供",
-                    "li0":"长期稳定发展机会",
-                    "li1":"绩效奖励和晋升空间",
-                    "li2":"企业运营经验积累平台",
-                    "li3":"管理岗位发展机会"
+                "promise": {
+                    "title": "Ofrecemos",
+                    "li0": "Cultura corporativa de respeto al empleado",
+                    "li1": "Beneficios y atención al trabajador",
+                    "li2": "Entorno laboral seguro",
+                    "li3": "Salario estable y oportunidades a largo plazo"
                 },
-                "aboutus":{
-                    "contact":{
-                        "title":"立即联系，申请职位！",
-                        "person":{
-                            "p1":{}
-                        },
-                        "address":"孟加拉国 - 达卡",
-                        "social":{
-                            "title":"有意者通过Message联系我们",
-                            "whatsapp":"",
-                            "telegram":""
-						}
-					}
+                "aboutus": {
+                    "contact": {
+                        "title": "¡Contáctenos para postularse!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Si está interesado, contáctenos por mensaje",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job6": {
+                "org": "Departamento de Proyectos de Feda Hat Industry",
+                "jobTitle": "Administrador de Redes",
+                "state": "Bangladesh",
+                "subTitle": "¡Únase a nosotros y creemos el futuro juntos!",
+                "psTitle": "Crecer con nosotros y lograr una mejor versión de usted mismo",
+                "jd": {
+                    "title": "Responsabilidades",
+                    "li0": "Mantenimiento diario de los sistemas de red;",
+                    "li1": "Soporte técnico diario a empleados;",
+                    "li2": "Gestión de servidores y LAN;",
+                    "li3": "Responsable de seguridad de red y respaldo de datos."
+                },
+                "requirements": {
+                    "title": "Requisitos",
+                    "li0": "Carrera relacionada con computación;",
+                    "li1": "Familiarizado con entorno Windows;",
+                    "li2": "Familiarizado con configuración de routers y switches;",
+                    "li3": "Buena conducta y responsable;",
+                    "li4": "Buenas habilidades de resolución de problemas."
+                },
+                "promise": {
+                    "title": "Ofrecemos",
+                    "li0": "Experiencia laboral internacional",
+                    "li1": "Espacio de desarrollo en TI",
+                    "li2": "Oportunidades de mejora profesional",
+                    "li3": "Equipamiento de oficina moderno"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "¡Contáctenos para postularse!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Si está interesado, contáctenos por mensaje",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job7": {
+                "org": "Departamento de Proyectos de Feda Hat Industry",
+                "jobTitle": "Recepcionista",
+                "state": "Bangladesh",
+                "subTitle": "¡Únase a nosotros y creemos el futuro juntos!",
+                "psTitle": "Crecer con nosotros y lograr una mejor versión de usted mismo",
+                "jd": {
+                    "title": "Responsabilidades",
+                    "li0": "Responder llamadas telefónicas;",
+                    "li1": "Recibir visitantes;",
+                    "li2": "Registrar información de visitantes;",
+                    "li3": "Asistir en la gestión de oficina."
+                },
+                "requirements": {
+                    "title": "Requisitos",
+                    "li0": "Buenas habilidades de comunicación;",
+                    "li1": "Familiarizado con uso de computadora;",
+                    "li2": "Apariencia agradable, confiada y generosa;",
+                    "li3": "Buena conducta y responsable;",
+                    "li4": "Vocación de servicio."
+                },
+                "promise": {
+                    "title": "Ofrecemos",
+                    "li0": "Capacitación integral al ingresar",
+                    "li1": "Oportunidades de aprendizaje interdepartamental",
+                    "li2": "Entorno laboral estable",
+                    "li3": "Canales justos de ascenso"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "¡Contáctenos para postularse!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Si está interesado, contáctenos por mensaje",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job8": {
+                "org": "Departamento de Proyectos de Feda Hat Industry",
+                "jobTitle": "Gerente de Operaciones",
+                "state": "Bangladesh",
+                "subTitle": "¡Únase a nosotros y creemos el futuro juntos!",
+                "psTitle": "Crecer con nosotros y lograr una mejor versión de usted mismo",
+                "jd": {
+                    "title": "Responsabilidades",
+                    "li0": "Gestión diaria de las operaciones de la empresa;",
+                    "li1": "Coordinar ventas, compras y almacén;",
+                    "li2": "Optimizar procesos de trabajo;",
+                    "li3": "Gestionar el equipo de operaciones."
+                },
+                "requirements": {
+                    "title": "Requisitos",
+                    "li0": "Carrera relacionada con gestión empresarial;",
+                    "li1": "Más de 1 año de experiencia operativa;",
+                    "li2": "Habilidades organizativas fuertes;",
+                    "li3": "Buena conducta y responsable;",
+                    "li4": "Familiarizado con procesos corporativos."
+                },
+                "promise": {
+                    "title": "Ofrecemos",
+                    "li0": "Oportunidades de desarrollo estable a largo plazo",
+                    "li1": "Incentivos y espacio de ascenso",
+                    "li2": "Plataforma para acumular experiencia operativa",
+                    "li3": "Oportunidades para puestos de gestión"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "¡Contáctenos para postularse!",
+                        "person": { "p1": {} },
+                        "address": "Dhaka - Bangladesh",
+                        "social": {
+                            "title": "Si está interesado, contáctenos por mensaje",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
                 }
             }
         },
-        "apply":{
-            "t1": "飞达帽业公司-项目部招聘",
-            "t2": "翻译",
-            "t3": "职责：协助进行商务谈判、文档翻译及处理日常信函。",
-            "t4": "司机",
-            "t5": "职责：负责员工及货物的运输，以及车辆的日常保养与维护。",
-            "t6": "会计",
-            "t7": "职责：管理公司财务报告及监督会计账目。",
-            "t8": "人事 (HR)",
-            "t9": "职责：管理人事档案，负责员工招聘与管理。",
-            "t10": "飞达帽业公司-项目部招聘现招聘以下专业人员：",
-            "a1": "我们已收到您的简历，并将尽快通知您面试结果；请等待我们的进一步电话通知。如果我们无法联系到您，您可以下载我们的公司应用程序，通过招聘菜单中的“查询”部分，输入您的手机号码或姓名来查看结果。",
-            "a2": "明白了，我正在下载。",
-            "a3": "求职申请表",
-            "a4": "基本信息",
-            "a5": "姓名：",
-            "a6": "性别：",
-            "a7": "男",
-            "a8": "女",
-            "a9": "保密",
-            "a10": "联系电话：",
-            "a11": "当前居住地址：",
-            "a12": "求职信息",
-            "a13": "应聘职位：",
-            "a14": "期望月薪：",
-            "a15": "可入职日期：",
-            "a16": "工作性质：",
-            "a17": "教育背景",
-            "a18": "学历：",
-            "a19": "专业：",
-            "a20": "毕业院校：",
-            "a21": "工作经历",
-            "a22": "技能及自我评价",
-            "a23": "声明",
-            "a24": "本人保证以上所提供信息真实准确。若发现任何虚假信息，本人愿承担全部责任及后果。",
-            "a25": "提交"
+        "apply": {
+            "t1": "Reclutamiento del Departamento de Proyectos de Feda Hat Industry",
+            "t2": "Traductor",
+            "t3": "Responsabilidades: Asistir en negociaciones, traducción de documentos y correspondencia.",
+            "t4": "Chofer",
+            "t5": "Responsabilidades: Transporte de personal y mercancía, mantenimiento de vehículos.",
+            "t6": "Contador",
+            "t7": "Responsabilidades: Gestionar informes financieros y supervisar libros contables.",
+            "t8": "Recursos Humanos (RRHH)",
+            "t9": "Responsabilidades: Gestionar archivos, reclutamiento y administración.",
+            "t10": "El Departamento de Proyectos de Feda Hat Industry busca profesionales para:",
+            "a1": "Hemos recibido su currículum y le notificaremos el resultado pronto; por favor espere nuestra llamada. Si no logramos contactarlo, puede descargar nuestra app y consultar el estado en la sección 'Consulta' del menú de reclutamiento, ingresando su número o nombre.",
+            "a2": "Entendido, lo estoy descargando.",
+            "a3": "Formulario de solicitud de empleo",
+            "a4": "Información básica",
+            "a5": "Nombre:",
+            "a6": "Género:",
+            "a7": "Hombre",
+            "a8": "Mujer",
+            "a9": "Confidencial",
+            "a10": "Teléfono de contacto:",
+            "a11": "Dirección actual:",
+            "a12": "Información laboral",
+            "a13": "Puesto solicitado:",
+            "a14": "Salario mensual esperado:",
+            "a15": "Fecha de disponibilidad:",
+            "a16": "Tipo de empleo:",
+            "a17": "Formación académica",
+            "a18": "Título:",
+            "a19": "Carrera:",
+            "a20": "Universidad:",
+            "a21": "Experiencia laboral",
+            "a22": "Habilidades y autoevaluación",
+            "a23": "Declaración",
+            "a24": "Garantizo que la información es verdadera y exacta. Si se descubre falsedad, asumo toda responsabilidad.",
+            "a25": "Enviar"
         }
     }
+
 
 }

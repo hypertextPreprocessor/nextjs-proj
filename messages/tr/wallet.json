@@ -293,5 +293,452 @@
             "p3":") kolayca indirebilirsiniz."
         },
         "con3":"Unutmayın, çevrimdışı izleme özelliği yoktur, bu da canlı yayını izleyebilmek için hızlı ve istikrarlı bir internet bağlantısına ihtiyacınız olduğu anlamına gelir. Uygulama, kullanıcıların canlı spor etkinliklerinin gerçek zamanlı skorlarını, komedi TV şovlarını ve reality şovlarını izlemelerine olanak tanır. Bu uygulamada birden fazla dilde yüzlerce film ve müzik kanalı bulunmaktadır. Uygulamayı bugün indirin ve deneyin!"
+    },
+    "recruit": {
+        "poster": {
+        "title1": "Dakka'da iş mi arıyorsunuz? (Bangladeş)",
+        "title2": "Çeşitli iş fırsatlarımız var.",
+        "button": "İşe Başvur"
+        },
+        "intro": {
+        "p1": "Basit ve güvenilir bir çalışma ortamı sunuyoruz",
+        "p2": "Eğer istikrarlı bir iş arıyorsanız, lütfen bizimle iletişime geçin.",
+        "p3": "Resmi iş",
+        "p4": "İstikrarlı gelir",
+        "p5": "Öğrenmesi kolay"
+        },
+        "carga": {
+        "title": "Aramıza hoş geldiniz"
+        },
+        "servies": {
+        "s0": "İş Geliştirme Departmanı",
+        "s1": "BT Departmanı",
+        "s2": "İnsan Kaynakları Departmanı",
+        "s3": "Satış Departmanı",
+        "s4": "Operasyon Departmanı",
+        "s5": "Pazarlama Departmanı",
+        "t0": "İş stratejilerini koordine etmek ve iş büyümesini sağlamak",
+        "t1": "Dijital temeli güçlendirmek ve teknolojik inovasyonu desteklemek",
+        "t2": "Çekirdek yetenekleri bir araya getirmek ve organizasyonel canlılığı artırmak",
+        "t3": "Hedef pazarlarda derinleşmek ve performans artışı sağlamak",
+        "t4": "Hassas kullanıcı operasyonları ile ticari değeri artırmak",
+        "t5": "Marka görünürlüğünü şekillendirmek ve pazar trendlerine yön vermek",
+        "d0": "İş Geliştirme Departmanı, şirketin ana iş motoru olarak pazar genişletme, büyük müşteri görüşmeleri ve iş birliği projelerinin yürütülmesinden sorumludur. Şu anda departmanda 35 kişi çalışmaktadır; İş Geliştirme Direktörü, Kıdemli İş Geliştirme Müdürü ve Uzmanları bulunmaktadır. Yılın ikinci yarısındaki yeni iş alanlarının genişlemesiyle birlikte, 2 Kıdemli İş Geliştirme Müdürü ve 3 İş Geliştirme Uzmanı açığımız bulunmaktadır; B2B büyük müşteri kaynaklarına ve departmanlar arası koordinasyon yeteneğine sahip yeteneklerin katılımına acil ihtiyaç duyulmaktadır.",
+        "d1": "BT Departmanı, şirketin altyapısının kurulması, sistem bakımı, veri güvenliği ve dahili dijital araçların geliştirilmesinden sorumludur. Departmanda 28 kişi bulunmaktadır; Sistem Mimarları, Arka Uç/Ön Uç Yazılım Mühendisleri, Sistem Bakım Mühendisleri ve Test Mühendisleri yer almaktadır. Temel iş sistemlerinin istikrarını ve yeni nesil ürünlerin zamanında teslimatını sağlamak için 2 Kıdemli Arka Uç Yazılım Mühendisi ve 1 Ağ Güvenliği Mühendisi açığımız bulunmaktadır.",
+        "d2": "İnsan Kaynakları Departmanı, organizasyonel gelişim, yetenek alımı, maaş ve performans, çalışan eğitimi ve şirket kültürü inşasından sorumludur. Departmanda 15 kişi bulunmaktadır; İşe Alım, İKBP ve Çalışan İlişkileri grupları yer almaktadır. Şirketin hızlı büyümesi nedeniyle, yetenek havuzunu desteklemek için 1 Deneyimli İKBP ve 2 Kampüs İşe Alım Uzmanı açığımız bulunmaktadır.",
+        "d3": "Satış Departmanı, doğrudan gelir yaratıcısıdır; ürün tanıtımı, kanal oluşturma, müşteri dönüşümü ve satış sonrası müşteri ilişkilerinden sorumludur. Departmanda 45 kişi bulunmaktadır; Bölgesel Satış Direktörleri, Müşteri Yöneticileri ve Satış Öncesi Destek Uzmanları yer almaktadır. Yeni pazar paylarını ele geçirmek için 3 Doğu Çin Bölgesi Müşteri Yöneticisi ve 1 Büyük Müşteri Satış Direktörü açığımız bulunmaktadır; hırslı ve mükemmel müzakere becerilerine sahip elitleri bekliyoruz.",
+        "d4": "Operasyon Departmanı, kullanıcı yaşam döngüsü yönetimi, etkinlik planlama, veri analizi ve günlük iş akışlarının optimizasyonu üzerinde çalışır. Departmanda 22 kişi bulunmaktadır; Kullanıcı Operasyonları, Etkinlik Operasyonları, Veri Analistleri ve İçerik Operasyonları uzmanları yer almaktadır. Ürün matrisinin zenginleşmesiyle birlikte, veriye dayalı büyüme için 1 Deneyimli Kullanıcı Operasyon Uzmanı ve 2 Veri Analisti açığımız bulunmaktadır.",
+        "d5": "Pazarlama Departmanı, marka stratejisi planlama, halkla ilişkiler, entegre pazarlama ve endüstri analizinden sorumludur. Departmanda 18 kişi bulunmaktadır; Marka Halkla İlişkiler, Yeni Medya Operasyonları, Pazar Planlama ve Görsel Tasarım uzmanları yer almaktadır. Büyük marka yükseltme kampanyamız için 1 Marka Halkla İlişkiler Müdürü ve 2 Deneyimli Yeni Medya Operasyon uzmanı açığımız bulunmaktadır; yaratıcı ve kriz yönetimi becerisine sahip yetenekler arıyoruz.",
+        "beforeGo": "Mülakat Hazırlığı"
+        },
+        "jobs": {
+        "job0": {
+            "org": "Feida Hat Şirketi Proje Departmanı",
+            "jobTitle": "Şirket Personeli",
+            "state": "Bangladeş",
+            "subTitle": "Bize katılın, geleceği birlikte inşa edelim!",
+            "psTitle": "Bizimle büyüyün, daha iyi bir kendinize ulaşın",
+            "jd": {
+            "title": "İş İçeriği",
+            "li0": "Şirketin günlük idari ve lojistik işlerinin yönetimine yardımcı olmak;",
+            "li1": "Dosya yönetimi, veri girişi gibi işlerden sorumlu olmak;",
+            "li2": "Departmanların şirketin verdiği görevleri tamamlamasına yardımcı olmak;",
+            "li3": "İyi iletişim becerisine ve takım çalışmasına yatkınlık."
+            },
+            "requirements": {
+            "title": "Başvuru Şartları",
+            "li0": "İlgili iş tecrübesine sahip olanlar tercih edilir;",
+            "li1": "Ofis yazılımlarını (Word, Excel, Email) kullanabilen;",
+            "li2": "Dikkatli, sorumluluk sahibi ve stresle başa çıkabilen;",
+            "li3": "İyi iletişim becerisine ve takım ruhuna sahip;",
+            "li4": "Hızlı tempolu çalışma ortamına uyum sağlayabilen."
+            },
+            "promise": {
+            "title": "Sunduklarımız",
+            "li0": "Rekabetçi maaş",
+            "li1": "Eksiksiz yan haklar",
+            "li2": "İyi bir gelişim platformu",
+            "li3": "Harika bir takım ortamı"
+            },
+            "aboutus": {
+            "contact": {
+                "title": "Hemen iletişime geçin, işe başvurun!",
+                "person": { "p1": {} },
+                "address": "Bangladeş - Dakka",
+                "social": {
+                "title": "İlgilenenler Message aracılığıyla bizimle iletişime geçebilir",
+                "whatsapp": "",
+                "telegram": ""
+                }
+            }
+            }
+        },
+        "job1": {
+            "org": "Feida Hat Şirketi Proje Departmanı",
+            "jobTitle": "Muhasebeci",
+            "state": "Bangladeş",
+            "subTitle": "Bize katılın, geleceği birlikte inşa edelim!",
+            "psTitle": "Bizimle büyüyün, daha iyi bir kendinize ulaşın",
+            "jd": {
+            "title": "İş İçeriği",
+            "li0": "Şirketin mali hesaplamalarından ve rapor hazırlığından sorumlu olmak;",
+            "li1": "Yerel vergi politikalarına ve mali mevzuata aşina olmak;",
+            "li2": "Mali belgeleri işlemek ve düzenlemek;",
+            "li3": "Diğer mali işleri yürütmek."
+            },
+            "requirements": {
+            "title": "Başvuru Şartları",
+            "li0": "İlgili iş tecrübesine sahip, muhasebe süreçlerine hakim;",
+            "li1": "Yerel vergi politikalarına ve mali mevzuata aşina;",
+            "li2": "Dikkatli, sorumluluk sahibi ve stresle başa çıkabilen;",
+            "li3": "İyi iletişim becerisine ve takım ruhuna sahip;",
+            "li4": "Hızlı tempolu çalışma ortamına uyum sağlayabilen."
+            },
+            "promise": {
+            "title": "Sunduklarımız",
+            "li0": "Rekabetçi maaş",
+            "li1": "Eksiksiz yan haklar",
+            "li2": "İyi bir gelişim platformu",
+            "li3": "Harika bir takım ortamı"
+            },
+            "aboutus": {
+            "contact": {
+                "title": "Hemen iletişime geçin, işe başvurun!",
+                "person": { "p1": {} },
+                "address": "Bangladeş - Dakka",
+                "social": {
+                "title": "İlgilenenler Message aracılığıyla bizimle iletişime geçebilir",
+                "whatsapp": "",
+                "telegram": ""
+                }
+            }
+            }
+        },
+        "job2": {
+            "org": "Feida Hat Şirketi Proje Departmanı",
+            "jobTitle": "Mali İşler Müdürü",
+            "state": "Bangladeş",
+            "subTitle": "Bize katılın, geleceği birlikte inşa edelim!",
+            "psTitle": "Bizimle büyüyün, daha iyi bir kendinize ulaşın",
+            "jd": {
+            "title": "İş İçeriği",
+            "li0": "Şirketin mali departmanının günlük yönetiminden tam sorumlu olmak;",
+            "li1": "Şirketin mali sistemlerini ve süreçlerini kurmak ve iyileştirmek;",
+            "li2": "Aylık, çeyreklik ve yıllık mali tabloları hazırlamak;",
+            "li3": "Bütçe yönetimi, maliyet kontrolü ve fon planlamasından sorumlu olmak."
+            },
+            "requirements": {
+            "title": "Başvuru Şartları",
+            "li0": "En az 2 yıl mali işler yönetim deneyimi;",
+            "li1": "İşini dikkatli ve sorumluluk bilinciyle yapan;",
+            "li2": "Üretim veya ticaret şirketi deneyimi olanlar tercih edilir;",
+            "li3": "İyi iletişim ve takım yönetimi becerisi;",
+            "li4": "Ofis ve muhasebe yazılımlarına hakim."
+            },
+            "promise": {
+            "title": "Sunduklarımız",
+            "li0": "İstikrarlı ve uzun vadeli kariyer gelişim imkanı",
+            "li1": "Yönetim becerilerini geliştirme ve kariyerde yükselme fırsatı",
+            "li2": "Uluslararası şirket yönetim deneyimi ve platformu",
+            "li3": "Rekabetçi maaş ve performans primi"
+            },
+            "aboutus": {
+            "contact": {
+                "title": "Hemen iletişime geçin, işe başvurun!",
+                "person": { "p1": {} },
+                "address": "Bangladeş - Dakka",
+                "social": {
+                "title": "İlgilenenler Message aracılığıyla bizimle iletişime geçebilir",
+                "whatsapp": "",
+                "telegram": ""
+                }
+            }
+            }
+        },
+        "job3": {
+            "org": "Feida Hat Şirketi Proje Departmanı",
+            "jobTitle": "Satın Alma Müdürü",
+            "state": "Bangladeş",
+            "subTitle": "Bize katılın, geleceği birlikte inşa edelim!",
+            "psTitle": "Bizimle büyüyün, daha iyi bir kendinize ulaşın",
+            "jd": {
+            "title": "İş İçeriği",
+            "li0": "Şirketin satın alma departmanının genel operasyon yönetimi;",
+            "li1": "Satın alma planları ve bütçeleri hazırlamak;",
+            "li2": "Kaliteli tedarikçi kaynaklarını geliştirmek ve korumak;",
+            "li3": "Satın alma maliyetlerini kontrol etmek ve verimliliği artırmak."
+            },
+            "requirements": {
+            "title": "Başvuru Şartları",
+            "li0": "En az 2 yıl satın alma yönetimi deneyimi;",
+            "li1": "İyi iş müzakere yeteneği;",
+            "li2": "Satın alma süreçlerine ve tedarik zinciri yönetimine hakim;",
+            "li3": "İyi iletişim ve takım yönetimi becerisi;",
+            "li4": "Aktif, inisiyatif alan ve sonuç odaklı."
+            },
+            "promise": {
+            "title": "Sunduklarımız",
+            "li0": "Uzun vadeli istikrarlı gelişim platformu",
+            "li1": "Takım çalışması ve kariyer gelişim alanı",
+            "li2": "Tedarik zinciri yönetimi deneyimini artırma fırsatı",
+            "li3": "Sektörde rekabetçi maaş ve performans ödülleri"
+            },
+            "aboutus": {
+            "contact": {
+                "title": "Hemen iletişime geçin, işe başvurun!",
+                "person": { "p1": {} },
+                "address": "Bangladeş - Dakka",
+                "social": {
+                "title": "İlgilenenler Message aracılığıyla bizimle iletişime geçebilir",
+                "whatsapp": "",
+                "telegram": ""
+                }
+            }
+            }
+        },
+        "job4": {
+            "org": "Feida Hat Şirketi Proje Departmanı",
+            "jobTitle": "Satın Alma Uzmanı",
+            "state": "Bangladeş",
+            "subTitle": "Bize katılın, geleceği birlikte inşa edelim!",
+            "psTitle": "Bizimle büyüyün, daha iyi bir kendinize ulaşın",
+            "jd": {
+            "title": "İş İçeriği",
+            "li0": "Satın alma planına göre fiyat araştırması ve alım yapmak;",
+            "li1": "Sipariş teslim sürecini takip etmek;",
+            "li2": "Satın alma sözleşmelerini ve belgelerini düzenlemek;",
+            "li3": "Stok yönetimine yardımcı olmak ve satın alma ilerlemesini raporlamak."
+            },
+            "requirements": {
+            "title": "Başvuru Şartları",
+            "li0": "Ofis yazılımlarına hakim;",
+            "li1": "İyi iletişim becerisi;",
+            "li2": "Satın alma süreçlerine ve tedarik zinciri yönetimine hakim;",
+            "li3": "İşinde ciddi ve sorumluluk sahibi;",
+            "li4": "Satın alma tecrübesi olanlar tercih edilir."
+            },
+            "promise": {
+            "title": "Sunduklarımız",
+            "li0": "İyi bir takım çalışması ortamı",
+            "li1": "Adil yükselme ve gelişim fırsatları",
+            "li2": "Eksiksiz eğitim ve rehberlik",
+            "li3": "Tedarik zinciri yönetimi öğrenme platformu"
+            },
+            "aboutus": {
+            "contact": {
+                "title": "Hemen iletişime geçin, işe başvurun!",
+                "person": { "p1": {} },
+                "address": "Bangladeş - Dakka",
+                "social": {
+                "title": "İlgilenenler Message aracılığıyla bizimle iletişime geçebilir",
+                "whatsapp": "",
+                "telegram": ""
+                }
+            }
+            }
+        },
+        "job5": {
+            "org": "Feida Hat Şirketi Proje Departmanı",
+            "jobTitle": "Ticari Şoför",
+            "state": "Bangladeş",
+            "subTitle": "Bize katılın, geleceği birlikte inşa edelim!",
+            "psTitle": "Bizimle büyüyün, daha iyi bir kendinize ulaşın",
+            "jd": {
+            "title": "İş İçeriği",
+            "li0": "Yönetici personel ve müşterilerin transferinden sorumlu olmak;",
+            "li1": "Aracın günlük temizliği, kontrolü ve bakımından sorumlu olmak;",
+            "li2": "Trafik kurallarına sıkı sıkıya uymak ve güvenli sürüşü sağlamak;",
+            "li3": "Şirketin ayarladığı diğer idari işleri tamamlamak."
+            },
+            "requirements": {
+            "title": "Başvuru Şartları",
+            "li0": "Yerel yasal ehliyete sahip olmak;",
+            "li1": "Yerel yollara ve trafik durumuna aşina olmak;",
+            "li2": "Büyük trafik ihlali ve kaza geçmişi bulunmamak;",
+            "li3": "Düzgün karakterli, iyi hizmet bilincine sahip;",
+            "li4": "En az 3 yıl sürüş deneyimi."
+            },
+            "promise": {
+            "title": "Sunduklarımız",
+            "li0": "Çalışana saygılı şirket kültürü",
+            "li1": "Bayram ikramiyeleri ve çalışan desteği",
+            "li2": "Güvenli ve kurallı çalışma ortamı",
+            "li3": "İstikrarlı maaş ve uzun süreli iş fırsatı"
+            },
+            "aboutus": {
+            "contact": {
+                "title": "Hemen iletişime geçin, işe başvurun!",
+                "person": { "p1": {} },
+                "address": "Bangladeş - Dakka",
+                "social": {
+                "title": "İlgilenenler Message aracılığıyla bizimle iletişime geçebilir",
+                "whatsapp": "",
+                "telegram": ""
+                }
+            }
+            }
+        },
+        "job6": {
+            "org": "Feida Hat Şirketi Proje Departmanı",
+            "jobTitle": "Ağ Yöneticisi",
+            "state": "Bangladeş",
+            "subTitle": "Bize katılın, geleceği birlikte inşa edelim!",
+            "psTitle": "Bizimle büyüyün, daha iyi bir kendinize ulaşın",
+            "jd": {
+            "title": "İş İçeriği",
+            "li0": "Şirket ağ sisteminin günlük bakımından sorumlu olmak;",
+            "li1": "Çalışanların günlük BT teknik sorunlarını çözmek;",
+            "li2": "Sunucu ve yerel ağ (LAN) yönetimini sağlamak;",
+            "li3": "Ağ güvenliği ve veri yedeklemeden sorumlu olmak."
+            },
+            "requirements": {
+            "title": "Başvuru Şartları",
+            "li0": "Bilgisayar bölümlerinden mezun;",
+            "li1": "Windows ofis ortamına hakim;",
+            "li2": "Yönlendirici ve anahtar (router/switch) yapılandırmasına hakim;",
+            "li3": "Düzgün karakterli, işinde ciddi ve sorumlu;",
+            "li4": "İyi hata giderme becerisine sahip."
+            },
+            "promise": {
+            "title": "Sunduklarımız",
+            "li0": "Uluslararası şirket tecrübesi",
+            "li1": "BT gelişim ve yükselme alanı",
+            "li2": "Mesleki becerileri geliştirme fırsatı",
+            "li3": "Modern ofis ekipmanları ve teknik ortam"
+            },
+            "aboutus": {
+            "contact": {
+                "title": "Hemen iletişime geçin, işe başvurun!",
+                "person": { "p1": {} },
+                "address": "Bangladeş - Dakka",
+                "social": {
+                "title": "İlgilenenler Message aracılığıyla bizimle iletişime geçebilir",
+                "whatsapp": "",
+                "telegram": ""
+                }
+            }
+            }
+        },
+        "job7": {
+            "org": "Feida Hat Şirketi Proje Departmanı",
+            "jobTitle": "Resepsiyonist",
+            "state": "Bangladeş",
+            "subTitle": "Bize katılın, geleceği birlikte inşa edelim!",
+            "psTitle": "Bizimle büyüyün, daha iyi bir kendinize ulaşın",
+            "jd": {
+            "title": "İş İçeriği",
+            "li0": "Telefonlara bakmak;",
+            "li1": "Ziyaretçileri karşılamak;",
+            "li2": "Müşteri bilgilerini kaydetmek;",
+            "li3": "Ofis yönetimine yardımcı olmak."
+            },
+            "requirements": {
+            "title": "Başvuru Şartları",
+            "li0": "İyi iletişim becerisi;",
+            "li1": "Bilgisayar kullanımına hakim;",
+            "li2": "Güzel, özgüvenli ve dışa dönük;",
+            "li3": "Düzgün karakterli, işinde ciddi ve sorumlu;",
+            "li4": "Hizmet bilincine sahip."
+            },
+            "promise": {
+            "title": "Sunduklarımız",
+            "li0": "Kapsamlı giriş eğitimi",
+            "li1": "Departmanlar arası öğrenme fırsatı",
+            "li2": "İstikrarlı çalışma ortamı",
+            "li3": "Adil yükselme yolu"
+            },
+            "aboutus": {
+            "contact": {
+                "title": "Hemen iletişime geçin, işe başvurun!",
+                "person": { "p1": {} },
+                "address": "Bangladeş - Dakka",
+                "social": {
+                "title": "İlgilenenler Message aracılığıyla bizimle iletişime geçebilir",
+                "whatsapp": "",
+                "telegram": ""
+                }
+            }
+            }
+        },
+        "job8": {
+            "org": "Feida Hat Şirketi Proje Departmanı",
+            "jobTitle": "Operasyon Müdürü",
+            "state": "Bangladeş",
+            "subTitle": "Bize katılın, geleceği birlikte inşa edelim!",
+            "psTitle": "Bizimle büyüyün, daha iyi bir kendinize ulaşın",
+            "jd": {
+            "title": "İş İçeriği",
+            "li0": "Şirketin günlük operasyonel yönetiminden sorumlu olmak;",
+            "li1": "Satış, satın alma ve depo departmanlarını koordine etmek;",
+            "li2": "İş süreçlerini optimize etmek;",
+            "li3": "Operasyon ekibini yönetmek."
+            },
+            "requirements": {
+            "title": "Başvuru Şartları",
+            "li0": "İşletme bölümlerinden mezun;",
+            "li1": "En az 1 yıl operasyon deneyimi;",
+            "li2": "Güçlü organizasyon ve koordinasyon yeteneği;",
+            "li3": "Düzgün karakterli, işinde ciddi ve sorumlu;",
+            "li4": "Şirket süreç yönetimine hakim."
+            },
+            "promise": {
+            "title": "Sunduklarımız",
+            "li0": "Uzun vadeli istikrarlı gelişim fırsatları",
+            "li1": "Performans ödülleri ve yükselme alanı",
+            "li2": "Şirket operasyon deneyimi kazanma platformu",
+            "li3": "Yönetim kademesinde yükselme fırsatı"
+            },
+            "aboutus": {
+            "contact": {
+                "title": "Hemen iletişime geçin, işe başvurun!",
+                "person": { "p1": {} },
+                "address": "Bangladeş - Dakka",
+                "social": {
+                "title": "İlgilenenler Message aracılığıyla bizimle iletişime geçebilir",
+                "whatsapp": "",
+                "telegram": ""
+                }
+            }
+            }
+        }
+        },
+        "apply": {
+        "t1": "Feida Hat Şirketi - Proje Departmanı İşe Alım",
+        "t2": "Çevirmen",
+        "t3": "Görev: İş müzakerelerine yardımcı olmak, belge çevirisi yapmak ve günlük yazışmaları yürütmek.",
+        "t4": "Şoför",
+        "t5": "Görev: Personel ve yük taşımacılığından, araçların bakım ve onarımından sorumlu olmak.",
+        "t6": "Muhasebeci",
+        "t7": "Görev: Şirketin mali raporlarını yönetmek ve muhasebe kayıtlarını denetlemek.",
+        "t8": "İnsan Kaynakları (İK)",
+        "t9": "Görev: Personel dosyalarını yönetmek, işe alım ve personel süreçlerinden sorumlu olmak.",
+        "t10": "Feida Hat Şirketi - Proje Departmanı şu uzman personelleri aramaktadır:",
+        "a1": "Özgeçmişinizi aldık, sonuçlar hakkında sizi en kısa sürede bilgilendireceğiz; lütfen telefonla dönüşümüzü bekleyin. Eğer size ulaşamazsak, şirket uygulamamızı indirip 'Sorgulama' menüsünden telefon numaranız veya adınız ile sonuçları kontrol edebilirsiniz.",
+        "a2": "Anlaşıldı, indiriyorum.",
+        "a3": "İş Başvuru Formu",
+        "a4": "Temel Bilgiler",
+        "a5": "Ad Soyad:",
+        "a6": "Cinsiyet:",
+        "a7": "Erkek",
+        "a8": "Kadın",
+        "a9": "Belirtmek istemiyorum",
+        "a10": "İletişim Telefonu:",
+        "a11": "Mevcut Adres:",
+        "a12": "İş Bilgileri",
+        "a13": "Başvurulan Pozisyon:",
+        "a14": "Beklenen Maaş:",
+        "a15": "İşe Başlama Tarihi:",
+        "a16": "Çalışma Şekli:",
+        "a17": "Eğitim Bilgileri",
+        "a18": "Eğitim Durumu:",
+        "a19": "Bölüm:",
+        "a20": "Mezun Olunan Okul:",
+        "a21": "İş Deneyimi",
+        "a22": "Beceriler ve Öz Değerlendirme",
+        "a23": "Beyan",
+        "a24": "Yukarıda verdiğim bilgilerin doğru ve gerçek olduğunu taahhüt ederim. Herhangi bir yanlış bilgi tespit edilmesi durumunda tüm sorumluluğu kabul ediyorum.",
+        "a25": "Gönder"
+        }
     }
+
 }

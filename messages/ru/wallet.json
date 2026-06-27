@@ -342,5 +342,469 @@
       "f4": "(KAIYUAN) Кайюань Покер обладает легальными лицензиями, выданными Европейской ассоциацией удаленного гемблинга (RGA) и Государственной комиссией по ставкам Филиппин (PAGCOR). Компания зарегистрирована на Британских Виргинских островах и является легальной организацией, признанной международными отраслевыми ассоциациями!",
       "f5": "Все права защищены ©2026 Кайюань Покер. Все права сохранены"
     }
+  },
+  "recruit": {
+        "poster": {
+            "title1": "Apakah Anda sedang mencari pekerjaan di Dhaka? (Bangladesh)",
+            "title2": "Kami memiliki berbagai peluang kerja.",
+            "button": "Lamar Pekerjaan"
+        },
+        "intro": {
+            "p1": "Kami menyediakan lingkungan kerja yang sederhana dan tepercaya",
+            "p2": "Jika Anda sedang mencari pekerjaan yang stabil, silakan hubungi kami.",
+            "p3": "Pekerjaan formal",
+            "p4": "Penghasilan stabil",
+            "p5": "Mudah dipelajari"
+        },
+        "carga": {
+            "title": "Selamat bergabung dengan kami"
+        },
+        "servies": {
+            "s0": "Departemen Bisnis",
+            "s1": "Departemen IT",
+            "s2": "Departemen Personalia (HR)",
+            "s3": "Departemen Penjualan",
+            "s4": "Departemen Operasional",
+            "s5": "Departemen Pemasaran",
+            "t0": "Mengoordinasikan strategi bisnis, mendorong pertumbuhan bisnis",
+            "t1": "Membangun fondasi digital yang kuat, memberdayakan inovasi teknologi",
+            "t2": "Mengumpulkan talenta inti, merangsang vitalitas organisasi",
+            "t3": "Mendalami pasar target, mencapai terobosan kinerja",
+            "t4": "Operasional pengguna yang presisi, meningkatkan nilai bisnis",
+            "t5": "Membentuk suara merek, memimpin tren pasar",
+            "d0": "Departemen Bisnis sebagai mesin bisnis inti perusahaan, terutama bertanggung jawab atas ekspansi pasar, negosiasi klien besar, dan pelaksanaan proyek kerja sama bisnis. Saat ini departemen memiliki 35 posisi staf, termasuk Direktur Bisnis, Manajer Bisnis Senior, dan Spesialis Bisnis. Seiring dengan perluasan lini bisnis baru di paruh kedua tahun ini, saat ini terdapat kekosongan untuk 2 Manajer Bisnis Senior dan 3 Spesialis Bisnis, kami sangat membutuhkan talenta hebat yang memiliki sumber daya klien besar B-end dan kemampuan koordinasi lintas departemen untuk bergabung.",
+            "d1": "Departemen IT bertanggung jawab atas pembangunan arsitektur dasar perusahaan, pemeliharaan sistem, keamanan data, dan dukungan penelitian dan pengembangan alat digital internal. Departemen saat ini memiliki 28 posisi staf, mencakup Arsitek Sistem, Insinyur Pengembang Backend/Frontend, Insinyur Pemeliharaan, dan Insinyur Pengujian. Untuk menjamin stabilitas sistem bisnis inti dan pengiriman produk generasi berikutnya tepat waktu, saat ini terdapat kekosongan untuk 2 Insinyur Pengembang Backend Senior dan 1 Insinyur Keamanan Jaringan.",
+            "d2": "Departemen Personalia bertanggung jawab penuh atas pengembangan organisasi, rekrutmen bakat, gaji dan kinerja, pelatihan karyawan, dan pembangunan budaya perusahaan, yang merupakan pendukung kuat bagi pelaksanaan strategi perusahaan. Departemen saat ini memiliki 15 posisi staf, terdiri dari tim rekrutmen, tim HRBP, dan tim hubungan karyawan. Mengingat skala perusahaan yang berkembang pesat, saat ini terdapat kekosongan untuk 1 HRBP Senior dan 2 Spesialis Rekrutmen Kampus untuk mendukung pembangunan tangga talenta di setiap lini bisnis.",
+            "d3": "Departemen Penjualan adalah pencipta pendapatan langsung perusahaan, berfokus pada promosi produk, pembangunan saluran, konversi pelanggan, dan pemeliharaan hubungan pelanggan pasca-penjualan. Departemen saat ini memiliki 45 posisi staf, termasuk Direktur Penjualan Regional, Manajer Pelanggan, dan Spesialis Dukungan Pra-penjualan. Untuk merebut pangsa pasar yang baru muncul, saat ini terdapat kekosongan untuk 3 Manajer Pelanggan Wilayah Tiongkok Timur dan 1 Direktur Penjualan Klien Besar, kami menantikan para elit yang memiliki semangat juang tinggi dan keterampilan negosiasi yang luar biasa untuk bergabung.",
+            "d4": "Departemen Operasional berkomitmen pada manajemen siklus hidup pengguna penuh, perencanaan acara, analisis data, dan optimalisasi alur bisnis sehari-hari, yang merupakan jembatan yang menghubungkan produk dan pengguna. Departemen saat ini memiliki 22 posisi staf, mencakup operasional pengguna, operasional acara, analis data, dan spesialis operasional konten. Dengan diperkayanya matriks produk, saat ini terdapat kekosongan untuk 1 Ahli Operasional Pengguna Senior dan 2 Analis Data, untuk mencapai pertumbuhan bisnis yang presisi berbasis data.",
+            "d5": "Departemen Pemasaran bertanggung jawab atas perencanaan strategi merek, komunikasi humas, pemasaran terintegrasi, dan wawasan industri, yang bertujuan untuk terus meningkatkan pengaruh industri dan reputasi merek perusahaan. Departemen saat ini memiliki 18 posisi staf, termasuk humas merek, operasional media baru, perencanaan pasar, dan spesialis desain visual. Untuk bekerja sama dengan kampanye peningkatan merek tahunan yang besar, saat ini terdapat kekosongan untuk 1 Manajer Humas Merek dan 2 Operasional Media Baru Senior, kami mencari talenta kreatif yang memiliki kemampuan menciptakan konten viral dan penanganan krisis humas.",
+            "beforeGo": "Persiapan Wawancara"
+        },
+        "jobs": {
+            "job0": {
+                "org": "Departemen Proyek Perusahaan Feida Hat",
+                "jobTitle": "Staf Perusahaan",
+                "state": "Bangladesh",
+                "subTitle": "Bergabunglah dengan kami, ciptakan masa depan bersama!",
+                "psTitle": "Tumbuh bersama kami, raih diri yang lebih baik",
+                "jd": {
+                    "title": "Konten Pekerjaan",
+                    "li0": "Membantu manajemen administrasi dan logistik sehari-hari perusahaan;",
+                    "li1": "Bertanggung jawab atas pengelolaan dokumen, entri data, dan pekerjaan lainnya;",
+                    "li2": "Membantu setiap departemen dalam menyelesaikan tugas-tugas yang diberikan oleh perusahaan;",
+                    "li3": "Memiliki kemampuan komunikasi yang baik dan semangat kerja tim."
+                },
+                "requirements": {
+                    "title": "Persyaratan Jabatan",
+                    "li0": "Memiliki pengalaman kerja terkait lebih diutamakan;",
+                    "li1": "Mahir dalam pengoperasian perangkat lunak kantor (Word, Excel, Email);",
+                    "li2": "Teliti dalam bekerja, tanggung jawab kuat, mampu menahan tekanan kerja;",
+                    "li3": "Kemampuan komunikasi yang baik dan semangat kerja sama tim;",
+                    "li4": "Mampu beradaptasi dengan lingkungan kerja yang serba cepat."
+                },
+                "promise": {
+                    "title": "Yang Kami Tawarkan",
+                    "li0": "Gaji yang kompetitif",
+                    "li1": "Jaminan kesejahteraan yang lengkap",
+                    "li2": "Platform pengembangan yang baik",
+                    "li3": "Suasana tim yang menyenangkan"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Segera hubungi, lamar pekerjaan ini!",
+                        "person": {
+                            "p1": {}
+                        },
+                        "address": "Bangladesh - Dhaka",
+                        "social": {
+                            "title": "Bagi yang berminat, hubungi kami melalui Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job1": {
+                "org": "Departemen Proyek Perusahaan Feida Hat",
+                "jobTitle": "Akuntan",
+                "state": "Bangladesh",
+                "subTitle": "Bergabunglah dengan kami, ciptakan masa depan bersama!",
+                "psTitle": "Tumbuh bersama kami, raih diri yang lebih baik",
+                "jd": {
+                    "title": "Konten Pekerjaan",
+                    "li0": "Bertanggung jawab atas akuntansi keuangan perusahaan dan penyusunan laporan;",
+                    "li1": "Memahami kebijakan pajak lokal dan peraturan keuangan;",
+                    "li2": "Memproses dan menyusun dokumen keuangan;",
+                    "li3": "Melaksanakan pekerjaan terkait keuangan lainnya."
+                },
+                "requirements": {
+                    "title": "Persyaratan Jabatan",
+                    "li0": "Memiliki pengalaman kerja terkait, memahami proses akuntansi;",
+                    "li1": "Memahami kebijakan pajak lokal dan peraturan keuangan;",
+                    "li2": "Teliti dalam bekerja, tanggung jawab kuat, mampu menahan tekanan kerja;",
+                    "li3": "Kemampuan komunikasi yang baik dan semangat kerja sama tim;",
+                    "li4": "Mampu beradaptasi dengan lingkungan kerja yang serba cepat."
+                },
+                "promise": {
+                    "title": "Yang Kami Tawarkan",
+                    "li0": "Gaji yang kompetitif",
+                    "li1": "Jaminan kesejahteraan yang lengkap",
+                    "li2": "Platform pengembangan yang baik",
+                    "li3": "Suasana tim yang menyenangkan"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Segera hubungi, lamar pekerjaan ini!",
+                        "person": {
+                            "p1": {}
+                        },
+                        "address": "Bangladesh - Dhaka",
+                        "social": {
+                            "title": "Bagi yang berminat, hubungi kami melalui Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job2": {
+                "org": "Departemen Proyek Perusahaan Feida Hat",
+                "jobTitle": "Manajer Keuangan",
+                "state": "Bangladesh",
+                "subTitle": "Bergabunglah dengan kami, ciptakan masa depan bersama!",
+                "psTitle": "Tumbuh bersama kami, raih diri yang lebih baik",
+                "jd": {
+                    "title": "Konten Pekerjaan",
+                    "li0": "Bertanggung jawab penuh atas manajemen harian departemen keuangan perusahaan;",
+                    "li1": "Membangun dan menyempurnakan sistem dan proses keuangan perusahaan;",
+                    "li2": "Menyusun laporan keuangan bulanan, triwulanan, tahunan;",
+                    "li3": "Bertanggung jawab atas manajemen anggaran, pengendalian biaya, dan perencanaan modal."
+                },
+                "requirements": {
+                    "title": "Persyaratan Jabatan",
+                    "li0": "Pengalaman manajemen keuangan 2 tahun ke atas;",
+                    "li1": "Bekerja dengan serius dan teliti, tanggung jawab kuat;",
+                    "li2": "Memiliki pengalaman di perusahaan manufaktur atau perdagangan lebih diutamakan;",
+                    "li3": "Kemampuan komunikasi yang baik dan kemampuan manajemen tim;",
+                    "li4": "Mahir dalam perangkat lunak kantor dan perangkat lunak keuangan."
+                },
+                "promise": {
+                    "title": "Yang Kami Tawarkan",
+                    "li0": "Ruang pengembangan karier yang stabil dan jangka panjang",
+                    "li1": "Peningkatan kemampuan manajemen dan peluang promosi karier",
+                    "li2": "Pengalaman manajemen perusahaan internasional dan platform pengembangan",
+                    "li3": "Gaji dan bonus kinerja yang kompetitif"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Segera hubungi, lamar pekerjaan ini!",
+                        "person": {
+                            "p1": {}
+                        },
+                        "address": "Bangladesh - Dhaka",
+                        "social": {
+                            "title": "Bagi yang berminat, hubungi kami melalui Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job3": {
+                "org": "Departemen Proyek Perusahaan Feida Hat",
+                "jobTitle": "Manajer Pembelian",
+                "state": "Bangladesh",
+                "subTitle": "Bergabunglah dengan kami, ciptakan masa depan bersama!",
+                "psTitle": "Tumbuh bersama kami, raih diri yang lebih baik",
+                "jd": {
+                    "title": "Konten Pekerjaan",
+                    "li0": "Bertanggung jawab atas manajemen operasional keseluruhan departemen pembelian perusahaan;",
+                    "li1": "Menyusun rencana pembelian dan anggaran pembelian;",
+                    "li2": "Mengembangkan dan memelihara sumber daya pemasok yang berkualitas;",
+                    "li3": "Mengendalikan biaya pembelian, meningkatkan efisiensi pembelian."
+                },
+                "requirements": {
+                    "title": "Persyaratan Jabatan",
+                    "li0": "Pengalaman manajemen pembelian 2 tahun ke atas;",
+                    "li1": "Memiliki kemampuan negosiasi bisnis yang baik;",
+                    "li2": "Memahami proses pembelian dan manajemen rantai pasok;",
+                    "li3": "Kemampuan komunikasi yang baik dan kemampuan manajemen tim;",
+                    "li4": "Bekerja secara aktif dan inisiatif, eksekusi kuat."
+                },
+                "promise": {
+                    "title": "Yang Kami Tawarkan",
+                    "li0": "Platform pengembangan jangka panjang dan stabil",
+                    "li1": "Kerja sama tim dan ruang pengembangan karier",
+                    "li2": "Peluang peningkatan pengalaman manajemen rantai pasok",
+                    "li3": "Gaji dan bonus kinerja yang kompetitif di industri"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Segera hubungi, lamar pekerjaan ini!",
+                        "person": {
+                            "p1": {}
+                        },
+                        "address": "Bangladesh - Dhaka",
+                        "social": {
+                            "title": "Bagi yang berminat, hubungi kami melalui Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job4": {
+                "org": "Departemen Proyek Perusahaan Feida Hat",
+                "jobTitle": "Spesialis Pembelian",
+                "state": "Bangladesh",
+                "subTitle": "Bergabunglah dengan kami, ciptakan masa depan bersama!",
+                "psTitle": "Tumbuh bersama kami, raih diri yang lebih baik",
+                "jd": {
+                    "title": "Konten Pekerjaan",
+                    "li0": "Melakukan permintaan harga dan pembelian berdasarkan rencana pembelian;",
+                    "li1": "Menindaklanjuti progres pengiriman pesanan;",
+                    "li2": "Mengelola kontrak pembelian dan data;",
+                    "li3": "Membantu manajemen inventaris dan secara berkala melaporkan progres pembelian."
+                },
+                "requirements": {
+                    "title": "Persyaratan Jabatan",
+                    "li0": "Mahir dalam perangkat lunak kantor;",
+                    "li1": "Kemampuan komunikasi yang baik;",
+                    "li2": "Memahami proses pembelian dan manajemen rantai pasok;",
+                    "li3": "Bekerja dengan serius dan tanggung jawab;",
+                    "li4": "Memiliki pengalaman pembelian lebih diutamakan."
+                },
+                "promise": {
+                    "title": "Yang Kami Tawarkan",
+                    "li0": "Lingkungan kerja sama tim yang baik",
+                    "li1": "Peluang promosi dan pengembangan yang adil",
+                    "li2": "Pelatihan dan bimbingan posisi yang lengkap",
+                    "li3": "Platform untuk belajar manajemen rantai pasok"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Segera hubungi, lamar pekerjaan ini!",
+                        "person": {
+                            "p1": {}
+                        },
+                        "address": "Bangladesh - Dhaka",
+                        "social": {
+                            "title": "Bagi yang berminat, hubungi kami melalui Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job5": {
+                "org": "Departemen Proyek Perusahaan Feida Hat",
+                "jobTitle": "Sopir Bisnis",
+                "state": "Bangladesh",
+                "subTitle": "Bergabunglah dengan kami, ciptakan masa depan bersama!",
+                "psTitle": "Tumbuh bersama kami, raih diri yang lebih baik",
+                "jd": {
+                    "title": "Konten Pekerjaan",
+                    "li0": "Bertanggung jawab mengantar jemput staf manajemen dan klien perusahaan;",
+                    "li1": "Bertanggung jawab atas pembersihan harian, pemeriksaan, dan pemeliharaan kendaraan;",
+                    "li2": "Mematuhi peraturan lalu lintas dengan ketat, memastikan keselamatan berkendara;",
+                    "li3": "Menyelesaikan urusan administrasi lain yang diatur oleh perusahaan."
+                },
+                "requirements": {
+                    "title": "Persyaratan Jabatan",
+                    "li0": "Memiliki surat izin mengemudi (SIM) lokal yang sah;",
+                    "li1": "Memahami jalan dan kondisi lalu lintas lokal;",
+                    "li2": "Tidak memiliki catatan pelanggaran lalu lintas dan kecelakaan besar;",
+                    "li3": "Berperilaku baik, memiliki kesadaran layanan yang baik;",
+                    "li4": "Pengalaman mengemudi 3 tahun ke atas."
+                },
+                "promise": {
+                    "title": "Yang Kami Tawarkan",
+                    "li0": "Budaya perusahaan yang menghormati karyawan",
+                    "li1": "Kesejahteraan hari raya dan perhatian kepada karyawan",
+                    "li2": "Lingkungan kerja yang aman dan teratur",
+                    "li3": "Gaji stabil dan peluang kerja jangka panjang"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Segera hubungi, lamar pekerjaan ini!",
+                        "person": {
+                            "p1": {}
+                        },
+                        "address": "Bangladesh - Dhaka",
+                        "social": {
+                            "title": "Bagi yang berminat, hubungi kami melalui Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job6": {
+                "org": "Departemen Proyek Perusahaan Feida Hat",
+                "jobTitle": "Administrator Jaringan",
+                "state": "Bangladesh",
+                "subTitle": "Bergabunglah dengan kami, ciptakan masa depan bersama!",
+                "psTitle": "Tumbuh bersama kami, raih diri yang lebih baik",
+                "jd": {
+                    "title": "Konten Pekerjaan",
+                    "li0": "Bertanggung jawab atas pemeliharaan harian sistem jaringan perusahaan;",
+                    "li1": "Menangani dukungan teknis IT harian karyawan;",
+                    "li2": "Mengelola server dan LAN perusahaan;",
+                    "li3": "Bertanggung jawab atas keamanan jaringan dan pencadangan data."
+                },
+                "requirements": {
+                    "title": "Persyaratan Jabatan",
+                    "li0": "Jurusan terkait komputer;",
+                    "li1": "Memahami lingkungan kerja Windows;",
+                    "li2": "Memahami konfigurasi router dan switch;",
+                    "li3": "Berperilaku baik, bekerja dengan serius dan tanggung jawab;",
+                    "li4": "Memiliki kemampuan pemecahan masalah yang baik."
+                },
+                "promise": {
+                    "title": "Yang Kami Tawarkan",
+                    "li0": "Pengalaman kerja perusahaan internasional",
+                    "li1": "Ruang pengembangan dan promosi IT",
+                    "li2": "Peluang peningkatan keterampilan profesional",
+                    "li3": "Peralatan kantor dan lingkungan teknis modern"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Segera hubungi, lamar pekerjaan ini!",
+                        "person": {
+                            "p1": {}
+                        },
+                        "address": "Bangladesh - Dhaka",
+                        "social": {
+                            "title": "Bagi yang berminat, hubungi kami melalui Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job7": {
+                "org": "Departemen Proyek Perusahaan Feida Hat",
+                "jobTitle": "Resepsionis",
+                "state": "Bangladesh",
+                "subTitle": "Bergabunglah dengan kami, ciptakan masa depan bersama!",
+                "psTitle": "Tumbuh bersama kami, raih diri yang lebih baik",
+                "jd": {
+                    "title": "Konten Pekerjaan",
+                    "li0": "Menjawab telepon;",
+                    "li1": "Menerima tamu;",
+                    "li2": "Mencatat informasi pelanggan;",
+                    "li3": "Membantu manajemen kantor."
+                },
+                "requirements": {
+                    "title": "Persyaratan Jabatan",
+                    "li0": "Kemampuan komunikasi yang baik;",
+                    "li1": "Memahami pengoperasian komputer;",
+                    "li2": "Berpenampilan menarik, percaya diri, dan luwes;",
+                    "li3": "Berperilaku baik, bekerja dengan serius dan tanggung jawab;",
+                    "li4": "Memiliki kesadaran layanan."
+                },
+                "promise": {
+                    "title": "Yang Kami Tawarkan",
+                    "li0": "Pelatihan orientasi yang lengkap",
+                    "li1": "Peluang belajar lintas departemen",
+                    "li2": "Lingkungan kerja yang stabil",
+                    "li3": "Jalur promosi yang adil"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Segera hubungi, lamar pekerjaan ini!",
+                        "person": {
+                            "p1": {}
+                        },
+                        "address": "Bangladesh - Dhaka",
+                        "social": {
+                            "title": "Bagi yang berminat, hubungi kami melalui Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            },
+            "job8": {
+                "org": "Departemen Proyek Perusahaan Feida Hat",
+                "jobTitle": "Manajer Operasional",
+                "state": "Bangladesh",
+                "subTitle": "Bergabunglah dengan kami, ciptakan masa depan bersama!",
+                "psTitle": "Tumbuh bersama kami, raih diri yang lebih baik",
+                "jd": {
+                    "title": "Konten Pekerjaan",
+                    "li0": "Bertanggung jawab atas manajemen operasional harian perusahaan;",
+                    "li1": "Mengoordinasikan departemen penjualan, pembelian, dan gudang;",
+                    "li2": "Mengoptimalkan proses kerja;",
+                    "li3": "Mengelola tim operasional."
+                },
+                "requirements": {
+                    "title": "Persyaratan Jabatan",
+                    "li0": "Jurusan terkait manajemen bisnis;",
+                    "li1": "Pengalaman operasional 1 tahun ke atas;",
+                    "li2": "Kemampuan organisasi dan koordinasi yang kuat;",
+                    "li3": "Berperilaku baik, bekerja dengan serius dan tanggung jawab;",
+                    "li4": "Memahami manajemen proses perusahaan."
+                },
+                "promise": {
+                    "title": "Yang Kami Tawarkan",
+                    "li0": "Peluang pengembangan jangka panjang dan stabil",
+                    "li1": "Bonus kinerja dan ruang promosi",
+                    "li2": "Platform akumulasi pengalaman operasional perusahaan",
+                    "li3": "Peluang pengembangan posisi manajemen"
+                },
+                "aboutus": {
+                    "contact": {
+                        "title": "Segera hubungi, lamar pekerjaan ini!",
+                        "person": {
+                            "p1": {}
+                        },
+                        "address": "Bangladesh - Dhaka",
+                        "social": {
+                            "title": "Bagi yang berminat, hubungi kami melalui Message",
+                            "whatsapp": "",
+                            "telegram": ""
+                        }
+                    }
+                }
+            }
+        },
+        "apply": {
+            "t1": "Rekrutmen Departemen Proyek - Perusahaan Feida Hat",
+            "t2": "Penerjemah",
+            "t3": "Tugas: Membantu negosiasi bisnis, menerjemahkan dokumen, dan menangani surat-menyurat harian.",
+            "t4": "Sopir",
+            "t5": "Tugas: Bertanggung jawab atas transportasi karyawan dan barang, serta pemeliharaan harian kendaraan.",
+            "t6": "Akuntan",
+            "t7": "Tugas: Mengelola laporan keuangan perusahaan dan mengawasi pembukuan akuntansi.",
+            "t8": "Personalia (HR)",
+            "t9": "Tugas: Mengelola arsip personalia, bertanggung jawab atas rekrutmen dan manajemen karyawan.",
+            "t10": "Rekrutmen Departemen Proyek - Perusahaan Feida Hat saat ini merekrut tenaga profesional berikut:",
+            "a1": "Kami telah menerima CV Anda dan akan segera memberi tahu hasil wawancara Anda; harap tunggu panggilan telepon tindak lanjut dari kami. Jika kami tidak dapat menghubungi Anda, Anda dapat mengunduh aplikasi perusahaan kami, melalui bagian \"Pencarian\" di menu rekrutmen, masukkan nomor telepon atau nama Anda untuk melihat hasilnya.",
+            "a2": "Dimengerti, saya sedang mengunduh.",
+            "a3": "Formulir Lamaran Kerja",
+            "a4": "Informasi Dasar",
+            "a5": "Nama:",
+            "a6": "Jenis Kelamin:",
+            "a7": "Laki-laki",
+            "a8": "Perempuan",
+            "a9": "Rahasia",
+            "a10": "Nomor Kontak:",
+            "a11": "Alamat Tempat Tinggal Saat Ini:",
+            "a12": "Informasi Lamaran",
+            "a13": "Posisi yang Dilamar:",
+            "a14": "Gaji Bulanan yang Diharapkan:",
+            "a15": "Tanggal Dapat Mulai Bekerja:",
+            "a16": "Sifat Pekerjaan:",
+            "a17": "Latar Belakang Pendidikan",
+            "a18": "Pendidikan Terakhir:",
+            "a19": "Jurusan:",
+            "a20": "Universitas Kelulusan:",
+            "a21": "Pengalaman Kerja",
+            "a22": "Keterampilan dan Evaluasi Diri",
+            "a23": "Pernyataan",
+            "a24": "Saya menjamin bahwa informasi yang diberikan di atas adalah benar dan akurat. Jika ditemukan informasi palsu, saya bersedia menanggung semua tanggung jawab dan konsekuensi.",
+            "a25": "Kirim"
+        }
   }
 }

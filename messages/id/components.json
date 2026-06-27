@@ -1,1 +1,8 @@
-{}
+{
+    "cookie":{
+        "h1":"Pengaturan Cookie",
+        "desc":"Kami menggunakan cookie untuk meningkatkan pengalaman Anda. Beberapa cookie penting untuk fungsi situs, sementara yang lain membantu kami meningkatkan kegunaan, menganalisis lalu lintas, dan menyajikan konten yang relevan. Anda dapat memilih untuk menerima semua atau menyesuaikan preferensi Anda.",
+        "accept":"Terima Semua",
+        "denial":"Tolak"
+    }
+}
