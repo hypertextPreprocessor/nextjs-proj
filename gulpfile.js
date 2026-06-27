@@ -91,7 +91,7 @@ function makeStandardName(name, type) {
 }
 
 function registerWalletRoute() {
-    return src('./src/app/[wallet]/*.js')
+    return src('./src/app/[wallet]/*.js',{base:'./src/app/[wallet]'})
         .pipe(insert.transform(function (contents, file) {
             var ast = parse(contents, {
                 sourceType: 'module',

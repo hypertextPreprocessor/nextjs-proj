@@ -20,6 +20,20 @@ const nextConfig = {
         ]
       }
     ]
+  },
+  turbopack:{
+    rules:{
+      "*.{mp4,avi,mov,mkv}":{
+        type:"asset"
+      },
+      "*.svg":{
+        loaders: [{
+          loader:'@svgr/webpack',
+          options:{}
+        }],
+        as: '*.js',
+      }
+    }
   }
 };
 export default withNextIntl(nextConfig);

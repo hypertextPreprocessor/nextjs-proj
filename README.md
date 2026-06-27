@@ -26,10 +26,13 @@ kill -9 422841 #根据以上的命令查询到的pid
 - tvgarden
 - shortlive
 - brizalGame (巴西游戏落地页)
+- recruit (职场招聘)
 ### 开发文档
 #### 注册一个路由使用以下命令行:
 ```bash
 npx gulp page --add=newRouteName
+#查看tasks列表
+npx gulp -T #或者 --tasks
 ```
 此时在`src/views`目录下会生成`newRouteName`文件夹，里面包含`index.js`和`page.js`文件。
 ## API文档

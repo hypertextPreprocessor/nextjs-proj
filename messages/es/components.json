@@ -1,0 +1,8 @@
+{
+    "cookie":{
+        "h1":"Cookie Setting",
+        "desc":"We use cookies to enhance your experience. Some cookies are essential for the site to function, while others help us improve usability, analyze traffic, and deliver relevant content. You can choose to accept all or customise your preferences.",
+        "accept":"Accept All",
+        "denial":"Reject"
+    }
+}

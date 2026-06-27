@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NEXT_PUBLIC_TEMPLATE=tvgarden next dev",
+    "dev": "cross-env NEXT_PUBLIC_TEMPLATE=recruit next dev",
     "build": "next build",
     "start": "next start -p 4000",
     "lint": "eslint"
@@ -29,6 +29,7 @@
     "yargs": "^18.0.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@tailwindcss/postcss": "^4",
     "babel-plugin-react-compiler": "1.0.0",
     "cross-env": "^10.1.0",

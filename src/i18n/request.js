@@ -17,7 +17,8 @@ export default getRequestConfig(async () => {
     return {
         locale: locale,
         messages: {
-            wallet: (await import(`@locale/${locale}/wallet.json`)).default
+            wallet: (await import(`@locale/${locale}/wallet.json`)).default,
+            components:(await import(`@locale/${locale}/components.json`)).default
         }
     }
 })

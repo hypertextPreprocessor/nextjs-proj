@@ -2,7 +2,33 @@
 
 import { useEffect } from "react";
 import CryptoJS from 'crypto-js';
-
+let isScriptLoaded = false;
+export function loadTurnstile(){
+    if (isScriptLoaded) return; // 防止重复注入
+    isScriptLoaded = true;
+    var script = document.createElement("script");
+    var link = document.createElement("link");
+    //script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+    script.src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    //<div class="cf-turnstile" data-sitekey="0x4AAAAAADlku3naDD7L7ojO"></div>
+    script.async = true;
+    script.defer = true;
+    link.rel="preconnect";
+    link.href="https://challenges.cloudflare.com"
+    script.onerror = () => {
+        console.error("Turnstile 脚本加载失败");
+        isScriptLoaded = false; // 允许重试
+    };
+    document.querySelector("head").appendChild(script);
+    document.querySelector("head").appendChild(link);
+    //<div id="turnstile-container"></div>
+    // const widgetId = turnstile.render("#turnstile-container", {
+    //     sitekey: "0x4AAAAAADlku3naDD7L7ojO",
+    //     callback: function (token) {
+    //         console.log("Success:", token);
+    //     },
+    // });
+}
 function checkDevice(){
     if(navigator){
         var ua = navigator.userAgent;

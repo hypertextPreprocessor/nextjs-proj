@@ -49,12 +49,20 @@ export async function proxy(request){
         }
 */
     }
+
+    // if (pathname.startsWith('/pintura')) {
+    //     const path = pathname.replace('/pintura', ''); // 得到 /recruitSave
+    //     const targetUrl = `http://127.0.0.1:8088${path}`;
+    //     return NextResponse.rewrite(new URL(targetUrl, request.url));
+    // }
+
     return response;
     //return NextResponse.redirect(new URL('/walletApi',CONFIG.api));
 }
 export const config = {
     matcher:[
         '/api/:path*',
-        '/s3-api/:path*'
+        '/s3-api/:path*',
+        //'/pintura/:path*'
     ]
 }
