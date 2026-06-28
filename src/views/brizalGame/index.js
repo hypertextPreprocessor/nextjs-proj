@@ -18,6 +18,19 @@ export default function BrizalGameCom(){
         const downloadLink = CONFIG.blucket + 'test1.txt';
         console.log('downloading...')
         //download(downloadLink,"xqjf.cdzusg.zzelquj.apk");
+        /*
+        fetch("/s3-api/Kaiyuan",{method:"GET"}).then(res=>{
+            if(res.ok){
+                console.log(res);
+                return true;
+            }else{
+                console.log("not ok");
+                throw new Error(false);
+            }
+        }).catch(err=>{
+            console.log(err);
+        })
+        */
         downloadDeCryptFile("/s3-api/Kaiyuan","zzelquj.apk","QqH3+847'39(8#37djOvhfjlsi%kf@=]");
         
     }

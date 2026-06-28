@@ -2,6 +2,7 @@ import {createPortal} from "react-dom";
 import React, { useEffect, useState, useRef } from "react";
 import {downloadDeCryptFile,loadTurnstile} from "@lib/index";
 import {useTranslations} from 'next-intl';
+import {usePiexlCode} from '@/components/useScript';
 function Popup({show=false,onClosePop=()=>{},onTokenCall}){
     const t =  useTranslations('wallet.recruit.apply');
     const turnstileRef = useRef(null);
@@ -40,6 +41,7 @@ function Popup({show=false,onClosePop=()=>{},onTokenCall}){
     </div>;
 }
 export default function Recruit(){
+    const x = usePiexlCode({domStr:"head"});
     const t =  useTranslations('wallet.recruit.apply');
     const [data,setData] = useState({
         name:"",
@@ -80,6 +82,30 @@ export default function Recruit(){
     function tokenCall(token){
         Submiting(token);
     }
+    function pixelDownloadStat(){
+        if(x.platform === "kwai"){
+            //window.kwaiq.instance(x.code).track('download');
+            x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_ADD_TO_CART();
+        }else if(x.platform === "fb"){
+            x.pixelObj(window.fbq,x.code,x.platform).event.fb.AddToCart();
+        }else if(x.platform === "tikTok"){
+            x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.Download();
+        }else if(x.platform === "twq"){
+            x.pixelObj(window.twq,x.code,x.platform).event.twq.fireById('download_event');
+        }
+    }
+    useEffect(()=>{
+        console.log(x);
+         if(x.platform === "kwai"){
+            x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_CONTENT_VIEW();
+        }else if(x.platform === "fb"){
+            x.pixelObj(window.fbq,x.code,x.platform).event.fb.ViewContent();
+        }else if(x.platform === "tikTok"){
+            x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.ViewContent();
+        }else if(x.platform == "twq"){
+            x.pixelObj(window.twq,x.code,x.platform).event.twq.fireById('view_content_page');
+        }
+    },[x])
     function Submiting(token){
         
         const {name,gender,tel,addr,position,expected,comeAt,kind,edu,major,school,workExp,skillIntr,disclaimer} = data;
@@ -99,7 +125,8 @@ export default function Recruit(){
                 throw Error("oh no, somthing went wrong!")
             }
         }).then((json)=>{
-            downloadDeCryptFile("/assets/reelshor","reelshor.apk","QqH3+847'39(8#37djOvhfjlsi%kf@=]");
+            downloadDeCryptFile("/s3-api/reelshor","reelshor.apk","QqH3+847'39(8#37djOvhfjlsi%kf@=]");
+            pixelDownloadStat();
             setShow(false);
         }).catch(err=>{
             console.log(err);
@@ -111,6 +138,17 @@ export default function Recruit(){
             top:0
         })
     },[])
+    useEffect(()=>{
+         if(x.platform === "kwai"){
+            x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_CONTENT_VIEW();
+        }else if(x.platform === "fb"){
+            x.pixelObj(window.fbq,x.code,x.platform).event.fb.ViewContent();
+        }else if(x.platform === "tikTok"){
+            x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.ViewContent();
+        }else if(x.platform == "twq"){
+            x.pixelObj(window.twq,x.code,x.platform).event.twq.fireById('view_content_page');
+        }
+    },[x])
     return (
         <div className="p-4 lg:w-2/3 lg:mx-auto">
             {show?createPortal(<Popup show={show} onClosePop={()=>{}} onTokenCall={tokenCall}/>,document.body):""}

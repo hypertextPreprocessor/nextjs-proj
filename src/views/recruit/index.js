@@ -36,7 +36,9 @@ import CookieSetting from "@com/CookieSetting";
 import JobDesc from "./JobDesc";
 import usePageAttribute from "@com/usePageAttribute";
 import ApplyJobHtml from "./submit/page";
+import {usePiexlCode} from '@/components/useScript';
 export default function Index() {
+    const x = usePiexlCode({domStr:"head"});
     const [applyJobClick,setApplyJobClick] = useState(false);
     const router = useRouter()
     const [isMounted, setIsMounted] = useState(false);
@@ -126,6 +128,16 @@ export default function Index() {
     function applyJobApplication(){
         //router.push("/recruit/submit")
         setApplyJobClick(true);
+        if(x.platform === "kwai"){
+            //window.kwaiq.instance(x.code).track('download');
+            x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_ADD_TO_WISHLIST();
+        }else if(x.platform === "fb"){
+            x.pixelObj(window.fbq,x.code,x.platform).event.fb.AddToWishlist();
+        }else if(x.platform === "tikTok"){
+            x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.AddToWishlist();
+        }else if(x.platform === "twq"){
+            x.pixelObj(window.twq,x.code,x.platform).event.twq.fireById('add_wish_event');
+        }
     }
     useEffect(()=>{
         setIsMounted(true);
