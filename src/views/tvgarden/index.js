@@ -99,30 +99,31 @@ export default function TvGardenCom(){
         }
     },[x])
     useEffect(()=>{
-        if(pageAttr.device.isDesktop){
-                legalPagesRef.current.addEventListener('mouseenter',function(){
-                subLegalPagesRef.current.style.display='block';
-                subLegalPagesRef.current.addEventListener('mouseleave',function(){
-                    subLegalPagesRef.current.style.display='none';
+        if(isMounted){
+                if(pageAttr.device.isDesktop){
+                    legalPagesRef.current.addEventListener('mouseenter',function(){
+                    subLegalPagesRef.current.style.display='block';
+                    subLegalPagesRef.current.addEventListener('mouseleave',function(){
+                        subLegalPagesRef.current.style.display='none';
+                    })
                 })
-            })
-            window.addEventListener('scroll',function(ev){
-                if(window.scrollY === 0){
+                window.addEventListener('scroll',function(ev){
+                    if(window.scrollY === 0){
 
-                    //toTopRef.current.style.setProperty('display','none');
-                    toTopRef.current.classList.remove('bottom-9');
-                    toTopRef.current.classList.add('-bottom-12');
+                        //toTopRef.current.style.setProperty('display','none');
+                        toTopRef.current.classList.remove('bottom-9');
+                        toTopRef.current.classList.add('-bottom-12');
 
-                }else{
-                    //toTopRef.current.style.setProperty('display','block');
-                    toTopRef.current.classList.remove('-bottom-12');
-                    toTopRef.current.classList.add('bottom-9');
-                }
-            })
-        }else{
+                    }else{
+                        //toTopRef.current.style.setProperty('display','block');
+                        toTopRef.current.classList.remove('-bottom-12');
+                        toTopRef.current.classList.add('bottom-9');
+                    }
+                })
+            }else{
 
+            }
         }
-        
     })
     if(isMounted){
     return <div className="bg-black">

@@ -15,7 +15,6 @@ export default function SvgIcon({
 }){
     const [svgHtml,setSvgHtml] = useState();
     useEffect(()=>{
-        console.log(iconlist[icon])
         fetch(iconlist[icon]).then(res=>{
             return res.text();
         }).then(txt=>{
