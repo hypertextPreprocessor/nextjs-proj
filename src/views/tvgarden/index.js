@@ -1,5 +1,6 @@
 
 "use client"
+import {useLayoutEffect, useState} from "react";
 import Image from 'next/image'
 import icon from "@icon/TV-Garden.webp";
 import icon1 from "@img/TV-Garden.webp";
@@ -47,6 +48,7 @@ import CONFIG from '@cnf/index';
 
 //const pageAttrDynamic = dynamic(()=>import('@com/usePageAttribute').then(mod=>mod.default),{ssr:false}); max-w-7xl xl:w-full
 export default function TvGardenCom(){
+    const [isMounted, setIsMounted] = useState(false);
     const x = usePiexlCode({domStr:"head"});
     const legalPagesRef = useRef(null);
     const subLegalPagesRef = useRef(null);
@@ -82,6 +84,9 @@ export default function TvGardenCom(){
             behavior: 'smooth' // Scrolls smoothly to the top
         });
     }
+    useLayoutEffect(()=>{
+        setIsMounted(true);
+    })
     useEffect(()=>{
          if(x.platform === "kwai"){
             x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_CONTENT_VIEW();
@@ -119,6 +124,7 @@ export default function TvGardenCom(){
         }
         
     })
+    if(isMounted){
     return <div className="bg-black">
         <div className="w-full text-white mx-auto">
             <div className="border-y-[#79c447] border-y border-solid" id="top-home">
@@ -414,4 +420,7 @@ export default function TvGardenCom(){
         </div>:null}
         <div className="py-4 w-full text-[17px] text-white font-bold text-center bg-[#4a5568]">&copy;2026 Famelack</div>
     </div>
+    }else{
+        return <h1>Loading...</h1>
+    }
 }

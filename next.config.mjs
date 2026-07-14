@@ -26,13 +26,19 @@ const nextConfig = {
       "*.{mp4,avi,mov,mkv}":{
         type:"asset"
       },
-      "*.svg":{
-        loaders: [{
-          loader:'@svgr/webpack',
-          options:{}
-        }],
-        as: '*.js',
-      }
+      "*.svg":[
+        {
+          condition: { query: /\?url/ },
+          type: "asset",
+        },
+        {
+          loaders: [{
+            loader:'@svgr/webpack',
+            options:{}
+          }],
+          as: '*.js',
+        }
+      ]
     }
   }
 };
