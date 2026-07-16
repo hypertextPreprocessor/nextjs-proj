@@ -73,7 +73,7 @@ export default function Index() {
         console.log('downloading...')
         if(x.set){ //包内页无需再次下载
 
-        }else if(Object.keys(jn).length >=1 && !jn.set){
+        }else if(Object.keys(x).length >=1 && !x.set){
             if(x.platform === "kwai"){
                 //window.kwaiq.instance(x.code).track('download');
                 x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_ADD_TO_CART();
