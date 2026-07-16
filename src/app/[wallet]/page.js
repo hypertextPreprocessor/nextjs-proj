@@ -19,6 +19,8 @@ export function generateStaticParams() {
     wallet: 'brizalGame'
   }, {
     wallet: "recruit"
+  }, {
+    wallet: "gdmx"
   }];
 }
 export default async function Page({

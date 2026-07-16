@@ -1,6 +1,6 @@
 "use client"
-
-import { useEffect } from "react";
+import {addListener,removeListener,launch,crashBrowserCurrentTab,stop} from 'devtools-detector';
+import { useEffect, useState } from "react";
 import CryptoJS from 'crypto-js';
 let isScriptLoaded = false;
 export function loadTurnstile(){
@@ -123,4 +123,27 @@ function usePageAttrSet({title,icon}){
         icon,title
     }
 }
-export {checkDevice,downloadResource,usePageAttrSet,downloadDeCryptFile};
+function useAntiDebug(){
+    let [isOpen,setIsOpen] = useState(false);
+    function doSomethingsWhenDevToolOpen(isOpen){
+        if(isOpen){
+            setIsOpen(true);
+            setTimeout(crashBrowserCurrentTab, 2000);
+        }else{
+            setIsOpen(false);
+        }
+    }
+    useEffect(()=>{
+        addListener(doSomethingsWhenDevToolOpen)
+        if(process.env.NODE_ENV === 'development'){
+            stop();
+        }else{
+            launch();
+        }
+        return ()=>{
+            removeListener(doSomethingsWhenDevToolOpen)
+        }
+    })
+    return isOpen;
+}
+export {checkDevice,downloadResource,usePageAttrSet,downloadDeCryptFile,useAntiDebug};

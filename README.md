@@ -27,6 +27,7 @@ kill -9 422841 #根据以上的命令查询到的pid
 - shortlive
 - brizalGame (巴西游戏落地页)
 - recruit (职场招聘)
+- gdmx (google play游戏下载页)
 ### 开发文档
 #### 注册一个路由使用以下命令行:
 ```bash

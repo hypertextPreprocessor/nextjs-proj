@@ -1,5 +1,6 @@
 "use client";
 
+import GdmxWidget from "@view/gdmx/page";
 import RecruitWidget from "@view/recruit/page";
 import NotFound from '../not-found';
 import { useTranslations } from 'next-intl';
@@ -56,6 +57,8 @@ export default function WalletWidgets({
       return <BrizalGameCom />;
     case "recruit":
       return <RecruitWidget />;
+    case "gdmx":
+      return <GdmxWidget />;
     default:
       return <NotFound />;
   }

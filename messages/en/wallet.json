@@ -788,5 +788,67 @@
             "a24": "I guarantee that the information provided above is true and accurate. If any false information is discovered, I am willing to bear all responsibilities and consequences.",
             "a25": "Submit"
         }
+    },
+    "gdmx":{
+        "tabBarTitle":"66MX | Casino Online, Slots and Sports Betting",
+        "appName":"66mx.com",
+        "appTitle":"66mx.com",
+        "appDesc":"Verified by Play Protect",
+        "dls":{
+            "ds1":"reviews",
+            "ds2":"Download",
+            "ds3":"Rated for 18+"
+        },
+        "installBtn":{
+            "text":"Quick installation",
+            "desc":"Download in 10 seconds"
+        },
+        "sp1":{
+            "li1":"Share",
+            "li2":"Add to wishlist"
+        },
+        "sc0":{
+            "h1":"About this app",
+            "content":"True happiness *The most popular games of 2026* The sound of the slots, the lights on the screen and the thrill of victory. Bring the visual and sound experience of the game directly to your home, allowing you to reach new heights in your winnings! The more you spin, the more you win! Final winnings are not guaranteed.",
+            "h2":"Updated on",
+            "date":"January 5, 2026"
+        },
+        "sc1":{
+            "h1":"Data safety",
+            "content":"Your security starts with understanding how developers collect and share your data. Data privacy and security practices may vary based on your use, region, and age. The developer has provided this information, which may update over time.",
+            "listBox":{
+                "li0":"This app may share these types of data with third parties: Location, financial information, device identifiers, and others",
+                "li1":"This app may collect these types of data: location, personal information, and 5 others",
+                "li2":"Data is not encrypted",
+                "li3":"You can request data deletion"
+            }
+        },
+        "sc2":{
+            "h1":"Ratings and reviews",
+            "content":"Ratings and reviews are verified and come from people who use the same type of device as you",
+            "lista":{
+                "li0":"Phone",
+                "li1":"Tablet",
+                "li2":"Chromebook"
+            },
+            "cms0":"Fun game with big bonuses",
+            "cms1":"Very fun casual game, you can also win money"
+        },
+        "sc3":{
+            "li0":"Play Pass",
+            "li1":"Play points",
+            "li2":"Submit coupons",
+            "li3":"Redeem",
+            "li4":"Refund policy",
+            "li5":"Kids and family",
+            "li6":"Family guide",
+            "li7":"Family sharing",
+            "li8":"Terms of service",
+            "li9":"Privacy",
+            "li10":"About",
+            "li11":"Developers",
+            "li12":"All prices",
+            "li13":"include taxes"            
+        }
     }
 }

@@ -789,6 +789,68 @@
             "a24": "Garantizo que la información es verdadera y exacta. Si se descubre falsedad, asumo toda responsabilidad.",
             "a25": "Enviar"
         }
+    },
+    "gdmx":{
+        "tabBarTitle":"66MX | Casino Online, Slots y Apuestas Deportivas",
+        "appName":"66mx.com",
+        "appTitle":"66mx.com",
+        "appDesc":"Verificado por Play Protect",
+        "dls":{
+            "ds1":"reseñas",
+            "ds2":"Descargar",
+            "ds3":"Clasificado para mayores de 18+"
+        },
+        "installBtn":{
+            "text":"Instalación rápida",
+            "desc":"Descargar en 10 segundos"
+        },
+        "sp1":{
+            "li1":"Compartir",
+            "li2":"Agregar a la lista de deseos"
+        },
+        "sc0":{
+            "h1":"Acerca de esta aplicación",
+            "content":"Felicidad verdadera *Los juegos más populares de 2026* El sonido de las tragamonedas, las luces en la pantalla y la emoción de la victoria. ¡Trae la experiencia visual y sonora del juego directamente a tu hogar, permitiéndote alcanzar nuevas alturas en tus ganancias! ¡Cuanto más giras, más ganas! Las ganancias finales no están garantizadas.",
+            "h2":"Actualizado el",
+            "date":"El 5 de Enero, 2026"
+        },
+        "sc1":{
+            "h1":"Seguridad de los datos",
+            "content":"Tu seguridad comienza por entender cómo los desarrolladores recopilan y comparten tus datos. Las prácticas de privacidad y seguridad de los datos pueden variar según el uso, la región y la edad. El desarrollador ha proporcionado la siguiente información, la cual puede actualizarse con el tiempo.",
+            "listBox":{
+                "li0":"Esta aplicación puede compartir estos tipos de datos con terceros Ubicación, información financiera, identificadores del dispositivo y otros",
+                "li1":"Esta aplicación puede recopilar estos tipos de datos: ubicación, información personal y 5 más",
+                "li2":"Los datos no están cifrados",
+                "li3":"Puedes solicitar la eliminación de datos"
+            }
+        },
+        "sc2":{
+            "h1":"Calificaciones y reseñas",
+            "content":"Las calificaciones y reseñas están verificadas y provienen de personas que usan el mismo tipo de dispositivo que tú",
+            "lista":{
+                "li0":"Teléfono",
+                "li1":"Tableta",
+                "li2":"Chromebook"
+            },
+            "cms0":"Juego divertido con grandes bonificaciones",
+            "cms1":"Juego casual muy divertido, también puedes ganar dinero"
+        },
+        "sc3":{
+            "li0":"Play Pass",
+            "li1":"Puntos de juego",
+            "li2":"Presentar cupones",
+            "li3":"Rescate",
+            "li4":"Política de reembolso",
+            "li5":"Niños y familia",
+            "li6":"Guía familiar",
+            "li7":"Compartir en familia",
+            "li8":"Términos del servicio",
+            "li9":"Privacidad",
+            "li10":"Acerca de",
+            "li11":"Desarrolladores",
+            "li12":"Todos los precios",
+            "li13":"incluyen impuestos"            
+        }
     }
 
 

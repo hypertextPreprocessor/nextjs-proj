@@ -36,6 +36,7 @@ console.log('locale',locale)
   return (
     <html lang={locale} dir={direction}>
       <body
+        style={{overflowX:"hidden"}}
         className={`${roboto.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
           <AppRouterCacheProvider>

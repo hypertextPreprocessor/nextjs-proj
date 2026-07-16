@@ -739,6 +739,67 @@
         "a24": "Yukarıda verdiğim bilgilerin doğru ve gerçek olduğunu taahhüt ederim. Herhangi bir yanlış bilgi tespit edilmesi durumunda tüm sorumluluğu kabul ediyorum.",
         "a25": "Gönder"
         }
+    },
+    "gdmx": {
+        "tabBarTitle": "66MX | Çevrimiçi Casino, Slotlar ve Spor Bahisleri",
+        "appName": "66mx.com",
+        "appTitle": "66mx.com",
+        "appDesc": "Play Protect tarafından doğrulandı",
+        "dls": {
+            "ds1": "değerlendirmeler",
+            "ds2": "İndir",
+            "ds3": "18 yaş ve üzeri için sınıflandırılmıştır"
+        },
+        "installBtn": {
+            "text": "Hızlı kurulum",
+            "desc": "10 saniyede indir"
+        },
+        "sp1": {
+            "li1": "Paylaş",
+            "li2": "İstek listesine ekle"
+        },
+        "sc0": {
+            "h1": "Bu uygulama hakkında",
+            "content": "Gerçek mutluluk *2026'nın en popüler oyunları* Slot makinelerinin sesi, ekrandaki ışıklar ve zafer heyecanı. Oyunun görsel ve işitsel deneyimini doğrudan evinize getirin, kazançlarınızda yeni zirvelere ulaşmanızı sağlayın! Ne kadar çok çevirirseniz, o kadar çok kazanırsınız! Nihai kazançlar garanti edilmez.",
+            "h2": "Güncellenme tarihi",
+            "date": "5 Ocak 2026"
+        },
+        "sc1": {
+            "h1": "Veri güvenliği",
+            "content": "Güvenliğiniz, geliştiricilerin verilerinizi nasıl topladığını ve paylaştığını anlamakla başlar. Veri gizliliği ve güvenlik uygulamaları kullanıma, bölgeye ve yaşa göre değişiklik gösterebilir. Geliştirici, zaman içinde güncellenebilecek aşağıdaki bilgileri sağlamıştır.",
+            "listBox": {
+                "li0": "Bu uygulama, bu tür verileri üçüncü taraflarla paylaşabilir: Konum, finansal bilgiler, cihaz tanımlayıcıları ve diğerleri",
+                "li1": "Bu uygulama şu veri türlerini toplayabilir: Konum, kişisel bilgiler ve 5 tane daha",
+                "li2": "Veriler şifrelenmemiştir",
+                "li3": "Verilerin silinmesini talep edebilirsiniz"
+            }
+        },
+        "sc2": {
+            "h1": "Puanlar ve değerlendirmeler",
+            "content": "Puanlar ve değerlendirmeler doğrulanmıştır ve sizinle aynı türde cihaz kullanan kişilerden gelmektedir",
+            "lista": {
+                "li0": "Telefon",
+                "li1": "Tablet",
+                "li2": "Chromebook"
+            },
+            "cms0": "Büyük bonuslarla eğlenceli oyun",
+            "cms1": "Çok eğlenceli gündelik oyun, ayrıca para da kazanabilirsiniz"
+        },
+        "sc3": {
+            "li0": "Play Pass",
+            "li1": "Oyun puanları",
+            "li2": "Kupon sun",
+            "li3": "Ödeme",
+            "li4": "İade politikası",
+            "li5": "Çocuklar ve aile",
+            "li6": "Aile rehberi",
+            "li7": "Aile paylaşımı",
+            "li8": "Hizmet şartları",
+            "li9": "Gizlilik",
+            "li10": "Hakkında",
+            "li11": "Geliştiriciler",
+            "li12": "Tüm fiyatlara",
+            "li13": "vergiler dahildir"
+        }
     }
-
 }

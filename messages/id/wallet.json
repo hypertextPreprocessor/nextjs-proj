@@ -757,6 +757,68 @@
             "a24": "Saya menjamin bahwa informasi yang diberikan di atas adalah benar dan akurat. Jika ditemukan informasi palsu, saya bersedia menanggung semua tanggung jawab dan konsekuensi.",
             "a25": "Kirim"
         }
+    },
+    "gdmx":{
+        "tabBarTitle":"66MX | Kasino Online, Slot, dan Taruhan Olahraga",
+        "appName":"66mx.com",
+        "appTitle":"66mx.com",
+        "appDesc":"Diverifikasi oleh Play Protect",
+        "dls":{
+            "ds1":"ulasan",
+            "ds2":"Unduh",
+            "ds3":"Dinilai untuk 18+"
+        },
+        "installBtn":{
+            "text":"Instalasi cepat",
+            "desc":"Unduh dalam 10 detik"
+        },
+        "sp1":{
+            "li1":"Bagikan",
+            "li2":"Tambahkan ke daftar keinginan"
+        },
+        "sc0":{
+            "h1":"Tentang aplikasi ini",
+            "content":"Kebahagiaan sejati *Game paling populer tahun 2026* Suara slot, lampu di layar, dan sensasi kemenangan. Hadirkan pengalaman visual dan suara game langsung ke rumah Anda, memungkinkan Anda mencapai ketinggian baru dalam kemenangan Anda! Semakin banyak Anda berputar, semakin banyak Anda menang! Kemenangan akhir tidak dijamin.",
+            "h2":"Diperbarui pada",
+            "date":"5 Januari 2026"
+        },
+        "sc1":{
+            "h1":"Keamanan data",
+            "content":"Keamanan Anda dimulai dengan memahami bagaimana pengembang mengumpulkan dan membagikan data Anda. Praktik privasi dan keamanan data dapat bervariasi tergantung pada penggunaan, wilayah, dan usia. Pengembang telah memberikan informasi ini, yang dapat diperbarui dari waktu ke waktu.",
+            "listBox":{
+                "li0":"Aplikasi ini dapat membagikan jenis data ini kepada pihak ketiga: Lokasi, informasi keuangan, pengidentifikasi perangkat, dan lainnya",
+                "li1":"Aplikasi ini dapat mengumpulkan jenis data ini: lokasi, informasi pribadi, dan 5 lainnya",
+                "li2":"Data tidak dienkripsi",
+                "li3":"Anda dapat meminta penghapusan data"
+            }
+        },
+        "sc2":{
+            "h1":"Peringkat dan ulasan",
+            "content":"Peringkat dan ulasan diverifikasi dan berasal dari orang-orang yang menggunakan jenis perangkat yang sama dengan Anda",
+            "lista":{
+                "li0":"Ponsel",
+                "li1":"Tablet",
+                "li2":"Chromebook"
+            },
+            "cms0":"Game seru dengan bonus besar",
+            "cms1":"Game kasual yang sangat menyenangkan, Anda juga bisa memenangkan uang"
+        },
+        "sc3":{
+            "li0":"Play Pass",
+            "li1":"Poin game",
+            "li2":"Kirim kupon",
+            "li3":"Tukarkan",
+            "li4":"Kebijakan pengembalian dana",
+            "li5":"Anak-anak dan keluarga",
+            "li6":"Panduan keluarga",
+            "li7":"Berbagi dengan keluarga",
+            "li8":"Ketentuan layanan",
+            "li9":"Privasi",
+            "li10":"Tentang",
+            "li11":"Pengembang",
+            "li12":"Semua harga",
+            "li13":"termasuk pajak"            
+        }
     }
 
 }

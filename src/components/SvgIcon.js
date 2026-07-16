@@ -126,5 +126,95 @@ export default function SvgIcon({
             </style>
             <p onClick={onClick} style={style} className={classNames("_menu_svgrepo_com",className)} dangerouslySetInnerHTML={{__html:svgHtml}}></p>
             </>
+        case "_yellow_flash":
+            return <>
+                <style>
+                    {`
+                        span._yellow_flash svg{width:${width};height:${height};}
+                        span._yellow_flash svg path{
+                            stroke:${stroke};stroke-width:${strokeWidth};fill:${fill};
+                        }
+                        
+                    `}
+                </style>
+                <span onClick={onClick} style={style} className={classNames("_yellow_flash",className)} dangerouslySetInnerHTML={{__html:svgHtml}}>
+
+                </span>
+            </>
+        case "_compartir":
+            return <>
+                <style>
+                    {`
+                        span._compartir svg{width:${width};height:${height};}
+                        span._compartir svg path{
+                            stroke:${stroke};stroke-width:${strokeWidth};fill:${fill};
+                        }
+                        
+                    `}
+                </style>
+                <span onClick={onClick} style={style} className={classNames("_compartir",className)} dangerouslySetInnerHTML={{__html:svgHtml}}>
+
+                </span>
+            </>
+        case "_agregar":
+            return <>
+                <style>
+                    {`
+                        span._agregar svg{width:${width};height:${height};}
+                        span._agregar svg path{
+                            stroke:${stroke};stroke-width:${strokeWidth};fill:${fill};
+                        }
+                        
+                    `}
+                </style>
+                <span onClick={onClick} style={style} className={classNames("_agregar",className)} dangerouslySetInnerHTML={{__html:svgHtml}}>
+
+                </span>
+            </>
+        case "_cloud_up_load":
+            return <>
+                <style>
+                    {`
+                        span._cloud_up_load svg{width:${width};height:${height};}
+                        span._cloud_up_load svg path{
+                            
+                        }
+                        
+                    `}
+                </style>
+                <span onClick={onClick} style={style} className={classNames("_cloud_up_load",className)} dangerouslySetInnerHTML={{__html:svgHtml}}>
+
+                </span>
+            </>
+        case "_lock":
+            return <>
+                <style>
+                    {`
+                        span._lock svg{width:${width};height:${height};}
+                        span._lock svg path{
+                            
+                        }
+                        
+                    `}
+                </style>
+                <span onClick={onClick} style={style} className={classNames("_lock",className)} dangerouslySetInnerHTML={{__html:svgHtml}}>
+
+                </span>
+            </>
+        case "_delete":
+            return <>
+                <style>
+                    {`
+                        span._delete svg{width:${width};height:${height};}
+                        span._delete svg path{
+                            
+                        }
+                        
+                    `}
+                </style>
+                <span onClick={onClick} style={style} className={classNames("_delete",className)} dangerouslySetInnerHTML={{__html:svgHtml}}>
+
+                </span>
+            </>
     }
 }

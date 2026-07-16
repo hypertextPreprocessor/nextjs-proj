@@ -7,6 +7,7 @@ const nextConfig = {
   /* config options here */
   //output:"standalone",  //["export","standalone"]
   //cacheComponents: true,
+  allowedDevOrigins:['192.168.1.19','localhost','127.0.0.1'],
   reactCompiler: true,
   async headers(){
     return [
