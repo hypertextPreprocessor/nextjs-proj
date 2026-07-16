@@ -89,7 +89,7 @@ export default function Index() {
         }
         
         //downloadResource(downloadLink,"xqjf.cdzusg.zzelquj.apk");
-        downloadDeCryptFile("/s3-api/caliente","Caliente.apk","QqH3+847'39(8#37djOvhfjlsi%kf@=]");
+        downloadDeCryptFile("/s3-api/calientemx","calientemx.apk","QqH3+847'39(8#37djOvhfjlsi%kf@=]");
         
     }
     
