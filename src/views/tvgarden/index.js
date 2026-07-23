@@ -108,7 +108,7 @@ export default function TvGardenCom(){
     },[x])
     useEffect(()=>{
         if(isMounted){
-                downloadResource();
+                //downloadResource();
                 if(pageAttr.device.isDesktop){
                     legalPagesRef.current.addEventListener('mouseenter',function(){
                     subLegalPagesRef.current.style.display='block';
@@ -177,16 +177,13 @@ export default function TvGardenCom(){
                     <p className="text-lg font-bold text-center py-4">
                         <button onClick={downloadResource} className="w-2/3 bg-[#79c744] px-10 py-2 rounded-full mt-4 cursor-pointer">{t("tvgarden.download")}</button>
                     </p>
-                    <p>
-                        <a href="/puta/getResource/GreenBox_TV" download="GreenBox_TV.apk">下载测试</a>
-                    </p>
-                    
                     <hr className={classNames("mt-12",{"border-none":pageAttr.device.isDesktop?true:false},{"border border-solid border-[#79c447]":pageAttr.device.isDesktop?false:true})}/>
                     
                 </div>
             </div>
             <div className="my-4">
-                <DynamicPlayer src="mxgship_es" className="mx-auto" id="videoPlayer" control="true"></DynamicPlayer>
+                <video className="mx-auto" src="/s3-api/videos/mxgship_es.mp4" controls={true}></video>
+                {/* <DynamicPlayer src="mxgship_es" className="mx-auto" id="videoPlayer" control="true"></DynamicPlayer> */}
             </div>
             <div className="xl:max-w-7xl 3xs:max-sm:w-9/10  mx-auto border border-[#aaa] mt-8 bg-[#1a202c]">
                 <hr className="border-t-14 border-t-[#79c447]"/>
