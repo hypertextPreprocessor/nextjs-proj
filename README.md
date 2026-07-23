@@ -29,6 +29,29 @@ kill -9 422841 #根据以上的命令查询到的pid
 - recruit (职场招聘)
 - gdmx (google play游戏下载页)
 ### 开发文档
+#### 关于自适应
+css
+```html
+<h1>两者二选一即可</h1>
+<!--tailwind css
+max-xs -> 手机样式
+xs: ->  PC样式
+-->
+<!--例如：-->
+<div className="max-xs:w-full xs:w-2/3"></div>
+```
+javascript
+```jsx
+//注意javascript在ssr中不可用，一定要确保执行环境是客户端环境，并且有windows对象！
+import usePageAttribute from "@com/usePageAttribute";
+export default function Page(){
+    const {device} = usePageAttribute();
+    return <div>
+        {device.isDesktop?"桌面端":"手机端"}
+        {device.isMobile?"手机端":"桌面端"}
+    </div>
+} 
+```
 #### 注册一个路由使用以下命令行:
 ```bash
 npx gulp page --add=newRouteName

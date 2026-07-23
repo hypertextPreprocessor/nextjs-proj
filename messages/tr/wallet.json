@@ -32,6 +32,13 @@
         "submit":"İthalat kurtarma ifadesi"
     },
     "tvgarden":{
+        "addon":{
+            "t1":"Dünya genelinde canlı yayın, haberler, spor ve daha fazlası",
+            "t2":"Ücretsiz canlı yayın – Kayıt gerektirmez – Küresel kanallar",
+            "t3":"Uygulamayı hemen indirin",
+            "t4":"Android"
+        
+        },
         "installStep": {
             "t1": "Famelack MOD APK'yı bugün Android cihazlara yüklemek için bu yöntemleri dikkatlice izleyin.",
             "title": "Android'de Doğrudan APK İndirme",

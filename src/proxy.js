@@ -7,6 +7,7 @@ const corsOptions = {
   'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 }
 export async function proxy(request){
+    const url = request.nextUrl.clone();
     const origin = request.headers.get('origin') ?? ''
     const isAllowedOrigin = allowedOrigins.includes(origin);
     const isPreflight = request.method === 'OPTIONS'
@@ -24,6 +25,15 @@ export async function proxy(request){
     Object.entries(corsOptions).forEach(([key, value]) => {
         response.headers.set(key, value)
     })
+    if(url.pathname.startsWith('/puta')){
+        const targetPath = url.pathname.replace(/^\/puta/, '');
+        url.host = '127.0.0.1:8964';
+        url.protocol = 'http:';
+        url.pathname = targetPath;
+        const response = NextResponse.rewrite(url);
+        response.headers.set('Access-Control-Allow-Origin', '*');
+        return response;
+    }
     if (request.nextUrl.pathname.startsWith('/s3-api')) {
         //return NextResponse.rewrite(new URL(CONFIG.blucket, request.url))
         const path = request.nextUrl.pathname.replace('/s3-api', '');
@@ -63,6 +73,7 @@ export const config = {
     matcher:[
         '/api/:path*',
         '/s3-api/:path*',
+        '/puta/:path*'
         //'/pintura/:path*'
     ]
 }

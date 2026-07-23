@@ -32,7 +32,12 @@
         "submit":"Importar frase de recuperación"
     },
     "tvgarden":{
-        
+        "addon":{
+            "t1":"Vivo Global - noticias, deportes etc.",
+            "t2":"Gratis / Sin registro / internacional",
+            "t3":"Descargar ahora",
+            "t4":"Android"
+        },
         "installStep": {
             "t1": "Siga estos métodos cuidadosamente para instalar Famelack MOD APK en dispositivos Android hoy.",
             "title": "Descarga directa de APK en Android",
@@ -49,7 +54,7 @@
             "step6": "Paso 6: Iniciar y transmitir Famelack",
             "step6dsc": "Busque Famelack en su pantalla de inicio o en el cajón de aplicaciones. Abra la aplicación y explore la biblioteca de canales globales. Toque cualquier canal para comenzar a transmitir en vivo inmediatamente hoy."
         },
-        "pageDesc":"Famelack no es solo otra aplicación de streaming; ¡es tu remedio para esas crecientes tarifas de suscripción! Disfruta de tus deportes favoritos, ponte al día con noticias en vivo y relájate con reality shows, películas y música sin anuncios emergentes. Desde este sitio web, puedes descargar la versión actualizada de la APK de Famelack para dispositivos Android, iOS, PC y Smart TV de forma gratuita.",
+        "pageDesc":"Famelack no es solo otra aplicación de streaming; ¡es tu remedio para esas crecientes tarifas de suscripción! Disfruta de tus deportes favoritos, ponte al día con noticias en vivo y relájate con reality shows, películas y música sin anuncios emergentes. Desde este sitio web, puedes descargar la versión actualizada de la APK de Famelack para dispositivos Android y Smart TV de forma gratuita.",
         "version":"Versión: 1.0.0 / Más de 500K Descargas / 4.7 Calificaciones",
         "download":"Descargar",
         "li1":"Famelack – TV en Vivo, Noticias, Deportes y Más...",

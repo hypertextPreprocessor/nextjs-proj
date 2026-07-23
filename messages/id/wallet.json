@@ -32,6 +32,12 @@
         "submit": "Impor frasa pemulihan"
     },
     "tvgarden": {
+        "addon":{
+            "t1":"Siaran langsung global, berita, olahraga, dan banyak lagi",
+            "t2":"Siaran langsung gratis – Tanpa perlu registrasi – Saluran global",
+            "t3":"Unduh aplikasinya sekarang",
+            "t4":"Android"
+        },
         "installStep": {
             "t1": "Ikuti metode ini dengan cermat untuk menginstal Famelack MOD APK di perangkat Android hari ini.",
             "title": "Unduh APK Langsung di Android",

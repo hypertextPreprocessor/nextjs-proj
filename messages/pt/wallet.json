@@ -32,6 +32,12 @@
         "submit":"Import recovery phrase"
     },
     "tvgarden":{
+        "addon":{
+            "t1":"Transmissão global em direto, notícias, desporto e muito mais",
+            "t2":"Transmissão em direto gratuita – Sem necessidade de registo – Canais globais",
+            "t3":"Descarregue já a aplicação",
+            "t4":"Android"
+        },
         "installStep": {
             "t1": "Siga estes métodos cuidadosamente para instalar o Famelack MOD APK em dispositivos Android hoje.",
             "title": "Download Direto de APK no Android",
