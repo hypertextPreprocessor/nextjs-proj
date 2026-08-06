@@ -28,6 +28,7 @@ kill -9 422841 #根据以上的命令查询到的pid
 - brizalGame (巴西游戏落地页)
 - recruit (职场招聘)
 - gdmx (google play游戏下载页)
+- secretplay (se站视频)
 ### 开发文档
 #### 关于自适应
 css

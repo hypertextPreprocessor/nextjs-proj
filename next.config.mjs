@@ -2,6 +2,7 @@
 //import {NextConfig} from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.js');
+import CONFIG from "./config/index.js";
 
 const nextConfig = {
   /* config options here */
@@ -9,6 +10,9 @@ const nextConfig = {
   //cacheComponents: true,
   allowedDevOrigins:['192.168.1.19','localhost','127.0.0.1'],
   reactCompiler: true,
+  images: {
+    remotePatterns:[new URL(`${CONFIG.blucket}**`)]
+  },
   async headers(){
     return [
       {

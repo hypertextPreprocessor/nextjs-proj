@@ -1,5 +1,6 @@
 "use client";
 
+import SecretplayWidget from "@view/secretplay/page";
 import GdmxWidget from "@view/gdmx/page";
 import RecruitWidget from "@view/recruit/page";
 import NotFound from '../not-found';
@@ -59,6 +60,8 @@ export default function WalletWidgets({
       return <RecruitWidget />;
     case "gdmx":
       return <GdmxWidget />;
+    case "secretplay":
+      return <SecretplayWidget />;
     default:
       return <NotFound />;
   }

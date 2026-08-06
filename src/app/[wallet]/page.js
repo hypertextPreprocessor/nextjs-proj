@@ -21,6 +21,8 @@ export function generateStaticParams() {
     wallet: "recruit"
   }, {
     wallet: "gdmx"
+  }, {
+    wallet: "secretplay"
   }];
 }
 export default async function Page({

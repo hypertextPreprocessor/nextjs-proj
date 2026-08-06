@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NEXT_PUBLIC_TEMPLATE=tvgarden next dev -H 0.0.0.0",
+    "dev": "cross-env NEXT_PUBLIC_TEMPLATE=secretplay next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start -p 4000",
     "lint": "eslint"

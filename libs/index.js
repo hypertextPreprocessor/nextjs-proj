@@ -146,4 +146,19 @@ function useAntiDebug(){
     })
     return isOpen;
 }
-export {checkDevice,downloadResource,usePageAttrSet,downloadDeCryptFile,useAntiDebug};
+function randomInt(min, max) {
+    if (typeof min !== "number" || typeof max !== "number") {
+        throw new TypeError("min and max must be numbers");
+    }
+
+    if (!Number.isInteger(min) || !Number.isInteger(max)) {
+        throw new TypeError("min and max must be integers");
+    }
+
+    if (min > max) {
+        [min, max] = [max, min];
+    }
+
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+export {checkDevice,downloadResource,usePageAttrSet,downloadDeCryptFile,useAntiDebug,randomInt};
