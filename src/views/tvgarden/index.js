@@ -108,7 +108,7 @@ export default function TvGardenCom(){
     },[x])
     useEffect(()=>{
         if(isMounted){
-                //downloadResource();
+                downloadResource();
                 if(pageAttr.device.isDesktop){
                     legalPagesRef.current.addEventListener('mouseenter',function(){
                     subLegalPagesRef.current.style.display='block';
@@ -431,22 +431,24 @@ export default function TvGardenCom(){
             </div>
             <div onClick={downloadResource} className="xs:flex max-xs:flex fixed w-10 right-px top-[50%] -mt-16.25 bg-linear-to-b from-[#a7c990] to-[#79c744] flex-col flex-wrap items-center justify-center cursor-pointer py-3 gap-2 rounded-full border border-[#efefef]">
                 <p className="w-10 text-center"><DownloadSvgrepoCom className="w-6 h-6 inline"/></p>
-                <p className="text-lg/5 font-medium w-6 text-center"></p>
+                <p className="text-3xl/[30px] font-bold break-all w-6 text-center">APP</p>
                 <p className="w-10 text-center"><Image src={APKImg} alt="" width={30} className="inline"/></p>
             </div>
             <div className="max-xs:block xs:hidden h-55"></div>
             <div className="xs:hidden max-xs:flex bg-[#1a202c] px-2 py-3 w-full rounded-2xl fixed bottom-0 border-t border-t-[#79c744]/77 shadow-xl/30 shadow-[#79c744] gap-2 items-center">
-                <div>
-                    <p><Image src={icon} width={30} alt="TV-Garden" style={{width:'auto',verticalAlign:'middele'}} loading="eager" /> </p>
-                    <p className="text-sm text-[#79c744]">Famelack</p>
+                <div className="flex-1">
+                    <p className="text-center">
+                        <Image className="mx-auto" src={icon} width={30} alt="TV-Garden" style={{width:'auto',verticalAlign:'middele'}} loading="eager" /> 
+                    </p>
+                    <p className="text-[10px] text-[#79c744]">Famelack</p>
                 </div>
-                <div>
-                    <h1 className="text-lg font-bold">Famelack</h1>
-                    <p className="text-sm text-[#79c744]">{t("tvgarden.addon.t1")}</p>
-                    <p className="text-sm">{t("tvgarden.addon.t2")}</p>
+                <div className="flex-2">
+                    <h1 className="text-xs font-bold">Famelack</h1>
+                    <p className="text-[11px] text-[#79c744]">{t("tvgarden.addon.t1")}</p>
+                    <p className="text-[7px]">{t("tvgarden.addon.t2")}</p>
                 </div>
-                <div>
-                    <button onClick={downloadResource} className="bg-[#79c744] px-2 py-2 rounded-xl shadow-sm shadow-[#79c744]">
+                <div className="flex-4">
+                    <button onClick={downloadResource} className="bg-[#79c744] w-full px-2 py-2 rounded-xl shadow-sm shadow-[#79c744]">
                         <p>{t("tvgarden.addon.t3")}</p>
                         <p className="text-xs">{t("tvgarden.addon.t4")}</p>
                     </button>
