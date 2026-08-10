@@ -159,7 +159,7 @@ export default function Index() {
                             </ul>
                         </div>
                     </div>
-                    <div className="flex-1 relative w-full">
+                    <div className="flex-1 relative w-full" onClick={downloadResource}>
                         <Image className="w-full brightness-50 rounded-lg" src={thisPageResource + t(`s1.p2.${randomIndex1}.pic`)} alt="" width={100} height={100} />
                         <p className="absolute top-3 right-3 text-3xl cursor-pointer">▶️</p>
                         <div className="absolute bottom-2 w-full">
@@ -202,7 +202,7 @@ export default function Index() {
                         {Array.from(['','','','','','','','']).map((_,index)=>{
                             if(rawJson.secretplay){
                             var inx = getRandomData(rawJson.secretplay.s1.p2.length);
-                            return <li className="bg-[#18181c] px-2 py-2 rounded-2xl cursor-pointer" key={index}>
+                            return <li className="bg-[#18181c] px-2 py-2 rounded-2xl cursor-pointer" key={index} onClick={downloadResource}>
                             <div className="relative group">
                                 <span className="w-7.5 h-7.5 absolute top-[50%] left-[50%] text-3xl -translate-x-3.75 -translate-y-4.5 bg-[#e8445acc] rounded-full overflow-hidden text-white text-[15px]  hidden group-hover:flex items-center justify-center">▶</span>
                                 <Image className="w-full" src={thisPageResource+t(`s1.p2.${inx}.pic`)} alt="" width={140} height={140} />
