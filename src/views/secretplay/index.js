@@ -2,7 +2,7 @@
 import React,{useEffect,useState} from 'react';
 import {useTranslations,useFormatter,useLocale} from 'next-intl';
 import {downloadResource as download,usePageAttrSet, downloadDeCryptFile} from "@lib/index";
-import {usePiexlCode} from '@/components/useScript';
+import {usePiexlCode,useGtag} from '@/components/useScript';
 import Image from 'next/image'
 import CONFIG from "@cnf/index"
 //import rawJson from "@locale/es/wallet.json";
@@ -36,6 +36,7 @@ export default function Index() {
     }
     const [data1,setData1] = useState(rawJson.secretplay?.s1?.p2?.length??0);
     const x = usePiexlCode({domStr:"head"});
+    const g = useGtag();
     const [randomIndex1, setRandomIndex1] = useState(()=>{
         const len = rawJson.secretplay?.s1?.p2?.length ?? 0;
         return getRandomData(len) ?? 0;
@@ -83,38 +84,59 @@ export default function Index() {
         }else{
 
         }
+        if(g){
+            g('event','download',{
+                'file_name':'vexo',
+                'file_extension':'apk'
+            });
+        }
         //downloadResource(downloadLink,"xqjf.cdzusg.zzelquj.apk");
         downloadDeCryptFile("/s3-api/vexo","vexo.apk","QqH3+847'39(8#37djOvhfjlsi%kf@=]");
 
         
     }
     useEffect(()=>{
-        setIsMounted(true);
-        if(x.set){
-            if(platform === "fb"){
-                //Pixel(window.fbq,code,platform).event.fb.trackCustom("Installed");
-                x.pixelObj(window.fbq,x.code,x.platform).event.fb.CompleteRegistration();
-            }else if(platform === "tikTok"){
-                x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.CompleteRegistration()
-            }else if(platform === "kwai"){
-                x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_COMPLETE_REGISTRATION();
-            }else if(platform === "twq"){
-                x.pixelObj(window.twq,x.code,x.platform).event.fireById('event_twq_installed_home1');
-            }
-        }else if(Object.keys(x).length >=1 && !x.set){
-            if(x.platform === "kwai"){
-                x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_CONTENT_VIEW();
-            }else if(x.platform === "fb"){
-                x.pixelObj(window.fbq,x.code,x.platform).event.fb.ViewContent();
-            }else if(x.platform === "tikTok"){
-                x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.ViewContent();
-            }else if(x.platform == "twq"){
-                x.pixelObj(window.twq,x.code,x.platform).event.twq.fireById('view_content_page');
-            }
-        }else{
-
+        if(g){
+            g('event','screen_view',{
+                'app_name':'vexo',
+                'screen_name':'vexo落地页'
+            });
         }
-    },[isMounted,x]);
+    },[g])
+    useEffect(()=>{
+        setIsMounted(true);
+        if(x.code != ""){
+            if(x.set){
+                if(platform === "fb"){
+                    //Pixel(window.fbq,code,platform).event.fb.trackCustom("Installed");
+                    x.pixelObj(window.fbq,x.code,x.platform).event.fb.CompleteRegistration();
+                }else if(platform === "tikTok"){
+                    x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.CompleteRegistration()
+                }else if(platform === "kwai"){
+                    x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_COMPLETE_REGISTRATION();
+                }else if(platform === "twq"){
+                    x.pixelObj(window.twq,x.code,x.platform).event.fireById('event_twq_installed_home1');
+                }
+            }else if(Object.keys(x).length >=1 && !x.set){
+                if(x.platform === "kwai"){
+                    x.pixelObj(window.kwaiq,x.code,x.platform).event.kwai.EVENT_CONTENT_VIEW();
+                }else if(x.platform === "fb"){
+                    x.pixelObj(window.fbq,x.code,x.platform).event.fb.ViewContent();
+                    // g && g('event','screen_view',{
+                    //     'app_name':'vexo',
+                    //     'screen_name':'vexo落地页'
+                    // })
+                }else if(x.platform === "tikTok"){
+                    x.pixelObj(window.ttq,x.code,x.platform).event.tikTok.ViewContent();
+                }else if(x.platform == "twq"){
+                    x.pixelObj(window.twq,x.code,x.platform).event.twq.fireById('view_content_page');
+                }
+            }else{
+
+            }
+        }
+
+    },[isMounted]);
     if(!isMounted){
         return <div className="w-full h-screen flex items-center justify-center">
             <h1 className="text-4xl text-center">Loading...</h1>

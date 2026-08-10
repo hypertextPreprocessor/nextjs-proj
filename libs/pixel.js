@@ -3,7 +3,11 @@
     tiktok: https://business-api.tiktok.com/portal/docs/supported-pixel-events/v1.3
     kwai: https://docs.qingque.cn/d/home/eZQCNZ1wBFnEpQEAMmOhfoVwI?identityId=1pTerwwOjbg#section=h.ktevbvo1qabp
     X: https://business.x.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites
+    gtag: https://developers.google.com/analytics/devguides/collection/ga4/events?client_type=gtag
+          gtagjs:https://developers.google.com/analytics/devguides/collection/ga4/events?client_type=gtag
+    
 */
+
 export var Pixel = function(obj,pixelId,type){
     return {
         fb:(pixelId)=>{
@@ -42,6 +46,30 @@ export var Pixel = function(obj,pixelId,type){
             },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
             a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
             twq('config',\'${pixelId}\');`;
+        },
+        gtag:(pixelId)=>{
+            function gtg(id){
+                var script = document.createElement("script");
+                script.type="text/javascript"
+                script.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
+                document.head.appendChild(script);
+                window.dataLayer = window.dataLayer || []; 
+                function gtag(){dataLayer.push(arguments);} 
+                gtag('js', new Date()); 
+                gtag('config', id);
+                return gtag;
+            }
+            if (!pixelId){
+                fetch("/api/gtagapi",{method:"GET"}).then(res=>res.ok?res.json():(() => {throw new Error("error")})()).then(json=>{
+                    pixelId = json.data;
+                    window.gtag = gtg(pixelId);
+                }).catch(error=>{
+                    
+                });
+            }else{
+                return gtg(pixelId)
+            }
+           
         },
         event:{
             fb:{
@@ -95,6 +123,8 @@ export var Pixel = function(obj,pixelId,type){
                 },
                 ViewContent:function(params){
                     obj && obj('track','ViewContent',params);
+                    //Pixel().gtag();
+
                 },
                 trackCustom:function(eventName,params={}){
                     obj && obj('trackCustom',eventName,params)
@@ -115,6 +145,7 @@ export var Pixel = function(obj,pixelId,type){
                 },
                 EVENT_CONTENT_VIEW:function(params){
                     obj && obj.instance(pixelId).track('contentView',params);
+
                 },
                 EVENT_DOWNLOAD:function(params){
                     obj && obj.instance(pixelId).track('download',params);

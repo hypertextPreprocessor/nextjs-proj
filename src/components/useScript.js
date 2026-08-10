@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback,useRef} from "react";
 import {Pixel} from "@lib/pixel";
 //import { createPortal } from "react-dom";
 
@@ -132,4 +132,53 @@ function usePiexlCode({code="",platform="fb",domStr="body"}={}){
     },[dynamicCode,dynamicPlatform,domStr])
     return {code:dynamicCode,platform:dynamicPlatform,domStr,pixelObj:Pixel} 
 }
-export {usePiexlCode}
+function useGtag({pixelId=null}={}){
+    const [gtag,setGtag] = useState(null);
+    const isInitialized = useRef(false);
+    const gtg = useCallback((id)=>{
+        var script = document.createElement("script");
+        script.type="text/javascript"
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
+        document.head.appendChild(script);
+        window.dataLayer = window.dataLayer || []; 
+        function gtag(){dataLayer.push(arguments);} 
+        gtag('js', new Date()); 
+        gtag('config', id);
+        setGtag(gtag);
+        window.gtag = gtag;
+        return gtag;
+    },[]);
+
+    useEffect(()=>{
+        if (isInitialized.current) return;
+        isInitialized.current = true;
+        const addGtagScript = () => {
+            if (!pixelId){
+                fetch("/api/gtagapi",{method:"GET"}).then(res=>res.ok?res.json():(() => {throw new Error("error")})()).then(json=>{
+                    const id = json.data;
+                    const g = gtg(id);
+                    window.gtag = g;
+                    setGtag(() => g);
+                    
+                }).catch(error=>{
+                    console.error("Failed to load gtag API", error);
+                });
+            }else{
+                const g = gtg(pixelId);
+                setGtag(() => g);
+            }
+        }
+        if (document.readyState === 'complete') {
+            addGtagScript();
+        } else {
+            window.addEventListener('load', addGtagScript);
+        }
+        return ()=>{
+
+            window.removeEventListener('load',addGtagScript);
+            
+        }
+    },[gtag,pixelId]);
+    return gtag;
+}
+export {usePiexlCode,useGtag};
