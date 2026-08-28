@@ -3,7 +3,7 @@ import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAnalytics, isSupported, logEvent,setUserProperties,setUserId } from "firebase/analytics";
 import { useEffect, useState, useCallback } from "react";
 
-const firebaseConfig = {
+var firebaseConfig = {
     apiKey:"",
     projectId:"",
     appId:"",
@@ -17,23 +17,45 @@ const firebaseConfig = {
     
 };
 
-const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
-
+//const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
+let analyticsPromise = null;
 export const getAnalyticsInstance = async () => {
-    if (typeof window !== "undefined" && await isSupported()) {
-        return getAnalytics(app);
+    if (analyticsPromise) {
+        return analyticsPromise;
     }
-    return null;
+    analyticsPromise = (async () => {
+        if (typeof window !== "undefined" && await isSupported()) {
+            const [response, getUserIp] = await Promise.all([
+                fetch("/kong.api/yaarsa/api/get_service_json.php?type=json&platform=google&id=5"),
+                fetch("/kong.api/yaarsa/api/get_ip.php")
+            ]);
+            if(response.ok && getUserIp.ok){
+                const data = await response.json();
+                const user = await getUserIp.json();
+                if(data.code==200 && user.code == 200){
+                    if(data.data.enabled == 1){
+                        var config = JSON.parse(data.data.config);
+                        firebaseConfig = Object.assign({},firebaseConfig,config);
+                        const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
+                        const analytics = getAnalytics(app);
+                        setUserProperties(analytics,{
+                            user_id:user.data,
+                            tag_id:firebaseConfig.measurementId
+                        });
+                        setUserId(analytics,user.data);
+                        return analytics;
+                    }
+                }
+            }
+        }
+        return null;
+    })();
+    return analyticsPromise;
 };
 
 export default function useGoogleAnalytics() {
     const trackEvent = useCallback(async (eventName, params) => {
         const analytics = await getAnalyticsInstance();
-        setUserProperties(analytics,{
-            user_id:'',
-            tag_id:''
-        });
-        setUserId(analytics,'');
         if (analytics) {
             logEvent(analytics, eventName, params);
             return true;

@@ -22,7 +22,7 @@ export default function WalletWidgets({
   const [type, setType] = useState(wallet);
   useEffect(() => {
     if (!wallet) {
-      //不提供参数尝试去请求接口
+      //不提供参数尝试去请求接口 -- 这里永远不会执行到;
       fetch(`/api/getWalletType`, {
         method: 'GET'
       }).then(res => {

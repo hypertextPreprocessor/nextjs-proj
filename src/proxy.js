@@ -59,6 +59,31 @@ export async function proxy(request){
         }
 */
     }
+    if(request.nextUrl.pathname.startsWith('/kong.api')){
+        var pathname = url.pathname.replace(/\/kong\.api/,'');
+        const targetUrl = `${CONFIG.api}${pathname}${url.search}`;
+        const headers = new Headers(request.headers);
+        headers.set('X-Forwarded-Host', request.headers.get('host') || '')
+        headers.set('X-Real-IP', request.ip || '')
+        try{
+            const kongResponse = await fetch(targetUrl,{
+                method:request.method,
+                headers:headers,
+                body: ['GET', 'HEAD'].includes(request.method) ? undefined : request.body,
+                duplex: 'half'
+            });
+            return new NextResponse(kongResponse.body,{
+                status:kongResponse.status,
+                statusText:kongResponse.statusText,
+                headers:kongResponse.headers
+            });
+        }catch(e){
+            return NextResponse.json(
+                {code:-1,data:false,message:e},
+                {status:500}
+            )
+        }
+    }
 
     // if (pathname.startsWith('/pintura')) {
     //     const path = pathname.replace('/pintura', ''); // 得到 /recruitSave
@@ -69,6 +94,7 @@ export async function proxy(request){
     return response;
     //return NextResponse.redirect(new URL('/walletApi',CONFIG.api));
 }
+
 export const config = {
     matcher:[
         '/kong.api/:path*',
