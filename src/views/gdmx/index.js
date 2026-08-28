@@ -6,6 +6,7 @@ import {useTranslations} from 'next-intl';
 import {useEffect} from "react";
 import {useAntiDebug,usePageAttrSet,downloadDeCryptFile} from "@lib/index";
 import {usePiexlCode} from '@/components/useScript';
+import CONFIG from "@cnf/index";
 
 //import appIcon from "@img/gdmx/wps_v2_20260609011631.png";
 import appIcon from "@img/gdmx/appIcon.jpg";
@@ -65,7 +66,7 @@ const ButtonWrapper = styled.button`
     }
 `;
 export default function Index() {
-    const t = useTranslations('wallet.gdmx');
+    const t = useTranslations('wallet.gdmx1');
     /*********insert piexl ************/
     const x = usePiexlCode({domStr:"head"});
     //download
@@ -123,8 +124,8 @@ export default function Index() {
     const debug = useAntiDebug();
     usePageAttrSet({title:t("tabBarTitle"),icon:favicon.src});
     return <section className="bg-white max-xs:w-full xs:w-160 mx-auto">
-        <div className="flex flex-row flex-nowrap gap-5 px-2  py-5">
-            <p className="w-19.25 overflow-hidden rounded-lg"><Image src={appIcon} alt=""/></p>
+        <div className="flex flex-row flex-nowrap gap-5 px-2  py-5">{/* 源image logo == {appIcon} */}
+            <p className="w-19.25 overflow-hidden rounded-lg"><Image width="230" height="230" src={CONFIG.blucket + "cdnResource/gdmx/logo.jpg"} alt=""/></p>
             <div>
                 <p className="text-xl">{t("appName")}</p>
                 <p className="text-[#01875f] text-xl">{t("appTitle")}</p>
@@ -167,18 +168,20 @@ export default function Index() {
             </p>
         </div>
         <div>
+            {/*<!--[img1,img2,img3,img4,img5] */}
             <Swiper
                 modules={[Autoplay]}
-                spaceBetween={25}
+                spaceBetween={6}
                 slidesPerView={3.6}
                 centeredSlides={false}
                 autoplay={true}
                 loop={true}
                 loopAddBlankSlides={true}
                 >
-                    {[img1,img2,img3,img4,img5].map((v,i)=>{
+                    {[1,2,3,4].map((v,i)=>{
+                       
                         return (<SwiperSlide key={i}>
-                            <Image src={v} alt="" loading="eager"/>
+                            <Image width={120} height={220} src={CONFIG.blucket + "cdnResource/gdmx/lunbo"+v+".webp"} alt="" loading="eager"/>
                         </SwiperSlide>);
                     })}
                 </Swiper>

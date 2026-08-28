@@ -71,7 +71,7 @@ export async function proxy(request){
 }
 export const config = {
     matcher:[
-        '/api/:path*',
+        '/kong.api/:path*',
         '/s3-api/:path*',
         '/puta/:path*'
         //'/pintura/:path*'

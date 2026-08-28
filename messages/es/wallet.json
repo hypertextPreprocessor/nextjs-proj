@@ -857,6 +857,68 @@
             "li13":"incluyen impuestos"            
         }
     },
+    "gdmx1":{
+    "tabBarTitle": "Fábrica de vaqueros | Ropa, pantalones y jeans",
+    "appName": "Fábrica de vaqueros",
+    "appTitle": "Fábrica de vaqueros",
+    "appDesc": "Verificado de forma segura por Google Play",
+    "dls": {
+        "ds1": "Reseñas",
+        "ds2": "Descargas",
+        "ds3": "Para usuarios mayores de 18 años"
+    },
+    "installBtn": {
+        "text": "Instalación rápida",
+        "desc": "Descarga en 10 segundos"
+    },
+    "sp1": {
+        "li1": "Compartir",
+        "li2": "Añadir a la lista de deseos"
+    },
+    "sc0": {
+        "h1": "Acerca de esta aplicación",
+        "content": "Somos una fábrica de jeans ubicada en Shenzhen, China, que exporta jeans a África. Actualmente estamos desarrollando el mercado de Sudáfrica. Descarga la aplicación de nuestra fábrica para seleccionar estilos y podrás obtener muestras gratis.",
+        "h2": "Fecha de actualización",
+        "date": "5 de julio de 2026"
+    },
+    "sc1": {
+        "h1": "Seguridad de los datos",
+        "content": "Tu seguridad comienza por conocer cómo los desarrolladores recopilan y comparten tus datos. Las prácticas de privacidad y seguridad pueden variar según tu uso, región y edad. El desarrollador ha proporcionado la siguiente información, que puede actualizarse con el tiempo.",
+        "listBox": {
+            "li0": "Esta aplicación puede compartir con terceros los siguientes tipos de datos: ubicación, información financiera, identificadores del dispositivo y otros datos",
+            "li1": "Esta aplicación puede recopilar los siguientes tipos de datos: ubicación, información personal y otros 5 tipos de datos",
+            "li2": "Los datos no están cifrados",
+            "li3": "Puedes solicitar la eliminación de tus datos"
+        }
+    },
+    "sc2": {
+        "h1": "Valoraciones y reseñas",
+        "content": "Las valoraciones y reseñas están verificadas y proceden de usuarios que utilizan el mismo tipo de dispositivo que tú",
+        "lista": {
+            "li0": "Ropa",
+            "li1": "Pantalones",
+            "li2": "Jeans"
+        },
+        "cms0": "Hay muchísimos estilos para elegir, gran variedad y una amplia gama de tallas",
+        "cms1": "Aquí puedo encontrar todo lo que necesitan mis clientes de mi zona cuando buscan jeans"
+    },
+    "sc3": {
+        "li0": "Google Play",
+        "li1": "Puntos de compra",
+        "li2": "Tarjetas regalo",
+        "li3": "Canjear",
+        "li4": "Política de reembolsos",
+        "li5": "Niños y familia",
+        "li6": "Guía familiar",
+        "li7": "Compartir en familia",
+        "li8": "Términos del servicio",
+        "li9": "Política de privacidad",
+        "li10": "Acerca de",
+        "li11": "Desarrolladores",
+        "li12": "Todos los precios",
+        "li13": "incluyen impuestos"
+    }
+    },
     "secretplay":{
         "hx1":"Actualizado hoy",
         "s1":{

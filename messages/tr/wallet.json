@@ -809,6 +809,68 @@
             "li13": "vergiler dahildir"
         }
     },
+    "gdmx1":{
+        "tabBarTitle": "Kot Fabrikası | Giyim, Pantolon ve Kot",
+        "appName": "Kot Fabrikası",
+        "appTitle": "Kot Fabrikası",
+        "appDesc": "Google Play tarafından güvenlik doğrulaması yapılmıştır",
+        "dls": {
+            "ds1": "Yorumlar",
+            "ds2": "İndirmeler",
+            "ds3": "18 yaş ve üzeri kullanıcılar için uygundur"
+        },
+        "installBtn": {
+            "text": "Hızlı Kurulum",
+            "desc": "10 saniye içinde indirin"
+        },
+        "sp1": {
+            "li1": "Paylaş",
+            "li2": "İstek listesine ekle"
+        },
+        "sc0": {
+            "h1": "Bu uygulama hakkında",
+            "content": "Çin'in Shenzhen şehrinde bulunan ve Afrika'ya kot ihraç eden bir kot fabrikasıyız. Şu anda Güney Afrika pazarını geliştiriyoruz. Fabrikamızın model seçme uygulamasını indirin, beğendiğiniz modelleri seçin ve ücretsiz numuneler alın.",
+            "h2": "Güncelleme tarihi",
+            "date": "5 Temmuz 2026"
+        },
+        "sc1": {
+            "h1": "Veri güvenliği",
+            "content": "Güvenliğiniz, geliştiricilerin verilerinizi nasıl topladığını ve paylaştığını anlamakla başlar. Gizlilik ve güvenlik uygulamaları kullanımınıza, bölgenize ve yaşınıza göre değişiklik gösterebilir. Geliştirici aşağıdaki bilgileri sağlamıştır ve bu bilgiler zaman içinde güncellenebilir.",
+            "listBox": {
+                "li0": "Bu uygulama aşağıdaki veri türlerini üçüncü taraflarla paylaşabilir: konum bilgileri, finansal bilgiler, cihaz kimlikleri ve diğer veriler",
+                "li1": "Bu uygulama aşağıdaki veri türlerini toplayabilir: konum bilgileri, kişisel bilgiler ve diğer 5 veri türü",
+                "li2": "Veriler şifrelenmiyor",
+                "li3": "Verilerinizin silinmesini talep edebilirsiniz"
+            }
+        },
+        "sc2": {
+            "h1": "Puanlar ve yorumlar",
+            "content": "Puanlar ve yorumlar doğrulanmıştır ve sizinle aynı tür cihazı kullanan kullanıcılardan gelmektedir",
+            "lista": {
+            "li0": "Giyim",
+            "li1": "Pantolon",
+            "li2": "Kot"
+            },
+            "cms0": "Aralarından seçim yapabileceğiniz çok sayıda model, geniş bir seçenek yelpazesi ve bolca beden mevcut",
+            "cms1": "Çevremdeki müşterilerimin kot ihtiyacı ne olursa olsun, burada bulabilirler"
+        },
+        "sc3": {
+            "li0": "Google Play",
+            "li1": "Alışveriş puanları",
+            "li2": "Hediye kartları",
+            "li3": "Kullan",
+            "li4": "Geri ödeme politikası",
+            "li5": "Çocuklar ve aile",
+            "li6": "Aile rehberi",
+            "li7": "Aile paylaşımı",
+            "li8": "Hizmet şartları",
+            "li9": "Gizlilik politikası",
+            "li10": "Hakkında",
+            "li11": "Geliştiriciler",
+            "li12": "Tüm fiyatlar",
+            "li13": "vergiler dahil"
+        }
+    },
     "secretplay":{
         "hx1":"Bugün güncellendi",
         "s1":{

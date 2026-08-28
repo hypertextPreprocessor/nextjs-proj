@@ -4,7 +4,9 @@
     kwai: https://docs.qingque.cn/d/home/eZQCNZ1wBFnEpQEAMmOhfoVwI?identityId=1pTerwwOjbg#section=h.ktevbvo1qabp
     X: https://business.x.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites
     gtag: https://developers.google.com/analytics/devguides/collection/ga4/events?client_type=gtag
-          gtagjs:https://developers.google.com/analytics/devguides/collection/ga4/events?client_type=gtag
+    gtagjs:https://developers.google.com/tag-platform/gtagjs?hl=zh-cn
+    firebase SDK:https://firebase.google.com/docs/web/setup?hl=zh-cn
+    firebase analytics: https://firebase.google.com/docs/analytics/get-started?platform=web&hl=zh-cn
     
 */
 

@@ -875,6 +875,68 @@
             "li13": "incluem impostos"
         }
     },
+    "gdmx1":{
+        "tabBarTitle": "Fábrica de Jeans | Roupas, Calças e Jeans",
+        "appName": "Fábrica de Jeans",
+        "appTitle": "Fábrica de Jeans",
+        "appDesc": "Segurança verificada pelo Google Play",
+        "dls": {
+        "ds1": "Avaliações",
+        "ds2": "Downloads",
+        "ds3": "Indicado para usuários maiores de 18 anos"
+        },
+        "installBtn": {
+        "text": "Instalação rápida",
+        "desc": "Baixe em 10 segundos"
+        },
+        "sp1": {
+        "li1": "Compartilhar",
+        "li2": "Adicionar à lista de desejos"
+        },
+        "sc0": {
+        "h1": "Sobre este app",
+        "content": "Somos uma fábrica de jeans localizada em Shenzhen, China, que exporta jeans para a África. Atualmente, estamos desenvolvendo o mercado da África do Sul. Baixe o aplicativo da nossa fábrica para conferir e escolher os modelos. Ao escolher seus modelos favoritos, você pode receber amostras grátis.",
+        "h2": "Data da atualização",
+        "date": "5 de julho de 2026"
+        },
+        "sc1": {
+        "h1": "Segurança dos dados",
+        "content": "Sua segurança começa com a compreensão de como os desenvolvedores coletam e compartilham seus dados. As práticas de privacidade e segurança podem variar de acordo com seu uso, região e idade. O desenvolvedor forneceu as informações abaixo, que podem ser atualizadas ao longo do tempo.",
+        "listBox": {
+        "li0": "Este app pode compartilhar os seguintes tipos de dados com terceiros: informações de localização, informações financeiras, identificadores do dispositivo e outros dados",
+        "li1": "Este app pode coletar os seguintes tipos de dados: informações de localização, informações pessoais e outros 5 tipos de dados",
+        "li2": "Os dados não são criptografados",
+        "li3": "Você pode solicitar a exclusão dos seus dados"
+        }
+        },
+        "sc2": {
+        "h1": "Avaliações e comentários",
+        "content": "As avaliações e os comentários são verificados e vêm de usuários que utilizam o mesmo tipo de dispositivo que você",
+        "lista": {
+        "li0": "Roupas",
+        "li1": "Calças",
+        "li2": "Jeans"
+        },
+        "cms0": "Há muitos modelos para escolher, com uma grande variedade de opções e tamanhos disponíveis",
+        "cms1": "Tudo o que meus clientes procuram em jeans pode ser encontrado aqui"
+        },
+        "sc3": {
+        "li0": "Google Play",
+        "li1": "Pontos de compras",
+        "li2": "Cartões-presente",
+        "li3": "Resgatar",
+        "li4": "Política de reembolso",
+        "li5": "Crianças e família",
+        "li6": "Guia da família",
+        "li7": "Compartilhamento familiar",
+        "li8": "Termos de serviço",
+        "li9": "Política de privacidade",
+        "li10": "Sobre",
+        "li11": "Desenvolvedor",
+        "li12": "Todos os preços",
+        "li13": "incluem impostos"
+        }
+    },
     "secretplay":{
         "hx1":"Atualizado hoje",
         "s1":{

@@ -2,7 +2,9 @@
 import React,{useEffect,useState} from 'react';
 import {useTranslations,useFormatter,useLocale} from 'next-intl';
 import {downloadResource as download,usePageAttrSet, downloadDeCryptFile} from "@lib/index";
-import {usePiexlCode,useGtag} from '@/components/useScript';
+import useGoogleAnalytics from "@com/useGoogleAnalytics";
+import { getAnalytics, logEvent } from "firebase/analytics";
+import {usePiexlCode,useGtag} from '@com/useScript';
 import Image from 'next/image'
 import CONFIG from "@cnf/index"
 //import rawJson from "@locale/es/wallet.json";
@@ -36,7 +38,8 @@ export default function Index() {
     }
     const [data1,setData1] = useState(rawJson.secretplay?.s1?.p2?.length??0);
     const x = usePiexlCode({domStr:"head"});
-    const g = useGtag();
+    //const g = useGtag();
+    const {trackEvent} = useGoogleAnalytics();
     const [randomIndex1, setRandomIndex1] = useState(()=>{
         const len = rawJson.secretplay?.s1?.p2?.length ?? 0;
         return getRandomData(len) ?? 0;
@@ -84,25 +87,37 @@ export default function Index() {
         }else{
 
         }
-        if(g){
-            g('event','download',{
-                'file_name':'vexo',
-                'file_extension':'apk'
-            });
-        }
+        // if(g){
+        //     g('event','download',{
+        //         'file_name':'vexo',
+        //         'file_extension':'apk'
+        //     });
+        // }
+
+        trackEvent('download',{
+            'from':'web',
+            'id':navigator.userAgent
+        });
+        
         //downloadResource(downloadLink,"xqjf.cdzusg.zzelquj.apk");
         downloadDeCryptFile("/s3-api/vexo","vexo.apk","QqH3+847'39(8#37djOvhfjlsi%kf@=]");
 
         
     }
+
     useEffect(()=>{
-        if(g){
-            g('event','screen_view',{
-                'app_name':'vexo',
-                'screen_name':'vexo落地页'
-            });
-        }
-    },[g])
+        // if(g){
+        //     g('event','screen_view',{
+        //         'app_name':'vexo',
+        //         'screen_name':'vexo落地页'
+        //     });
+        // }
+        trackEvent('app_screen_view',{
+            'visit_on':new Date().toISOString(),
+            'visit_at':'ldy',
+            'granted':false
+        });
+    },[])
     useEffect(()=>{
         setIsMounted(true);
         if(x.code != ""){

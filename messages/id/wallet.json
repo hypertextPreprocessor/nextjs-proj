@@ -826,6 +826,68 @@
             "li13":"termasuk pajak"            
         }
     },
+    "gdmx1":{
+        "tabBarTitle": "Pabrik Jeans | Pakaian, Celana, dan Jeans",
+        "appName": "Pabrik Jeans",
+        "appTitle": "Pabrik Jeans",
+        "appDesc": "Diverifikasi keamanannya oleh Google Play",
+        "dls": {
+        "ds1": "Ulasan",
+        "ds2": "Download",
+        "ds3": "Untuk pengguna berusia 18 tahun ke atas"
+        },
+        "installBtn": {
+        "text": "Instalasi Cepat",
+        "desc": "Download dalam 10 detik"
+        },
+        "sp1": {
+        "li1": "Bagikan",
+        "li2": "Tambahkan ke wishlist"
+        },
+        "sc0": {
+        "h1": "Tentang aplikasi ini",
+        "content": "Kami adalah pabrik jeans yang berlokasi di Shenzhen, Tiongkok, dan mengekspor jeans ke Afrika. Saat ini kami sedang mengembangkan pasar Afrika Selatan. Download aplikasi pabrik kami untuk melihat dan memilih berbagai model jeans, dan Anda bisa mendapatkan sampel secara gratis.",
+        "h2": "Tanggal diperbarui",
+        "date": "5 Juli 2026"
+        },
+        "sc1": {
+        "h1": "Keamanan data",
+        "content": "Keamanan Anda dimulai dengan memahami bagaimana developer mengumpulkan dan membagikan data Anda. Praktik privasi dan keamanan dapat berbeda berdasarkan penggunaan, wilayah, dan usia Anda. Developer telah memberikan informasi berikut dan dapat memperbaruinya dari waktu ke waktu.",
+        "listBox": {
+        "li0": "Aplikasi ini dapat membagikan jenis data berikut kepada pihak ketiga: informasi lokasi, informasi keuangan, ID perangkat, dan data lainnya",
+        "li1": "Aplikasi ini dapat mengumpulkan jenis data berikut: informasi lokasi, informasi pribadi, dan 5 jenis data lainnya",
+        "li2": "Data tidak dienkripsi",
+        "li3": "Anda dapat meminta penghapusan data Anda"
+        }
+        },
+        "sc2": {
+        "h1": "Rating dan ulasan",
+        "content": "Rating dan ulasan telah diverifikasi dan berasal dari pengguna yang menggunakan jenis perangkat yang sama dengan Anda",
+        "lista": {
+        "li0": "Pakaian",
+        "li1": "Celana",
+        "li2": "Jeans"
+        },
+        "cms0": "Ada banyak sekali model yang bisa dipilih, dengan beragam pilihan dan ukuran yang lengkap",
+        "cms1": "Apa pun kebutuhan pelanggan di sekitar saya akan jeans, mereka bisa menemukannya di sini"
+        },
+        "sc3": {
+        "li0": "Google Play",
+        "li1": "Poin belanja",
+        "li2": "Kartu hadiah",
+        "li3": "Tukarkan",
+        "li4": "Kebijakan pengembalian dana",
+        "li5": "Anak-anak dan keluarga",
+        "li6": "Panduan keluarga",
+        "li7": "Berbagi dengan keluarga",
+        "li8": "Persyaratan layanan",
+        "li9": "Kebijakan privasi",
+        "li10": "Tentang",
+        "li11": "Developer",
+        "li12": "Semua harga",
+        "li13": "sudah termasuk pajak"
+        }
+    },
     "secretplay":{
         "hx1":"Diperbarui hari ini",
         "s1":{

@@ -20,6 +20,7 @@
     "crypto-js": "^4.2.0",
     "dashjs": "^5.2.0",
     "devtools-detector": "^2.0.25",
+    "firebase": "^12.18.0",
     "gulp-insert": "^0.5.0",
     "gulp-rename": "^2.1.0",
     "motion": "^12.42.0",

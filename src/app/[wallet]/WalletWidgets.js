@@ -21,7 +21,6 @@ export default function WalletWidgets({
   const t = useTranslations('wallet');
   const [type, setType] = useState(wallet);
   useEffect(() => {
-    console.log(wallet);
     if (!wallet) {
       //不提供参数尝试去请求接口
       fetch(`/api/getWalletType`, {

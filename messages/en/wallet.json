@@ -857,6 +857,68 @@
             "li13":"include taxes"            
         }
     },
+    "gdmx1":{
+        "tabBarTitle": "Jeans Factory | Clothing, Pants and Jeans",
+        "appName": "Jeans Factory",
+        "appTitle": "Jeans Factory",
+        "appDesc": "Safety verified by Google Play",
+        "dls": {
+        "ds1": "Reviews",
+        "ds2": "Downloads",
+        "ds3": "Suitable for users aged 18 and above"
+        },
+        "installBtn": {
+        "text": "Quick Install",
+        "desc": "Download within 10 seconds"
+        },
+        "sp1": {
+        "li1": "Share",
+        "li2": "Add to wishlist"
+        },
+        "sc0": {
+        "h1": "About this app",
+        "content": "We are a jeans factory based in Shenzhen, China, exporting jeans to Africa. We are currently developing the South African market. Download our factory app to browse and select styles, and you can receive free samples.",
+        "h2": "Updated on",
+        "date": "July 5, 2026"
+        },
+        "sc1": {
+        "h1": "Data safety",
+        "content": "Your security starts with understanding how developers collect and share your data. Privacy and security practices may vary depending on your use, region, and age. The developer has provided the following information and may update it over time.",
+        "listBox": {
+        "li0": "This app may share the following types of data with third parties: location, financial information, device identifiers, and other data",
+        "li1": "This app may collect the following types of data: location, personal information, and 5 other types of data",
+        "li2": "Data isn't encrypted",
+        "li3": "You can request that your data be deleted"
+        }
+        },
+        "sc2": {
+        "h1": "Ratings and reviews",
+        "content": "Ratings and reviews are verified and come from users with the same type of device as you",
+        "lista": {
+        "li0": "Clothing",
+        "li1": "Pants",
+        "li2": "Jeans"
+        },
+        "cms0": "There are so many styles to choose from, with a wide variety of options and plenty of sizes available",
+        "cms1": "I can find everything my customers need when they're looking for jeans"
+        },
+        "sc3": {
+        "li0": "Google Play",
+        "li1": "Shopping points",
+        "li2": "Gift cards",
+        "li3": "Redeem",
+        "li4": "Refund policy",
+        "li5": "Kids and family",
+        "li6": "Family guide",
+        "li7": "Family sharing",
+        "li8": "Terms of service",
+        "li9": "Privacy policy",
+        "li10": "About",
+        "li11": "Developers",
+        "li12": "All prices",
+        "li13": "include taxes"
+        }
+    },
     "secretplay":{
         "hx1":"Updated today",
         "s1":{
