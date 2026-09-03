@@ -1025,5 +1025,20 @@
             "p2":"Instale uma vez. Continue assistindo no aplicativo.",
             "p3":"Baixar o aplicativo"
         }
+    },
+    "sextoy":{
+        "title":"Controle Remoto para Vibrador de Squirting",
+        "n1":"Adicionar Dispositivo",
+        "n2":"Insira o ID do dispositivo para conectar",
+        "n3":"Insira o ID do dispositivo",
+        "n4":"Conectar",
+        "n5":"Por favor, insira o ID do dispositivo",
+        "n6":"Conectado - ID do dispositivo: 1145988 - Latência: 39ms",
+        "n7":"Intensidade",
+        "n8":"Forma de onda",
+        "n9":"Pulso",
+        "n10":"Ritmo",
+        "n11":"Frequência",
+        "n12":"Velocidade"
     }
 }

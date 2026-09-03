@@ -1009,19 +1009,19 @@
         }
     },
     "sextoy":{
-        "title":"潮吹きバイブ用リモコン",
-        "n1":"デバイスを追加",
-        "n2":"デバイスIDを入力して接続してください",
-        "n3":"デバイスIDを入力",
-        "n4":"接続する",
-        "n5":"デバイスIDを入力してください",
-        "n6":"接続成功・デバイスID 1145988・遅延 39ms",
-        "n7":"強度",
-        "n8":"波形",
-        "n9":"パルス",
-        "n10":"リズム",
-        "n11":"周波数",
-        "n12":"スピード"
+        "title":"Control remoto para vibrador de chorro",
+        "n1":"Agregar dispositivo",
+        "n2":"Ingrese el ID del dispositivo para conectarse",
+        "n3":"Ingrese el ID del dispositivo",
+        "n4":"Conectar",
+        "n5":"Por favor, ingrese el ID del dispositivo",
+        "n6":"Conexión exitosa・ID del dispositivo 1145988・Retraso 39ms",
+        "n7":"Intensidad",
+        "n8":"Forma de onda",
+        "n9":"Pulso",
+        "n10":"Ritmo",
+        "n11":"Frecuencia",
+        "n12":"Velocidad"
     }
 
 }

@@ -1007,5 +1007,6 @@
             "p2":"Install once. Continue watching in the app.",
             "p3":"Get the app"
         }
-    }
+    },
+    "sextoy":{ "title":"Remote Control for Squirt Vibe", "n1":"Add Device", "n2":"Please enter the device ID to connect", "n3":"Enter Device ID", "n4":"Connect", "n5":"Please enter the device ID", "n6":"Connection successful - Device ID 1145988 - Delay 39ms", "n7":"Intensity", "n8":"Waveform", "n9":"Pulse", "n10":"Rhythm", "n11":"Frequency", "n12":"Speed" }
 }

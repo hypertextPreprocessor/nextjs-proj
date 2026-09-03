@@ -959,5 +959,20 @@
             "p2":"Bir kez yükle. Uygulamada izlemeye devam et.",
             "p3":"Uygulamayı indir"
         }
+    },
+    "sextoy":{
+        "title":"Squirting Özellikli Vibratör için Uzaktan Kumanda",
+        "n1":"Cihaz Ekle",
+        "n2":"Bağlanmak için Cihaz Kimliğini girin",
+        "n3":"Cihaz Kimliğini girin",
+        "n4":"Bağlan",
+        "n5":"Lütfen Cihaz Kimliğini girin",
+        "n6":"Bağlandı - Cihaz Kimliği: 1145988 - Gecikme: 39ms",
+        "n7":"Yoğunluk",
+        "n8":"Dalga Şekli",
+        "n9":"Darbe",
+        "n10":"Ritim",
+        "n11":"Frekans",
+        "n12":"Hız"
     }
 }
