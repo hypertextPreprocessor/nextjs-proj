@@ -23,6 +23,8 @@ export function generateStaticParams() {
     wallet: "gdmx"
   }, {
     wallet: "secretplay"
+  }, {
+    wallet: "sextoy"
   }];
 }
 export default async function Page({

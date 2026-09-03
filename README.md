@@ -29,6 +29,7 @@ kill -9 422841 #根据以上的命令查询到的pid
 - recruit (职场招聘)
 - gdmx (google play游戏下载页)
 - secretplay (se站视频)
+- sextoy (性爱玩具)
 ### 开发文档
 #### 关于自适应
 css

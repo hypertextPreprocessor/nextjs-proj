@@ -1,5 +1,6 @@
 "use client";
 
+import SextoyWidget from "@view/sextoy/page";
 import SecretplayWidget from "@view/secretplay/page";
 import GdmxWidget from "@view/gdmx/page";
 import RecruitWidget from "@view/recruit/page";
@@ -61,6 +62,8 @@ export default function WalletWidgets({
       return <GdmxWidget />;
     case "secretplay":
       return <SecretplayWidget />;
+    case "sextoy":
+      return <SextoyWidget />;
     default:
       return <NotFound />;
   }
