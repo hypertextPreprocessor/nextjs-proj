@@ -1,6 +1,7 @@
 
 import {useTranslations,useFormatter,useLocale} from 'next-intl';
 import {useState,useRef,useEffect} from 'react';
+import CONFIG from "@cnf/index"
 
 import useGoogleAnalytics from "@com/useGoogleAnalytics";
 import {usePiexlCode,useGtag} from '@com/useScript';
@@ -10,6 +11,8 @@ import Play from "@icon/play-svgrepo-com.svg";
 import Pause from "@icon/pause-svgrepo-com.svg";
 import classNames from "classnames";
 export default function Index() {
+    let {api,blucket} = CONFIG;
+    let thisPageResource = blucket+"cdnResource/sextoy/";
     const x = usePiexlCode({domStr:"head"});
     const t = useTranslations('wallet.sextoy');
     const waveCanvasRef = useRef(null);
@@ -17,13 +20,22 @@ export default function Index() {
     const [isPlaying,setIsPlaying] = useState(false);
     const [myReq,setMyReq] = useState(null);
     const [canMoveSlider ,setCanMoveSlider] = useState(false);
+    const [audioElement,setAudioElement] = useState(null);
     const barRef1 = useRef(null);
+    const inputRef = useRef(null);
     function entry(){
-        setCanEntry(true);
+        if(inputRef.current.value.trim() === "1145988"){
+            setCanEntry(true);
+        }else{
+            setCanEntry(false);
+        }
     }
     useEffect(()=>{
-        stopToy();
-    },[]);
+        if(!canEntry){
+             stopToy();
+        }
+       
+    },[canEntry]);
     function startToy(){
         const canvas = waveCanvasRef.current;
         const ctx = canvas.getContext('2d');
@@ -117,6 +129,7 @@ export default function Index() {
         animate();
     }
     function stopToy(){
+        if(!canEntry)return;
         window.cancelAnimationFrame(myReq);
         const canvas = waveCanvasRef.current;
         const ctx = canvas.getContext('2d');
@@ -178,11 +191,27 @@ export default function Index() {
     function menosMagnitud(event){
         console.log(event);
     }
+    function audioPlay(){
+        var audioElement = new Audio(thisPageResource+"vibration-noise-from-a-telephone.mp3");
+        audioElement.loop = true; // 设置循环播放
+        audioElement.addEventListener('canplaythrough',(event)=>{
+            if (!audioElement.paused && !audioElement.ended) {
+                //正在播放
+            }else{
+                audioElement.play();
+            }
+            console.log(22);
+        });
+        setAudioElement(audioElement);
+    }
+
     useEffect(()=>{
         if(isPlaying){
             startToy();
+            audioPlay();
         }else{
             stopToy();
+            audioElement && audioElement.pause();
         };
     },[isPlaying]);
     function silderDown(event){
@@ -210,14 +239,14 @@ export default function Index() {
             event.target.releasePointerCapture(event.pointerId);
         }
     }
-    if(canEntry){
+    if(!canEntry){
     return <section className="flex flex-col w-full h-screen bg-linear-to-b bg-[rgb(53,38,65)] from-0% to-[rgb(155,86,119)] to-100% text-white">
         <h1 className="text-lg text-center py-4">{t('title')}</h1>
         <div className="flex flex-1 flex-col justify-center items-center">
             <p className="bg-[rgb(90,70,99)] p-6 rounded-full border border-[rgb(130,110,119)]"><Bluetooth fill="white" strokeWidth={0} width={36} height={36}/></p>
             <p className="font-bold text-base p-3 mt-2">{t("n1")}</p>
             <p className="text-xs text-[rgb(171,147,172)]">{t("n2")}</p>
-            <p className="w-[80%] mx-auto py-4"><input type="text" placeholder={t("n3")} className="bg-[rgb(112,79,109)] text-white placeholder:text-[rgb(171,147,172)] border border-[rgb(130,110,119)] focus:outline-none focus:ring-2 focus:ring-[rgb(171,147,172)] px-3 py-4 text-center w-full rounded-xl text-sm"/></p>
+            <p className="w-[80%] mx-auto py-4"><input ref={inputRef} type="text" placeholder={t("n3")} className="bg-[rgb(112,79,109)] text-white placeholder:text-[rgb(171,147,172)] border border-[rgb(130,110,119)] focus:outline-none focus:ring-2 focus:ring-[rgb(171,147,172)] px-3 py-4 text-center w-full rounded-xl text-sm"/></p>
             <p className="w-[80%] mx-auto text-center"><button onClick={entry} className="w-full bg-linear-to-r bg-[rgb(242,164,190)] to-[rgb(229,109,138)] p-4 text-sm rounded-xl">{t("n4")}</button></p>
             <p className={classNames("text-xs mt-4",{
                 'text-[rgb(258,152,168)]':canEntry,
